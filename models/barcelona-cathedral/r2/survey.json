@@ -1,0 +1,43 @@
+{
+  "source": {
+    "product": "ICGC LiDAR Territorial 2021–2023",
+    "url": "https://datacloud.icgc.cat/datacloud/lidar-territorial/laz_unzip/full10km4358/lidar-territorial-v3r1-full1km431581-2021-2023.laz",
+    "sha256": "f221de6091c2c7fc98b02690fc0a2ebbeee9e3a4341bffff3e73710483f91d1f",
+    "crs": "EPSG:25831",
+    "referenceGround": 12,
+    "sectionClasses": [1, 6, 12, 76, 77],
+    "pointCropFromAnchor": [-78, -69, 55, 51]
+  },
+  "measured": {
+    "naveCentralMedianRange": [29, 29.6],
+    "naveSideTerraceMedian": 24,
+    "sidePinnacleTips": [47.41, 47.45],
+    "liturgicalBelfryFloorAndParapet": [53.9, 56.1],
+    "clockBelfryFloorAndParapet": [54, 56.6],
+    "clockBelfryHighestReturns": [67.66, 68.31],
+    "centralCrossHighestReturns": [77.37, 78.74]
+  },
+  "height": 78,
+  "deckHeights": {
+    "17B163": 28.85,
+    "17F1C8": 42,
+    "18171B": 32.6,
+    "187CC4": 32.6,
+    "1824C2": 43.4,
+    "1989E3": 43.4,
+    "186EB4": 16.05,
+    "18D511": 23.9,
+    "197AD4": 16.1
+  },
+  "towerProfiles": {
+    "17F1C8": [[40, 1], [51.5, 1.02], [55.8, 0.97], [59.5, 0.56], [72.5, 0.24], [74.4, 0.14]],
+    "18171B": [[31.2, 1], [35, 1.03], [38, 0.87], [40.5, 0.47], [46.8, 0.15], [47.4, 0.13]],
+    "187CC4": [[31.2, 1], [35, 1.03], [38, 0.87], [40.5, 0.47], [46.8, 0.15], [47.4, 0.13]],
+    "1824C2": [[42.8, 1], [43.9, 1.06], [45, 0.97], [51, 0.99], [52, 1.09], [53.3, 1], [56.5, 1]],
+    "1989E3": [[42.8, 1], [43.9, 1.06], [45, 0.97], [51, 0.99], [52, 1.09], [53.3, 1], [56.05, 1]]
+  },
+  "belfryTerraces": [["1824C2", 54, 56.5], ["1989E3", 53.8, 56.05]],
+  "clockTerminal": [[54.5, 0.42], [57.4, 0.46], [59.4, 0.42], [61.8, 0.23], [64, 0.12], [67.6, 0.1], [68, 0.08]],
+  "nave": { "start": 18.5, "length": 52, "halfWidth": 7, "eaves": 28.65, "ridge": 29.8 },
+  "buttresses": [[26, 13.5, 14.5], [34, 13.2, 12.8], [43, 13.5, 13.1], [54, 12.4, 12.2], [62, 12.9, 12.4], [70, 13.3, 12.1]]
+}

@@ -1183,15 +1183,15 @@
         "geometryType": "building",
         "country": "Spain",
         "city": "Barcelona",
-        "revision": "r1",
+        "revision": "r2",
         "anchor": [
           2.17647239276994,
           41.38400912241228
         ],
-        "mesh": "models/barcelona-cathedral/r1/print.glb",
-        "byteLength": 22248,
-        "height": 70,
-        "attribution": "Ajuntament de Barcelona (municipal CAD geometry). ICGC (orthophoto reference). Open Place Models contributors (reconstruction). Footprint © OpenStreetMap contributors.",
+        "mesh": "models/barcelona-cathedral/r2/print.glb",
+        "byteLength": 28508,
+        "height": 78,
+        "attribution": "Ajuntament de Barcelona (municipal CAD). Institut Cartogràfic i Geològic de Catalunya (LiDAR Territorial). Open Place Models contributors (reconstruction). Footprint © OpenStreetMap contributors.",
         "license": "CC-BY-4.0",
         "spatialDataLicense": "ODbL-1.0",
         "replacement": {
@@ -1209,9 +1209,12 @@
           "https://catedralbcn.org/la-catedral/edifici/",
           "https://catedralbcn.org/visita-turistica/espais-visitables/",
           "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Dades-i-productes/Imatge/Ortofoto-Territorial",
-          "https://www.openstreetmap.org/relation/3298476"
+          "https://www.openstreetmap.org/relation/3298476",
+          "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Dades-i-productes/Elevacions/Elevacions-territorial/LiDAR-Territorial",
+          "https://datacloud.icgc.cat/datacloud/lidar-territorial/laz_unzip/full10km4358/lidar-territorial-v3r1-full1km431581-2021-2023.laz",
+          "https://sketchfab.com/3d-models/cathedral-of-bcnsanta-creu-and-santa-eulalia-4395e17feb95400c891597121a59513f"
         ],
-        "thumbnail": "models/barcelona-cathedral/r1/thumbnail.png"
+        "thumbnail": "models/barcelona-cathedral/r2/thumbnail.webp"
       }
     },
     {

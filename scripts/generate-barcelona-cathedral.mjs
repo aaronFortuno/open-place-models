@@ -2,13 +2,17 @@ import assert from 'node:assert/strict';
 import { readFile, writeFile } from 'node:fs/promises';
 import ManifoldModule from 'manifold-3d';
 
-const directory = new URL('../models/barcelona-cathedral/r1/', import.meta.url);
-const layout = JSON.parse(await readFile(new URL('municipal-layout.json', directory), 'utf8'));
+const revision = process.argv[2] ?? 'r1';
+assert(['r1', 'r2'].includes(revision), 'Expected r1 or r2');
+const directory = new URL(`../models/barcelona-cathedral/${revision}/`, import.meta.url);
+const layout = JSON.parse(await readFile(new URL('../r1/municipal-layout.json', directory), 'utf8'));
+const survey = revision === 'r2' ? JSON.parse(await readFile(new URL('survey.json', directory), 'utf8')) : null;
 const api = await ManifoldModule();
 api.setup();
 const parts = new Map(layout.parts.map(part => [part.handle, part]));
-const deckHeights = { '17B163': 28, '17F1C8': 39, '18171B': 34, '187CC4': 33, '1824C2': 47.5, '1989E3': 47.5 };
+const deckHeights = survey?.deckHeights ?? { '17B163': 28, '17F1C8': 39, '18171B': 34, '187CC4': 33, '1824C2': 47.5, '1989E3': 47.5 };
 const pieces = [];
+const recesses = [];
 
 function extrude(rings, bottom, height, taper = [1, 1]) {
   const section = api.CrossSection.ofPolygons(rings, 'NonZero');
@@ -47,11 +51,28 @@ function crown(handle, levels) {
 
 // The DWG stops at flat roof elevations. Shape the upper stages using the
 // operator's dimensions, the orthophoto and the separate mapped footprints.
-crown('17F1C8', [[37, 1], [40, 1.04], [42, 1], [47, 0.92], [49, 0.86], [52, 0.62], [57, 0.47], [62, 0.27], [66.5, 0.12]]);
-crown('18171B', [[33, 1], [36, 1], [37.2, 1.07], [39.4, 0.78], [42.5, 0.56], [46.9, 0.22]]);
-crown('187CC4', [[32, 1], [34.8, 1.04], [36, 0.84], [38.5, 0.68], [42.9, 0.23]]);
-for (const handle of ['1824C2', '1989E3']) {
-  crown(handle, [[45.9, 1], [48.3, 1.05], [49, 1.04], [51, 0.92], [52.2, 0.77], [52.7, 0.68], [54, 0.32]]);
+if (survey) {
+  for (const [handle, levels] of Object.entries(survey.towerProfiles)) crown(handle, levels);
+  for (const [handle, floor, top] of survey.belfryTerraces) {
+    const { centre: [x, y], profile } = parts.get(handle);
+    const scaled = scale => profile.map(([px, py]) => [x + (px - x) * scale, y + (py - y) * scale]);
+    const terrace = extrude([scaled(0.74)], floor, top - floor + 0.25);
+    if (handle === '1824C2') {
+      const keep = extrude([scaled(0.55)], floor - 0.1, top - floor + 0.5);
+      recesses.push(terrace.subtract(keep));
+      for (const solid of [terrace, keep]) solid.delete();
+    } else {
+      recesses.push(terrace);
+    }
+  }
+  crown('1824C2', survey.clockTerminal);
+} else {
+  crown('17F1C8', [[37, 1], [40, 1.04], [42, 1], [47, 0.92], [49, 0.86], [52, 0.62], [57, 0.47], [62, 0.27], [66.5, 0.12]]);
+  crown('18171B', [[33, 1], [36, 1], [37.2, 1.07], [39.4, 0.78], [42.5, 0.56], [46.9, 0.22]]);
+  crown('187CC4', [[32, 1], [34.8, 1.04], [36, 0.84], [38.5, 0.68], [42.9, 0.23]]);
+  for (const handle of ['1824C2', '1989E3']) {
+    crown(handle, [[45.9, 1], [48.3, 1.05], [49, 1.04], [51, 0.92], [52.2, 0.77], [52.7, 0.68], [54, 0.32]]);
+  }
 }
 
 const [westPinnacle, eastPinnacle] = ['187CC4', '18171B'].map(id => parts.get(id).centre);
@@ -72,6 +93,14 @@ function frontVolume(profile, start, depth) {
 }
 
 pieces.push(frontVolume([[-13, 0], [13, 0], [13, 23], [9.4, 23], [9.4, 27.5], [0, 36], [-9.4, 27.5], [-9.4, 23], [-13, 23]], -3.9, 8));
+if (survey) {
+  const { nave, buttresses } = survey;
+  pieces.push(frontVolume([[-nave.halfWidth, nave.eaves], [nave.halfWidth, nave.eaves], [0, nave.ridge]], nave.start, nave.length));
+  for (const [station, left, right] of buttresses) {
+    pieces.push(frontVolume([[-left, 23.55], [-6, 23.55], [-6, 29.1], [-left, 24.6]], station - 0.7, 1.4));
+    pieces.push(frontVolume([[6, 23.55], [right, 23.55], [right, 24.6], [6, 29.1]], station - 0.7, 1.4));
+  }
+}
 const [crossX, crossY] = parts.get('17F1C8').centre;
 function box(size, centre) {
   const primitive = api.Manifold.cube(size, true);
@@ -79,7 +108,8 @@ function box(size, centre) {
   primitive.delete();
   return positioned;
 }
-pieces.push(box([1.35, 1.35, 4.6], [crossX, crossY, 67.7]), box([3.3, 1.1, 1.1], [crossX, crossY, 68.4]));
+const crossHeight = survey?.height ?? 70;
+pieces.push(box([1.35, 1.35, 4.6], [crossX, crossY, crossHeight - 2.3]), box([survey ? 3 : 3.3, 1.1, 1.1], [crossX, crossY, crossHeight - 1.6]));
 
 // The tile strips on two cloister galleries are low hips. The central nave
 // remains a terrace, as shown in the territorial orthophoto.
@@ -90,20 +120,22 @@ for (const handle of ['197AD4', '186EB4']) {
   const [u, v] = long.map(value => value / Math.hypot(...long));
   const [cx, cy] = roofRectangle.reduce(([x, y], [a, b]) => [x + a / 4, y + b / 4], [0, 0]);
   const rings = polygons.flat().map(ring => ring.map(([x, y]) => [u * (x - cx) + v * (y - cy), -v * (x - cx) + u * (y - cy)]));
-  const slope = extrude(rings, roof - layout.referenceGround - 0.05, 1.75, [0.8, 0.22]);
+  const slope = extrude(rings, (survey ? deckHeights[handle] : roof - layout.referenceGround) - 0.05, survey ? 1.45 : 1.75, [0.8, 0.22]);
   pieces.push(slope.transform([u, v, 0, 0, -v, u, 0, 0, 0, 0, 1, 0, cx, cy, 0, 1]));
   slope.delete();
 }
 
 const mass = api.Manifold.union(pieces);
 for (const piece of pieces) piece.delete();
-const portal = frontVolume([[-2.85, 0.9], [2.85, 0.9], [2.85, 7.5], [2.15, 10], [0, 12.1], [-2.15, 10], [-2.85, 7.5]], -4.45, 1.75);
-const rose = frontVolume(Array.from({ length: 16 }, (_, i) => {
-  const angle = 2 * Math.PI * i / 16;
-  return [3.25 * Math.cos(angle), 21.6 + 3.25 * Math.sin(angle)];
-}), -4.45, 1.4);
-const cathedral = api.Manifold.difference([mass, portal, rose]);
-for (const solid of [mass, portal, rose]) solid.delete();
+recesses.push(frontVolume([[-2.85, 0.9], [2.85, 0.9], [2.85, 7.5], [2.15, 10], [0, 12.1], [-2.15, 10], [-2.85, 7.5]], -4.45, survey ? 1.4 : 1.75));
+if (!survey) {
+  recesses.push(frontVolume(Array.from({ length: 16 }, (_, i) => {
+    const angle = 2 * Math.PI * i / 16;
+    return [3.25 * Math.cos(angle), 21.6 + 3.25 * Math.sin(angle)];
+  }), -4.45, 1.4));
+}
+const cathedral = api.Manifold.difference([mass, ...recesses]);
+for (const solid of [mass, ...recesses]) solid.delete();
 assert.equal(cathedral.status(), 'NoError', 'Combined cathedral');
 const components = cathedral.decompose();
 // Adjacent CAD prisms share coplanar boundaries. Drop any zero-volume shells
@@ -114,7 +146,7 @@ const [main] = substantial;
 const courtyard = main.slice(1);
 assert(courtyard.numContour() >= 2, 'The cloister courtyard remains open');
 courtyard.delete();
-const cleaned = main.simplify(0.01);
+const cleaned = main.simplify(survey ? 0.045 : 0.01);
 const { vertProperties, triVerts, mergeFromVert } = cleaned.getMesh();
 cleaned.delete();
 for (const component of components) component.delete();
@@ -151,6 +183,16 @@ for (let i = 0; i < faces.length; i += 3) {
     vertexLinks[from].set(to, opposite);
   }
 }
+const reached = new Set([0]);
+const pending = [0];
+while (pending.length) {
+  for (const vertex of vertexLinks[pending.pop()].keys()) {
+    if (reached.has(vertex)) continue;
+    reached.add(vertex);
+    pending.push(vertex);
+  }
+}
+assert.equal(reached.size, count, 'One connected printable surface');
 for (const links of vertexLinks) {
   const start = links.keys().next().value;
   let current = start;
@@ -165,7 +207,7 @@ for (const links of vertexLinks) {
 }
 assert(volume > 0, 'Positive signed volume');
 const extrema = [0, 1, 2].map(axis => [Math.min(...points.map(p => p[axis])), Math.max(...points.map(p => p[axis]))]);
-assert.deepEqual(extrema[1], [0, 70]);
+assert.deepEqual(extrema[1], [0, crossHeight]);
 
 const vertexBytes = count * 12;
 const binary = Buffer.alloc(vertexBytes + faces.length * 2);
@@ -174,7 +216,7 @@ faces.forEach((index, offset) => binary.writeUInt16LE(index, vertexBytes + offse
 const gltf = {
   asset: {
     version: '2.0', generator: 'Open Place Models',
-    copyright: 'Ajuntament de Barcelona (municipal CAD geometry). Open Place Models contributors (reconstruction). Footprint © OpenStreetMap contributors.',
+    copyright: 'Ajuntament de Barcelona (municipal CAD geometry). ' + (survey ? 'Institut Cartogràfic i Geològic de Catalunya (LiDAR Territorial). ' : '') + 'Open Place Models contributors (reconstruction). Footprint © OpenStreetMap contributors.',
     extras: { license: 'CC-BY-4.0', source: 'https://portaldades.ajuntament.barcelona.cat/mapes/146' },
   },
   scene: 0,
