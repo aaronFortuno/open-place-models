@@ -244,6 +244,8 @@
       },
       "properties": {
         "name": "Torre Glòries",
+        "place": "Barcelona, Spain",
+        "aliases": ["Torre Agbar"],
         "revision": "r1",
         "anchor": [
           2.189520842,

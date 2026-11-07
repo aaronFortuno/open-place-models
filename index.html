@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore and download open, georeferenced 3D models of real places.">
+  <meta name="theme-color" content="#f7f8f3">
+  <title>Open Place Models</title>
+  <link rel="icon" type="image/svg+xml" href="./site/mark.svg">
+  <script type="module" src="./site/gallery.js"></script>
+</head>
+<body>
+  <a class="skip" href="#preview">Skip to model</a>
+  <header class="masthead frame">
+    <a href="./" class="brand"><img src="./site/mark.svg" alt="" width="32" height="32">Open Place Models</a>
+    <a class="subtle-link" href="https://github.com/aaronFortuno/open-place-models">Repository <span aria-hidden="true">↗</span></a>
+  </header>
+  <main class="frame">
+    <div class="intro">
+      <h1>A gallery of real places</h1>
+      <p>Explore open 3D models made to fit real maps and printable landscapes.</p>
+    </div>
+    <div class="workspace">
+      <aside class="library" aria-labelledby="gallery-title">
+        <div class="library-heading">
+          <h2 id="gallery-title">Models</h2>
+          <span id="model-count" class="count" aria-live="polite"></span>
+        </div>
+        <label class="sr-only" for="model-search">Search models</label>
+        <input id="model-search" type="search" placeholder="Search models" disabled>
+        <ul id="model-list" class="model-list" aria-label="Models"></ul>
+        <p id="catalog-status" class="catalog-status" role="status">Loading catalogue…</p>
+        <button id="reload-catalog" type="button" hidden>Try again</button>
+      </aside>
+      <section id="preview" class="preview" tabindex="-1" aria-labelledby="model-name">
+        <div class="model-heading">
+          <div>
+            <h2 id="model-name">Model preview</h2>
+            <p id="model-place" hidden></p>
+          </div>
+          <a id="download" class="download" download hidden>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M5 16v4h14v-4"/></svg>
+            Download GLB
+          </a>
+        </div>
+        <div class="stage" id="stage">
+          <p id="preview-status" role="status">Select a model to explore it.</p>
+          <div id="view-tools" class="view-tools" hidden>
+            <button id="zoom-in" type="button" aria-label="Zoom in" title="Zoom in">+</button>
+            <button id="zoom-out" type="button" aria-label="Zoom out" title="Zoom out">−</button>
+            <button id="reset-view" type="button">Reset view</button>
+          </div>
+          <p id="view-help" class="view-help" hidden>Drag or use arrow keys to orbit. Scroll or pinch to zoom.</p>
+        </div>
+        <div id="model-details" class="model-details" hidden>
+          <dl class="facts">
+            <div><dt>Height</dt><dd id="model-height"></dd></div>
+            <div><dt>Anchor</dt><dd><a id="model-map"></a></dd></div>
+            <div><dt>Revision</dt><dd id="model-revision"></dd></div>
+          </dl>
+          <div class="credits">
+            <div>
+              <h3>Attribution</h3>
+              <p id="model-attribution"></p>
+              <p id="model-licenses"></p>
+            </div>
+            <div>
+              <h3>Sources</h3>
+              <ul id="model-sources"></ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <noscript><p>JavaScript is required to browse the models. <a href="./catalog.geojson">Download the GeoJSON catalogue.</a></p></noscript>
+  </main>
+  <footer class="frame footer">
+    <span>Open models for real-world landscapes.</span>
+    <nav aria-label="Project resources">
+      <a href="./catalog.geojson">GeoJSON index</a>
+      <a href="https://github.com/aaronFortuno/open-place-models/blob/main/CONTRIBUTING.md">Contribute</a>
+      <a href="https://github.com/aaronFortuno/relleu-obert">Relleu Obert</a>
+    </nav>
+  </footer>
+</body>
+</html>
