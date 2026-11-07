@@ -1,6 +1,6 @@
 # Open Place Models
 
-A static catalogue of georeferenced 3D models of real places. The first model is [Torre Glòries](models/torre-glories/r1/README.md) in Barcelona.
+A static catalogue of georeferenced 3D models of real places. The catalogue includes [Torre Glòries](models/torre-glories/r1/README.md) in Barcelona and [Tour Eiffel](models/eiffel-tower/r1/README.md) in Paris.
 
 Browse the [model gallery](https://aaronfortuno.github.io/open-place-models/) to orbit, zoom and download the models. You can link directly to a model with `?model=<id>`, for example [Torre Glòries in the viewer](https://aaronfortuno.github.io/open-place-models/?model=torre-glories).
 
@@ -10,7 +10,7 @@ Source code is MIT licensed. Each model entry records its geometry licence, attr
 
 Regenerate the pilot with `node scripts/generate-glories.mjs`.
 
-See the [contribution guide](CONTRIBUTING.md) for the catalogue format and the handoff from candidate research to modelling.
+See the [candidate queue](CANDIDATES.md) for places under consideration and the [contribution guide](CONTRIBUTING.md) for the catalogue format and validation steps.
 
 ## Gallery development and publishing
 

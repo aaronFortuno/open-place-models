@@ -13,6 +13,7 @@
     "three": "0.180.0"
   },
   "devDependencies": {
+    "manifold-3d": "3.5.4",
     "vite": "8.3.6"
   }
 }
