@@ -31,6 +31,25 @@ function readVariants(variants=[]){
   });
 }
 
+function readTerrainTiles(profile){
+  if(profile===undefined)return;
+  if(profile?.epsg!==25831||profile.verticalDatum!=='EGM08D595'||!Array.isArray(profile.tiles)||!profile.tiles.length){
+    throw new Error('The catalogue contains an invalid terrain tile profile.');
+  }
+  const ids=new Set();
+  const tiles=profile.tiles.map(tile=>{
+    const {id,bounds,step,byteLength,data}=tile??{};
+    if(typeof id!=='string'||!/^[a-z0-9][a-z0-9-]*$/.test(id)||ids.has(id)||
+      !Array.isArray(bounds)||bounds.length!==4||!bounds.every(Number.isFinite)||bounds[0]>=bounds[2]||bounds[1]>=bounds[3]||
+      !Number.isFinite(step)||step<=0||!Number.isSafeInteger(byteLength)||byteLength<=0){
+      throw new Error('The catalogue contains an invalid terrain tile.');
+    }
+    ids.add(id);
+    return {...tile,data:assetPath(data,/\.tiff?$/)};
+  });
+  return {...profile,tiles};
+}
+
 export function readCatalog(data){
   if(data?.type!=='FeatureCollection'||data.schemaVersion!==1||!Array.isArray(data.features)){
     throw new Error('Unsupported catalogue format.');
@@ -46,7 +65,8 @@ export function readCatalog(data){
     ids.add(id);
     const place=typeof properties.place==='string'?properties.place.split(',').map(part=>part.trim()):[];
     const landform=properties.kind==='landform'?{...properties.landform,data:assetPath(properties.landform?.data,/\.json$/)}:undefined;
-    return {...properties,id,mesh:meshPath(properties.mesh),landform,
+    const terrainTiles=readTerrainTiles(properties.terrainTiles);
+    return {...properties,id,mesh:meshPath(properties.mesh),landform,terrainTiles,
       thumbnail:properties.thumbnail===undefined?undefined:assetPath(properties.thumbnail,/\.(png|webp|jpe?g)$/),
       geometryType:Object.hasOwn(geometryLabels,properties.geometryType)?properties.geometryType:'building',
       country:locationText(properties.country,place.length>1?place.at(-1):''),

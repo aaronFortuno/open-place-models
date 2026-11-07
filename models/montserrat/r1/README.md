@@ -17,7 +17,7 @@ The GLBs share the WGS84 anchor `[1.8144779704293488, 41.599631733588296]` and u
 
 Use the GLB overview as the gallery preview. For an application cutout, select the GeoTIFF tiles that intersect it and resample their absolute elevations. The neighbouring tiles meet at UTM easting 398945 m. Blend only along the outer boundary of a group of tiles. Keep one height datum for the selected region, independent of the standalone GLB bases. A regular 2 m Float32 grid for the entire rectangle would occupy about 61.5 MB before compression, compared with about 150 kB per prototype tile. More tiles can be added for target sectors without increasing the initial gallery download.
 
-An elevation grid records one surface per horizontal position. Cavities such as the Foradada need a separate georeferenced 3D volume and checks of both mouths, the roof and the sliced result. Apply the cavity after blending the terrain. The catalogue entry for this pilot serves the overview and thumbnail. The detail files are available in this revision for the next integration and their regional loading is pending.
+An elevation grid records one surface per horizontal position. Cavities such as the Foradada need a separate georeferenced 3D volume and checks of both mouths, the roof and the sliced result. Apply the cavity after blending the terrain. The catalogue exposes the two GeoTIFFs in `terrainTiles` with their EPSG code, datum, sample bounds, spacing and byte lengths. The gallery uses the overview GLB and thumbnail for display. A terrain client can request only the rasters that intersect its cutout.
 
 ## Regeneration
 

@@ -21,6 +21,6 @@ pnpm install --frozen-lockfile
 pnpm dev
 ```
 
-`pnpm build` creates a standalone site in `dist/`. It stages the index, model thumbnails and all referenced GLBs. Use `pnpm preview` to check the production build locally. The site loads only the selected GLB and serves the viewer, index and models from the same origin.
+`pnpm build` creates a standalone site in `dist/`. It stages the index and referenced assets, including thumbnails, GLBs and terrain rasters. Use `pnpm preview` to check the production build locally. The gallery loads the selected GLB, and terrain clients can load the indexed elevation tiles from the same origin.
 
 GitHub Pages uses GitHub Actions as its publishing source. The workflow builds and deploys on pushes to `main` and can also be run manually. The repository paths for the catalogue and model revisions stay stable for Relleu Obert and other consumers. [Publishing workflow](.github/workflows/pages.yml)

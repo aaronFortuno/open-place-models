@@ -5802,7 +5802,37 @@
         "sources": [
           "https://catalegs.ide.cat/geonetwork/geonetwork/api/records/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023?language=cat",
           "https://muntanyamontserrat.gencat.cat/ca/el_parc/senderisme/Del_Monestir_SantJeroni"
-        ]
+        ],
+        "terrainTiles": {
+          "epsg": 25831,
+          "verticalDatum": "EGM08D595",
+          "tiles": [
+            {
+              "id": "foradada-nord",
+              "bounds": [
+                398561,
+                4607217,
+                398945,
+                4607601
+              ],
+              "step": 2,
+              "data": "models/montserrat/r1/tiles/foradada-nord.tif",
+              "byteLength": 149996
+            },
+            {
+              "id": "agulles-nord",
+              "bounds": [
+                398945,
+                4607217,
+                399329,
+                4607601
+              ],
+              "step": 2,
+              "data": "models/montserrat/r1/tiles/agulles-nord.tif",
+              "byteLength": 149996
+            }
+          ]
+        }
       }
     }
   ]

@@ -8,7 +8,8 @@ const entries=readCatalog(catalogue);
 await copyFile(new URL('LICENSE',root),new URL('dist/LICENSE',root));
 await copyFile(new URL('node_modules/three/LICENSE',root),new URL('dist/THREE-LICENSE',root));
 const sizes=new Map();
-const assets=entries.flatMap(entry=>[entry.mesh,entry.thumbnail,entry.landform?.data,...entry.variants.map(variant=>variant.mesh)].filter(Boolean));
+const assets=entries.flatMap(entry=>[entry.mesh,entry.thumbnail,entry.landform?.data,
+  ...entry.variants.map(variant=>variant.mesh),...(entry.terrainTiles?.tiles??[]).map(tile=>tile.data)].filter(Boolean));
 for(const path of new Set(assets)){
   const source=new URL(path,root);
   const destination=new URL('dist/'+path,root);
@@ -21,6 +22,9 @@ for(const {properties} of catalogue.features){
     const size=sizes.get(model.mesh);
     if(model.byteLength!==undefined&&model.byteLength!==size)throw new Error(`File size differs for ${model.mesh}.`);
     model.byteLength=size;
+  }
+  for(const tile of properties.terrainTiles?.tiles??[]){
+    if(tile.byteLength!==sizes.get(tile.data))throw new Error(`File size differs for ${tile.data}.`);
   }
 }
 await writeFile(new URL('dist/catalog.geojson',root),JSON.stringify(catalogue));

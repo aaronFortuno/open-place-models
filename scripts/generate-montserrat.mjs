@@ -265,7 +265,9 @@ const entry={type:'Feature',id:'montserrat',bbox,geometry:{type:'Polygon',coordi
   kind:'terrain-overview',geometryType:'terrain',name:'Montserrat',place:'Montserrat, Catalonia, Spain',city:'Montserrat',country:'Spain',
   aliases:['Massís de Montserrat','Montserrat massif'],revision:'r1',anchor,height:overviewRange[1]-overviewBase,
   mesh:directory+'print.glb',byteLength:overviewFile.length,thumbnail:directory+'thumbnail.webp',
-  license:'CC-BY-4.0',spatialDataLicense:'CC-BY-4.0',attribution,sources:[metadata,park]
+  license:'CC-BY-4.0',spatialDataLicense:'CC-BY-4.0',attribution,sources:[metadata,park],
+  terrainTiles:{epsg:25831,verticalDatum,tiles:report.tiles.map(({id,bounds,stepM,raster,rasterByteLength})=>
+    ({id,bounds,step:stepM,data:directory+raster,byteLength:rasterByteLength}))}
 }};
 const index=new URL('catalog.geojson',root),catalog=JSON.parse(await readFile(index,'utf8')),at=catalog.features.findIndex(f=>f.id===entry.id);
 if(at<0)catalog.features.push(entry);else catalog.features[at]=entry;
