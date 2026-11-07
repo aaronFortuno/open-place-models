@@ -5739,6 +5739,71 @@
         ],
         "thumbnail": "models/st-marks-basilica/r1/thumbnail.png"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "montserrat",
+      "bbox": [
+        1.7515378157751333,
+        41.57015484673185,
+        1.8677701067374564,
+        41.628981650407184
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.752648232716043,
+              41.57015484673185
+            ],
+            [
+              1.8677701067374564,
+              41.5713462396628
+            ],
+            [
+              1.8667621173850624,
+              41.628981650407184
+            ],
+            [
+              1.7515378157751333,
+              41.627787857196076
+            ],
+            [
+              1.752648232716043,
+              41.57015484673185
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "terrain-overview",
+        "geometryType": "terrain",
+        "name": "Montserrat",
+        "place": "Montserrat, Catalonia, Spain",
+        "city": "Montserrat",
+        "country": "Spain",
+        "aliases": [
+          "Massís de Montserrat",
+          "Montserrat massif"
+        ],
+        "revision": "r1",
+        "anchor": [
+          1.8144779704293488,
+          41.599631733588296
+        ],
+        "height": 1226.5159912109375,
+        "mesh": "models/montserrat/r1/print.glb",
+        "byteLength": 1573672,
+        "thumbnail": "models/montserrat/r1/thumbnail.webp",
+        "license": "CC-BY-4.0",
+        "spatialDataLicense": "CC-BY-4.0",
+        "attribution": "Surface elevations © Institut Cartogràfic i Geològic de Catalunya, CC BY 4.0. Mesh by Open Place Models contributors.",
+        "sources": [
+          "https://catalegs.ide.cat/geonetwork/geonetwork/api/records/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023?language=cat",
+          "https://muntanyamontserrat.gencat.cat/ca/el_parc/senderisme/Del_Monestir_SantJeroni"
+        ]
+      }
     }
   ]
 }
