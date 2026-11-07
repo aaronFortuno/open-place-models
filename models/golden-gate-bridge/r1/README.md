@@ -1,0 +1,38 @@
+# Golden Gate Bridge · r1
+
+An original, georeferenced model of the suspension bridge and its two approach viaducts between San Francisco and Marin. It preserves the tapered Art Deco towers, their four upper struts, the two main cables, the roadway crown and the separate steel arch over Fort Point. The fort itself is a neighbouring structure. The deck trusses, lower tower bracing, pier details and anchorage housings are simplified for map-scale printing. [Bridge District engineering dimensions](https://www.goldengate.org/bridge/history-research/statistics-data/design-construction-stats/) · [Bridge District elevation and tower sections, pp. 4–5](https://www.goldengate.org/assets/1/25/2025-0626-bocomm-no8-seismicpresentation.pdf) · [Historic American Engineering Record CA-31](https://tile.loc.gov/storage-services/master/pnp/habshaer/ca/ca1300/ca1355/data/ca1355data.pdf)
+
+## Alignment and elevation
+
+The suspension uses the District's 4,200 ft main span and two 1,125.41 ft side spans. The Fort Point arch has a 97 m clear span. Its centerline and end supports were registered to the mapped arch, with the arch's vertical curve approximated from the elevation drawing. The deck is 27.432 m wide and its modeled depth is 7.62 m, the published depth of the stiffening trusses. The mapped two-carriageway approaches give a model centerline length of 2,732.13 m. The District's full abutment-to-abutment length is 2,737 m. [Seismic elevation drawing](https://www.goldengate.org/assets/1/25/2025-0626-bocomm-no8-seismicpresentation.pdf#page=4) · [Fort Point Arch](https://www.goldengate.org/exhibits/fort-point-arch/) · [Roadway deck](https://www.goldengate.org/exhibits/hanging-the-roadway-deck/) · [OSM bridge relation](https://www.openstreetmap.org/relation/451971)
+
+The roadway curve was fitted to 79 centerline heights spaced 25 m apart in the 7 May 2010 NOAA-distributed ARRA point cloud. The fit has a 0.127 m RMS residual across the suspension. Its crown is 81.73 m NAVD88. The San Francisco approach begins at approximately 56.71 m and the Marin approach ends at approximately 73.77 m. The distinct dip and climb beyond the Marin anchorage use the sampled profile. The District drawing has a crown of 266.87 ft referenced to Mean Lower Low Water. That reference lies about 0.018 m above NAVD88 at the San Francisco tide gauge. The model uses the survey elevations and the drawing for the structure. [NOAA lidar metadata](https://www.fisheries.noaa.gov/inport/item/49640/full-list) · [NOAA tiles 0878–0880](https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/laz/geoid18/5007/index.html) · [Tidal datums at station 9414290](https://tidesandcurrents.noaa.gov/datums.html?id=9414290)
+
+| Station from south model limit | Structure | Deck top, m NAVD88 |
+| ---: | --- | ---: |
+| 0.00 m | San Francisco approach limit | 56.71 |
+| 215.98 m | South side of Fort Point arch approach | 63.07 |
+| 330.38 m | South suspension limit | 66.15 |
+| 673.40 m | South tower center | 75.12 |
+| 1,313.48 m | Main span center | 81.73 |
+| 1,953.56 m | North tower center | 75.15 |
+| 2,296.58 m | North suspension limit | 66.21 |
+| 2,732.13 m | Marin approach limit | 73.77 |
+
+The cables approximate the 470 ft (143.256 m) main-span sag. Their saddles are at 227.39 m NAVD88 and the tower tops reach about 230.68 m in the GLB, close to the highest LiDAR return at 230.66 m. The full-size main cable diameter is 0.92 m. The model widens the two cables to 6.6 m for map-scale printing. The enlarged cables touch the deck over a short distance near the center. The underside at midspan remains approximately 72.31 m above the tide gauge's mean higher high water datum. The District's 67 m figure is the published navigation clearance. [1935 engineering description and cable sag](https://www.usni.org/magazines/proceedings/1935/april/golden-gate-and-san-francisco-bay-bridges) · [Bridge District cable and clearance dimensions](https://www.goldengate.org/bridge/history-research/statistics-data/design-construction-stats/)
+
+## Catalogue integration and reuse
+
+The GLB uses metres with X east, Y up and Z south from the WGS84 anchor `[-122.4785621, 37.8197585]` and the 81.7268079469 m NAVD88 origin. The schema version 1 entry uses `kind: "bridge"` and gallery `geometryType: "road"`. It includes 214 deck rows, matching centerline positions, the design support stations, and mapped identities of the roadway, sidewalks and duplicate supports.
+
+The mandatory prefix of the GLB contains both towers and their bases, main cables, anchor pylons, the Fort Point arch and a sparse set of reinforced hangers. The optional prefix extension includes the remaining simplified hangers at the nominal 50 ft spacing. The rest of the file supplies a deck and approach piers for the stand-alone viewer. Relleu Obert builds the deck from the absolute elevations, unites and crops the structural components, and fits the approach bases and connections to its terrain. The main tower footings extend to −5.4 m NAVD88 for contact in the terrain model. Six stand-alone approach pier bases use ground-return heights. Other approach base shapes are approximated. [Bridge District suspender spacing](https://www.goldengate.org/exhibits/steel-suspender-rope-exhibit/)
+
+The model geometry is CC BY 4.0 with credit to Open Place Models contributors. The measurements come from NOAA's public survey and Bridge District engineering references. OpenStreetMap-derived geographic alignment and identities in `profile.json` are © OpenStreetMap contributors under ODbL 1.0. After installing the repository dependencies, run `node scripts/generate-golden-gate-bridge.mjs` to regenerate the GLB from the included profile. An optional first argument writes the catalogue entry to a separate JSON file. The GLB SHA-256 is `73ec632746a46302c313e65503a5f5bb27d077efd0534f369c2ad825d8adeeaa`. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · [OpenStreetMap attribution and ODbL](https://www.openstreetmap.org/copyright)
+
+## Validation
+
+- The GLB is 115,012 bytes with 5,032 vertices and 8,864 triangles. Independent checks found 300 closed, consistently oriented indexed solids with positive volume and no degenerate faces. The mandatory and complete upper blocks passed the same checks separately. They contain 4,708 and 7,060 triangles respectively. The catalogue footprint is a valid polygon.
+- Local Relleu Obert checks used a complete crop at 1:8,000 and 6°, a complete crop at 1:15,000 and −8°, and a partial south crop at 1:8,000 and 17°. The complete cases preserved both road connections and the two tower bases. At 1:8,000 the comparison replaced ten procedural Golden Gate fragments with one catalogue bridge and preserved the two unrelated bridges in the control. The south crop retained one tower with its footing, two capped deck ends, and a single closed component. At 1:8,000 the test with principal roads enabled also retained both connections and passed the category audits.
+- The complete tests measured 9.21 and 4.82 mm of center clearance above the modeled water at the two scales. The main cables and sparse structural hangers remain at both scales. The finer 3.5 m hangers are included at 1:8,000 and fall below Relleu Obert's 0.42 mm cutoff at 1:15,000. The solid tests used the same upper GLB bytes and profile as this release. The final edit affected only the stand-alone approach pier bases.
+- The local gallery showed the thumbnail, alias search, Road or route filter, size, zoom, keyboard orbit and GLB link. The footer counted 11 places with 2,860,104 bytes of catalogue data.
+- The center span is about 160 mm at 1:8,000 and 85 mm at 1:15,000. These long spans are retained. Slicer support placement and physical printing remain to be checked.
