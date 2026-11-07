@@ -8,7 +8,6 @@ export async function prepareGalleryCatalogue(){
   const entries=readCatalog(catalogue);
   const assets=[...new Set(entries.flatMap(entry=>[
     entry.mesh,entry.thumbnail,entry.landform?.data,...entry.variants.map(variant=>variant.mesh),
-    ...(entry.terrainTiles?.tiles??[]).map(tile=>tile.data),
   ]).filter(Boolean))];
   const sizes=new Map(await Promise.all(assets.map(async path=>[path,(await stat(new URL(path,root))).size])));
   for(const {properties} of catalogue.features){
@@ -16,9 +15,6 @@ export async function prepareGalleryCatalogue(){
       const size=sizes.get(model.mesh);
       if(model.byteLength!==undefined&&model.byteLength!==size)throw new Error(`File size differs for ${model.mesh}.`);
       model.byteLength=size;
-    }
-    for(const tile of properties.terrainTiles?.tiles??[]){
-      if(tile.byteLength!==sizes.get(tile.data))throw new Error(`File size differs for ${tile.data}.`);
     }
   }
   catalogue.assetByteLength=[...sizes.values()].reduce((total,size)=>total+size,0);
