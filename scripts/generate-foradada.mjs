@@ -2,16 +2,19 @@ import assert from 'node:assert/strict';
 import {mkdir,readFile,writeFile} from 'node:fs/promises';
 import ManifoldModule from 'manifold-3d';
 
-const id='roca-foradada',revision='r1',directory=`models/${id}/${revision}/`;
+const id='roca-foradada',revision='r2',directory=`models/${id}/${revision}/`;
 const root=new URL('../',import.meta.url),sidecar=new URL(directory+'terrain.json',root);
 const catalogue=new URL('catalog.geojson',root);
 const terrainSource='https://catalegs.ide.cat/geonetwork/geonetwork/api/records/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023?language=cat';
 const attribution='Open Place Models contributors. Surface elevations © Institut Cartogràfic i Geològic de Catalunya, CC BY 4.0.';
-const anchor=[1.7865106079801403,41.61225600493541],side=65,half=(side-1)/2;
+const anchor=[1.7865106079801403,41.61225600493541],side=97,half=(side-1)/2;
 const survey=process.argv[2]&&JSON.parse(await readFile(process.argv[2],'utf8'));
-if(survey)assert.deepEqual(survey.anchor,anchor,'Survey anchor');
+if(survey){
+  assert.deepEqual(survey.anchor,anchor,'Survey anchor');
+  assert.equal(survey.side,2*side-1,'Half-metre survey samples');
+}
 const elevations=survey
-  ?Array.from({length:side*side},(_,i)=>Math.round(survey.grid[2*Math.floor(i/side)*129+2*(i%side)]*100)/100)
+  ?Array.from({length:side*side},(_,i)=>Math.round(survey.grid[2*Math.floor(i/side)*survey.side+2*(i%side)]*100)/100)
   :JSON.parse(await readFile(sidecar,'utf8')).grid.elevations;
 assert(elevations.length===side*side&&elevations.every(Number.isFinite),'Complete 1 m elevation grid');
 const base=Math.floor(Math.min(...elevations))-5;
@@ -27,7 +30,7 @@ const profile=[[-.50,0],[.40,.015],[.50,.09],[.43,.28],[.29,.60],[.14,.87],
   [.06,.975],[-.01,1],[-.09,.96],[-.26,.76],[-.38,.49],[-.47,.21]];
 const sections=[
   [-6,892.8,10.2,13.2,-.1],[0,892.8,10.2,13,0],[3.5,892.4,9.3,12.25,1],
-  [8.5,892.2,8.9,11.8,1.7],[13,891.8,9.4,12.1,1.3],[17,891.2,9.4,12.4,1],[22,890.9,9.4,12.4,1]
+  [8.5,892.2,8.9,11.8,1.7],[13,891.8,9.4,12.1,1.3],[17,891.2,9.4,12.4,1],[30,890.9,9.4,12.4,1]
 ];
 const vertices=sections.flatMap(([distance,sill,width,height,offset])=>profile.flatMap(([u,v])=>
   coordinate(distance,u*width+offset,sill+v*height).map(value=>Number(value.toFixed(4)))));
@@ -70,9 +73,10 @@ const pieces=rock.decompose();
 assert.equal(pieces.length,1,'The rock remains one solid');
 assert.equal(rock.genus(),1,'The opening passes through the rock');
 const removed=original.volume()-rock.volume();
-const ray=height=>[coordinate(-7,0,height),coordinate(20,0,height)];
+const ray=(height,offset=0)=>[coordinate(-14,offset,height),coordinate(32,offset,height)];
 assert(original.rayCast(...ray(897)).length>0,'The elevation surface covers the opening before carving');
-assert.equal(rock.rayCast(...ray(897)).length,0,'Clear line of sight through both mouths');
+for(const elevation of [896,897,898,899])for(const offset of [-1,0,1])
+  assert.equal(rock.rayCast(...ray(elevation,offset)).length,0,'Clear section through both mouths');
 assert(rock.rayCast(...ray(907)).length>0,'Rock survives above the vault');
 for(const piece of [...pieces,original,cutter])piece.delete();
 
