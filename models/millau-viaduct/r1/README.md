@@ -1,0 +1,13 @@
+# Viaduc de Millau · r1
+
+An original simplified model of the A75 viaduct in Millau. The curved deck spans 2,460 m, rises south at 3.025% and follows the published 20 km radius. The eight published spans locate the seven piers. Inverted-Y pylons and 11 pairs of stays per pylon preserve the silhouette. The bridge deck and lower piers in the stand-alone GLB are simplified. The stays are enlarged to 4.5 m for small-scale printing. [Official dimensions](https://www.leviaducdemillau.com/sites/viaducdemillau/accueil-viaduc-de-millau/le-viaduc/les-chiffres-cles.html)
+
+The arc and grade are fitted to the two 3D A75 carriageways from IGN BD TOPO® (`TRONROUT0000000060870760` and `TRONROUT0000000240107065`). The vertical fit has an RMS residual of 0.63 m against the 41 road-axis samples. The nominal abutment heights are approximately 600.26 and 674.68 m in NGF–IGN69. The geometry and its placement are approximations for model making. [BD TOPO®](https://www.data.gouv.fr/datasets/bd-topo-r) · [IGN datum documentation](https://geoservices.ign.fr/sites/default/files/2025-01/DC_BDTOPO_3-4.pdf#page=12)
+
+Regenerate the GLB and index entry from the repository root with `node scripts/generate-millau.mjs`. The model geometry contributed here is CC BY 4.0. Georeferencing uses IGN data under Licence Ouverte 2.0. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · [Licence Ouverte 2.0](https://www.etalab.gouv.fr/licence-ouverte-open-licence/)
+
+## Bridge profile
+
+The index stays at schema version 1 and declares `kind: "bridge"` and gallery `geometryType: "road"`. The `bridge` properties supply deck-top rows and the centreline in longitude, latitude and orthometric metres. The GLB origin is the index anchor and `bridge.anchorElevation`. The GLB uses metres with X east, Y up and Z south. The first `pylonIndexCount` indices contain the pylon solids. The first `upperIndexCount` contain both pylons and stays. The remaining geometry shows the deck and piers in the stand-alone viewer.
+
+Relleu Obert reconstructs and caps the deck from the rows, projects the GLB superstructure, and fits the foundations and road connections to the active terrain. OpenFreeMap feature IDs derived from OSM identify the two carriageways, the bridge outline and six duplicate pier footprints. The two sources may use different vertical datums, so the adapters into the terrain are estimated. Stays are omitted when their nominal printed diameter is below 0.42 mm. The design stations guide placement, with nearby adjustments when terrain or mapped obstacles require them. The long spans require slicer review. [OpenStreetMap attribution](https://www.openstreetmap.org/copyright)
