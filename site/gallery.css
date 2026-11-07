@@ -148,5 +148,4 @@ h1, h2, h3, p { margin: 0; }
   .model-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .preview { min-height: 23rem; }
   .footer { padding-block: .5rem; }
-  .footer span { display: none; }
 }

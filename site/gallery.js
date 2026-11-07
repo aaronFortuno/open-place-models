@@ -180,7 +180,18 @@ async function loadCatalog(){
   try{
     const response=await fetch(indexURL);
     if(!response.ok)throw new Error('Unable to fetch the catalogue.');
-    entries=readCatalog(await response.json());
+    const index=await response.text();
+    const data=JSON.parse(index);
+    entries=readCatalog(data);
+    const summary=byId('catalog-summary');
+    const count=`${number.format(entries.length)} ${entries.length===1?'model':'models'}`;
+    summary.textContent=count;
+    if(Number.isSafeInteger(data.assetByteLength)&&data.assetByteLength>=0){
+      const bytes=data.assetByteLength+new TextEncoder().encode(index).byteLength;
+      const size=bytes>=1e6?`${fileSize.format(bytes/1e6)} MB`:`${fileSize.format(bytes/1000)} kB`;
+      summary.textContent=`${count} · ${size} total`;
+      summary.title=`${number.format(bytes)} bytes for the index, models, variants, thumbnails and terrain data`;
+    }
     filters.disabled=!entries.length;
     setOptions(country,'All countries',entries.map(entry=>entry.country));
     updateCities();
