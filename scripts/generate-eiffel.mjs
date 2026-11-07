@@ -10,7 +10,8 @@ const stl = localSource ? await readFile(localSource) : await downloadSource();
 assert.equal(createHash('sha256').update(stl).digest('hex'), sha256, 'Source STL checksum');
 
 const catalogue = JSON.parse(await readFile(new URL('../catalog.geojson', import.meta.url), 'utf8'));
-const { height, mesh, license, attribution } = catalogue.features.find(feature => feature.id === 'eiffel-tower').properties;
+const { height, variants } = catalogue.features.find(feature => feature.id === 'eiffel-tower').properties;
+const { mesh, license, attribution } = variants.find(variant => variant.id === 'detailed' && variant.revision === 'r1');
 const sourcePage = 'https://commons.wikimedia.org/wiki/File:EiffelTower_fixed.stl';
 const spatialSource = 'https://open-landmarks.benmaps.fr/objects/ee44d66e51c7e518a2bc28ba19b5b2dea72e1bbdabbdc5c26ac4ca7e00d97940/spatial-source.json';
 

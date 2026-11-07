@@ -15,33 +15,50 @@
     <a href="./" class="brand"><img src="./site/mark.svg" alt="" width="32" height="32">Open Place Models</a>
     <a class="subtle-link" href="https://github.com/aaronFortuno/open-place-models">Repository <span aria-hidden="true">↗</span></a>
   </header>
-  <main class="frame">
-    <div class="intro">
-      <h1>A gallery of real places</h1>
-      <p>Explore open 3D models made to fit real maps and printable landscapes.</p>
-    </div>
-    <div class="workspace">
-      <aside class="library" aria-labelledby="gallery-title">
+  <main class="workspace frame">
+      <h1 class="sr-only">A gallery of real places</h1>
+      <aside class="panel filters" aria-labelledby="filter-title">
+        <h2 id="filter-title">Filters</h2>
+        <fieldset id="model-filters" class="filter-fields" disabled>
+          <legend class="sr-only">Filter models</legend>
+          <div class="filter-field">
+            <label for="model-search">Search models</label>
+            <input id="model-search" type="search" placeholder="Name or place">
+          </div>
+          <div class="filter-field">
+            <label for="geometry-filter">Geometry</label>
+            <select id="geometry-filter">
+              <option value="">All types</option>
+              <option value="building">Building</option>
+              <option value="monument">Monument</option>
+              <option value="road">Road or route</option>
+              <option value="terrain">Terrain</option>
+            </select>
+          </div>
+          <div class="filter-field">
+            <label for="country-filter">Country</label>
+            <select id="country-filter"><option value="">All countries</option></select>
+          </div>
+          <div class="filter-field">
+            <label for="city-filter">City</label>
+            <select id="city-filter"><option value="">All cities</option></select>
+          </div>
+          <button id="clear-filters" class="text-button" type="button">Clear filters</button>
+        </fieldset>
+      </aside>
+      <aside class="panel library" aria-labelledby="gallery-title">
         <div class="library-heading">
           <h2 id="gallery-title">Models</h2>
           <span id="model-count" class="count" aria-live="polite"></span>
         </div>
-        <label class="sr-only" for="model-search">Search models</label>
-        <input id="model-search" type="search" placeholder="Search models" disabled>
         <ul id="model-list" class="model-list" aria-label="Models"></ul>
         <p id="catalog-status" class="catalog-status" role="status">Loading catalogue…</p>
         <button id="reload-catalog" type="button" hidden>Try again</button>
       </aside>
       <section id="preview" class="preview" tabindex="-1" aria-labelledby="model-name">
         <div class="model-heading">
-          <div>
-            <h2 id="model-name">Model preview</h2>
-            <p id="model-place" hidden></p>
-          </div>
-          <a id="download" class="download" download hidden>
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M5 16v4h14v-4"/></svg>
-            Download GLB
-          </a>
+          <h2 id="model-name">Model preview</h2>
+          <p id="model-place" hidden></p>
         </div>
         <div class="stage" id="stage">
           <p id="preview-status" role="status">Select a model to explore it.</p>
@@ -52,11 +69,26 @@
           </div>
           <p id="view-help" class="view-help" hidden>Drag or use arrow keys to orbit. Scroll or pinch to zoom.</p>
         </div>
-        <div id="model-details" class="model-details" hidden>
+      </section>
+      <aside class="panel details" aria-labelledby="details-title">
+        <h2 id="details-title">Model details</h2>
+        <p id="details-empty" class="catalog-status">Select a model to see its details.</p>
+        <div id="model-details" hidden>
+          <div id="model-variants" class="variant-controls" hidden>
+            <label for="model-variant">Resolution</label>
+            <select id="model-variant" aria-describedby="variant-scale"></select>
+            <p id="variant-scale" hidden></p>
+          </div>
+          <a id="download" class="download" download>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M5 16v4h14v-4"/></svg>
+            Download GLB
+          </a>
           <dl class="facts">
+            <div><dt>File size</dt><dd id="model-size"></dd></div>
             <div><dt>Height</dt><dd id="model-height"></dd></div>
-            <div><dt>Anchor</dt><dd><a id="model-map"></a></dd></div>
+            <div><dt>Geometry</dt><dd id="model-type"></dd></div>
             <div><dt>Revision</dt><dd id="model-revision"></dd></div>
+            <div class="fact-wide"><dt>Anchor</dt><dd><a id="model-map"></a></dd></div>
           </dl>
           <div class="credits">
             <div>
@@ -70,9 +102,8 @@
             </div>
           </div>
         </div>
-      </section>
-    </div>
-    <noscript><p>JavaScript is required to browse the models. <a href="./catalog.geojson">Download the GeoJSON catalogue.</a></p></noscript>
+      </aside>
+      <noscript><p>JavaScript is required to browse the models. <a href="./catalog.geojson">Download the GeoJSON catalogue.</a></p></noscript>
   </main>
   <footer class="frame footer">
     <span>Open models for real-world landscapes.</span>

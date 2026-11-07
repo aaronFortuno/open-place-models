@@ -1,10 +1,34 @@
-export function meshPath(path){
+function assetPath(path,extension){
   const parts=typeof path==='string'?path.split('/'):[];
-  if(parts.length<2||parts[0]!=='models'||!parts.at(-1).endsWith('.glb')||
+  if(parts.length<2||parts[0]!=='models'||!extension.test(parts.at(-1))||
     !parts.every(part=>/^[A-Za-z0-9_-][A-Za-z0-9_.-]*$/.test(part))){
-    throw new Error('The catalogue contains an invalid mesh path.');
+    throw new Error('The catalogue contains an invalid asset path.');
   }
   return path;
+}
+
+export const geometryLabels=Object.freeze({
+  building:'Building',monument:'Monument',road:'Road or route',terrain:'Terrain',
+});
+
+const meshPath=path=>assetPath(path,/\.glb$/);
+const validBytes=value=>value===undefined||Number.isSafeInteger(value)&&value>0;
+const validSources=value=>value===undefined||Array.isArray(value)&&value.every(source=>typeof source==='string');
+const locationText=(value,fallback)=>typeof value==='string'?value.trim():fallback;
+
+function readVariants(variants=[]){
+  if(!Array.isArray(variants))throw new Error('The catalogue contains invalid model resolutions.');
+  const ids=new Set(['default']);
+  return variants.map(variant=>{
+    if(!variant||typeof variant.id!=='string'||!/^[a-z0-9][a-z0-9-]*$/.test(variant.id)||ids.has(variant.id)||
+      typeof variant.label!=='string'||!variant.label.trim()||typeof variant.revision!=='string'||!variant.revision||
+      !validBytes(variant.byteLength)||!validSources(variant.sources)||
+      variant.maxScaleDenominator!==undefined&&(!Number.isSafeInteger(variant.maxScaleDenominator)||variant.maxScaleDenominator<1)){
+      throw new Error('The catalogue contains an invalid model resolution.');
+    }
+    ids.add(variant.id);
+    return {...variant,mesh:meshPath(variant.mesh)};
+  });
 }
 
 export function readCatalog(data){
@@ -16,11 +40,17 @@ export function readCatalog(data){
     if(typeof id!=='string'||!id||ids.has(id)||typeof properties?.name!=='string'||
       !Array.isArray(properties.anchor)||properties.anchor.length!==2||!properties.anchor.every(Number.isFinite)||
       properties.aliases!==undefined&&(!Array.isArray(properties.aliases)||!properties.aliases.every(alias=>typeof alias==='string'))||
-      properties.sources!==undefined&&!Array.isArray(properties.sources)){
+      !validBytes(properties.byteLength)||!validSources(properties.sources)){
       throw new Error('The catalogue contains an invalid model entry.');
     }
     ids.add(id);
-    return {...properties,id,mesh:meshPath(properties.mesh)};
+    const place=typeof properties.place==='string'?properties.place.split(',').map(part=>part.trim()):[];
+    return {...properties,id,mesh:meshPath(properties.mesh),
+      thumbnail:properties.thumbnail===undefined?undefined:assetPath(properties.thumbnail,/\.(png|webp|jpe?g)$/),
+      geometryType:Object.hasOwn(geometryLabels,properties.geometryType)?properties.geometryType:'building',
+      country:locationText(properties.country,place.length>1?place.at(-1):''),
+      city:locationText(properties.city,place[0]??''),
+      variants:readVariants(properties.variants)};
   });
 }
 

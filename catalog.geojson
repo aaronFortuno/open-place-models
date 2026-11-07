@@ -245,7 +245,9 @@
       "properties": {
         "name": "Torre Glòries",
         "place": "Barcelona, Spain",
-        "aliases": ["Torre Agbar"],
+        "aliases": [
+          "Torre Agbar"
+        ],
         "revision": "r1",
         "anchor": [
           2.189520842,
@@ -267,14 +269,21 @@
             "icgc-1647155",
             "icgc-1647167"
           ],
-          "families": ["ES.SDGC.BU.2440201DF3824A"]
+          "families": [
+            "ES.SDGC.BU.2440201DF3824A"
+          ]
         },
         "sources": [
           "https://www.openstreetmap.org/way/44213122",
           "https://www.skyscrapercenter.com/building/torre-glories/4193",
           "https://www.miradortorreglories.com/en/the-experience/jean-nouvel/",
           "https://upcommons.upc.edu/bitstreams/985dab0b-2f92-4d35-a923-9536a6058b8a/download"
-        ]
+        ],
+        "city": "Barcelona",
+        "country": "Spain",
+        "geometryType": "building",
+        "thumbnail": "models/torre-glories/r1/thumbnail.png",
+        "byteLength": 28492
       }
     },
     {
@@ -816,14 +825,15 @@
           "Eiffel Tower",
           "Torre Eiffel"
         ],
-        "revision": "r1",
+        "revision": "r2",
         "anchor": [
           2.2944961557127317,
           48.85826211154724
         ],
-        "mesh": "models/eiffel-tower/r1/print.glb",
+        "mesh": "models/eiffel-tower/r2/print.glb",
+        "byteLength": 21196,
         "height": 330,
-        "attribution": "Newcandle from Thingiverse (original STL). Open Landmarks contributors (geographic registration). Open Place Models contributors (print adaptation). Footprint and placement © OpenStreetMap contributors.",
+        "attribution": "Newcandle from Thingiverse (source profiles). Open Landmarks contributors (geographic registration). Open Place Models contributors (lightweight reconstruction). Footprint and placement © OpenStreetMap contributors.",
         "license": "CC-BY-SA-3.0",
         "spatialDataLicense": "ODbL-1.0",
         "replacement": {
@@ -835,9 +845,33 @@
           "https://commons.wikimedia.org/wiki/File:EiffelTower_fixed.stl",
           "https://creativecommons.org/licenses/by-sa/3.0/",
           "https://www.toureiffel.paris/fr/le-monument/chiffres-cle",
+          "https://www.toureiffel.paris/fr/le-monument/histoire",
           "https://www.openstreetmap.org/way/5013364",
           "https://open-landmarks.benmaps.fr/assets/eiffel-tower/4e011f6dced3b66b9599894f5e689977b06694c5d678a09872892d7f72e9a7d1/asset.json"
-        ]
+        ],
+        "variants": [
+          {
+            "id": "detailed",
+            "label": "Detailed",
+            "revision": "r1",
+            "mesh": "models/eiffel-tower/r1/print.glb",
+            "byteLength": 1618228,
+            "maxScaleDenominator": 1500,
+            "license": "CC-BY-SA-3.0",
+            "attribution": "Newcandle from Thingiverse (original STL). Open Landmarks contributors (geographic registration). Open Place Models contributors (print adaptation). Footprint and placement © OpenStreetMap contributors.",
+            "sources": [
+              "https://commons.wikimedia.org/wiki/File:EiffelTower_fixed.stl",
+              "https://creativecommons.org/licenses/by-sa/3.0/",
+              "https://www.toureiffel.paris/fr/le-monument/chiffres-cle",
+              "https://www.openstreetmap.org/way/5013364",
+              "https://open-landmarks.benmaps.fr/assets/eiffel-tower/4e011f6dced3b66b9599894f5e689977b06694c5d678a09872892d7f72e9a7d1/asset.json"
+            ]
+          }
+        ],
+        "city": "Paris",
+        "country": "France",
+        "geometryType": "building",
+        "thumbnail": "models/eiffel-tower/r2/thumbnail.png"
       }
     }
   ]
