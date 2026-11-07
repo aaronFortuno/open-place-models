@@ -45,7 +45,8 @@ export function readCatalog(data){
     }
     ids.add(id);
     const place=typeof properties.place==='string'?properties.place.split(',').map(part=>part.trim()):[];
-    return {...properties,id,mesh:meshPath(properties.mesh),
+    const landform=properties.kind==='landform'?{...properties.landform,data:assetPath(properties.landform?.data,/\.json$/)}:undefined;
+    return {...properties,id,mesh:meshPath(properties.mesh),landform,
       thumbnail:properties.thumbnail===undefined?undefined:assetPath(properties.thumbnail,/\.(png|webp|jpe?g)$/),
       geometryType:Object.hasOwn(geometryLabels,properties.geometryType)?properties.geometryType:'building',
       country:locationText(properties.country,place.length>1?place.at(-1):''),

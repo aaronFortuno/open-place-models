@@ -100,7 +100,8 @@ const entry={type:'Feature',id,bbox,geometry:{type:'Polygon',coordinates:[outlin
     sourceFeatureIds:['42968122','42968132','4408362752'],
     supportFeatureIds:['2391832022','2391832032','2391832042','2391832062','2391832010','2391832072'],
     width,depth,length,spans,axis,deckRows,pylonIndexCount,upperIndexCount,stayDiameter,
-    pierSection:{along:8,across:10},maxPierAdjustment:22}
+    pierSection:{along:8,across:10},maxPierAdjustment:22},
+  thumbnail:`models/${id}/r1/thumbnail.webp`
 }};
 const data=JSON.parse(readFileSync(catalog,'utf8')),indexInCatalog=data.features.findIndex(f=>f.id===id);
 if(indexInCatalog<0)data.features.push(entry);

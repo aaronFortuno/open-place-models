@@ -24,6 +24,8 @@ The properties are `name`, `revision`, `anchor` as `[longitude, latitude]`, `hei
 
 For the gallery, include `place` such as `Barcelona, Spain`, separate `city` and `country` fields for filtering, and `geometryType` as `building`, `monument`, `road` or `terrain`. Add `aliases` for alternative names. Set `thumbnail` to a small PNG, WebP or JPEG under `models/`, rendered from the default mesh. Use `byteLength` for the exact GLB size in bytes. The gallery build fills in omitted sizes and checks declared sizes against the files.
 
+Render a 320 × 200 WebP beside a generated GLB with `python scripts/render-thumbnail.py models/<id>/<revision>/print.glb`. The offline script needs NumPy and Pillow. Use `--camera EAST UP SOUTH` to frame the feature that distinguishes the model at card size.
+
 Use the top-level `mesh` and `revision` for the lightweight default. An optional `variants` array can add resolutions with `id`, `label`, `revision`, `mesh`, `byteLength` and their own credits where those differ. Variants share the entry’s footprint, anchor and height. The optional `maxScaleDenominator` is inclusive. A detailed variant with a value of `1500` is suggested at 1:1,000 and 1:1,500. The lightweight default applies at 1:2,000 and smaller map scales. A client choosing by scale should take the smallest applicable threshold and fall back to the default when none applies. The gallery lets readers select a resolution manually.
 
 Serve the index and meshes from the same static directory. Keep the current index below 512 KiB. If the catalogue approaches that limit, agree on spatial partitioning with consumers before changing the schema. [GeoJSON](https://datatracker.ietf.org/doc/html/rfc7946) · [glTF 2.0](https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html)

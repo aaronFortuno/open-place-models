@@ -3379,6 +3379,79 @@
             "across": 10
           },
           "maxPierAdjustment": 22
+        },
+        "thumbnail": "models/millau-viaduct/r1/thumbnail.webp"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "roca-foradada",
+      "bbox": [
+        1.7861261269420132,
+        41.61196854535941,
+        1.7868950890182673,
+        41.61254346451141
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.7861261269420132,
+              41.61196854535941
+            ],
+            [
+              1.7868950890182673,
+              41.61196854535941
+            ],
+            [
+              1.7868950890182673,
+              41.61254346451141
+            ],
+            [
+              1.7861261269420132,
+              41.61254346451141
+            ],
+            [
+              1.7861261269420132,
+              41.61196854535941
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "landform",
+        "geometryType": "terrain",
+        "name": "Roca Foradada",
+        "place": "Montserrat, Catalonia, Spain",
+        "city": "El Bruc",
+        "country": "Spain",
+        "aliases": [
+          "Foradada de Montserrat",
+          "Roca Foradada del Bruc"
+        ],
+        "revision": "r1",
+        "anchor": [
+          1.7865106079801403,
+          41.61225600493541
+        ],
+        "height": 113.46002197265625,
+        "mesh": "models/roca-foradada/r1/print.glb",
+        "byteLength": 112360,
+        "thumbnail": "models/roca-foradada/r1/thumbnail.webp",
+        "license": "CC-BY-4.0",
+        "spatialDataLicense": "CC-BY-4.0",
+        "attribution": "Open Place Models contributors. Surface elevations © Institut Cartogràfic i Geològic de Catalunya, CC BY 4.0.",
+        "sources": [
+          "https://catalegs.ide.cat/geonetwork/geonetwork/api/records/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023?language=cat",
+          "https://espeleoworld.com/c/la-roca-foradada-bruc",
+          "https://patrimonicultural.diba.cat/print/pdf/node/74394",
+          "https://doi.org/10.3390/geosciences12100370"
+        ],
+        "landform": {
+          "data": "models/roca-foradada/r1/terrain.json",
+          "verticalDatum": "EGM08D595",
+          "minimumWidth": 10.2
         }
       }
     },

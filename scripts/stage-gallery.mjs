@@ -8,7 +8,7 @@ const entries=readCatalog(catalogue);
 await copyFile(new URL('LICENSE',root),new URL('dist/LICENSE',root));
 await copyFile(new URL('node_modules/three/LICENSE',root),new URL('dist/THREE-LICENSE',root));
 const sizes=new Map();
-const assets=entries.flatMap(entry=>[entry.mesh,entry.thumbnail,...entry.variants.map(variant=>variant.mesh)].filter(Boolean));
+const assets=entries.flatMap(entry=>[entry.mesh,entry.thumbnail,entry.landform?.data,...entry.variants.map(variant=>variant.mesh)].filter(Boolean));
 for(const path of new Set(assets)){
   const source=new URL(path,root);
   const destination=new URL('dist/'+path,root);
