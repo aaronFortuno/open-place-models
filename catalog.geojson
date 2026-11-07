@@ -4849,6 +4849,163 @@
         ],
         "thumbnail": "models/sagrada-familia/r1/thumbnail.png"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "leaning-tower-pisa",
+      "bbox": [
+        10.3965294,
+        43.7229323,
+        10.3967353,
+        43.7230809
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.3966244,
+              43.7230809
+            ],
+            [
+              10.3965904,
+              43.7230746
+            ],
+            [
+              10.3965651,
+              43.723063
+            ],
+            [
+              10.3965445,
+              43.7230454
+            ],
+            [
+              10.396533,
+              43.7230261
+            ],
+            [
+              10.3965294,
+              43.7230057
+            ],
+            [
+              10.3965333,
+              43.7229864
+            ],
+            [
+              10.3965457,
+              43.7229665
+            ],
+            [
+              10.3965599,
+              43.7229538
+            ],
+            [
+              10.3965847,
+              43.7229407
+            ],
+            [
+              10.3966062,
+              43.7229347
+            ],
+            [
+              10.3966305,
+              43.7229323
+            ],
+            [
+              10.3966546,
+              43.722934
+            ],
+            [
+              10.3966814,
+              43.7229412
+            ],
+            [
+              10.3967015,
+              43.7229515
+            ],
+            [
+              10.3967188,
+              43.7229662
+            ],
+            [
+              10.3967305,
+              43.722984
+            ],
+            [
+              10.3967353,
+              43.7230042
+            ],
+            [
+              10.396731,
+              43.7230281
+            ],
+            [
+              10.3967198,
+              43.723046
+            ],
+            [
+              10.3967036,
+              43.7230604
+            ],
+            [
+              10.3966768,
+              43.7230738
+            ],
+            [
+              10.3966527,
+              43.7230796
+            ],
+            [
+              10.3966244,
+              43.7230809
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Torre pendente di Pisa",
+        "aliases": [
+          "Leaning Tower of Pisa",
+          "Torre di Pisa",
+          "Torre de Pisa",
+          "Torre inclinada de Pisa",
+          "Campanile di Pisa"
+        ],
+        "place": "Pisa, Italy",
+        "geometryType": "building",
+        "country": "Italy",
+        "city": "Pisa",
+        "revision": "r1",
+        "anchor": [
+          10.39663235,
+          43.7230066
+        ],
+        "height": 56.7,
+        "mesh": "models/leaning-tower-pisa/r1/print.glb",
+        "byteLength": 60788,
+        "attribution": "Open Place Models contributors (original reconstruction). Dimensions from Opera della Primaziale Pisana and published technical surveys. Footprint © OpenStreetMap contributors.",
+        "license": "CC-BY-4.0",
+        "spatialDataLicense": "ODbL-1.0",
+        "replacement": {
+          "featureIds": [
+            "osm-relation-12982355",
+            "osm-way-35667218"
+          ],
+          "families": [
+            "osm-relation-12982355"
+          ]
+        },
+        "sources": [
+          "https://www.opapisa.it/visita/torre-pendente/",
+          "https://www.icomos.org/public/publications/laussane-47.pdf",
+          "https://www.isprs.org/proceedings/xxxiv/5-W12/proceedings/04.pdf",
+          "https://academic.oup.com/jge/article/11/5/055004/5110272",
+          "https://geocasehistoriesjournal.org/issues/volume-1-3/leaning-tower-of-pisa-behaviour-after-stabilization-operations",
+          "https://doi.org/10.1201/9781003308867-49",
+          "https://www.openstreetmap.org/relation/12982355"
+        ],
+        "thumbnail": "models/leaning-tower-pisa/r1/thumbnail.png"
+      }
     }
   ]
 }
