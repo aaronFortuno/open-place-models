@@ -1,0 +1,50 @@
+{
+  "name": "Coves del Salnitre",
+  "place": "Collbató, Catalonia, Spain",
+  "city": "Collbató",
+  "country": "Spain",
+  "aliases": ["Coves de Montserrat", "Cova del Salnitre", "Coves de Collbató"],
+  "anchor": [1.83472418, 41.57364342],
+  "azimuth": 165,
+  "minimumWidth": 1.12,
+  "galleryHalf": 12,
+  "galleryTop": 506,
+  "camera": [0.25, 0.16, 1],
+  "profiles": {
+    "recess": [[-1, 0], [1, 0], [1, 0.43], [0.8, 0.79], [0.35, 1], [-0.3, 0.94], [-0.82, 0.65], [-1, 0.3]],
+    "door": [[-1, 0], [1, 0], [1, 0.74], [1, 1], [0.36, 1], [-0.36, 1], [-1, 1], [-1, 0.74]],
+    "vault": [[-0.92, 0], [0.97, 0], [1, 0.47], [0.84, 0.81], [0.37, 1], [-0.3, 0.98], [-0.83, 0.73], [-1, 0.37]]
+  },
+  "lofts": [
+    [
+      [-4.4, -0.1, 492.85, 4.85, 4.3, "recess"],
+      [-0.2, -0.1, 492.95, 4.85, 4.0, "recess"],
+      [1.92, 0, 493.1, 4.6, 3.1, "recess"]
+    ],
+    [
+      [-4.5, 0.12, 493.07, 2.18, 1.12, "door"],
+      [2.88, 0.12, 493.16, 2.17, 1.12, "door"],
+      [4.1, 0.1, 493.26, 2.24, 1.26, "door"],
+      [6.3, -0.19, 493.35, 3.45, 3.32, "vault"],
+      [8.72, -0.65, 493.3, 4.02, 4.8, "vault"],
+      [10.75, -0.85, 493.38, 3.47, 4.22, "vault"]
+    ]
+  ],
+  "rays": {
+    "entry": [[0.12, 494.17, -5.8], [0.12, 494.17, 7.6]],
+    "roof": [[0.12, 494.17, 7.6], [0.12, 503.5, 7.6]],
+    "floor": [[0.12, 494.17, 7.6], [0.12, 489.0, 7.6]],
+    "back": [[0.12, 494.17, 7.6], [0.12, 494.17, 12.0]],
+    "wall": [[0.05, 496.4, -5.8], [0.05, 496.4, 3.9]]
+  },
+  "sources": [
+    "https://catalegs.ide.cat/geonetwork/geonetwork/api/records/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023?language=cat",
+    "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Geoinformacio-en-linia-Geoserveis/WMS-Ortoimatges/WMS-Ortofoto-Territorial",
+    "https://www.cuevasturisticas.es/documentos-ap/cuevatur/cuevatur_2014.pdf",
+    "https://ccbe.feec.cat/docs/cec/Hemeroteca/Espeleoleg/CEC-ERE_ESPEL_200800_45.pdf",
+    "https://espeleoindex.com/cavitat/salnitre-coves-del-5/",
+    "https://www.openstreetmap.org/node/2275447942",
+    "https://www.openstreetmap.org/way/1151955330",
+    "https://es.wikiloc.com/rutas-senderismo/montserrat-collbato-cami-de-les-feixades-cami-de-la-santa-cova-monestir-de-montserrat-4350756"
+  ]
+}

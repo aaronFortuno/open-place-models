@@ -15718,6 +15718,83 @@
           ]
         }
       }
+    },
+    {
+      "type": "Feature",
+      "id": "coves-del-salnitre",
+      "bbox": [
+        1.83436394457794,
+        41.573373926647506,
+        1.83508441542206,
+        41.5739129133525
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.83436394457794,
+              41.573373926647506
+            ],
+            [
+              1.83508441542206,
+              41.573373926647506
+            ],
+            [
+              1.83508441542206,
+              41.5739129133525
+            ],
+            [
+              1.83436394457794,
+              41.5739129133525
+            ],
+            [
+              1.83436394457794,
+              41.573373926647506
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "landform",
+        "geometryType": "terrain",
+        "name": "Coves del Salnitre",
+        "place": "Collbató, Catalonia, Spain",
+        "city": "Collbató",
+        "country": "Spain",
+        "aliases": [
+          "Coves de Montserrat",
+          "Cova del Salnitre",
+          "Coves de Collbató"
+        ],
+        "revision": "r1",
+        "anchor": [
+          1.83472418,
+          41.57364342
+        ],
+        "height": 25,
+        "mesh": "models/coves-del-salnitre/r1/print.glb",
+        "byteLength": 19276,
+        "thumbnail": "models/coves-del-salnitre/r1/thumbnail.webp",
+        "license": "CC-BY-4.0",
+        "spatialDataLicense": "CC-BY-4.0",
+        "attribution": "Open Place Models contributors. Terrain elevations © Institut Cartogràfic i Geològic de Catalunya, CC BY 4.0.",
+        "sources": [
+          "https://catalegs.ide.cat/geonetwork/geonetwork/api/records/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023?language=cat",
+          "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Geoinformacio-en-linia-Geoserveis/WMS-Ortoimatges/WMS-Ortofoto-Territorial",
+          "https://www.cuevasturisticas.es/documentos-ap/cuevatur/cuevatur_2014.pdf",
+          "https://ccbe.feec.cat/docs/cec/Hemeroteca/Espeleoleg/CEC-ERE_ESPEL_200800_45.pdf",
+          "https://espeleoindex.com/cavitat/salnitre-coves-del-5/",
+          "https://www.openstreetmap.org/node/2275447942",
+          "https://www.openstreetmap.org/way/1151955330",
+          "https://es.wikiloc.com/rutas-senderismo/montserrat-collbato-cami-de-les-feixades-cami-de-la-santa-cova-monestir-de-montserrat-4350756"
+        ],
+        "landform": {
+          "data": "models/coves-del-salnitre/r1/terrain.json",
+          "verticalDatum": "EGM08D595",
+          "minimumWidth": 1.12
+        }
+      }
     }
   ]
 }

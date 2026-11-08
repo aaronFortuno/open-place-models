@@ -1,0 +1,18 @@
+# Coves del Salnitre · r1
+
+The model shows the entrance now used by visitors, the recess in the rock above it and the first 10.75 m toward the triangular vestibule. The published description places the artificial entrance about 2 m below the natural mouth. Photos show a rectangular doorway in a masonry closure, with an irregular recess above it. The geometry preserves that closure and a continuous route through the door. The gate, steps inside the cave and the Sala de la Catedral are beyond this revision. [CUEVATUR 2014, pp. 205–209](https://www.cuevasturisticas.es/documentos-ap/cuevatur/cuevatur_2014.pdf) · [Mont­serrat archaeological inventory](https://muntanyamontserrat.gencat.cat/ca/el_parc/cultura/jaciments_arqueologics/coves_de_salnitre/) · [Entrance photographs](https://es.wikiloc.com/rutas-senderismo/montserrat-collbato-cami-de-les-feixades-cami-de-la-santa-cova-monestir-de-montserrat-4350756)
+
+The terrain anchor is [1.83472418, 41.57364342] in WGS84, equivalent to [402852.3, 4603095.7] in ETRS89 / UTM 31N. The orthoimage places the top of the stairs and the short access path immediately below the sharp terrain break. The 0.5 m DTM gives 493.22 m EGM08D595 at the anchor. The 165° outward orientation, the sill at about 493.2 m, the 1.12 × 2.17 m doorway and the interior cross-sections are estimates based on the terrain, images and survey descriptions. The control point is distinct from the older inventory markers, which give different positions and heights. [ICGC orthophoto](https://www.icgc.cat/ca/Geoinformacio-i-mapes/Geoinformacio-en-linia-Geoserveis/WMS-Ortoimatges/WMS-Ortofoto-Territorial) · [ICGC DTM 2021–2023](https://catalegs.ide.cat/geonetwork/geonetwork/api/records/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023?language=cat) · [EspeleoÍndex](https://espeleoindex.com/cavitat/salnitre-coves-del-5/) · [OSM path](https://www.openstreetmap.org/way/1151955330) · [CEC survey reference](https://ccbe.feec.cat/docs/cec/Hemeroteca/Espeleoleg/CEC-ERE_ESPEL_200800_45.pdf)
+
+The georeferenced sidecar stores a 60 × 60 m elevation patch and an original closed cutter. The gallery GLB shows a 24 × 24 m section, trimmed above at 506 m to give the entrance more space in the preview. Both contain ICGC elevations under CC BY 4.0. The mesh and the cutter geometry are original.
+
+The Relleu Obert engine loaded the local catalogue and inserted the cutter in a 1:600 selection, a 1:1,200 selection rotated 22°, and a partial selection at 1:1,000 rotated −15°. Solid audits passed. Rays passed through the door and hit the roof, floor, end wall and masonry above the doorway. The 1.12 m width gives about 1.87 mm at 1:600 and 0.93 mm at 1:1,200. At 1:2,400 the model is omitted under the engine's 0.8 mm width threshold. These tests cover the digital geometry. Print and support behavior can be evaluated from an exported selection.
+
+To regenerate using the committed elevations and cutter profile:
+
+```sh
+node scripts/generate-cavity.mjs coves-del-salnitre
+python scripts/render-thumbnail.py models/coves-del-salnitre/r1/print.glb --camera .25 .16 1 --light -.3 .65 .9
+```
+
+To rebuild the grid from the original COG, take a 60 m square centred on the anchor. Sample 81 × 81 points at 0.75 m intervals using bilinear interpolation of the 0.5 m pixel centres. Use true east and north at the anchor, with rows ordered north to south and columns west to east. Round to centimetres and pass a JSON object with `anchor`, `side`, `step` and `elevations` as the last generator argument. [Original ICGC COG](https://datacloud.icgc.cat/datacloud/model-elevacions-terreny/tif_unzip/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023.tif)
