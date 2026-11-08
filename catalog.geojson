@@ -12041,6 +12041,86 @@
         },
         "thumbnail": "models/golden-gate-bridge/r1/thumbnail.webp"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "great-pyramid-giza",
+      "bbox": [
+        31.133009164,
+        29.978139591,
+        31.135398894,
+        29.980220059
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.133009164,
+              29.980217701
+            ],
+            [
+              31.133011872,
+              29.978139591
+            ],
+            [
+              31.135398894,
+              29.978141949
+            ],
+            [
+              31.135396186,
+              29.980220059
+            ],
+            [
+              31.133009164,
+              29.980217701
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Great Pyramid of Giza",
+        "place": "Giza, Egypt",
+        "geometryType": "monument",
+        "country": "Egypt",
+        "city": "Giza",
+        "aliases": [
+          "Pyramid of Khufu",
+          "Pyramid of Cheops",
+          "Gran Piràmide de Guiza",
+          "Gran Pirámide de Guiza",
+          "Pirámide de Keops",
+          "Pyramide de Khéops",
+          "هرم خوفو",
+          "الهرم الأكبر"
+        ],
+        "revision": "r1",
+        "anchor": [
+          31.134204029,
+          29.979179825
+        ],
+        "height": 138.497,
+        "mesh": "models/great-pyramid-giza/r1/print.glb",
+        "byteLength": 19164,
+        "terrainBaseElevation": 59.9,
+        "license": "CC-BY-4.0",
+        "attribution": "Open Place Models contributors (reconstruction), after measurements by W. M. F. Petrie, Georges Goyon and AERA/Glen Dash Foundation. Reference footprint © OpenStreetMap contributors (ODbL 1.0).",
+        "replacement": {
+          "featureIds": [
+            "osm-way-4420397"
+          ]
+        },
+        "sources": [
+          "https://petrieproject.com/book/the-pyramids-and-temples-of-gizeh",
+          "https://www.ronaldbirdsall.com/gizeh/petrie/photo/plate8.html",
+          "https://www.ifao.egnet.net/bifao/078/23",
+          "https://aeraweb.org/wp-content/uploads/2022/08/aeragram16_2.pdf",
+          "https://aeraweb.org/wp-content/uploads/2022/08/aeragram19_1.pdf",
+          "https://egymonuments.gov.eg/monuments/the-great-pyramid/",
+          "https://www.openstreetmap.org/way/4420397"
+        ],
+        "thumbnail": "models/great-pyramid-giza/r1/thumbnail.webp"
+      }
     }
   ]
 }
