@@ -19,4 +19,5 @@ After installing the pinned dependencies, run `node scripts/generate-mont-saint-
 ## Validation
 
 - The GLB is 34,408 bytes with 1,378 vertices and 2,752 triangles. An independent audit found one watertight, consistently oriented solid with positive signed volume of 109,685.42 m³, a closed face ring at every vertex and zero coincident vertices or degenerate triangles.
+- The raw Mapterhorn elevations at all 690 sampled underside vertices cover the model base. A 1:2,500 test with the initial client adjustment replaced 14 vector features and preserved the nearby Tour Gabriel. A 1:5,000 test exposed gaps with a coarser terrain mesh. The refined mesh sampling, rotated and cropped controls, and local gallery review are pending.
 - At 1:2,500 the full solid spans about 47 × 35 × 47 mm, with a cloister opening about 7.7 × 5.2 mm. At 1:5,000 it spans about 23 × 18 × 24 mm, with an opening about 3.9 × 2.6 mm. The upper shaft narrows to about 0.29 mm at 1:5,000, so a 0.4 mm nozzle may omit portions of the finial. Slicing and physical printing remain to be checked.
