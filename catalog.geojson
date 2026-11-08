@@ -19922,24 +19922,22 @@
         "place": "Bilbao, Spain",
         "city": "Bilbao",
         "country": "Spain",
-        "revision": "r1",
+        "revision": "r2",
         "anchor": [
           -2.934061294986407,
           43.26842817013333
         ],
         "anchorElevation": 1.801,
-        "height": 56.019,
-        "mesh": "models/guggenheim-bilbao/r1/print.glb",
-        "byteLength": 37876,
-        "thumbnail": "models/guggenheim-bilbao/r1/thumbnail.webp",
+        "height": 56.154,
+        "mesh": "models/guggenheim-bilbao/r2/print.glb",
+        "byteLength": 87848,
+        "thumbnail": "models/guggenheim-bilbao/r2/thumbnail.webp",
         "license": "CC-BY-4.0",
         "spatialDataLicense": "ODbL-1.0",
-        "attribution": "Open Place Models contributors (survey-based reconstruction); Eusko Jaurlaritza / Gobierno Vasco. geoEuskadi. (elevation data); plan © OpenStreetMap contributors (ODbL 1.0).",
+        "attribution": "Open Place Models contributors (architectural reconstruction); plan © OpenStreetMap contributors (ODbL 1.0).",
         "sources": [
-          "https://www.geo.euskadi.eus/modelo-digital-elevaciones-1-metro-del-pais-vasco/webgeo00-dataset/es/",
-          "https://www.euskadi.eus/servicio-de-informacion-raster-de-pendientes-orientaciones-y-elevaciones-de-la-capv/web01-s2hhome/es/",
           "https://www.guggenheim-bilbao.eus/el-edificio/el-exterior",
-          "https://www.guggenheim-bilbao.eus/apoyo-empresarial/eventos-corporativos/atrio",
+          "https://www.inexhibit.com/mymuseum/guggenheim-museum-bilbao/",
           "https://www.openstreetmap.org/way/118499485"
         ],
         "replacement": {
