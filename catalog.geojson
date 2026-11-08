@@ -3390,34 +3390,34 @@
       "type": "Feature",
       "id": "roca-foradada",
       "bbox": [
-        1.7859338864229497,
-        41.61182481557142,
-        1.7870873295373308,
-        41.612687194299404
+        1.7855494053848227,
+        41.61153735599542,
+        1.787471810575458,
+        41.612974653875405
       ],
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              1.7859338864229497,
-              41.61182481557142
+              1.7855494053848227,
+              41.61153735599542
             ],
             [
-              1.7870873295373308,
-              41.61182481557142
+              1.787471810575458,
+              41.61153735599542
             ],
             [
-              1.7870873295373308,
-              41.612687194299404
+              1.787471810575458,
+              41.612974653875405
             ],
             [
-              1.7859338864229497,
-              41.612687194299404
+              1.7855494053848227,
+              41.612974653875405
             ],
             [
-              1.7859338864229497,
-              41.61182481557142
+              1.7855494053848227,
+              41.61153735599542
             ]
           ]
         ]
@@ -3431,17 +3431,18 @@
         "country": "Spain",
         "aliases": [
           "Foradada de Montserrat",
-          "Roca Foradada del Bruc"
+          "Roca Foradada del Bruc",
+          "Cadireta d’Agulles"
         ],
-        "revision": "r2",
+        "revision": "r3",
         "anchor": [
           1.7865106079801403,
           41.61225600493541
         ],
-        "height": 131.260009765625,
-        "mesh": "models/roca-foradada/r2/print.glb",
-        "byteLength": 240956,
-        "thumbnail": "models/roca-foradada/r2/thumbnail.webp",
+        "height": 208.05999755859375,
+        "mesh": "models/roca-foradada/r3/print.glb",
+        "byteLength": 432912,
+        "thumbnail": "models/roca-foradada/r3/thumbnail.webp",
         "license": "CC-BY-4.0",
         "spatialDataLicense": "CC-BY-4.0",
         "attribution": "Open Place Models contributors. Surface elevations © Institut Cartogràfic i Geològic de Catalunya, CC BY 4.0.",
@@ -3449,10 +3450,11 @@
           "https://catalegs.ide.cat/geonetwork/geonetwork/api/records/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023?language=cat",
           "https://espeleoworld.com/c/la-roca-foradada-bruc",
           "https://patrimonicultural.diba.cat/print/pdf/node/74394",
-          "https://doi.org/10.3390/geosciences12100370"
+          "https://doi.org/10.3390/geosciences12100370",
+          "https://hdl.handle.net/2099.1/25652"
         ],
         "landform": {
-          "data": "models/roca-foradada/r2/terrain.json",
+          "data": "models/roca-foradada/r3/terrain.json",
           "verticalDatum": "EGM08D595",
           "minimumWidth": 10.2
         }

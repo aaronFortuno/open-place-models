@@ -2,21 +2,88 @@ import assert from 'node:assert/strict';
 import {mkdir,readFile,writeFile} from 'node:fs/promises';
 import ManifoldModule from 'manifold-3d';
 
-const id='roca-foradada',revision='r2',directory=`models/${id}/${revision}/`;
+const id='roca-foradada',revision='r3',directory=`models/${id}/${revision}/`;
 const root=new URL('../',import.meta.url),sidecar=new URL(directory+'terrain.json',root);
 const catalogue=new URL('catalog.geojson',root);
 const terrainSource='https://catalegs.ide.cat/geonetwork/geonetwork/api/records/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023?language=cat';
+const cadiretaStudy='https://doi.org/10.3390/geosciences12100370';
+const cadiretaMeasurements='https://hdl.handle.net/2099.1/25652';
 const attribution='Open Place Models contributors. Surface elevations © Institut Cartogràfic i Geològic de Catalunya, CC BY 4.0.';
-const anchor=[1.7865106079801403,41.61225600493541],side=97,half=(side-1)/2;
+const anchor=[1.7865106079801403,41.61225600493541],side=129,step=1.25,half=(side-1)*step/2;
+const round=value=>Math.round(value*100)/100;
 const survey=process.argv[2]&&JSON.parse(await readFile(process.argv[2],'utf8'));
+const stored=survey?null:JSON.parse(await readFile(sidecar,'utf8'));
+const api=await ManifoldModule();
+api.setup();
+
+function solid(positions,indices){
+  const mesh=new api.Mesh({numProp:3,vertProperties:Float32Array.from(positions),triVerts:Uint32Array.from(indices)});
+  const result=new api.Manifold(mesh);
+  assert.equal(result.status(),'NoError');
+  assert(result.volume()>0,'Positive volume');
+  return result;
+}
+
+function loft(rings){
+  const count=rings[0].length,positions=rings.flat(2),triangles=[];
+  const end=(rings.length-1)*count;
+  for(let row=0;row<end;row+=count)for(let i=0;i<count;i++){
+    const a=row+i,b=row+(i+1)%count;
+    triangles.push(a,a+count,b+count,a,b+count,b);
+  }
+  for(let i=1;i<count-1;i++)triangles.push(0,i,i+1,end,end+i+1,end+i);
+  return solid(positions,triangles);
+}
+
+// Table 4 of Cabranes Medina (2015) gives approximately 17.2 × 25.3 × 47.9 m
+// for the Cadireta from the top of its pedestal. Fit rounded sections from
+// the cardinal views in Janeras et al. (2022), Figure 20, to the crest in
+// the ICGC grid at local (3, −36), 902.35 m. The sections are interpreted.
+const cadiretaSections=[
+  [850,-9,9,-51,-31],[855,-8.5,8,-49,-33],
+  [862,-9,9,-49.7,-33],[870,-7.5,8.5,-49,-33.5],
+  [873,-7,8.4,-49,-33.7],[876,-7.4,9.6,-53.8,-33.3],
+  [879,-7.4,9,-54.8,-33],[883,-8.3,9,-57.2,-32.2],
+  [887,-8,8,-56.4,-32.7],[890,-7.8,7.6,-53,-32.7],
+  [894,-5.9,7.7,-51,-32.2],[898,-3.4,8.5,-45.4,-32.8],
+  [900,-1.8,7.6,-42,-33.5],[901.7,.3,5.7,-38.8,-34],
+  [902.35,2.7,3.3,-36.4,-35.6]
+];
+
+function crownSection([altitude,west,east,north,south]){
+  const soften=value=>Math.sign(value)*Math.abs(value)**.8;
+  return Array.from({length:20},(_,i)=>{
+    const angle=i*2*Math.PI/20;
+    const x=(west+east)/2+(east-west)/2*soften(Math.cos(angle));
+    const z=(north+south)/2+(south-north)/2*soften(Math.sin(angle));
+    return [x,altitude,z];
+  });
+}
+
+const cadireta=loft(cadiretaSections.map(crownSection));
+
+function surveyedElevation(x,z){
+  const px=x*2+(survey.side-1)/2,pz=z*2+(survey.side-1)/2;
+  const col=Math.floor(px),row=Math.floor(pz),u=px-col,v=pz-row;
+  const i=row*survey.side+col,points=survey.grid;
+  return (points[i]*(1-u)+points[i+1]*u)*(1-v)+
+    (points[i+survey.side]*(1-u)+points[i+survey.side+1]*u)*v;
+}
+
 if(survey){
   assert.deepEqual(survey.anchor,anchor,'Survey anchor');
-  assert.equal(survey.side,2*side-1,'Half-metre survey samples');
+  assert(survey.side>=4*half+3&&survey.side%2===1,'Centred half-metre survey samples with interpolation margin');
+  assert.equal(survey.grid.length,survey.side**2,'Complete survey');
+  assert(Math.abs(surveyedElevation(3,-36)-902.35)<.1,'Cadireta crest matches the survey');
 }
-const elevations=survey
-  ?Array.from({length:side*side},(_,i)=>Math.round(survey.grid[2*Math.floor(i/side)*survey.side+2*(i%side)]*100)/100)
-  :JSON.parse(await readFile(sidecar,'utf8')).grid.elevations;
-assert(elevations.length===side*side&&elevations.every(Number.isFinite),'Complete 1 m elevation grid');
+const elevations=stored?.grid.elevations??Array.from({length:side*side},(_,i)=>{
+  const x=i%side*step-half,z=Math.floor(i/side)*step-half;
+  const ground=surveyedElevation(x,z);
+  if(x<-10||x>10||z<-58||z>-32)return round(ground);
+  const top=cadireta.rayCast([x,910,z],[x,848,z])[0];
+  return round(Math.max(ground,top?.position[1]??ground));
+});
+assert(elevations.length===side*side&&elevations.every(Number.isFinite),'Complete elevation grid');
 const base=Math.floor(Math.min(...elevations))-5;
 
 const bearing=74*Math.PI/180,along=[Math.sin(bearing),-Math.cos(bearing)],across=[-along[1],along[0]];
@@ -41,7 +108,28 @@ for(let row=0;row<end;row+=ring)for(let i=0;i<ring;i++){
 }
 for(let i=1;i<ring-1;i++)faces.push(0,i,i+1,end,end+i+1,end+i);
 
-const surface=elevations.flatMap((y,i)=>[i%side-half,y,Math.floor(i/side)-half]),surfaceFaces=[];
+// Remove the vertical shadow of the north-facing cap and leave the neck in
+// place. The rounded cutter ends at the face; the pedestal and southern
+// contact remain part of the surveyed massif.
+const envelope=loft([
+  [847,-18,16,-63,-44],[854,-17,16,-64,-41],[863,-16,16,-64,-40],
+  [873,-17,16,-64,-40],[886,-17,16,-64,-42],[892,-15,15,-64,-45],
+  [897,-13,13,-64,-47]
+].map(([altitude,west,east,north,south])=>[
+  [west+3,north],[east-3,north],[east,north+3],[east,south-2],
+  [east-3,south],[west+3,south],[west,south-2],[west,north+3]
+].map(([x,z])=>{
+  // The floor follows the rise of the pedestal towards the neck. A flat
+  // cut at the lowest level would expose an artificial shelf on the face.
+  const floor=837+(z+63)*1.5;
+  const y=altitude<876?floor+(altitude-847)/29*(876-floor):altitude;
+  return [x,y,z];
+})));
+const hollow=envelope.subtract(cadireta);
+assert.equal(hollow.status(),'NoError','Cadireta clearance is a valid solid');
+assert(hollow.volume()>0,'Cadireta clearance is nonempty');
+
+const surface=elevations.flatMap((y,i)=>[i%side*step-half,y,Math.floor(i/side)*step-half]),surfaceFaces=[];
 for(let z=0;z<side-1;z++)for(let x=0;x<side-1;x++){
   const a=z*side+x,b=a+1,c=a+side,d=c+1;
   surfaceFaces.push(a,c,b,b,c,d);
@@ -57,16 +145,8 @@ for(let i=0;i<boundary.length;i++){
   surfaceFaces.push(a,b,c,b,d,c,c,d,centre);
 }
 
-const api=await ManifoldModule();
-api.setup();
-function solid(positions,indices){
-  const mesh=new api.Mesh({numProp:3,vertProperties:Float32Array.from(positions),triVerts:Uint32Array.from(indices)});
-  const result=new api.Manifold(mesh);
-  assert.equal(result.status(),'NoError');
-  assert(result.volume()>0,'Positive volume');
-  return result;
-}
-const original=solid(surface,surfaceFaces),cutter=solid(vertices,faces);
+const original=solid(surface,surfaceFaces),arch=solid(vertices,faces);
+const cutter=api.Manifold.compose([arch,hollow]);
 const rock=api.Manifold.difference([original,cutter]);
 assert.equal(rock.status(),'NoError');
 const pieces=rock.decompose();
@@ -78,7 +158,14 @@ assert(original.rayCast(...ray(897)).length>0,'The elevation surface covers the 
 for(const elevation of [896,897,898,899])for(const offset of [-1,0,1])
   assert.equal(rock.rayCast(...ray(elevation,offset)).length,0,'Clear section through both mouths');
 assert(rock.rayCast(...ray(907)).length>0,'Rock survives above the vault');
-for(const piece of [...pieces,original,cutter])piece.delete();
+for(const [x,z] of [[1,-52],[3,-53],[5,-53]]){
+  const nose=rock.rayCast([x,906,z],[x,834,z]).map(hit=>hit.position[1]);
+  assert(nose.length>=3&&nose[0]-nose[1]>2&&nose[1]-nose[2]>7,
+    `The Cadireta cap overhangs an exterior recess at ${x}, ${z}: ${nose.join(', ')}`);
+}
+const cutMesh=cutter.getMesh();
+assert.equal(cutMesh.mergeFromVert.length,0,'The combined cutter uses welded vertices');
+for(const piece of [...pieces,original,arch,cutter,cadireta,envelope,hollow])piece.delete();
 
 const {vertProperties:positions,triVerts:indices,mergeFromVert}=rock.getMesh();
 rock.delete();
@@ -111,11 +198,11 @@ const entry={type:'Feature',id,bbox,geometry:{type:'Polygon',coordinates:[[
   [west,south],[east,south],[east,north],[west,north],[west,south]
 ]]},properties:{
   kind:'landform',geometryType:'terrain',name:'Roca Foradada',place:'Montserrat, Catalonia, Spain',city:'El Bruc',country:'Spain',
-  aliases:['Foradada de Montserrat','Roca Foradada del Bruc'],revision,anchor,height:max[1],
+  aliases:['Foradada de Montserrat','Roca Foradada del Bruc','Cadireta d’Agulles'],revision,anchor,height:max[1],
   mesh:directory+'print.glb',byteLength:glb.length,thumbnail:directory+'thumbnail.webp',
   license:'CC-BY-4.0',spatialDataLicense:'CC-BY-4.0',attribution,
   sources:[terrainSource,'https://espeleoworld.com/c/la-roca-foradada-bruc',
-    'https://patrimonicultural.diba.cat/print/pdf/node/74394','https://doi.org/10.3390/geosciences12100370'],
+    'https://patrimonicultural.diba.cat/print/pdf/node/74394',cadiretaStudy,cadiretaMeasurements],
   landform:{data:directory+'terrain.json',verticalDatum:'EGM08D595',minimumWidth:10.2}
 }};
 const data=JSON.parse(await readFile(catalogue,'utf8')),index=data.features.findIndex(feature=>feature.id===id);
@@ -123,7 +210,11 @@ if(index<0)data.features.push(entry);
 else data.features[index]=entry;
 
 await mkdir(new URL(directory,root),{recursive:true});
-await writeFile(sidecar,JSON.stringify({grid:{step:1,side,elevations},void:{vertices,faces}})+'\n');
+const terrain=JSON.stringify({grid:{step,side,elevations},void:{
+  vertices:Array.from(cutMesh.vertProperties,value=>Number(value.toFixed(4))),faces:Array.from(cutMesh.triVerts)
+}})+'\n';
+assert(Buffer.byteLength(terrain)<256*1024,'The browser can load the sidecar');
+await writeFile(sidecar,terrain);
 await writeFile(new URL(entry.properties.mesh,root),glb);
 await writeFile(catalogue,JSON.stringify(data,null,2)+'\n');
 console.log(`${indices.length/3} triangles · ${glb.length} bytes · ${removed.toFixed(1)} m³ removed · clear opening at 897 m`);

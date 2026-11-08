@@ -6,6 +6,8 @@ The vault is an approximation based on the survey by Jordi Navarro and Montse Ma
 
 The GLB is a single closed solid with one through opening. Its horizontal anchor and EGM08D595 vertical datum are unchanged. The GLB records its base elevation. `terrain.json` carries the one-metre surface grid and the closed cutter in absolute orthometric metres, using the same format as r1. The audit verifies an unobstructed section from outside both mouths with twelve rays spanning four elevations and three lateral offsets.
 
+Use the [r2 checkout](https://github.com/aaronFortuno/open-place-models/tree/aa3ae71) to regenerate this revision.
+
 ```sh
 node scripts/generate-foradada.mjs
 python scripts/render-thumbnail.py models/roca-foradada/r2/print.glb --camera -.96 .11 .28
