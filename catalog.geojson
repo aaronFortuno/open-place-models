@@ -17575,6 +17575,277 @@
           "minimumWidth": 1.35
         }
       }
+    },
+    {
+      "type": "Feature",
+      "id": "monestir-poblet",
+      "bbox": [
+        1.0827621,
+        41.3801947,
+        1.0837928,
+        41.3808527
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.0827621,
+              41.3803005
+            ],
+            [
+              1.0828529,
+              41.3802932
+            ],
+            [
+              1.0828535,
+              41.3802369
+            ],
+            [
+              1.0829587,
+              41.380229
+            ],
+            [
+              1.0829634,
+              41.3802912
+            ],
+            [
+              1.0834192,
+              41.3802703
+            ],
+            [
+              1.0834192,
+              41.3802421
+            ],
+            [
+              1.0835131,
+              41.3802401
+            ],
+            [
+              1.0835138,
+              41.3801971
+            ],
+            [
+              1.0835807,
+              41.3801947
+            ],
+            [
+              1.0835801,
+              41.3802401
+            ],
+            [
+              1.0836123,
+              41.3802602
+            ],
+            [
+              1.0836499,
+              41.3802582
+            ],
+            [
+              1.0836775,
+              41.3802725
+            ],
+            [
+              1.0836909,
+              41.3802967
+            ],
+            [
+              1.08373029,
+              41.3802924
+            ],
+            [
+              1.08376059,
+              41.3803027
+            ],
+            [
+              1.083766,
+              41.3803309
+            ],
+            [
+              1.083766,
+              41.380351
+            ],
+            [
+              1.0837867,
+              41.3803649
+            ],
+            [
+              1.0837928,
+              41.3803913
+            ],
+            [
+              1.08377671,
+              41.3804154
+            ],
+            [
+              1.0837633,
+              41.3804255
+            ],
+            [
+              1.0837773,
+              41.3804393
+            ],
+            [
+              1.0837732,
+              41.3804615
+            ],
+            [
+              1.0837411,
+              41.3804897
+            ],
+            [
+              1.0837177,
+              41.3804859
+            ],
+            [
+              1.0836928,
+              41.3805118
+            ],
+            [
+              1.0836641,
+              41.3805362
+            ],
+            [
+              1.0836257,
+              41.3805239
+            ],
+            [
+              1.0836078,
+              41.3805563
+            ],
+            [
+              1.0835587,
+              41.3805641
+            ],
+            [
+              1.0834324,
+              41.3805621
+            ],
+            [
+              1.08344231,
+              41.3808426
+            ],
+            [
+              1.0829308,
+              41.3808527
+            ],
+            [
+              1.0829191,
+              41.3805215
+            ],
+            [
+              1.0827781,
+              41.380534
+            ],
+            [
+              1.0827621,
+              41.3803005
+            ]
+          ],
+          [
+            [
+              1.0830025,
+              41.3805796
+            ],
+            [
+              1.0830127,
+              41.38082
+            ],
+            [
+              1.0832098,
+              41.3808159
+            ],
+            [
+              1.0832078,
+              41.3807867
+            ],
+            [
+              1.083198,
+              41.380786
+            ],
+            [
+              1.08316381,
+              41.3807427
+            ],
+            [
+              1.0831974,
+              41.3806984
+            ],
+            [
+              1.0832597,
+              41.3806969
+            ],
+            [
+              1.0832933,
+              41.3807417
+            ],
+            [
+              1.08326381,
+              41.380785
+            ],
+            [
+              1.0832577,
+              41.3807857
+            ],
+            [
+              1.0832581,
+              41.3808142
+            ],
+            [
+              1.0833636,
+              41.3808117
+            ],
+            [
+              1.0833534,
+              41.3805713
+            ],
+            [
+              1.0830025,
+              41.3805796
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Monestir de Poblet",
+        "place": "Vimbodí i Poblet, Spain",
+        "city": "Vimbodí i Poblet",
+        "country": "Spain",
+        "geometryType": "monument",
+        "aliases": [
+          "Reial Monestir de Santa Maria de Poblet",
+          "Poblet Abbey",
+          "Royal Abbey of Santa Maria de Poblet"
+        ],
+        "revision": "r1",
+        "anchor": [
+          1.08318238,
+          41.38069575
+        ],
+        "anchorElevation": 488.389,
+        "height": 45.994,
+        "mesh": "models/monestir-poblet/r1/print.glb",
+        "thumbnail": "models/monestir-poblet/r1/thumbnail.webp",
+        "byteLength": 25828,
+        "license": "CC-BY-4.0",
+        "spatialDataLicense": "ODbL-1.0",
+        "attribution": "Open Place Models contributors (reconstruction); ICGC terrain, surface and orthophoto (CC BY 4.0); footprint © OpenStreetMap contributors (ODbL 1.0).",
+        "replacement": {
+          "featureIds": [
+            "osm-way-174173363",
+            "osm-relation-2325532"
+          ]
+        },
+        "sources": [
+          "https://www.poblet.cat/ca/el-monument/esglesia-major/",
+          "https://www.poblet.cat/ca/el-monument/claustre-major/",
+          "https://whc.unesco.org/en/list/518/",
+          "https://catalegs.ide.cat/geonetwork/geonetwork/api/records/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023",
+          "https://catalegs.ide.cat/geonetwork/hub-litoral/api/records/model-superficies-lidar-catalunya-1m-2021-2023",
+          "https://www.openstreetmap.org/way/174173363",
+          "https://www.openstreetmap.org/relation/2325532"
+        ]
+      }
     }
   ]
 }
