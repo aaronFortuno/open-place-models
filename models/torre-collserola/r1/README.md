@@ -1,0 +1,26 @@
+# Torre de Collserola · r1
+
+An original, simplified solid reconstruction of Norman Foster’s telecommunications tower on Turó de la Vilana, Barcelona. The model preserves the slender concrete shaft, rounded-triangular platform cage, three main masts, six lower guy cables, three upper guys and stepped antenna. The separate auxiliary building and the antennas’ detailed fittings are outside the model. [Operator’s technical description](https://www.torredecollserola.com/torre-collserola) · [Structural description](https://es.wikiarquitectura.com/edificio/torre-de-collserola/)
+
+## Geometry and placement
+
+- The GLB represents 266 m above ground, not the 288 m measured from the buried foundation. The shaft is 4.5 m in diameter and reaches 205 m. Thirteen simplified platform levels run from 84 to 136 m, with an open frame to 152 m; the tubular mast and lattice continue to the tip. Sources disagree about the number and spacing of platform levels: the operator reports 13 platforms, INDUS reports 5.6 m spacing, and WikiArquitectura places the last technical platform at 136 m. This model preserves the count and vertical envelope rather than claiming a surveyed floor layout. [INDUS](https://www.indus-eng.com/project/torre-collserola/) · [Structurae](https://structurae.net/en/structures/collserola-tower)
+- Each rounded-triangular platform uses a 48-segment polar outline of approximately 421 m². Three main and nine secondary masts connect the levels. One radial axis points east; its orientation is schematic, not surveyed. Small antenna drums are indicative only.
+- Guy cables are enlarged to 1 m diameter, and the antenna tip to 0.76 m, for small-scale printing. Six ground-level radial connectors join the guy anchors into the single printable solid; they are modelling concessions, not surveyed foundation beams. Individual parallel strands, railings, glazing, ladders and small aerials are omitted.
+- The WGS84 anchor is `[2.1142631166666668, 41.41725973333333]`. The GLB uses metres with X east, Y up and Z south. Y=0 corresponds to the documented 445 m ground elevation, supplied as `anchorElevation`.
+- The base footprint and placement derive from [OpenStreetMap relation 20725097](https://www.openstreetmap.org/relation/20725097), captured at `2026-11-08T18:20:05Z`. The catalogue MultiPolygon adds six schematic corridors around the outer guy-anchor foundations so that the extended model is represented in the spatial index. The source extract’s SHA-256 is `4c3a1404d85834bc92d44bde4ebc3a4683ef36bca2af04619e789f8d97b8f883`.
+- Bounds are approximately 44.98 × 51.56 m in plan and 266 m high. At 1:2,000 the model is about 22.5 × 25.8 × 133 mm. At 1:5,000 it is about 9.0 × 10.3 × 53.2 mm; the 1 m guys are then only 0.2 mm thick, so 1:2,000 is the recommended review scale.
+
+## Source attribution and licence
+
+The independently reconstructed geometry is published under CC BY 4.0, credited to Open Place Models contributors. No third-party mesh is imported. The mapped base footprint and placement are © OpenStreetMap contributors under ODbL 1.0. Reference photographs and technical descriptions were used as visual and dimensional references, not copied as geometry. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · [OpenStreetMap copyright](https://www.openstreetmap.org/copyright)
+
+## Validation
+
+- The 193,164-byte GLB has 7,863 vertices and 16,334 triangles. An independent audit of the exported file found one connected, watertight and consistently oriented mesh with positive signed volume of approximately 10,553.77 m³, no coincident vertices and no degenerate triangles. It has one indexed mesh primitive, baked Float32 coordinates and no node transforms, textures or extensions.
+- Front, oblique and top renders were inspected against full-tower and platform photographs. The 320 × 200 WebP thumbnail is rendered from the default GLB.
+- Relleu Obert loaded the actual GLB through its catalogue loader and produced closed building meshes at 1:2,000 with rotations of 0° and 32°, and at 1:5,000 with −24°. The mapped tower was replaced while an independent neighbouring polygon survived. The absolute 445 m anchor, height limit and hidden-building mode passed. A partial crop shifted 20 m east at 1:2,000 and 23° also remained closed. These local controls used flat terrain at the documented anchor elevation.
+- The production gallery build passed. The local gallery loaded the model, returned only this entry for a Collserola search, responded to orbit and zoom controls, and served the 193,164-byte GLB, thumbnail, credits and all five source links.
+- `review.3mf` contains the same triangles at 1:2,000 in millimetres. The Relleu Obert 3MF audit reports one closed component, positive volume and no material, boundary, non-manifold or orientation errors. Slicing and physical printing remain to be checked.
+
+Run `node scripts/generate-torre-collserola.mjs` from the repository root after installing the pinned dependencies. An optional output path writes the catalogue feature. Generate the thumbnail with `python scripts/render-thumbnail.py models/torre-collserola/r1/print.glb --camera 1 .25 1.4`. SHA-256 of the regenerated GLB is `46f3aae52daf040af7872b74e94c2871293d1a64dc974cfd9a994c3bc430da8f`.
