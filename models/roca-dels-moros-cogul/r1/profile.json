@@ -1,0 +1,133 @@
+{
+  "name": "Roca dels Moros del Cogul",
+  "place": "El Cogul, Catalonia, Spain",
+  "city": "El Cogul",
+  "country": "Spain",
+  "aliases": [
+    "Roca dels Moros",
+    "Abric del Cogul",
+    "El Cogul Rock Shelter",
+    "Pintures rupestres del Cogul"
+  ],
+  "anchor": [0.69710504, 41.46480201],
+  "azimuth": 225,
+  "minimumWidth": 2.6,
+  "galleryHalf": 8,
+  "camera": [0.14, 0.17, 1],
+  "attribution": "Open Place Models contributors (reconstruction); ICGC LiDAR terrain and surface (CC BY 4.0); profile reference Lluís González / Giravolt (CC BY 4.0).",
+  "profiles": {
+    "mouth": [
+      [-0.96, 0],
+      [0.83, 0],
+      [1, 0.24],
+      [0.89, 0.56],
+      [0.55, 0.75],
+      [0.17, 0.89],
+      [-0.24, 1],
+      [-0.66, 0.95],
+      [-0.91, 0.82],
+      [-1, 0.55],
+      [-0.99, 0.27]
+    ],
+    "vault": [
+      [-0.83, 0],
+      [0.75, 0],
+      [0.96, 0.19],
+      [1, 0.48],
+      [0.73, 0.71],
+      [0.32, 0.88],
+      [-0.17, 1],
+      [-0.6, 0.95],
+      [-0.86, 0.8],
+      [-1, 0.51],
+      [-0.97, 0.25]
+    ]
+  },
+  "lofts": [
+    [
+      [-3.2, 0.04, 276.64, 3.47, 3.26, "mouth"],
+      [-1.25, 0.04, 277.17, 3.53, 3.24, "mouth"],
+      [-0.15, 0.02, 277.53, 3.55, 3.16, "mouth"],
+      [0.52, -0.02, 277.63, 3.53, 3.05, "mouth"],
+      [1.2, -0.14, 277.68, 3.32, 2.73, "vault"],
+      [1.7, -0.29, 277.8, 2.96, 2.27, "vault"],
+      [2.15, -0.38, 278.1, 2.28, 1.64, "vault"]
+    ]
+  ],
+  "rays": {
+    "entry": [
+      [-0.1, 279.05, -2.9],
+      [-0.1, 279.05, 1.13]
+    ],
+    "roof": [
+      [-0.22, 279.1, 0.68],
+      [-0.22, 284.85, 0.68]
+    ],
+    "floor": [
+      [-0.22, 279.1, 0.68],
+      [-0.22, 275.5, 0.68]
+    ],
+    "back": [
+      [-0.27, 279.1, 1.07],
+      [-0.27, 279.1, 4]
+    ],
+    "northwest-wall": [
+      [-0.22, 279.12, 1.1],
+      [-3.5, 279.12, 1.1]
+    ],
+    "southeast-basal-shoulder": [
+      [-0.27, 278, 1.64],
+      [2.8, 278, 1.64]
+    ]
+  },
+  "sources": [
+    "https://calaix.gencat.cat/bitstream/handle/10687/445369/qmem15715.pdf?isAllowed=y&sequence=1",
+    "https://artprimer.mac.cat/wp-content/uploads/2020/10/MAC_CATALEG_ARTPRIMER.pdf",
+    "https://dialnet.unirioja.es/descarga/articulo/4673278.pdf",
+    "https://sketchfab.com/3d-models/roca-dels-moros-del-cogul-pintures-rupestres-4013e271542845e181744344546e42ee",
+    "https://doi.org/10.5281/zenodo.10326867",
+    "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Dades-i-productes/Elevacions/Elevacions-territorial/Models-delevacions",
+    "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Geoinformacio-en-linia-Geoserveis/WMS-Ortoimatges/WMS-Ortofoto-Territorial",
+    "https://espeleoworld.com/c/la-roca-dels-moros"
+  ],
+  "survey": {
+    "projectedAnchor": [307683.5, 4592916.5],
+    "projectedCRS": "EPSG:25831",
+    "verticalDatum": "EGM08D595",
+    "ground": {
+      "source": "https://datacloud.icgc.cat/datacloud/model-elevacions-terreny/tif_unzip/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023.tif",
+      "resolutionMetres": 0.5,
+      "cropBounds": [307657, 4592874, 307729, 4592946],
+      "approachSampleAtAnchor": 277.75
+    },
+    "rockTop": {
+      "source": "https://datacloud.icgc.cat/datacloud/model-superficies/tif_unzip/model-superficies-lidar-catalunya-1m-2021-2023.tif",
+      "resolutionMetres": 1,
+      "cropWindow": [48661, 156064, 48709, 156118],
+      "outline": [
+        [307677.25, 4592916.35],
+        [307678.98, 4592918.85],
+        [307680.54, 4592920.53],
+        [307683.86, 4592922.2],
+        [307686.66, 4592922.31],
+        [307688.36, 4592921.49],
+        [307687.76, 4592919.22],
+        [307685.77, 4592918.13],
+        [307683.49, 4592916.49],
+        [307681.8, 4592915.13],
+        [307679.6, 4592914.99],
+        [307677.61, 4592915.36],
+        [307677.25, 4592916.35]
+      ],
+      "blendSignedDistanceMetres": [-0.48, 0.52]
+    },
+    "shapeReference": {
+      "author": "Lluís González / Giravolt",
+      "sketchfabId": "4013e271542845e181744344546e42ee",
+      "zenodo": "https://doi.org/10.5281/zenodo.10326867",
+      "license": "CC-BY-4.0",
+      "downloadedMd5": "ca90f1ae153fe3ed81902822d5b5c787",
+      "dimensionsAlongProfile": [5.06, 4.3, 1.89]
+    }
+  }
+}

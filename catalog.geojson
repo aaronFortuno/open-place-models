@@ -17846,6 +17846,84 @@
           "https://www.openstreetmap.org/relation/2325532"
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "id": "roca-dels-moros-cogul",
+      "bbox": [
+        0.6969731756343664,
+        41.46470319577075,
+        0.6972369043656335,
+        41.46490082422925
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.6969731756343664,
+              41.46470319577075
+            ],
+            [
+              0.6972369043656335,
+              41.46470319577075
+            ],
+            [
+              0.6972369043656335,
+              41.46490082422925
+            ],
+            [
+              0.6969731756343664,
+              41.46490082422925
+            ],
+            [
+              0.6969731756343664,
+              41.46470319577075
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "landform",
+        "geometryType": "terrain",
+        "name": "Roca dels Moros del Cogul",
+        "place": "El Cogul, Catalonia, Spain",
+        "city": "El Cogul",
+        "country": "Spain",
+        "aliases": [
+          "Roca dels Moros",
+          "Abric del Cogul",
+          "El Cogul Rock Shelter",
+          "Pintures rupestres del Cogul"
+        ],
+        "revision": "r1",
+        "anchor": [
+          0.69710504,
+          41.46480201
+        ],
+        "height": 13.06,
+        "mesh": "models/roca-dels-moros-cogul/r1/print.glb",
+        "byteLength": 21368,
+        "thumbnail": "models/roca-dels-moros-cogul/r1/thumbnail.webp",
+        "license": "CC-BY-4.0",
+        "spatialDataLicense": "CC-BY-4.0",
+        "attribution": "Open Place Models contributors (reconstruction); ICGC LiDAR terrain and surface (CC BY 4.0); profile reference Lluís González / Giravolt (CC BY 4.0).",
+        "sources": [
+          "https://calaix.gencat.cat/bitstream/handle/10687/445369/qmem15715.pdf?isAllowed=y&sequence=1",
+          "https://artprimer.mac.cat/wp-content/uploads/2020/10/MAC_CATALEG_ARTPRIMER.pdf",
+          "https://dialnet.unirioja.es/descarga/articulo/4673278.pdf",
+          "https://sketchfab.com/3d-models/roca-dels-moros-del-cogul-pintures-rupestres-4013e271542845e181744344546e42ee",
+          "https://doi.org/10.5281/zenodo.10326867",
+          "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Dades-i-productes/Elevacions/Elevacions-territorial/Models-delevacions",
+          "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Geoinformacio-en-linia-Geoserveis/WMS-Ortoimatges/WMS-Ortofoto-Territorial",
+          "https://espeleoworld.com/c/la-roca-dels-moros"
+        ],
+        "landform": {
+          "data": "models/roca-dels-moros-cogul/r1/terrain.json",
+          "verticalDatum": "EGM08D595",
+          "minimumWidth": 2.6
+        }
+      }
     }
   ]
 }

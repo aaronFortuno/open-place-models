@@ -1,6 +1,6 @@
 # Coves i balmes · cua de modelatge
 
-La tria combina rellevància pública, varietat de formes i documentació de la boca. Les quatre primeres cavitats del lot ja tenen una primera revisió validada al motor de Relleu Obert. La Balma de Can Solà serveix de referència tècnica. [Pilot de Can Solà](models/balma-de-can-sola/r1/README.md)
+La tria combina rellevància pública, varietat de formes i documentació de la boca. Les cinc cavitats del primer lot tenen una primera revisió validada al motor de Relleu Obert. La Balma de Can Solà serveix de referència tècnica. [Pilot de Can Solà](models/balma-de-can-sola/r1/README.md)
 
 ## Primer lot · Catalunya
 
@@ -10,7 +10,7 @@ La tria combina rellevància pública, varietat de formes i documentació de la 
 | 2 | **Cova Simanya**, Sant Llorenç Savall · `cova-simanya` | La boca natural gran i el primer tram de galeria cap al nord-oest. | **r1 validada.** Perfil en ull de pany reconstruït a partir del relleu, la memòria d’excavació i l’aixecament espeleològic. [Model i comprovacions](models/cova-simanya/r1/README.md) |
 | 3 | **Cova de la Font Major**, l’Espluga de Francolí · `cova-font-major` | La boca natural recuperada i l’inici de la galeria sota el carrer. | **r1 validada.** Perfil ajustat amb el MDT i les fotos municipals de la restauració. La boca veïna de la Vila queda fora de la reconstrucció. [Model i comprovacions](models/cova-font-major/r1/README.md) |
 | 4 | **Cova del Toll**, Moià · `cova-del-toll` | La surgència natural i els primers metres de cavitat a la vora del torrent. | **r1 validada.** La balma i el pas interior formen un tall continu. El raig d’entrada ha quedat lliure amb el material d’aigua del Torrent Mal. [Model i comprovacions](models/cova-del-toll/r1/README.md) |
-| 5 | **Roca dels Moros**, el Cogul · `roca-dels-moros-cogul` | El perfil baix de l’abric rupestre, a escala pròxima. | Giravolt publica un escaneig descarregable CC BY 4.0. Verificar quanta roca cobreix al voltant de l’abric, ajustar escala, orientació i ancoratge amb punts independents i conservar l’atribució. [EspeleoÍndex](https://espeleoindex.com/cavitat/roca-dels-moros-la-3516/) · [Patrimoni Cultural](https://patrimoni.gencat.cat/ca/monuments/activite/visita-virtual-el-cogul) · [Model i llicència](https://api.sketchfab.com/v3/models/4013e271542845e181744344546e42ee) |
+| 5 | **Roca dels Moros**, el Cogul · `roca-dels-moros-cogul` | L’abric baix de gres, el voladís i el replà immediat. | Primera revisió validada a 1:500, 1:1.000 i en un retall parcial. L’escaneig de Giravolt documenta el sector del mural i les dades de l’ICGC situen el bloc i el replà. [Fitxa i validació](models/roca-dels-moros-cogul/r1/README.md) · [Escaneig de referència CC BY 4.0](https://doi.org/10.5281/zenodo.10326867) |
 
 **Reserves.** La **Balma Rosa** a Sant Miquel del Fai aporta un voladís ample al costat del Tenes, d’uns 78 m d’amplada i fins a 6 m d’alçada. La **Cova d’en Gispert**, a Begur, permet provar una boca marina i l’encaix amb el material d’aigua. **Meravelles** queda per a una sèrie sobre accessos modificats perquè l’accés turístic és artificial i les dues boques anteriors estan tapades. [Balma Rosa](https://espeleoindex.com/cavitat/rosa-balma-3702/) · [Cova d’en Gispert](https://espeleoindex.com/cavitat/gispert-cova-d-en-2340/) · [Cova Meravelles](https://espeleoindex.com/cavitat/meravelles-cova-3531/)
 

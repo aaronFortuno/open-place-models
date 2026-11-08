@@ -86,7 +86,7 @@ for(const [name,ray] of Object.entries(rays)){
   }else assert(count>0,`The ${name} is present`);
 }
 
-const attribution='Open Place Models contributors. Terrain elevations © Institut Cartogràfic i Geològic de Catalunya, CC BY 4.0.';
+const attribution=layout.attribution??'Open Place Models contributors. Terrain elevations © Institut Cartogràfic i Geològic de Catalunya, CC BY 4.0.';
 const {glb,min,max,vertices,triangles}=printGlb(relief.translate([0,-base,0]),attribution,layout.camera);
 assert(Math.abs(min[1])<1e-5);
 const [lon,lat]=anchor,dx=half/(111320*Math.cos(lat*Math.PI/180)),dy=half/111320;
