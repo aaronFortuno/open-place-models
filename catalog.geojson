@@ -18984,6 +18984,287 @@
           "https://www.openstreetmap.org/relation/3628735"
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "id": "catedral-de-mallorca",
+      "bbox": [
+        2.6475738,
+        39.5670528,
+        2.6489404,
+        39.5679197
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.6475738,
+              39.5674586
+            ],
+            [
+              2.6476372,
+              39.5674256
+            ],
+            [
+              2.647669,
+              39.5674367
+            ],
+            [
+              2.6479771,
+              39.5672846
+            ],
+            [
+              2.6484082,
+              39.567078
+            ],
+            [
+              2.6485236,
+              39.5670787
+            ],
+            [
+              2.6487917,
+              39.5670528
+            ],
+            [
+              2.6488864,
+              39.5670909
+            ],
+            [
+              2.648932,
+              39.5671464
+            ],
+            [
+              2.6489404,
+              39.56722
+            ],
+            [
+              2.6487646,
+              39.5673149
+            ],
+            [
+              2.6488018,
+              39.5673709
+            ],
+            [
+              2.6488017,
+              39.5674058
+            ],
+            [
+              2.6487264,
+              39.5674456
+            ],
+            [
+              2.6487634,
+              39.5674877
+            ],
+            [
+              2.648716,
+              39.5675118
+            ],
+            [
+              2.648744,
+              39.5675527
+            ],
+            [
+              2.6487739,
+              39.5675418
+            ],
+            [
+              2.6488048,
+              39.5675954
+            ],
+            [
+              2.6488744,
+              39.5677163
+            ],
+            [
+              2.6488834,
+              39.5677319
+            ],
+            [
+              2.6488917,
+              39.5677464
+            ],
+            [
+              2.6488788,
+              39.5677506
+            ],
+            [
+              2.6488585,
+              39.5677582
+            ],
+            [
+              2.6487704,
+              39.5677894
+            ],
+            [
+              2.6487081,
+              39.5678133
+            ],
+            [
+              2.6486902,
+              39.5678208
+            ],
+            [
+              2.6486626,
+              39.5677725
+            ],
+            [
+              2.648635,
+              39.5677921
+            ],
+            [
+              2.6486204,
+              39.5677927
+            ],
+            [
+              2.6486083,
+              39.5677894
+            ],
+            [
+              2.6485728,
+              39.5677786
+            ],
+            [
+              2.648429,
+              39.5678245
+            ],
+            [
+              2.648416,
+              39.5677886
+            ],
+            [
+              2.6484051,
+              39.5677584
+            ],
+            [
+              2.6483658,
+              39.5676853
+            ],
+            [
+              2.6483222,
+              39.5677073
+            ],
+            [
+              2.6480034,
+              39.5678686
+            ],
+            [
+              2.6480199,
+              39.5678877
+            ],
+            [
+              2.6479568,
+              39.5679197
+            ],
+            [
+              2.6479199,
+              39.5678796
+            ],
+            [
+              2.6479308,
+              39.5678583
+            ],
+            [
+              2.6478665,
+              39.5677826
+            ],
+            [
+              2.6478251,
+              39.5678009
+            ],
+            [
+              2.6477827,
+              39.5677547
+            ],
+            [
+              2.6477915,
+              39.5677447
+            ],
+            [
+              2.6477515,
+              39.5676956
+            ],
+            [
+              2.6477042,
+              39.5676377
+            ],
+            [
+              2.6476901,
+              39.5676439
+            ],
+            [
+              2.6476633,
+              39.5676064
+            ],
+            [
+              2.6476702,
+              39.5675895
+            ],
+            [
+              2.6476932,
+              39.567575
+            ],
+            [
+              2.6476365,
+              39.5674945
+            ],
+            [
+              2.6476089,
+              39.567503
+            ],
+            [
+              2.6475738,
+              39.5674586
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Catedral de Mallorca",
+        "aliases": [
+          "La Seu",
+          "Palma Cathedral",
+          "Catedral de Santa Maria de Mallorca",
+          "Catedral de Palma de Mallorca"
+        ],
+        "geometryType": "building",
+        "place": "Palma, Spain",
+        "city": "Palma",
+        "country": "Spain",
+        "revision": "r1",
+        "anchor": [
+          2.64831858276,
+          39.56747478576
+        ],
+        "anchorElevation": 13.2,
+        "height": 65.4,
+        "mesh": "models/catedral-de-mallorca/r1/print.glb",
+        "byteLength": 52872,
+        "thumbnail": "models/catedral-de-mallorca/r1/thumbnail.webp",
+        "license": "CC-BY-4.0",
+        "attribution": "Open Place Models contributors (reconstruction); PNOA / Instituto Geográfico Nacional (CC BY 4.0); plan © OpenStreetMap contributors (ODbL 1.0).",
+        "spatialDataLicense": "ODbL-1.0",
+        "sources": [
+          "https://blog.catedraldemallorca.org/opinion/joan-bauza/tomando-medidas/",
+          "https://catedraldemallorca.org/catedral/historia/",
+          "https://msp.org/jomms/2018/13-5/jomms-v13-n5-p03-s.pdf",
+          "https://www.cultura.gob.es/planes-nacionales/dam/jcr%3A0aaa0ddb-564b-4a41-9070-77c289f6dd2e/catedral-palma-mallorca.pdf",
+          "https://artsandculture.google.com/asset/fachada-principal-juan-bautista-peyronnet/bQGH_toamEb9yw?hl=es",
+          "https://pnoa.ign.es/pnoa-lidar/visualizadores-y-servicios-web",
+          "https://pnoa.ign.es/pnoa-imagen/visualizadores-y-servicios-web",
+          "https://www.openstreetmap.org/way/25883629"
+        ],
+        "replacement": {
+          "featureIds": [
+            "osm-way-25883629"
+          ],
+          "families": [
+            "osm-way-25883629"
+          ]
+        }
+      }
     }
   ]
 }
