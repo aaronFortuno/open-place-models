@@ -1,0 +1,16 @@
+# Cova de la Font Major · r1
+
+The model shows the restored natural entrance and the first 10.3 m of the cave beneath the roadside rock. Its broad irregular arch narrows at the gate and opens into a wider gallery. The municipal photographs from the 2023–2024 restoration identify this arch, its gate and the neighbouring entrance to Cova de la Vila. This reconstruction represents the opening without the gate. The sidecar retains the road and retaining profile captured in the terrain data. The detailed masonry and the neighbouring entrance are outside the reconstruction. [Municipal restoration and photographs](https://www.esplugadefrancoli.cat/millores-en-lacces-i-experiencia-de-visita-a-les-coves-de-lespluga/) · [2020 excavation report](https://calaix.gencat.cat/handle/10687/453093) · [Published archaeological survey](https://aespa.revistas.csic.es/index.php/aespa/article/view/736)
+
+The excavation report gives the Font Major mouth at [341354, 4584707] in ETRS89 / UTM 31N and distinguishes it from both the Vila east mouth and the spring. The model anchor [1.10221791, 41.39825797] in WGS84 corresponds to [341354.5, 4584706.8]. The 0.5 m ICGC DTM gives 409.24 m EGM08D595 at this point, compared with the report's approximate 411 m. The ground depression in front of the arch and the sharp rise toward the road are visible in the DTM. The outward bearing of 350°, sill elevation of about 409.2 m, approximate 3.55 m maximum mouth span, 3.12 m crown height, and gallery sections are estimates from that topography and the restoration photographs. [ICGC DTM](https://catalegs.ide.cat/geonetwork/geonetwork/api/records/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023?language=cat) · [ICGC orthophoto](https://www.icgc.cat/ca/Geoinformacio-i-mapes/Geoinformacio-en-linia-Geoserveis/WMS-Ortoimatges/WMS-Ortofoto-Territorial)
+
+The original closed cutter and the 48 × 48 m elevation patch go into Relleu Obert. The 24 × 24 m gallery GLB is trimmed above at 416.2 m. The elevations are © ICGC, CC BY 4.0. The geometry is an original reconstruction.
+
+The local Relleu Obert engine verified the opening at 1:600, at 1:1,200 rotated 22°, and in a partial 1:1,000 crop rotated −15° that includes the lower approach. The solid audits and tests for a clear entrance and intact roof, floor, back and side walls passed. In a partial crop centred uphill, the cutter fell below the selected terrain's vertical origin and the engine kept the uncut terrain. The 2.05 m effective width gives about 3.4 mm at 1:600 and 1.7 mm at 1:1,200. At 1:3,000 it falls below the engine's 0.8 mm threshold. Slicing and physical printing remain to be checked.
+
+```sh
+node scripts/generate-cavity.mjs cova-font-major
+python scripts/render-thumbnail.py models/cova-font-major/r1/print.glb --camera .29 .23 -1 --light .35 .60 -1
+```
+
+To regenerate the 97 × 97 grid, bilinearly sample the original 0.5 m pixels on a 0.5 m grid centred on the anchor, aligned east–west and north–south in the local WGS84 plane. Store the centimetre-rounded samples in row-major order from north to south and west to east. The generator accepts this `anchor`, `side`, `step` and `elevations` object as its final argument. [Original ICGC COG](https://datacloud.icgc.cat/datacloud/model-elevacions-terreny/tif_unzip/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023.tif)

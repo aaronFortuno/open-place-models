@@ -1,0 +1,43 @@
+{
+  "name": "Cova de la Font Major",
+  "place": "L’Espluga de Francolí, Catalonia, Spain",
+  "city": "L’Espluga de Francolí",
+  "country": "Spain",
+  "aliases": ["Coves de l'Espluga", "Font Major Cave"],
+  "anchor": [1.10221791, 41.39825797],
+  "azimuth": 350,
+  "minimumWidth": 2.05,
+  "galleryHalf": 12,
+  "galleryTop": 416.2,
+  "camera": [0.29, 0.23, -1],
+  "profiles": {
+    "portal": [[-0.8, 0], [0.82, 0], [1, 0.34], [0.88, 0.7], [0.36, 0.93], [-0.02, 1], [-0.53, 0.86], [-0.83, 0.61], [-1, 0.27]],
+    "gallery": [[-0.85, 0], [0.75, 0], [1, 0.26], [0.96, 0.66], [0.58, 0.87], [0.03, 1], [-0.54, 0.91], [-0.86, 0.73], [-1, 0.35]]
+  },
+  "lofts": [
+    [
+      [-4.8, 0, 409.18, 2.97, 3.7, "portal"],
+      [0, 0, 409.21, 3.12, 3.55, "portal"],
+      [1.4, 0.18, 409.27, 2.95, 2.55, "portal"],
+      [3, 0.19, 409.28, 2.84, 2.85, "portal"],
+      [5.4, 0.38, 409.17, 3.2, 4.2, "gallery"],
+      [8.4, 0.52, 408.92, 3.6, 5.3, "gallery"],
+      [10.3, 0.77, 408.75, 3.42, 5.15, "gallery"]
+    ]
+  ],
+  "rays": {
+    "entry": [[0.2, 410.95, -3.2], [0.2, 410.95, 6.8]],
+    "roof": [[0.2, 410.95, 6.8], [0.2, 414.05, 6.8]],
+    "floor": [[0.2, 410.95, 6.8], [0.2, 408.25, 6.8]],
+    "back": [[0.2, 410.95, 6.8], [0.2, 410.95, 11.4]],
+    "west-wall": [[0.2, 410.95, 6.8], [4.3, 410.95, 6.8]],
+    "east-wall": [[0.2, 410.95, 6.8], [-4.3, 410.95, 6.8]]
+  },
+  "sources": [
+    "https://catalegs.ide.cat/geonetwork/geonetwork/api/records/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023?language=cat",
+    "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Geoinformacio-en-linia-Geoserveis/WMS-Ortoimatges/WMS-Ortofoto-Territorial",
+    "https://calaix.gencat.cat/handle/10687/453093",
+    "https://www.esplugadefrancoli.cat/millores-en-lacces-i-experiencia-de-visita-a-les-coves-de-lespluga/",
+    "https://aespa.revistas.csic.es/index.php/aespa/article/view/736"
+  ]
+}

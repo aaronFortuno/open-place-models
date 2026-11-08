@@ -17426,6 +17426,79 @@
           ]
         }
       }
+    },
+    {
+      "type": "Feature",
+      "id": "cova-font-major",
+      "bbox": [
+        1.1019305006922415,
+        41.398042375318006,
+        1.1025053193077585,
+        41.398473564682
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.1019305006922415,
+              41.398042375318006
+            ],
+            [
+              1.1025053193077585,
+              41.398042375318006
+            ],
+            [
+              1.1025053193077585,
+              41.398473564682
+            ],
+            [
+              1.1019305006922415,
+              41.398473564682
+            ],
+            [
+              1.1019305006922415,
+              41.398042375318006
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "landform",
+        "geometryType": "terrain",
+        "name": "Cova de la Font Major",
+        "place": "L’Espluga de Francolí, Catalonia, Spain",
+        "city": "L’Espluga de Francolí",
+        "country": "Spain",
+        "aliases": [
+          "Coves de l'Espluga",
+          "Font Major Cave"
+        ],
+        "revision": "r1",
+        "anchor": [
+          1.10221791,
+          41.39825797
+        ],
+        "height": 9.2,
+        "mesh": "models/cova-font-major/r1/print.glb",
+        "byteLength": 24432,
+        "thumbnail": "models/cova-font-major/r1/thumbnail.webp",
+        "license": "CC-BY-4.0",
+        "spatialDataLicense": "CC-BY-4.0",
+        "attribution": "Open Place Models contributors. Terrain elevations © Institut Cartogràfic i Geològic de Catalunya, CC BY 4.0.",
+        "sources": [
+          "https://catalegs.ide.cat/geonetwork/geonetwork/api/records/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023?language=cat",
+          "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Geoinformacio-en-linia-Geoserveis/WMS-Ortoimatges/WMS-Ortofoto-Territorial",
+          "https://calaix.gencat.cat/handle/10687/453093",
+          "https://www.esplugadefrancoli.cat/millores-en-lacces-i-experiencia-de-visita-a-les-coves-de-lespluga/",
+          "https://aespa.revistas.csic.es/index.php/aespa/article/view/736"
+        ],
+        "landform": {
+          "data": "models/cova-font-major/r1/terrain.json",
+          "verticalDatum": "EGM08D595",
+          "minimumWidth": 2.05
+        }
+      }
     }
   ]
 }
