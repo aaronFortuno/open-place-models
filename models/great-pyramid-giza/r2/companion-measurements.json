@@ -1,0 +1,162 @@
+{
+  "survey": "https://dashfoundation.com/downloads/archaeology/survey/Giza-Corner-Points-2v17.kmz",
+  "surveyReadme": "https://www.dashfoundation.org/Surveys-at-Giza.htm",
+  "perring": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Operations_Carried_on_at_the_Pyramids_of_Gizeh_in_1837-_with_an_Account_of_a_Voyage_into_Upper_Egypt_in_3_Vols.Vol._II_%28IA_dli.granth.37586%29.pdf",
+  "petrie": "https://petrieproject.com/book/the-pyramids-and-temples-of-gizeh",
+  "cornerOrder": [
+    "northwest",
+    "northeast",
+    "southeast",
+    "southwest"
+  ],
+  "spatialDataLicense": "ODbL-1.0 (OpenStreetMap reference outlines only)",
+  "khafre": {
+    "anchor": [
+      31.13074,
+      29.97598
+    ],
+    "corners": [
+      [31.129624, 29.97695],
+      [31.131854, 29.976953],
+      [31.131858, 29.97501],
+      [31.129627, 29.975007]
+    ],
+    "terrainBaseElevation": 70.5,
+    "heightFeetAndInches": [
+      447,
+      6
+    ],
+    "terraceWidthFeet": 9,
+    "originalFaceSlopeDegrees": 53.166666666666664,
+    "casingDropFeetRange": [
+      130,
+      160
+    ],
+    "lowerBandsMetres": [
+      2.17,
+      5.27,
+      7.45,
+      9.68,
+      11.62
+    ],
+    "casingBottomMetresClockwiseFromNW": [
+      91.4,
+      88.2,
+      90.6,
+      94.1,
+      96.6,
+      94.4,
+      92.5,
+      90.8,
+      88.0,
+      90.1,
+      93.7,
+      92.6
+    ],
+    "presentBaseFeetAndInches": [
+      690,
+      9
+    ],
+    "osm": {
+      "id": 4420396,
+      "version": 66,
+      "timestamp": "2025-10-14T11:09:33Z",
+      "footprint": [
+        [31.1296453, 29.9769333],
+        [31.1308637, 29.9769373],
+        [31.1318195, 29.9769405],
+        [31.1318278, 29.9750458],
+        [31.1296536, 29.9750386],
+        [31.1296534, 29.9750805],
+        [31.1296534, 29.9750979],
+        [31.1296456, 29.9768722],
+        [31.1296453, 29.9769333]
+      ]
+    },
+    "sources": [
+      "https://egymonuments.gov.eg/en/monuments/pyramid-complex-of-khafre-khefren",
+      "https://doi.org/10.1063/5.0273135",
+      "https://smarthistory.org/pyramid-of-khafre-and-the-great-sphinx/"
+    ]
+  },
+  "menkaure": {
+    "anchor": [
+      31.128259,
+      29.9725
+    ],
+    "corners": [
+      [31.127714, 29.972978],
+      [31.128808, 29.972973],
+      [31.128804, 29.972023],
+      [31.12771, 29.972026]
+    ],
+    "terrainBaseElevation": 73.1,
+    "heightFeetAndInches": [
+      203,
+      0
+    ],
+    "terraceWidthFeet": 16,
+    "originalFaceSlopeDegrees": 51.175,
+    "graniteCourse16Inches": 645.2,
+    "bandsMetres": [
+      2.07,
+      4.087,
+      6.963,
+      9.121,
+      11.237,
+      13.307,
+      16.388,
+      18.1,
+      21.1,
+      24.0,
+      27.0,
+      30.5,
+      34.0,
+      37.7,
+      40.0,
+      43.4,
+      46.5,
+      49.8,
+      53.3,
+      56.8,
+      59.4
+    ],
+    "scarSectionsColumns": [
+      "height",
+      "east offset",
+      "mouth width",
+      "inward depth"
+    ],
+    "scarSectionsMetres": [
+      [16.388, -1.0, 3.2, 0],
+      [18.1, -1.4, 3.5, 2.9],
+      [21.1, -1.4, 4.2, 7.5],
+      [27, -1.25, 4.5, 8.0],
+      [34, -0.8, 5.0, 6.6],
+      [37.7, -0.15, 4.8, 4.8],
+      [40, 0.1, 4.2, 3.1],
+      [43.4, 0.3, 2.4, 0]
+    ],
+    "osm": {
+      "id": 4420398,
+      "version": 53,
+      "timestamp": "2025-10-14T11:09:33Z",
+      "footprint": [
+        [31.1287557, 29.972953],
+        [31.1287542, 29.9726608],
+        [31.1287532, 29.9724517],
+        [31.1287512, 29.9720624],
+        [31.1277662, 29.9720661],
+        [31.1277706, 29.9729567],
+        [31.1282538, 29.9729549],
+        [31.1287557, 29.972953]
+      ]
+    },
+    "sources": [
+      "https://egymonuments.gov.eg/en/monuments/pyramid-complex-of-menkaure/",
+      "https://gizamedia.rc.fas.harvard.edu/images/MFA-images/Giza/GizaImage/full/library/hawass_mdaik53_1997.pdf",
+      "https://archiv.ub.uni-heidelberg.de/propylaeumdok/2560/1/Vortragsfassung%2520%2520Florenz%2520Englisch%252028.8-1.pdf",
+      "https://commons.wikimedia.org/wiki/File:Pyramid_of_Menkaure_(50035374516).jpg"
+    ]
+  }
+}

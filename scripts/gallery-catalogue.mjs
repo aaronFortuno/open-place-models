@@ -5,7 +5,7 @@ export const root=new URL('../',import.meta.url);
 
 export async function prepareGalleryCatalogue(){
   const catalogue=JSON.parse(await readFile(new URL('catalog.geojson',root),'utf8'));
-  const entries=readCatalog(catalogue);
+  const entries=readCatalog(catalogue,{includeComponents:true});
   const assets=[...new Set(entries.flatMap(entry=>[
     entry.mesh,entry.thumbnail,entry.landform?.data,...entry.variants.map(variant=>variant.mesh),
   ]).filter(Boolean))];
@@ -18,5 +18,5 @@ export async function prepareGalleryCatalogue(){
     }
   }
   catalogue.assetByteLength=[...sizes.values()].reduce((total,size)=>total+size,0);
-  return {assets,modelCount:entries.length,index:JSON.stringify(catalogue)};
+  return {assets,modelCount:entries.filter(entry=>entry.galleryParent===undefined).length,index:JSON.stringify(catalogue)};
 }

@@ -12048,6 +12048,147 @@
       "type": "Feature",
       "id": "great-pyramid-giza",
       "bbox": [
+        31.12771,
+        29.972023,
+        31.135398894,
+        29.980220059
+      ],
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                31.133009164,
+                29.980217701
+              ],
+              [
+                31.133011872,
+                29.978139591
+              ],
+              [
+                31.135398894,
+                29.978141949
+              ],
+              [
+                31.135396186,
+                29.980220059
+              ],
+              [
+                31.133009164,
+                29.980217701
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                31.129624,
+                29.97695
+              ],
+              [
+                31.129627,
+                29.975007
+              ],
+              [
+                31.131858,
+                29.97501
+              ],
+              [
+                31.131854,
+                29.976953
+              ],
+              [
+                31.129624,
+                29.97695
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                31.127714,
+                29.972978
+              ],
+              [
+                31.12771,
+                29.972026
+              ],
+              [
+                31.128804,
+                29.972023
+              ],
+              [
+                31.128808,
+                29.972973
+              ],
+              [
+                31.127714,
+                29.972978
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Pyramids of Giza",
+        "kind": "group",
+        "revision": "r2",
+        "anchor": [
+          31.13074,
+          29.97598
+        ],
+        "height": 146.998,
+        "mesh": "models/great-pyramid-giza/r2/print.glb",
+        "thumbnail": "models/great-pyramid-giza/r2/thumbnail.webp",
+        "place": "Giza, Egypt",
+        "country": "Egypt",
+        "city": "Giza",
+        "geometryType": "monument",
+        "aliases": [
+          "Great Pyramid of Giza",
+          "Giza Pyramid Complex",
+          "Piràmides de Guiza",
+          "Pirámides de Guiza",
+          "Pyramides de Gizeh",
+          "Khufu",
+          "Cheops",
+          "Khafre",
+          "Chephren",
+          "Khefren",
+          "Menkaure",
+          "Mykerinos",
+          "Micerí"
+        ],
+        "attribution": "Open Place Models contributors. Reconstruction from the Glen Dash Foundation and AERA surveys and historical measurements. Reference footprint data © OpenStreetMap contributors.",
+        "license": "CC-BY-4.0",
+        "spatialDataLicense": "ODbL-1.0",
+        "sources": [
+          "https://petrieproject.com/book/the-pyramids-and-temples-of-gizeh",
+          "https://www.ronaldbirdsall.com/gizeh/petrie/photo/plate8.html",
+          "https://www.ifao.egnet.net/bifao/078/23",
+          "https://aeraweb.org/wp-content/uploads/2022/08/aeragram16_2.pdf",
+          "https://aeraweb.org/wp-content/uploads/2022/08/aeragram19_1.pdf",
+          "https://egymonuments.gov.eg/monuments/the-great-pyramid/",
+          "https://www.openstreetmap.org/way/4420397",
+          "https://dashfoundation.com/downloads/archaeology/survey/Giza-Corner-Points-2v17.kmz",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4c/Operations_Carried_on_at_the_Pyramids_of_Gizeh_in_1837-_with_an_Account_of_a_Voyage_into_Upper_Egypt_in_3_Vols.Vol._II_%28IA_dli.granth.37586%29.pdf",
+          "https://egymonuments.gov.eg/en/monuments/pyramid-complex-of-khafre-khefren",
+          "https://doi.org/10.1063/5.0273135",
+          "https://smarthistory.org/pyramid-of-khafre-and-the-great-sphinx/",
+          "https://www.openstreetmap.org/way/4420396",
+          "https://egymonuments.gov.eg/en/monuments/pyramid-complex-of-menkaure/",
+          "https://gizamedia.rc.fas.harvard.edu/images/MFA-images/Giza/GizaImage/full/library/hawass_mdaik53_1997.pdf",
+          "https://archiv.ub.uni-heidelberg.de/propylaeumdok/2560/1/Vortragsfassung%2520%2520Florenz%2520Englisch%252028.8-1.pdf",
+          "https://commons.wikimedia.org/wiki/File:Pyramid_of_Menkaure_(50035374516).jpg",
+          "https://www.openstreetmap.org/way/4420398"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "great-pyramid-giza-khufu",
+      "bbox": [
         31.133009164,
         29.978139591,
         31.135398894,
@@ -12081,7 +12222,7 @@
         ]
       },
       "properties": {
-        "name": "Great Pyramid of Giza",
+        "name": "Pyramid of Khufu",
         "place": "Giza, Egypt",
         "geometryType": "monument",
         "country": "Egypt",
@@ -12121,7 +12262,160 @@
           "https://egymonuments.gov.eg/monuments/the-great-pyramid/",
           "https://www.openstreetmap.org/way/4420397"
         ],
-        "thumbnail": "models/great-pyramid-giza/r1/thumbnail.webp"
+        "galleryParent": "great-pyramid-giza"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "great-pyramid-giza-khafre",
+      "bbox": [
+        31.129624,
+        29.975007,
+        31.131858,
+        29.976953
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.129624,
+              29.97695
+            ],
+            [
+              31.129627,
+              29.975007
+            ],
+            [
+              31.131858,
+              29.97501
+            ],
+            [
+              31.131854,
+              29.976953
+            ],
+            [
+              31.129624,
+              29.97695
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Pyramid of Khafre",
+        "place": "Giza, Egypt",
+        "geometryType": "monument",
+        "city": "Giza",
+        "country": "Egypt",
+        "aliases": [
+          "Piràmide de Khefren",
+          "Pyramid of Chephren",
+          "Pyramide de Khéphren",
+          "هرم خفرع"
+        ],
+        "revision": "r2",
+        "anchor": [
+          31.13074,
+          29.97598
+        ],
+        "height": 136.398,
+        "mesh": "models/great-pyramid-giza/r2/khafre.glb",
+        "byteLength": 18204,
+        "terrainBaseElevation": 70.5,
+        "license": "CC-BY-4.0",
+        "attribution": "Open Place Models contributors (reconstruction), based on surveys by J. S. Perring, W. M. F. Petrie and AERA/Glen Dash Foundation. Reference footprint © OpenStreetMap contributors (ODbL 1.0).",
+        "replacement": {
+          "featureIds": [
+            "osm-way-4420396"
+          ]
+        },
+        "sources": [
+          "https://dashfoundation.com/downloads/archaeology/survey/Giza-Corner-Points-2v17.kmz",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4c/Operations_Carried_on_at_the_Pyramids_of_Gizeh_in_1837-_with_an_Account_of_a_Voyage_into_Upper_Egypt_in_3_Vols.Vol._II_%28IA_dli.granth.37586%29.pdf",
+          "https://petrieproject.com/book/the-pyramids-and-temples-of-gizeh",
+          "https://egymonuments.gov.eg/en/monuments/pyramid-complex-of-khafre-khefren",
+          "https://doi.org/10.1063/5.0273135",
+          "https://smarthistory.org/pyramid-of-khafre-and-the-great-sphinx/",
+          "https://www.openstreetmap.org/way/4420396"
+        ],
+        "galleryParent": "great-pyramid-giza"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "great-pyramid-giza-menkaure",
+      "bbox": [
+        31.12771,
+        29.972023,
+        31.128808,
+        29.972978
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.127714,
+              29.972978
+            ],
+            [
+              31.12771,
+              29.972026
+            ],
+            [
+              31.128804,
+              29.972023
+            ],
+            [
+              31.128808,
+              29.972973
+            ],
+            [
+              31.127714,
+              29.972978
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Pyramid of Menkaure",
+        "place": "Giza, Egypt",
+        "geometryType": "monument",
+        "city": "Giza",
+        "country": "Egypt",
+        "aliases": [
+          "Piràmide de Micerí",
+          "Pyramid of Mycerinus",
+          "Pyramide de Mykérinos",
+          "هرم منقرع"
+        ],
+        "revision": "r2",
+        "anchor": [
+          31.128259,
+          29.9725
+        ],
+        "height": 61.874,
+        "mesh": "models/great-pyramid-giza/r2/menkaure.glb",
+        "byteLength": 10152,
+        "terrainBaseElevation": 73.1,
+        "license": "CC-BY-4.0",
+        "attribution": "Open Place Models contributors (reconstruction), based on surveys by J. S. Perring, W. M. F. Petrie and AERA/Glen Dash Foundation. Reference footprint © OpenStreetMap contributors (ODbL 1.0).",
+        "replacement": {
+          "featureIds": [
+            "osm-way-4420398"
+          ]
+        },
+        "sources": [
+          "https://dashfoundation.com/downloads/archaeology/survey/Giza-Corner-Points-2v17.kmz",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4c/Operations_Carried_on_at_the_Pyramids_of_Gizeh_in_1837-_with_an_Account_of_a_Voyage_into_Upper_Egypt_in_3_Vols.Vol._II_%28IA_dli.granth.37586%29.pdf",
+          "https://petrieproject.com/book/the-pyramids-and-temples-of-gizeh",
+          "https://egymonuments.gov.eg/en/monuments/pyramid-complex-of-menkaure/",
+          "https://gizamedia.rc.fas.harvard.edu/images/MFA-images/Giza/GizaImage/full/library/hawass_mdaik53_1997.pdf",
+          "https://archiv.ub.uni-heidelberg.de/propylaeumdok/2560/1/Vortragsfassung%2520%2520Florenz%2520Englisch%252028.8-1.pdf",
+          "https://commons.wikimedia.org/wiki/File:Pyramid_of_Menkaure_(50035374516).jpg",
+          "https://www.openstreetmap.org/way/4420398"
+        ],
+        "galleryParent": "great-pyramid-giza"
       }
     }
   ]

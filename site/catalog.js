@@ -31,12 +31,12 @@ function readVariants(variants=[]){
   });
 }
 
-export function readCatalog(data){
+export function readCatalog(data,{includeComponents=false}={}){
   if(data?.type!=='FeatureCollection'||data.schemaVersion!==1||!Array.isArray(data.features)){
     throw new Error('Unsupported catalogue format.');
   }
   const ids=new Set();
-  return data.features.map(({id,properties})=>{
+  const entries=data.features.map(({id,properties})=>{
     if(typeof id!=='string'||!id||ids.has(id)||typeof properties?.name!=='string'||
       !Array.isArray(properties.anchor)||properties.anchor.length!==2||!properties.anchor.every(Number.isFinite)||
       properties.aliases!==undefined&&(!Array.isArray(properties.aliases)||!properties.aliases.every(alias=>typeof alias==='string'))||
@@ -53,6 +53,13 @@ export function readCatalog(data){
       city:locationText(properties.city,place[0]??''),
       variants:readVariants(properties.variants)};
   });
+  const groups=new Set(entries.filter(entry=>entry.kind==='group'&&entry.galleryParent===undefined).map(entry=>entry.id));
+  for(const entry of entries){
+    if(entry.galleryParent!==undefined&&(entry.kind==='group'||!groups.has(entry.galleryParent))){
+      throw new Error('The catalogue contains a component without a gallery group.');
+    }
+  }
+  return includeComponents?entries:entries.filter(entry=>entry.galleryParent===undefined);
 }
 
 export function searchKey(text){
