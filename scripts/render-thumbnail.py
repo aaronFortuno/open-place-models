@@ -41,7 +41,7 @@ def unit(vector):
     return vector / length
 
 
-def render(positions, triangles, camera):
+def render(positions, triangles, camera, light=(-.42, .80, .45)):
     width, height = 640, 400
     direction = unit(np.asarray(camera))
     right = unit(np.cross([0, 1, 0], direction))
@@ -55,7 +55,7 @@ def render(positions, triangles, camera):
     pixels = np.empty((height, width, 3), dtype=np.uint8)
     pixels[:] = [235, 241, 233]
     depth = np.full((height, width), -np.inf)
-    light = unit(np.array([-.42, .80, .45]))
+    light = unit(np.asarray(light))
     normal = np.cross(positions[triangles[:, 1]] - positions[triangles[:, 0]],
                       positions[triangles[:, 2]] - positions[triangles[:, 0]])
     brightness = .67 + .39 * np.maximum((normal @ light) / np.maximum(np.linalg.norm(normal, axis=1), 1e-12), 0)
@@ -86,5 +86,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("mesh", type=Path)
     parser.add_argument("--camera", type=float, nargs=3, default=(1, .62, 1.35), metavar=("EAST", "UP", "SOUTH"))
+    parser.add_argument("--light", type=float, nargs=3, default=(-.42, .80, .45), metavar=("EAST", "UP", "SOUTH"))
     args = parser.parse_args()
-    render(*read_mesh(args.mesh), args.camera).save(args.mesh.with_name("thumbnail.webp"), quality=87)
+    render(*read_mesh(args.mesh), args.camera, args.light).save(args.mesh.with_name("thumbnail.webp"), quality=87)

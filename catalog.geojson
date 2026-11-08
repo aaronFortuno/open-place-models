@@ -13172,6 +13172,87 @@
           "minimumWidth": 12
         }
       }
+    },
+    {
+      "type": "Feature",
+      "id": "petra-treasury",
+      "bbox": [
+        35.45105537629899,
+        30.321654010636003,
+        35.45205442370101,
+        30.322516389363997
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.451536621336174,
+              30.321948989549718
+            ],
+            [
+              35.451422271257144,
+              30.32216066761712
+            ],
+            [
+              35.45151658838631,
+              30.322198631887847
+            ],
+            [
+              35.45163093846535,
+              30.321986953820446
+            ],
+            [
+              35.451536621336174,
+              30.321948989549718
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "landform",
+        "geometryType": "monument",
+        "name": "Al-Khazneh",
+        "place": "Petra, Jordan",
+        "city": "Petra",
+        "country": "Jordan",
+        "aliases": [
+          "The Treasury",
+          "Al-Khazna",
+          "الخزنة"
+        ],
+        "revision": "r1",
+        "anchor": [
+          35.4515549,
+          30.3220852
+        ],
+        "height": 53.8299560546875,
+        "mesh": "models/petra-treasury/r1/print.glb",
+        "byteLength": 37752,
+        "thumbnail": "models/petra-treasury/r1/thumbnail.webp",
+        "license": "CC-BY-4.0",
+        "spatialDataLicense": "ODbL-1.0",
+        "attribution": "Open Place Models contributors. Terrain reference: Mapzen Terrain Tiles, NASA SRTM. Placement © OpenStreetMap contributors.",
+        "sources": [
+          "https://archive.org/details/excavationsatain00mackrich",
+          "https://www.loc.gov/item/2019698216/",
+          "https://doi.org/10.1007/s00004-013-0164-6",
+          "https://doi.org/10.1016/j.jhydrol.2021.126583",
+          "https://registry.opendata.aws/terrain-tiles/",
+          "https://www.openstreetmap.org/way/488848937"
+        ],
+        "replacement": {
+          "featureIds": [
+            "488848937",
+            "way/488848937"
+          ]
+        },
+        "landform": {
+          "data": "models/petra-treasury/r1/terrain.json",
+          "verticalDatum": "EGM96 (approximate site registration)",
+          "minimumWidth": 4.28
+        }
+      }
     }
   ]
 }

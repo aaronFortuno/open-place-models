@@ -41,7 +41,9 @@ export function createModelView(stage){
   controls.maxPolarAngle=Math.PI*.499;
   controls.enabled=false;
   const loader=new GLTFLoader();
+  const defaultDirection=[1,.62,1.35];
   let object,radius=1,token=0;
+  let direction=defaultDirection;
 
   function draw(){
     if(object)renderer.render(scene,camera);
@@ -64,7 +66,7 @@ export function createModelView(stage){
     controls.minDistance=radius*.22;
     controls.maxDistance=distance*3;
     controls.target.set(0,0,0);
-    camera.position.set(1,.62,1.35).setLength(distance);
+    camera.position.set(...direction).setLength(distance);
     camera.near=radius*.002;
     camera.far=distance*12;
     camera.updateProjectionMatrix();
@@ -113,6 +115,9 @@ export function createModelView(stage){
         mesh.material.roughness=.9;
       }
     });
+    const previewDirection=parser.json.asset?.extras?.previewDirection;
+    direction=Array.isArray(previewDirection)&&previewDirection.length===3&&previewDirection.every(Number.isFinite)&&
+      previewDirection[1]>0&&Math.hypot(previewDirection[0],previewDirection[2])>0?previewDirection:defaultDirection;
     model.position.sub(bounds.getCenter(new Vector3()));
     object=model;
     scene.add(object);
