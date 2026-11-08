@@ -80,7 +80,7 @@ if (process.argv[2]) {
       mesh: meshPath,
       byteLength: glb.length,
       thumbnail: meshPath.replace('print.glb', 'thumbnail.webp'),
-      license: 'LicenseRef-Local-Review',
+      license: 'CC-BY-4.0',
       spatialDataLicense: 'ODbL-1.0',
       attribution,
       sources: [

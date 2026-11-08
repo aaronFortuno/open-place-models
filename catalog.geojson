@@ -18591,7 +18591,7 @@
         "mesh": "models/guggenheim-bilbao/r1/print.glb",
         "byteLength": 37876,
         "thumbnail": "models/guggenheim-bilbao/r1/thumbnail.webp",
-        "license": "LicenseRef-Local-Review",
+        "license": "CC-BY-4.0",
         "spatialDataLicense": "ODbL-1.0",
         "attribution": "Open Place Models contributors (survey-based reconstruction); Eusko Jaurlaritza / Gobierno Vasco. geoEuskadi. (elevation data); plan © OpenStreetMap contributors (ODbL 1.0).",
         "sources": [

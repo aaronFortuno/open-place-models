@@ -1,4 +1,4 @@
-# Museo Guggenheim Bilbao · r1 · local review
+# Museo Guggenheim Bilbao · r1
 
 A simplified exterior of Frank Gehry’s museum, including the central flower-shaped atrium crown, the curved titanium volumes and the rectilinear limestone wings. The long eastern body represents Gallery 104 and its passage under La Salve Bridge. The bridge deck, the separate Torre de La Salve, the riverside canopy, Puppy and the other outdoor artworks are outside the model. The gallery preview uses a plain material. [Museum exterior](https://www.guggenheim-bilbao.eus/el-edificio/el-exterior) · [Building materials and construction](https://www.guggenheim-bilbao.eus/el-edificio/la-construccion)
 
@@ -11,9 +11,9 @@ A simplified exterior of Frank Gehry’s museum, including the central flower-sh
 
 The WGS84 anchor is `[-2.93406129499, 43.26842817013]`. The baked GLB uses metres with X east, Y up and Z south. Its Y=0 corresponds to 1.801 m EGM08_REDNAP, set separately as `anchorElevation` to retain the measured ground slope. The mesh spans approximately 219.76 × 145.31 m in plan and 56.019 m from its lowest foundation point to the roof summit.
 
-## Source attribution and publication status
+## Source attribution and licence
 
-The elevation data are attributed to Eusko Jaurlaritza / Gobierno Vasco. geoEuskadi allows use of these data with attribution. The footprint and plan derived from OpenStreetMap are © OpenStreetMap contributors under ODbL 1.0. The separate mesh label `LicenseRef-Local-Review` marks this revision as a local validation asset. The Spanish public-space exception lists pictorial, photographic and audiovisual means. Its application to redistribution of an independently reconstructed, printable GLB has not been established. The museum also publishes a prior-authorisation procedure for use of its building image. [geoEuskadi terms](https://www.geo.euskadi.eus/modelo-digital-elevaciones-1-metro-del-pais-vasco/webgeo00-dataset/es/) · [OSM licence](https://www.openstreetmap.org/copyright) · [Spanish Intellectual Property Act, art. 35.2](https://www.boe.es/buscar/act.php?id=BOE-A-1996-8930#a35) · [Museum legal notice](https://www.guggenheim-bilbao.eus/aviso-legal)
+The elevation data are attributed to Eusko Jaurlaritza / Gobierno Vasco. geoEuskadi allows use of these data with attribution. The footprint and plan derived from OpenStreetMap are © OpenStreetMap contributors under ODbL 1.0. Following maintainer review, the independently reconstructed mesh is published under CC BY 4.0, credited to Open Place Models contributors. The museum’s legal notice identifies the building’s graphic representation as a registered trademark and states that reproductions require prior written consent. The maintainer nevertheless chose this publication licence; it covers the contributed geometry and does not grant third-party data, trademark or other separate rights. [geoEuskadi terms](https://www.geo.euskadi.eus/modelo-digital-elevaciones-1-metro-del-pais-vasco/webgeo00-dataset/es/) · [OSM licence](https://www.openstreetmap.org/copyright) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · [Museum legal notice](https://www.guggenheim-bilbao.eus/aviso-legal)
 
 ## Validation
 
