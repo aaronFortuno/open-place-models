@@ -16334,6 +16334,82 @@
           "https://www.openstreetmap.org/relation/4008211"
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "id": "cova-simanya",
+      "bbox": [
+        2.0086108932940596,
+        41.673805807977004,
+        2.00947680670594,
+        41.674452592023
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.0086108932940596,
+              41.673805807977004
+            ],
+            [
+              2.00947680670594,
+              41.673805807977004
+            ],
+            [
+              2.00947680670594,
+              41.674452592023
+            ],
+            [
+              2.0086108932940596,
+              41.674452592023
+            ],
+            [
+              2.0086108932940596,
+              41.673805807977004
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "landform",
+        "geometryType": "terrain",
+        "name": "Cova Simanya",
+        "place": "Sant Llorenç Savall, Catalonia, Spain",
+        "city": "Sant Llorenç Savall",
+        "country": "Spain",
+        "aliases": [
+          "Cova Simanya Gran",
+          "Simanya Cave"
+        ],
+        "revision": "r1",
+        "anchor": [
+          2.00904385,
+          41.6741292
+        ],
+        "height": 35,
+        "mesh": "models/cova-simanya/r1/print.glb",
+        "byteLength": 25736,
+        "thumbnail": "models/cova-simanya/r1/thumbnail.webp",
+        "license": "CC-BY-4.0",
+        "spatialDataLicense": "CC-BY-4.0",
+        "attribution": "Open Place Models contributors. Terrain elevations © Institut Cartogràfic i Geològic de Catalunya, CC BY 4.0.",
+        "sources": [
+          "https://catalegs.ide.cat/geonetwork/geonetwork/api/records/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023?language=cat",
+          "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Geoinformacio-en-linia-Geoserveis/WMS-Ortoimatges/WMS-Ortofoto-Territorial",
+          "https://calaix.gencat.cat/bitstream/handle/10687/457430/qmem16766.pdf?isAllowed=y&sequence=1",
+          "https://parcs.diba.cat/documents/215256/365f21f1-bb36-44d8-85ac-4e30ddf5871e",
+          "https://patrimonicultural.diba.cat/element/cova-simanya-cova-simanya-gran",
+          "https://parcs.diba.cat/ca/web/santllorenc/visita-virtual-360",
+          "https://espeleoworld.com/c/cova-simanya",
+          "https://www.openstreetmap.org/node/1800422295"
+        ],
+        "landform": {
+          "data": "models/cova-simanya/r1/terrain.json",
+          "verticalDatum": "EGM08D595",
+          "minimumWidth": 1.8
+        }
+      }
     }
   ]
 }

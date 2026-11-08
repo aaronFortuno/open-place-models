@@ -1,0 +1,46 @@
+{
+  "name": "Cova Simanya",
+  "place": "Sant Llorenç Savall, Catalonia, Spain",
+  "city": "Sant Llorenç Savall",
+  "country": "Spain",
+  "aliases": ["Cova Simanya Gran", "Simanya Cave"],
+  "anchor": [2.00904385, 41.6741292],
+  "azimuth": 135,
+  "minimumWidth": 1.8,
+  "galleryHalf": 12,
+  "galleryTop": 901,
+  "camera": [1, 0.07, 0.25],
+  "profiles": {
+    "mouth": [[0.12, 0], [0.55, 0.02], [0.62, 0.13], [0.86, 0.31], [1, 0.46], [0.86, 0.64], [0.59, 0.79], [0.31, 0.91], [0.02, 1], [-0.34, 0.98], [-0.54, 0.82], [-0.69, 0.64], [-1, 0.49], [-0.78, 0.37], [-0.37, 0.22], [-0.06, 0.1]],
+    "vault": [[-0.49, 0.02], [0.49, 0], [0.73, 0.1], [0.87, 0.28], [1, 0.45], [0.9, 0.65], [0.66, 0.8], [0.33, 0.92], [0.02, 1], [-0.34, 0.94], [-0.59, 0.82], [-0.86, 0.68], [-1, 0.49], [-0.91, 0.36], [-0.72, 0.22], [-0.63, 0.08]]
+  },
+  "lofts": [
+    [
+      [-7, -0.1, 877.1, 10.2, 4.2, "mouth"],
+      [-2, -0.08, 878.2, 10.7, 5.3, "mouth"],
+      [0, 0, 879.1, 11.1, 5.5, "mouth"],
+      [2.8, 0.18, 880.1, 11.1, 5.5, "mouth"],
+      [4.75, 0.03, 881, 9.8, 5.15, "mouth"],
+      [7.15, -0.2, 881.95, 8.55, 4.85, "vault"],
+      [10.75, -0.54, 882.65, 7.6, 4.4, "vault"]
+    ]
+  ],
+  "rays": {
+    "entry": [[0.28, 884.35, -7.5], [0.28, 884.35, 8.4]],
+    "roof": [[0.28, 884.35, 8.4], [0.28, 899.5, 8.4]],
+    "floor": [[0.28, 884.35, 8.4], [0.28, 874.5, 8.4]],
+    "back": [[0.28, 884.35, 8.4], [0.28, 884.35, 12]],
+    "southwest-wall": [[0.28, 884.35, 8.4], [-6.2, 884.35, 8.4]],
+    "northeast-wall": [[0.28, 884.35, 8.4], [6.2, 884.35, 8.4]]
+  },
+  "sources": [
+    "https://catalegs.ide.cat/geonetwork/geonetwork/api/records/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023?language=cat",
+    "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Geoinformacio-en-linia-Geoserveis/WMS-Ortoimatges/WMS-Ortofoto-Territorial",
+    "https://calaix.gencat.cat/bitstream/handle/10687/457430/qmem16766.pdf?isAllowed=y&sequence=1",
+    "https://parcs.diba.cat/documents/215256/365f21f1-bb36-44d8-85ac-4e30ddf5871e",
+    "https://patrimonicultural.diba.cat/element/cova-simanya-cova-simanya-gran",
+    "https://parcs.diba.cat/ca/web/santllorenc/visita-virtual-360",
+    "https://espeleoworld.com/c/cova-simanya",
+    "https://www.openstreetmap.org/node/1800422295"
+  ]
+}
