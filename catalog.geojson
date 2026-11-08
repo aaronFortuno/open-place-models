@@ -18712,6 +18712,278 @@
           "https://www.openstreetmap.org/way/55170713"
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "id": "monestir-santes-creus",
+      "bbox": [
+        1.3635453,
+        41.3457737,
+        1.3652186,
+        41.3467423
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.3635453,
+              41.3466204
+            ],
+            [
+              1.3635717,
+              41.3463678
+            ],
+            [
+              1.3637353,
+              41.3463778
+            ],
+            [
+              1.3637644,
+              41.3460357
+            ],
+            [
+              1.3638694,
+              41.3460347
+            ],
+            [
+              1.3639826,
+              41.346041
+            ],
+            [
+              1.3640509,
+              41.3460445
+            ],
+            [
+              1.3642788,
+              41.3460566
+            ],
+            [
+              1.3642803,
+              41.3460195
+            ],
+            [
+              1.3641404,
+              41.3460116
+            ],
+            [
+              1.3641445,
+              41.3459739
+            ],
+            [
+              1.3641613,
+              41.3458357
+            ],
+            [
+              1.3641672,
+              41.345818
+            ],
+            [
+              1.3642943,
+              41.3458163
+            ],
+            [
+              1.3643201,
+              41.345816
+            ],
+            [
+              1.3645507,
+              41.3458361
+            ],
+            [
+              1.3647412,
+              41.3458603
+            ],
+            [
+              1.3647787,
+              41.3457737
+            ],
+            [
+              1.3649611,
+              41.3458019
+            ],
+            [
+              1.3650791,
+              41.3458281
+            ],
+            [
+              1.3652186,
+              41.3458845
+            ],
+            [
+              1.3651757,
+              41.3459771
+            ],
+            [
+              1.365114,
+              41.345971
+            ],
+            [
+              1.3650917,
+              41.3460458
+            ],
+            [
+              1.3649094,
+              41.3460212
+            ],
+            [
+              1.3648565,
+              41.3462208
+            ],
+            [
+              1.3644649,
+              41.3461724
+            ],
+            [
+              1.3644488,
+              41.3463235
+            ],
+            [
+              1.3644232,
+              41.3464879
+            ],
+            [
+              1.3644759,
+              41.3464946
+            ],
+            [
+              1.3644659,
+              41.3466222
+            ],
+            [
+              1.3643496,
+              41.3466154
+            ],
+            [
+              1.3643415,
+              41.3467423
+            ],
+            [
+              1.364196,
+              41.346739
+            ],
+            [
+              1.3642013,
+              41.3466497
+            ],
+            [
+              1.3636726,
+              41.3466265
+            ],
+            [
+              1.3635453,
+              41.3466204
+            ]
+          ],
+          [
+            [
+              1.3638324,
+              41.3463235
+            ],
+            [
+              1.3638497,
+              41.3461097
+            ],
+            [
+              1.364022,
+              41.3461099
+            ],
+            [
+              1.363997,
+              41.3461415
+            ],
+            [
+              1.3640275,
+              41.3461822
+            ],
+            [
+              1.3640933,
+              41.3461857
+            ],
+            [
+              1.3641304,
+              41.3461414
+            ],
+            [
+              1.3641074,
+              41.3461149
+            ],
+            [
+              1.3642052,
+              41.3461259
+            ],
+            [
+              1.3641777,
+              41.3463439
+            ],
+            [
+              1.3638324,
+              41.3463235
+            ]
+          ],
+          [
+            [
+              1.3644408,
+              41.3461059
+            ],
+            [
+              1.3644614,
+              41.3459551
+            ],
+            [
+              1.364828,
+              41.3460123
+            ],
+            [
+              1.3647922,
+              41.3461523
+            ],
+            [
+              1.3644408,
+              41.3461059
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Reial Monestir de Santes Creus",
+        "place": "Aiguamúrcia, Spain",
+        "city": "Aiguamúrcia",
+        "country": "Spain",
+        "geometryType": "monument",
+        "aliases": [
+          "Monestir de Santes Creus",
+          "Santes Creus",
+          "Santes Creus Abbey",
+          "Royal Monastery of Santes Creus"
+        ],
+        "revision": "r1",
+        "anchor": [
+          1.36398824,
+          41.34621999
+        ],
+        "anchorElevation": 309.776,
+        "height": 44.057,
+        "mesh": "models/monestir-santes-creus/r1/print.glb",
+        "thumbnail": "models/monestir-santes-creus/r1/thumbnail.webp",
+        "byteLength": 25708,
+        "license": "CC-BY-4.0",
+        "spatialDataLicense": "ODbL-1.0",
+        "attribution": "Open Place Models contributors (reconstruction); ICGC terrain, surface and orthophoto (CC BY 4.0); footprint © OpenStreetMap contributors (ODbL 1.0).",
+        "replacement": {
+          "featureIds": [
+            "osm-relation-3628735"
+          ]
+        },
+        "sources": [
+          "https://patrimoni.gencat.cat/ca/monuments/monuments/reial-monestir-de-santes-creus/reial-monestir-de-santes-creus",
+          "https://www.enciclopedia.cat/lart-gotic-a-catalunya/el-monestir-de-santes-creus-segles-xii-xiii",
+          "https://www.enciclopedia.cat/lart-gotic-a-catalunya/el-monestir-de-santes-creus-segles-xiv-xv",
+          "https://catalegs.ide.cat/geonetwork/geonetwork/api/records/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023",
+          "https://catalegs.ide.cat/geonetwork/hub-litoral/api/records/model-superficies-lidar-catalunya-1m-2021-2023",
+          "https://www.openstreetmap.org/relation/3628735"
+        ]
+      }
     }
   ]
 }
