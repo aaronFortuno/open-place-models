@@ -1,0 +1,48 @@
+{
+  "name": "Cova del Toll",
+  "place": "Moià, Catalonia, Spain",
+  "city": "Moià",
+  "country": "Spain",
+  "aliases": ["Surgència del Toll", "Bauma del Toll", "La Mina", "Coves del Toll"],
+  "anchor": [2.14718195, 41.80352976],
+  "azimuth": 164,
+  "minimumWidth": 1.35,
+  "galleryHalf": 12,
+  "galleryTop": 758,
+  "camera": [0.33, 0.12, 1],
+  "profiles": {
+    "shelter": [[-0.86, 0.03], [0.79, 0], [0.92, 0.18], [1, 0.43], [0.91, 0.72], [0.78, 0.87], [0.37, 0.96], [-0.08, 1], [-0.54, 0.91], [-0.83, 0.79], [-1, 0.57], [-0.97, 0.27]],
+    "passage": [[-0.75, 0.06], [0.75, 0], [0.95, 0.16], [1, 0.46], [0.88, 0.74], [0.65, 0.94], [0.27, 1], [-0.16, 0.97], [-0.59, 0.92], [-0.84, 0.76], [-1, 0.49], [-0.95, 0.22]]
+  },
+  "lofts": [
+    [
+      [-5.5, 2.7, 742.79, 5.45, 11.5, "shelter"],
+      [-2, 2.15, 742.82, 5.95, 13.7, "shelter"],
+      [0.4, 1.7, 742.95, 6.05, 14.2, "shelter"],
+      [3.3, 1.4, 743.06, 5.55, 12.8, "shelter"],
+      [5.15, 1.05, 743.12, 4.64, 9.5, "shelter"],
+      [6.3, 0.68, 743.22, 3.55, 6.6, "shelter"],
+      [7.05, 0.36, 743.27, 1.77, 2.16, "passage"],
+      [8.2, 0.24, 743.24, 1.53, 1.65, "passage"],
+      [10.5, 0.1, 743.38, 1.4, 1.49, "passage"],
+      [12.1, -0.09, 743.48, 1.42, 1.43, "passage"]
+    ]
+  ],
+  "rays": {
+    "entry": [[0.23, 744.21, -6.2], [0.23, 744.21, 10.8]],
+    "roof": [[0.23, 744.21, 10.8], [0.23, 752, 10.8]],
+    "floor": [[0.23, 744.21, 10.8], [0.23, 741, 10.8]],
+    "back": [[0.23, 744.21, 10.8], [0.23, 744.21, 13.25]],
+    "shelter-roof": [[2, 746.1, 4.3], [2, 753, 4.3]],
+    "shelter-wall": [[2, 746.1, 4.3], [2, 746.1, 7.6]],
+    "passage-wall": [[0.23, 744.21, 10.8], [2.2, 744.21, 10.8]]
+  },
+  "sources": [
+    "https://catalegs.ide.cat/geonetwork/geonetwork/api/records/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023?language=cat",
+    "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Geoinformacio-en-linia-Geoserveis/WMS-Ortoimatges/WMS-Ortofoto-Territorial",
+    "https://patrimonicultural.diba.cat/index.php/print/pdf/node/80187",
+    "https://espeleoindex.com/cavitat/toll-cova-del-367/",
+    "https://upcommons.upc.edu/server/api/core/bitstreams/85675f1d-7645-413f-8c83-1b55ae5988da/content",
+    "https://elmedinaturaldelbages.cat/geologia/geomorfologia/cova-del-toll/"
+  ]
+}

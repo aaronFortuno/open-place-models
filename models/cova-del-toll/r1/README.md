@@ -1,0 +1,20 @@
+# Cova del Toll · r1
+
+This revision shows the natural resurgence known as la Bauma or la Mina. It models the broad rock shelter, the low opening at its back and the beginning of the narrow stream passage. The G.E.M.I. 1981 survey distinguishes this mouth from the tourist entrance in the Galeria Sud, roughly 228 m to the northeast. The photo published by the Institució Catalana d’Història Natural shows a layered rock roof over the low passage. The reconstruction estimates the shelter at 14.2 m wide and 6.05 m high at its widest profile and carries the passage to 12.1 m from the model anchor. [G.E.M.I. survey](https://espeleoindex.com/cavitat/toll-cova-del-367/) · [Entrance photograph](https://elmedinaturaldelbages.cat/geologia/geomorfologia/cova-del-toll/) · [Diputació inventory](https://patrimonicultural.diba.cat/index.php/print/pdf/node/80187)
+
+The WGS84 anchor is [2.14718195, 41.80352976], equivalent to [429154.5, 4628314.2] in ETRS89 / UTM 31N. It is at the foot of the terrain break in the 0.5 m ICGC DTM, where the surface samples at 743.07 m EGM08D595. The Diputació and EspeleoÍndex markers lie 7.8 m apart and the DTM samples 742.74 m and 743.64 m at their respective UTM positions. EspeleoÍndex reports an altitude of 750 m for the feature. The floor of the reconstruction follows the DTM at the approach and rises gently into the opening. The estimated outward azimuth of 164° follows the entrance segment of the G.E.M.I. survey registered against the three published mouth positions. The drainage map independently shows the flow leaving the shelter to the south before turning toward the Torrent Mal. [Hydrogeology survey, pp. 33–37](https://upcommons.upc.edu/server/api/core/bitstreams/85675f1d-7645-413f-8c83-1b55ae5988da/content) · [ICGC orthophoto](https://www.icgc.cat/ca/Geoinformacio-i-mapes/Geoinformacio-en-linia-Geoserveis/WMS-Ortoimatges/WMS-Ortofoto-Territorial) · [ICGC DTM and CC BY 4.0 terms](https://catalegs.ide.cat/geonetwork/geonetwork/api/records/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023?language=cat)
+
+The resurgence is intermittent. The hydrogeology survey records flows that vary with rainfall, from almost dry to overflow. The original cutter represents the dry geometry so the mouth can be read at model scale. The sidecar stores a 72 × 72 m elevation patch. The gallery GLB is one connected solid, with a 24 × 24 m section trimmed at 758 m. Both contain ICGC elevations under CC BY 4.0. The gallery mesh has 1,874 triangles and occupies 23.192 kB.
+
+Relleu Obert loaded the local catalogue and cut the opening at 1:600, at 1:1,200 with a 22° rotation and in a partial 1:1,000 selection rotated −15°. Solid audits passed. A ray crossed the shelter into the passage and other rays hit the roof, floor, back and walls. At 1:600 the Torrent Mal water mesh contained 1,212 triangles and had zero intersections with the ray through the opening at 743.72 m EGM08D595 from outside to 10.8 m inward.
+
+The estimated 1.35 m useful passage width corresponds to 2.25 mm at 1:600 and 1.13 mm at 1:1,200. The wider shelter remains visible at those scales. At 1:2,400 the estimated width falls to 0.56 mm, below the engine’s 0.8 mm threshold, so the cutter is omitted. Physical support and print behavior can be assessed from an exported selection.
+
+To regenerate using the committed elevations and cutter profile:
+
+```sh
+node scripts/generate-cavity.mjs cova-del-toll
+python scripts/render-thumbnail.py models/cova-del-toll/r1/print.glb --camera .33 .12 1 --light -.1 .6 .79
+```
+
+To rebuild the grid from the source COG, sample the 72 m square at 97 × 97 points with 0.75 m spacing in true east and north at the anchor. Use bilinear interpolation of the 0.5 m pixel centres. Round to centimetres, order rows north to south and columns west to east, and pass a JSON object containing `anchor`, `side`, `step` and `elevations` as the last generator argument. [Original ICGC COG](https://datacloud.icgc.cat/datacloud/model-elevacions-terreny/tif_unzip/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023.tif)

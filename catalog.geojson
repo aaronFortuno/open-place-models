@@ -17499,6 +17499,82 @@
           "minimumWidth": 2.05
         }
       }
+    },
+    {
+      "type": "Feature",
+      "id": "cova-del-toll",
+      "bbox": [
+        2.146748120020458,
+        41.803206367977005,
+        2.1476157799795415,
+        41.803853152023
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.146748120020458,
+              41.803206367977005
+            ],
+            [
+              2.1476157799795415,
+              41.803206367977005
+            ],
+            [
+              2.1476157799795415,
+              41.803853152023
+            ],
+            [
+              2.146748120020458,
+              41.803853152023
+            ],
+            [
+              2.146748120020458,
+              41.803206367977005
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "landform",
+        "geometryType": "terrain",
+        "name": "Cova del Toll",
+        "place": "Moià, Catalonia, Spain",
+        "city": "Moià",
+        "country": "Spain",
+        "aliases": [
+          "Surgència del Toll",
+          "Bauma del Toll",
+          "La Mina",
+          "Coves del Toll"
+        ],
+        "revision": "r1",
+        "anchor": [
+          2.14718195,
+          41.80352976
+        ],
+        "height": 21,
+        "mesh": "models/cova-del-toll/r1/print.glb",
+        "byteLength": 23192,
+        "thumbnail": "models/cova-del-toll/r1/thumbnail.webp",
+        "license": "CC-BY-4.0",
+        "spatialDataLicense": "CC-BY-4.0",
+        "attribution": "Open Place Models contributors. Terrain elevations © Institut Cartogràfic i Geològic de Catalunya, CC BY 4.0.",
+        "sources": [
+          "https://catalegs.ide.cat/geonetwork/geonetwork/api/records/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023?language=cat",
+          "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Geoinformacio-en-linia-Geoserveis/WMS-Ortoimatges/WMS-Ortofoto-Territorial",
+          "https://patrimonicultural.diba.cat/index.php/print/pdf/node/80187",
+          "https://espeleoindex.com/cavitat/toll-cova-del-367/",
+          "https://upcommons.upc.edu/server/api/core/bitstreams/85675f1d-7645-413f-8c83-1b55ae5988da/content",
+          "https://elmedinaturaldelbages.cat/geologia/geomorfologia/cova-del-toll/"
+        ],
+        "landform": {
+          "data": "models/cova-del-toll/r1/terrain.json",
+          "verticalDatum": "EGM08D595",
+          "minimumWidth": 1.35
+        }
+      }
     }
   ]
 }
