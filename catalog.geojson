@@ -19501,6 +19501,41 @@
         },
         "addedAt": "2026-11-09T18:26:16.079Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "pedraforca",
+      "bbox": [1.69089020325,42.2314181616,1.71784243774,42.24612570055],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[1.69118798933,42.2314181616],[1.71784243774,42.23171925037],[1.71755071209,42.24612570055],[1.69089020325,42.24582446063],[1.69118798933,42.2314181616]]]
+      },
+      "properties": {
+        "kind": "terrain",
+        "geometryType": "terrain",
+        "name": "Pedraforca",
+        "place": "Saldes and Gósol, Catalonia, Spain",
+        "city": "Saldes / Gósol",
+        "country": "Spain",
+        "aliases": [
+          "Massís del Pedraforca",
+          "Pollegó Superior"
+        ],
+        "revision": "r1",
+        "anchor": [
+          1.70436781159,
+          42.23877267224
+        ],
+        "height": 961.2,
+        "mesh": "models/pedraforca/r1/print.glb",
+        "byteLength": 29596,
+        "thumbnail": "models/pedraforca/r1/thumbnail.webp",
+        "license": "CC-BY-4.0",
+        "spatialDataLicense": "CC-BY-4.0",
+        "attribution": "Open Place Models contributors (adaptive triangulation). Terrain © Institut Cartogràfic i Geològic de Catalunya, CC BY 4.0.",
+        "sources": ["https://parcsnaturals.gencat.cat/ca/xarxa-de-parcs/pedraforca/el-paratge/patrimoni-natural-i-cultural/paisatge/","https://parcsnaturals.gencat.cat/ca/xarxa-de-parcs/cadi/gaudeix-del-parc/guia-de-visita/arees-dinteres/interes-geologic/grans-arees-interes/massis-del-pedraforca/","https://www.feec.cat/activitats/100-cims/cim/pollego-superior-pedraforca/","https://www.feec.cat/agenda/activitats/100-cims/pollego-superior-100-cims/","https://catalegs.ide.cat/geonetwork/geonetwork/api/records/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023?language=cat","https://www.icgc.cat/ca/Geoinformacio-i-mapes/Dades-i-productes/Geoinformacio-cartografica/Noms-geografics"],
+        "addedAt": "2026-11-09T18:28:27.171Z"
+      }
     }
   ],
   "assetAddedAt": {
@@ -19602,6 +19637,8 @@
     "models/sant-climent-de-taull/r1/print.glb": "2026-11-09T18:18:40.297Z",
     "models/sant-climent-de-taull/r1/thumbnail.webp": "2026-11-09T18:18:40.297Z",
     "models/pont-vell-besalu/r1/print.glb": "2026-11-09T18:26:16.079Z",
-    "models/pont-vell-besalu/r1/thumbnail.webp": "2026-11-09T18:26:16.079Z"
+    "models/pont-vell-besalu/r1/thumbnail.webp": "2026-11-09T18:26:16.079Z",
+    "models/pedraforca/r1/print.glb": "2026-11-09T18:28:27.171Z",
+    "models/pedraforca/r1/thumbnail.webp": "2026-11-09T18:28:27.171Z"
   }
 }

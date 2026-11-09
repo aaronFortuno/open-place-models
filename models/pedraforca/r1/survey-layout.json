@@ -1,0 +1,289 @@
+{
+  "anchor": {
+    "coordinates": [
+      1.70436781159,
+      42.23877267224
+    ],
+    "utm": [
+      393100,
+      4677100
+    ],
+    "eastNorth": [
+      [
+        0.999884446372,
+        -0.015201773042
+      ],
+      [
+        0.01520183463,
+        0.999884445436
+      ]
+    ]
+  },
+  "outline": {
+    "bbox": [
+      1.69089020325,
+      42.2314181616,
+      1.71784243774,
+      42.24612570055
+    ],
+    "polygon": [
+      [
+        1.69118798933,
+        42.2314181616
+      ],
+      [
+        1.71784243774,
+        42.23171925037
+      ],
+      [
+        1.71755071209,
+        42.24612570055
+      ],
+      [
+        1.69089020325,
+        42.24582446063
+      ],
+      [
+        1.69118798933,
+        42.2314181616
+      ]
+    ]
+  },
+  "grid": {
+    "bounds": [
+      392000,
+      4676300,
+      394200,
+      4677900
+    ],
+    "divisions": 512,
+    "encoding": "gzip of signed int16 LE decimetre differences, reset per row",
+    "uncompressedSHA256": "004ecf534e12ec568ae59c6f4a41e4b8e51d56a5b014f3153d24acae5c5f3511"
+  },
+  "source": {
+    "verticalDatum": "EGM08D595",
+    "epsg": 25831,
+    "license": "CC-BY-4.0",
+    "main": {
+      "source": "https://datacloud.icgc.cat/datacloud/model-elevacions-terreny/tif_unzip/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023.tif",
+      "resolution": [
+        2,
+        -2
+      ],
+      "origin": [
+        391996,
+        4677904
+      ],
+      "window": [
+        66498,
+        35548,
+        67602,
+        36352
+      ],
+      "width": 1104,
+      "height": 804,
+      "noData": -9999,
+      "sha256": "08d0446c577ee2a69bd041ea5a38e79cf99be01ca0903ef35d1b74a8af0db0c0"
+    },
+    "controls": {
+      "superior": {
+        "source": "https://datacloud.icgc.cat/datacloud/model-elevacions-terreny/tif_unzip/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023.tif",
+        "resolution": [
+          0.5,
+          -0.5
+        ],
+        "origin": [
+          392967,
+          4677248
+        ],
+        "window": [
+          267934,
+          143504,
+          267998,
+          143568
+        ],
+        "width": 64,
+        "height": 64,
+        "noData": -9999,
+        "sha256": "cef05fc1804837875a7fbbc24fefbc828988c0559ea9658210588dc20a133032"
+      },
+      "calderer": {
+        "source": "https://datacloud.icgc.cat/datacloud/model-elevacions-terreny/tif_unzip/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023.tif",
+        "resolution": [
+          0.5,
+          -0.5
+        ],
+        "origin": [
+          393225,
+          4677151
+        ],
+        "window": [
+          268450,
+          143698,
+          268554,
+          143802
+        ],
+        "width": 104,
+        "height": 104,
+        "noData": -9999,
+        "sha256": "5ba472d0454ed89635124ff82b20e94cc3e93b19cc6e4b505ef6996e56512ca1"
+      },
+      "inferior": {
+        "source": "https://datacloud.icgc.cat/datacloud/model-elevacions-terreny/tif_unzip/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023.tif",
+        "resolution": [
+          0.5,
+          -0.5
+        ],
+        "origin": [
+          393298,
+          4676764
+        ],
+        "window": [
+          268596,
+          144472,
+          268660,
+          144536
+        ],
+        "width": 64,
+        "height": 64,
+        "noData": -9999,
+        "sha256": "15855549bd6b451d91ef337a1f8cfdc302faaf06fd99b544f72f4575743fdea4"
+      },
+      "enforcadura": {
+        "source": "https://datacloud.icgc.cat/datacloud/model-elevacions-terreny/tif_unzip/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023.tif",
+        "resolution": [
+          0.5,
+          -0.5
+        ],
+        "origin": [
+          393038,
+          4676962
+        ],
+        "window": [
+          268076,
+          144076,
+          268220,
+          144220
+        ],
+        "width": 144,
+        "height": 144,
+        "noData": -9999,
+        "sha256": "9b48a2bc3ccaca3ecdbacbb4a1a405cde93621089be591e7a14dcbb6917ff78a"
+      }
+    }
+  },
+  "pins": [
+    {
+      "name": "Pollegó Superior",
+      "source": "native-superior",
+      "utm": [
+        392983.25,
+        4677231.75
+      ],
+      "elevation": 2506.2,
+      "official": 2507
+    },
+    {
+      "name": "el Calderer",
+      "source": "native-calderer",
+      "utm": [
+        393251.25,
+        4677124.75
+      ],
+      "elevation": 2499.98,
+      "official": 2497
+    },
+    {
+      "name": "Pollegó Inferior",
+      "source": "native-inferior",
+      "utm": [
+        393312.75,
+        4676745.25
+      ],
+      "elevation": 2443.96,
+      "official": 2445
+    },
+    {
+      "name": "l’Enforcadura (cartographic point)",
+      "source": "native-enforcadura",
+      "utm": [
+        393074.2464,
+        4676925.5388
+      ],
+      "elevation": 2356.11,
+      "official": 2356
+    },
+    {
+      "name": "l’Enforcadura (saddle floor)",
+      "source": "native-enforcadura",
+      "utm": [
+        393068,
+        4676919
+      ],
+      "elevation": 2355.61
+    },
+    {
+      "name": "Tartera de Gósol (upper)",
+      "source": "terrain-2m",
+      "utm": [
+        392761,
+        4677033
+      ],
+      "elevation": 2265.04
+    },
+    {
+      "name": "Tartera de Gósol (middle)",
+      "source": "terrain-2m",
+      "utm": [
+        392517,
+        4677043
+      ],
+      "elevation": 2140.81
+    },
+    {
+      "name": "Tartera de Gósol (lower)",
+      "source": "terrain-2m",
+      "utm": [
+        392250,
+        4676940
+      ],
+      "elevation": 2000.67
+    },
+    {
+      "name": "Tartera de Saldes (upper)",
+      "source": "terrain-2m",
+      "utm": [
+        393319,
+        4676872
+      ],
+      "elevation": 2263.72
+    },
+    {
+      "name": "Tartera de Saldes (middle)",
+      "source": "terrain-2m",
+      "utm": [
+        393535,
+        4676849
+      ],
+      "elevation": 2133.68
+    },
+    {
+      "name": "Tartera de Saldes (lower)",
+      "source": "terrain-2m",
+      "utm": [
+        393714,
+        4676799
+      ],
+      "elevation": 2034.93
+    },
+    {
+      "name": "Tartera de Saldes (toe)",
+      "source": "terrain-2m",
+      "utm": [
+        394020,
+        4676707
+      ],
+      "elevation": 1838.07
+    }
+  ]
+}
