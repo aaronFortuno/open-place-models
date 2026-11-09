@@ -38,13 +38,16 @@ export function printGlb(solid,attribution,previewDirection) {
   const {vertProperties:positions,triVerts:faces,mergeFromVert}=solid.getMesh();
   assert.equal(mergeFromVert.length,0);
   assert(positions.length/3<=65536);
+  return printIndexedGlb(positions,Uint16Array.from(faces),attribution,previewDirection);
+}
+
+export function printIndexedGlb(positions,indices,attribution,previewDirection) {
   const min=[Infinity,Infinity,Infinity],max=[-Infinity,-Infinity,-Infinity];
   for(let i=0;i<positions.length;i++){
     const axis=i%3;
     min[axis]=Math.min(min[axis],positions[i]);
     max[axis]=Math.max(max[axis],positions[i]);
   }
-  const indices=Uint16Array.from(faces);
   const binary=Buffer.concat([Buffer.from(positions.buffer),Buffer.from(indices.buffer)]);
   const document={
     asset:{version:'2.0',generator:'Open Place Models',copyright:attribution,extras:{previewDirection}},
@@ -60,5 +63,5 @@ export function printGlb(solid,attribution,previewDirection) {
   glb.write('glTF');glb.writeUInt32LE(2,4);glb.writeUInt32LE(glb.length,8);
   glb.writeUInt32LE(jsonSize,12);glb.write('JSON',16);glb.fill(0x20,20,20+jsonSize);json.copy(glb,20);
   glb.writeUInt32LE(binSize,20+jsonSize);glb.write('BIN\0',24+jsonSize);binary.copy(glb,28+jsonSize);
-  return {glb,min,max,vertices:positions.length/3,triangles:faces.length/3};
+  return {glb,min,max,vertices:positions.length/3,triangles:indices.length/3};
 }
