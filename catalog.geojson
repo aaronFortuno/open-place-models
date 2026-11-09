@@ -20170,6 +20170,70 @@
         },
         "addedAt": "2026-11-09T17:36:53.232Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "castell-de-cardona",
+      "bbox": [1.68396831,41.91357003,1.68741111,41.91530488],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[1.68720559,41.9138958],[1.6873077,41.91391218],[1.68740258,41.91393371],[1.68740613,41.91392797],[1.68741111,41.91392877],[1.68725137,41.91419174],[1.68727405,41.91449732],[1.68739646,41.91482025],[1.6872461,41.91486086],[1.68686739,41.91486464],[1.68678576,41.91472951],[1.686352,41.91477138],[1.68590877,41.91480503],[1.6857273,41.91489302],[1.68547462,41.91492525],[1.68546799,41.91507198],[1.6852973,41.91522224],[1.68519913,41.91530488],[1.68497248,41.91512665],[1.68464827,41.91505989],[1.68466659,41.91498985],[1.68428413,41.91482425],[1.68425466,41.91461496],[1.68413474,41.91458297],[1.68414647,41.91448133],[1.68396831,41.91440813],[1.68413827,41.91423491],[1.68410318,41.91412327],[1.68430628,41.91403914],[1.68426446,41.91378557],[1.68427854,41.91357003],[1.6846046,41.91366338],[1.68490469,41.91372986],[1.68500035,41.9136517],[1.68529561,41.91371813],[1.68560996,41.91379468],[1.68598418,41.91365666],[1.68628694,41.91388709],[1.68720559,41.9138958]],[[1.68480875,41.9144994],[1.68477112,41.91446541],[1.68472969,41.91449085],[1.68476751,41.91452485],[1.68480875,41.9144994]],[[1.68484795,41.91453425],[1.68481018,41.91450015],[1.68476876,41.91452573],[1.68480673,41.9145597],[1.68484795,41.91453425]],[[1.68496266,41.91461693],[1.68495473,41.91463694],[1.68500651,41.91464656],[1.68505799,41.91458895],[1.68499966,41.91452219],[1.68493642,41.91450975],[1.68489745,41.91460409],[1.68496266,41.91461693]]]
+      },
+      "properties": {
+        "name": "Castell de Cardona",
+        "aliases": [
+          "Castle of Cardona",
+          "Castillo de Cardona",
+          "Parador de Cardona",
+          "Canònica de Sant Vicenç",
+          "Torre de la Minyona"
+        ],
+        "geometryType": "building",
+        "place": "Cardona, Spain",
+        "city": "Cardona",
+        "country": "Spain",
+        "revision": "r1",
+        "anchor": [
+          1.68564186395,
+          41.91429671057
+        ],
+        "anchorElevation": 499.3,
+        "height": 92.431,
+        "mesh": "models/castell-de-cardona/r1/print.glb",
+        "byteLength": 58716,
+        "thumbnail": "models/castell-de-cardona/r1/thumbnail.webp",
+        "license": "CC-BY-4.0",
+        "attribution": "Open Place Models contributors (reconstruction); Institut Cartogràfic i Geològic de Catalunya (CC BY 4.0); plan © OpenStreetMap contributors (ODbL 1.0).",
+        "spatialDataLicense": "ODbL-1.0",
+        "sources": ["https://patrimoni.gencat.cat/ca/monuments/monuments/castell-de-cardona","https://patrimoni.gencat.cat/ca/monuments/content/download/726/file/Guia%20visita%20catal%C3%A0","https://calaix.gencat.cat/bitstream/handle/10687/24062/qmem6007.pdf?sequence=648","https://www.cardona.cat/arees/359-turisme/el-castell-i-la-collegiata-de-sant-vicenc","https://www.icgc.cat/ca/Geoinformacio-i-mapes/Dades-i-productes/Elevacions/Elevacions-territorial/Models-delevacions","https://www.icgc.cat/ca/Geoinformacio-i-mapes/Dades-i-productes/Imatge/Ortofoto-territorial","https://www.openstreetmap.org/way/155044257","https://www.openstreetmap.org/way/155044258","https://www.openstreetmap.org/relation/2652263"],
+        "replacement": {
+          "featureIds": [
+            "osm-way-155044257",
+            "osm-way-155044258",
+            "osm-way-155044259",
+            "osm-way-155044260",
+            "osm-way-155044261",
+            "osm-way-155044262",
+            "osm-way-155044263",
+            "osm-way-155044266",
+            "osm-way-155044268",
+            "osm-relation-2652263"
+          ],
+          "families": [
+            "osm-way-155044257",
+            "osm-way-155044258",
+            "osm-way-155044259",
+            "osm-way-155044260",
+            "osm-way-155044261",
+            "osm-way-155044262",
+            "osm-way-155044263",
+            "osm-way-155044266",
+            "osm-way-155044268",
+            "osm-relation-2652263"
+          ]
+        },
+        "addedAt": "2026-11-09T17:52:02.637Z"
+      }
     }
   ],
   "assetAddedAt": {
@@ -20262,6 +20326,8 @@
     "models/palace-of-westminster/r1/print.glb": "2026-11-09T17:00:05.967Z",
     "models/palace-of-westminster/r1/thumbnail.webp": "2026-11-09T17:00:05.967Z",
     "models/aqueducte-ferreres/r1/print.glb": "2026-11-09T17:36:53.232Z",
-    "models/aqueducte-ferreres/r1/thumbnail.webp": "2026-11-09T17:36:53.232Z"
+    "models/aqueducte-ferreres/r1/thumbnail.webp": "2026-11-09T17:36:53.232Z",
+    "models/castell-de-cardona/r1/print.glb": "2026-11-09T17:52:02.637Z",
+    "models/castell-de-cardona/r1/thumbnail.webp": "2026-11-09T17:52:02.637Z"
   }
 }
