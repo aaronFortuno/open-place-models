@@ -19536,6 +19536,52 @@
         "sources": ["https://parcsnaturals.gencat.cat/ca/xarxa-de-parcs/pedraforca/el-paratge/patrimoni-natural-i-cultural/paisatge/","https://parcsnaturals.gencat.cat/ca/xarxa-de-parcs/cadi/gaudeix-del-parc/guia-de-visita/arees-dinteres/interes-geologic/grans-arees-interes/massis-del-pedraforca/","https://www.feec.cat/activitats/100-cims/cim/pollego-superior-pedraforca/","https://www.feec.cat/agenda/activitats/100-cims/pollego-superior-100-cims/","https://catalegs.ide.cat/geonetwork/geonetwork/api/records/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023?language=cat","https://www.icgc.cat/ca/Geoinformacio-i-mapes/Dades-i-productes/Geoinformacio-cartografica/Noms-geografics"],
         "addedAt": "2026-11-09T18:28:27.171Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "santuari-de-nuria",
+      "bbox": [2.152626094,42.396613193,2.154505645,42.397663229],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[2.152897391,42.396742125],[2.15296132,42.396767904],[2.152882226,42.396875931],[2.152903123,42.396885092],[2.152931708,42.396846577],[2.152953598,42.396854214],[2.153123237,42.396626896],[2.153133506,42.396613193],[2.153269561,42.396669495],[2.153160943,42.396813688],[2.15315018,42.396827928],[2.153317049,42.396896976],[2.153280802,42.39694507],[2.153446341,42.397013567],[2.153431136,42.397032907],[2.153459145,42.397046353],[2.153471501,42.397031044],[2.153550404,42.397063688],[2.153573291,42.397033327],[2.153626457,42.397055334],[2.153604685,42.397084172],[2.153686126,42.397117825],[2.153672642,42.397135737],[2.153704783,42.397149033],[2.153720124,42.397128613],[2.154066067,42.397271839],[2.154095759,42.397232342],[2.154107883,42.397216221],[2.1541085,42.397215505],[2.154377321,42.396858691],[2.154505645,42.396911782],[2.154089486,42.397464199],[2.15407716,42.397459155],[2.154064046,42.39747662],[2.15404487,42.397502145],[2.154042272,42.397505548],[2.154057015,42.397511601],[2.154035119,42.397540619],[2.154021263,42.397558979],[2.153992932,42.397596685],[2.153952231,42.39765069],[2.153942828,42.397663229],[2.153931108,42.397658369],[2.153582021,42.397513859],[2.153588578,42.397505081],[2.153422675,42.397436402],[2.153400902,42.39746524],[2.153217962,42.3973895],[2.153228231,42.397375796],[2.152847368,42.39721817],[2.15282609,42.397246382],[2.152699095,42.397193839],[2.152688462,42.397189438],[2.152812174,42.397025363],[2.152626094,42.396948338],[2.152808324,42.396706344],[2.152897391,42.396742125]]]
+      },
+      "properties": {
+        "name": "Santuari de Núria",
+        "geometryType": "building",
+        "place": "Queralbs, Spain",
+        "city": "Queralbs",
+        "country": "Spain",
+        "aliases": [
+          "Santuari de la Mare de Déu de Núria",
+          "Basílica de Núria",
+          "Vall de Núria",
+          "Santuario de Nuria"
+        ],
+        "revision": "r1",
+        "anchor": [
+          2.153589010382,
+          42.397075141236
+        ],
+        "anchorElevation": 1957.55,
+        "height": 35.3,
+        "mesh": "models/santuari-de-nuria/r1/print.glb",
+        "byteLength": 19496,
+        "thumbnail": "models/santuari-de-nuria/r1/thumbnail.webp",
+        "attribution": "Open Place Models contributors · ICGC · OpenStreetMap contributors",
+        "license": "CC-BY-4.0",
+        "spatialDataLicense": "CC-BY-4.0; ODbL-1.0",
+        "sources": ["https://ajqueralbs.cat/coneix/llocs-dinteres/el-santuari-de-nuria/","https://agenda.cultura.gencat.cat/ca/activitat.html/20200525004/santuari-de-la-mare-de-deu-de-nuria-el-ripolles","https://xac.gencat.cat/ca/detalls/ActivitatAgenda/exposicio_Nuria1923","https://contractaciopublica.cat/portal-api/descarrega-document/1329761/3012731EB8F1723B79458A0AB5903822","https://turistren.cat/es/trenes/cremallera-de-nuria/","https://www.icgc.cat/ca/Geoinformacio-i-mapes/Dades-i-productes/Elevacions/Elevacions-territorial/Models-delevacions","https://www.openstreetmap.org/way/33115436"],
+        "replacement": {
+          "featureIds": [
+            "osm-way-33115436",
+            "icgc-988176"
+          ],
+          "families": [
+            "osm-way-33115436"
+          ]
+        },
+        "addedAt": "2026-11-09T18:59:02.419Z"
+      }
     }
   ],
   "assetAddedAt": {
@@ -19639,6 +19685,8 @@
     "models/pont-vell-besalu/r1/print.glb": "2026-11-09T18:26:16.079Z",
     "models/pont-vell-besalu/r1/thumbnail.webp": "2026-11-09T18:26:16.079Z",
     "models/pedraforca/r1/print.glb": "2026-11-09T18:28:27.171Z",
-    "models/pedraforca/r1/thumbnail.webp": "2026-11-09T18:28:27.171Z"
+    "models/pedraforca/r1/thumbnail.webp": "2026-11-09T18:28:27.171Z",
+    "models/santuari-de-nuria/r1/print.glb": "2026-11-09T18:59:02.419Z",
+    "models/santuari-de-nuria/r1/thumbnail.webp": "2026-11-09T18:59:02.419Z"
   }
 }
