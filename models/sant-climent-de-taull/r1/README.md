@@ -1,0 +1,23 @@
+# Sant Climent de Taüll · r1
+
+The exterior model covers the Romanesque church of Sant Climent in Taüll, La Vall de Boí. The three aisles sit under one pitched roof and end in three distinct rounded apses. The square bell tower stands against the southeast corner. The churchyard, cemetery wall, exterior stairs and interior furnishings are outside this revision. [Centre del Romànic](https://www.centreromanic.com/esglesia/sant-climent-de-taull/) · [Corpus Taüll](https://xac.gencat.cat/ca/07_Que_es_XAC/projectes/corpus-tauell-fonts-per-a-lestudi-de-sant-climent-de-taull/)
+
+## Measurements and reconstruction
+
+- **Naves and apses.** The Generalitat's 2014 photogrammetric survey gives the asymmetric outer plan, the three semicircular apses, the common roof and the different levels of the apse caps. The exterior is independently reconstructed from these proportions and registered to the ICGC orthophoto. The nave ridge is near 1,490.5 m. The model gives the larger apse its higher cap, narrow arched window and two small oculi. The west portal, wall openings and small gable opening use simplified geometry. Fine Lombard bands, masonry texture and murals are omitted. [Photogrammetric survey, sheets 01–06](https://www.centreromanic.com/wp-content/uploads/2022/03/st_cliement_de_taull_0.pdf) · [ICGC elevation products](https://www.icgc.cat/ca/Geoinformacio-i-mapes/Dades-i-productes/Elevacions/Elevacions-territorial/Models-delevacions)
+- **Bell tower.** Marquès Balagué's survey gives a base of 4.31 × 4.61 m, 21.14 m of stone wall and a roof 2.18 m high. The model retains the blind plinth and the six window levels in their measured arrangement. The four paired-window levels use through openings. The lower single-window level and the triple-window level use blind recesses. The narrow openings and central supports are slightly enlarged for printing. The taper and roof silhouette are reconstructed from the surveyed elevations, and the apex uses the maximum registered LiDAR return, 1,505.292 m. [Marquès Balagué, volume I, p. 46](https://hdl.handle.net/2445/106703) · [Generalitat exterior photographs](https://patrimoni.gencat.cat/ca/coleccio/sant-climent-de-taull)
+
+## Registration, source and reuse
+
+The WGS84 anchor is `[0.84865548667, 42.51750882522]`. The GLB uses metres with X east, Y up and Z south. Its underside follows the 0.5 m ICGC terrain around the perimeter with 3 m of initial embedment. The lowest point, Y=0, is 1,477.315 m orthometric on the Alicante datum. The independent `anchorElevation` preserves the height of the church on the slope in Relleu Obert.
+
+The fixture records the 2021–2023 ICGC 1 m surface and 0.5 m terrain crops, the orthophoto request, sampled geometry and OSM way `197867117` version 6. The OSM outline sets the replacement area. The irregular west wall in the mesh follows the survey and orthophoto. The adapted GLB is CC BY 4.0 with attribution to Open Place Models contributors and ICGC. The OSM plan data are © OpenStreetMap contributors under ODbL 1.0. [ICGC geoinformation licence](https://www.icgc.cat/ca/LICGC/Informacio-publica/Transparencia/Reutilitzacio-de-la-informacio) · [OSM footprint](https://www.openstreetmap.org/way/197867117) · [OSM copyright and licence](https://www.openstreetmap.org/copyright)
+
+After installing the pinned dependencies, run `node scripts/generate-sant-climent-de-taull.mjs` from the repository root. An optional output path writes the matching catalogue feature. The generated GLB has SHA-256 `fe58210ad59a33b4a77817fee08fd018f377aa7d298cb31227963e0bc740caa6`.
+
+## Validation
+
+- The GLB is 29,508 bytes with 1,162 vertices and 2,452 triangles. An independent audit found one watertight, consistently oriented solid with positive signed volume of 3,473.21 m³ and zero duplicate positions, degenerate triangles or disconnected face rings.
+- Horizontal sections across both axes of the tower confirmed all eight openings on each axis, two each on levels 2, 4, 5 and 6. Levels 1 and 3 retain backing walls.
+- The mesh spans 22.95 × 23.62 m in plan and 27.977 m from its embedded foundation to the summit. At 1:500 the paired apertures are 1.20–1.48 mm wide and the mullions are 0.76–0.92 mm thick. At 1:1,000 those mullions are 0.38–0.46 mm thick, near a 0.4 mm nozzle width. Slicing and physical printing remain to be checked.
+- Local Relleu Obert tests used ICGC MET5. The full crops at 1:750 (+7°) and 1:1,500 (−17°) replaced the church outlines from OpenStreetMap and ICGC respectively and kept the adjacent buildings. The nave control spans the 1,482.38 m terrain elevation and the bell tower reaches 1,505.292 m in both tests. The crop at 1:700 (+20°) intersects the church and produces a closed cut. The height-limited and hidden-building modes passed.

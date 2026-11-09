@@ -20121,44 +20121,8 @@
             228.026,
             4
           ],
-          "axis": [
-            [
-              1.243367614,
-              41.146938527,
-              57.66
-            ],
-            [
-              1.244393526,
-              41.144964035,
-              57.66
-            ]
-          ],
-          "deckRows": [
-            [
-              [
-                1.243373446,
-                41.146940245,
-                57.66
-              ],
-              [
-                1.243361781,
-                41.146936809,
-                57.66
-              ]
-            ],
-            [
-              [
-                1.244399359,
-                41.144965753,
-                57.66
-              ],
-              [
-                1.244387694,
-                41.144962317,
-                57.66
-              ]
-            ]
-          ],
+          "axis": [[1.243367614,41.146938527,57.66],[1.244393526,41.144964035,57.66]],
+          "deckRows": [[[1.243373446,41.146940245,57.66],[1.243361781,41.146936809,57.66]],[[1.244399359,41.144965753,57.66],[1.244387694,41.144962317,57.66]]],
           "pylonIndexCount": 8016,
           "upperIndexCount": 8016,
           "stayDiameter": 0.45,
@@ -20238,38 +20202,10 @@
     {
       "type": "Feature",
       "id": "congost-mont-rebei",
-      "bbox": [
-        0.6813685469818958,
-        42.07929235195988,
-        0.6821310432981043,
-        42.079858288000125
-      ],
+      "bbox": [0.6813685469818958,42.07929235195988,0.6821310432981043,42.079858288000125],
       "geometry": {
         "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              0.6813685469818958,
-              42.07929235195988
-            ],
-            [
-              0.6821310432981043,
-              42.07929235195988
-            ],
-            [
-              0.6821310432981043,
-              42.079858288000125
-            ],
-            [
-              0.6813685469818958,
-              42.079858288000125
-            ],
-            [
-              0.6813685469818958,
-              42.07929235195988
-            ]
-          ]
-        ]
+        "coordinates": [[[0.6813685469818958,42.07929235195988],[0.6821310432981043,42.07929235195988],[0.6821310432981043,42.079858288000125],[0.6813685469818958,42.079858288000125],[0.6813685469818958,42.07929235195988]]]
       },
       "properties": {
         "kind": "landform",
@@ -20295,23 +20231,58 @@
         "license": "CC-BY-4.0",
         "spatialDataLicense": "CC-BY-4.0",
         "attribution": "Open Place Models contributors. Terrain elevations © Institut Cartogràfic i Geològic de Catalunya, CC BY 4.0.",
-        "sources": [
-          "https://fundaciocatalunya-lapedrera.com/ca/espais-natura/congost-mont-rebei/itineraris",
-          "https://www.google.com/maps/d/viewer?mid=1EhOWyFnJQj6Cd-sGpsMurLioSoHG6sGL",
-          "https://www.openstreetmap.org/way/198762251",
-          "https://mediambient.repositori.gencat.cat/handle/20.500.14343/2295",
-          "https://commons.wikimedia.org/wiki/File:Congost_de_Mont-rebei_20201110_05.jpg",
-          "https://www.rutespirineus.cat/rutes/congost-de-mont-rebei/",
-          "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Dades-i-productes/Elevacions/Elevacions-territorial/Models-delevacions",
-          "https://catalegs.ide.cat/geonetwork/geonetwork/api/records/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023?language=cat",
-          "https://catalegs.ide.cat/geonetwork/hub-litoral/api/records/model-superficies-lidar-catalunya-1m-2021-2023"
-        ],
+        "sources": ["https://fundaciocatalunya-lapedrera.com/ca/espais-natura/congost-mont-rebei/itineraris","https://www.google.com/maps/d/viewer?mid=1EhOWyFnJQj6Cd-sGpsMurLioSoHG6sGL","https://www.openstreetmap.org/way/198762251","https://mediambient.repositori.gencat.cat/handle/20.500.14343/2295","https://commons.wikimedia.org/wiki/File:Congost_de_Mont-rebei_20201110_05.jpg","https://www.rutespirineus.cat/rutes/congost-de-mont-rebei/","https://www.icgc.cat/ca/Geoinformacio-i-mapes/Dades-i-productes/Elevacions/Elevacions-territorial/Models-delevacions","https://catalegs.ide.cat/geonetwork/geonetwork/api/records/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023?language=cat","https://catalegs.ide.cat/geonetwork/hub-litoral/api/records/model-superficies-lidar-catalunya-1m-2021-2023"],
         "landform": {
           "data": "models/congost-mont-rebei/r1/terrain.json",
           "verticalDatum": "EGM08D595",
           "minimumWidth": 1.35
         },
         "addedAt": "2026-11-09T17:52:49.570Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sant-climent-de-taull",
+      "bbox": [0.8485244,42.5173445,0.8488085,42.5175522],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[0.8487686,42.5175196],[0.8485603,42.5175522],[0.8485244,42.5174232],[0.8486981,42.517397],[0.8486857,42.5173524],[0.8487386,42.5173445],[0.8487514,42.5173904],[0.8487604,42.5173892],[0.8487652,42.5173901],[0.8487709,42.5173919],[0.8487755,42.5173947],[0.8487776,42.5173981],[0.848779,42.5174036],[0.8487784,42.517407],[0.8487757,42.5174108],[0.8487725,42.5174135],[0.8487671,42.5174163],[0.8487639,42.5174173],[0.8487712,42.5174179],[0.8487827,42.5174183],[0.8487902,42.5174203],[0.848798,42.5174234],[0.8488034,42.5174282],[0.8488072,42.5174345],[0.8488085,42.5174426],[0.8488085,42.5174492],[0.8488064,42.5174549],[0.8488021,42.5174593],[0.8487967,42.5174629],[0.8487889,42.5174656],[0.8487798,42.5174692],[0.8487736,42.517471],[0.8487835,42.5174749],[0.8487913,42.5174783],[0.8487964,42.5174847],[0.8487988,42.517492],[0.8487999,42.5174993],[0.8487983,42.5175053],[0.8487929,42.5175112],[0.8487873,42.5175148],[0.8487806,42.5175171],[0.8487686,42.5175196]]]
+      },
+      "properties": {
+        "name": "Sant Climent de Taüll",
+        "aliases": [
+          "Sant Climent de Taull",
+          "Sant Climent de Tahull",
+          "San Clemente de Tahull",
+          "Church of Saint Clement of Taüll"
+        ],
+        "geometryType": "building",
+        "place": "Taüll, Spain",
+        "city": "Taüll",
+        "country": "Spain",
+        "revision": "r1",
+        "anchor": [
+          0.84865548667,
+          42.51750882522
+        ],
+        "anchorElevation": 1477.315,
+        "height": 27.977,
+        "mesh": "models/sant-climent-de-taull/r1/print.glb",
+        "byteLength": 29508,
+        "thumbnail": "models/sant-climent-de-taull/r1/thumbnail.webp",
+        "license": "CC-BY-4.0",
+        "attribution": "Open Place Models contributors (reconstruction); Institut Cartogràfic i Geològic de Catalunya (CC BY 4.0); plan © OpenStreetMap contributors (ODbL 1.0).",
+        "spatialDataLicense": "ODbL-1.0",
+        "sources": ["https://www.centreromanic.com/esglesia/sant-climent-de-taull/","https://www.centreromanic.com/wp-content/uploads/2022/03/st_cliement_de_taull_0.pdf","https://diposit.ub.edu/dspace/handle/2445/106703","https://patrimoni.gencat.cat/ca/coleccio/sant-climent-de-taull","https://www.icgc.cat/ca/Geoinformacio-i-mapes/Dades-i-productes/Elevacions/Elevacions-territorial/Models-delevacions","https://www.icgc.cat/ca/Geoinformacio-i-mapes/Dades-i-productes/Imatge/Ortofoto-territorial","https://www.openstreetmap.org/way/197867117"],
+        "replacement": {
+          "featureIds": [
+            "osm-way-197867117"
+          ],
+          "families": [
+            "osm-way-197867117"
+          ]
+        },
+        "addedAt": "2026-11-09T18:18:40.297Z"
       }
     }
   ],
@@ -20410,6 +20381,8 @@
     "models/castell-de-cardona/r1/thumbnail.webp": "2026-11-09T17:52:02.637Z",
     "models/congost-mont-rebei/r1/print.glb": "2026-11-09T17:52:49.570Z",
     "models/congost-mont-rebei/r1/thumbnail.webp": "2026-11-09T17:52:49.570Z",
-    "models/congost-mont-rebei/r1/terrain.json": "2026-11-09T17:52:49.570Z"
+    "models/congost-mont-rebei/r1/terrain.json": "2026-11-09T17:52:49.570Z",
+    "models/sant-climent-de-taull/r1/print.glb": "2026-11-09T18:18:40.297Z",
+    "models/sant-climent-de-taull/r1/thumbnail.webp": "2026-11-09T18:18:40.297Z"
   }
 }
