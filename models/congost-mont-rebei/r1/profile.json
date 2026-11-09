@@ -1,0 +1,421 @@
+{
+  "name": "Congost de Mont-rebei",
+  "place": "Sant Esteve de la Sarga, Catalonia, Spain",
+  "city": "Sant Esteve de la Sarga",
+  "country": "Spain",
+  "aliases": [
+    "Camí nou de Mont-rebei",
+    "Mont-rebei gorge",
+    "Desfiladero de Mont-rebei"
+  ],
+  "anchor": [
+    0.68174979514,
+    42.07957531998
+  ],
+  "azimuth": 178.44592763651576,
+  "minimumWidth": 1.35,
+  "galleryHalf": 12,
+  "galleryTop": 550,
+  "camera": [
+    -1,
+    0.18,
+    -0.3
+  ],
+  "profiles": {
+    "shelf": [
+      [
+        -1,
+        0
+      ],
+      [
+        0.81,
+        0
+      ],
+      [
+        1,
+        0.07
+      ],
+      [
+        1,
+        0.76
+      ],
+      [
+        0.81,
+        0.94
+      ],
+      [
+        0.36,
+        1
+      ],
+      [
+        -0.35,
+        0.96
+      ],
+      [
+        -1,
+        0.9
+      ]
+    ],
+    "end": [
+      [
+        -1,
+        0
+      ],
+      [
+        0.81,
+        0
+      ],
+      [
+        1,
+        0.08
+      ],
+      [
+        1,
+        0.71
+      ],
+      [
+        0.82,
+        0.93
+      ],
+      [
+        0.35,
+        1
+      ],
+      [
+        -0.35,
+        0.96
+      ],
+      [
+        -1,
+        0.9
+      ]
+    ]
+  },
+  "lofts": [
+    [
+      [
+        -21.8,
+        0.438,
+        537.1,
+        1.4,
+        2.4,
+        "end"
+      ],
+      [
+        -20,
+        1.303,
+        537.1,
+        2.45,
+        5.23,
+        "shelf"
+      ],
+      [
+        -16,
+        -0.135,
+        537.05,
+        2.48,
+        5.27,
+        "shelf"
+      ],
+      [
+        -12,
+        0.641,
+        536.85,
+        2.42,
+        5.25,
+        "shelf"
+      ],
+      [
+        -8,
+        -1.457,
+        536.45,
+        2.58,
+        5.28,
+        "shelf"
+      ],
+      [
+        -4,
+        -2.071,
+        535.78,
+        2.7,
+        5.3,
+        "shelf"
+      ],
+      [
+        0,
+        -2.069,
+        535.36,
+        2.62,
+        5.3,
+        "shelf"
+      ],
+      [
+        4,
+        -1.277,
+        535.2,
+        2.46,
+        5.28,
+        "shelf"
+      ],
+      [
+        8,
+        -1.264,
+        534.84,
+        2.54,
+        5.29,
+        "shelf"
+      ],
+      [
+        12,
+        -1.703,
+        534.62,
+        2.53,
+        5.3,
+        "shelf"
+      ],
+      [
+        16,
+        -2.701,
+        534.7,
+        2.53,
+        5.29,
+        "shelf"
+      ],
+      [
+        20,
+        -4.185,
+        535.18,
+        2.48,
+        5.21,
+        "shelf"
+      ],
+      [
+        21.8,
+        -5.29,
+        535.18,
+        1.4,
+        2.1,
+        "end"
+      ]
+    ]
+  ],
+  "rays": {
+    "entry": [
+      [
+        -5.369,
+        536.51,
+        0
+      ],
+      [
+        0.021,
+        536.51,
+        0
+      ]
+    ],
+    "roof": [
+      [
+        0.021,
+        536.51,
+        0
+      ],
+      [
+        0.021,
+        543.86,
+        0
+      ]
+    ],
+    "floor": [
+      [
+        0.021,
+        536.51,
+        0
+      ],
+      [
+        0.021,
+        529.36,
+        0
+      ]
+    ],
+    "back": [
+      [
+        0.021,
+        536.51,
+        0
+      ],
+      [
+        4.831,
+        536.51,
+        0
+      ]
+    ],
+    "entry-south": [
+      [
+        -4.747,
+        537.6,
+        -8
+      ],
+      [
+        0.643,
+        537.6,
+        -8
+      ]
+    ],
+    "roof-south": [
+      [
+        0.643,
+        537.6,
+        -8
+      ],
+      [
+        0.643,
+        544.95,
+        -8
+      ]
+    ],
+    "floor-south": [
+      [
+        0.643,
+        537.6,
+        -8
+      ],
+      [
+        0.643,
+        530.45,
+        -8
+      ]
+    ],
+    "back-south": [
+      [
+        0.643,
+        537.6,
+        -8
+      ],
+      [
+        5.453,
+        537.6,
+        -8
+      ]
+    ],
+    "entry-north": [
+      [
+        -4.559,
+        535.99,
+        8
+      ],
+      [
+        0.831,
+        535.99,
+        8
+      ]
+    ],
+    "roof-north": [
+      [
+        0.831,
+        535.99,
+        8
+      ],
+      [
+        0.831,
+        543.34,
+        8
+      ]
+    ],
+    "floor-north": [
+      [
+        0.831,
+        535.99,
+        8
+      ],
+      [
+        0.831,
+        528.84,
+        8
+      ]
+    ],
+    "back-north": [
+      [
+        0.831,
+        535.99,
+        8
+      ],
+      [
+        5.641,
+        535.99,
+        8
+      ]
+    ]
+  },
+  "survey": {
+    "etrs89": [
+      308242,
+      4661212
+    ],
+    "section": "Camí nou de Mont-rebei, north of the Cova Colomera branch",
+    "way": "https://www.openstreetmap.org/way/198762251/history/6",
+    "gridReferences": [
+      {
+        "bbox": [
+          308142,
+          4661110,
+          308342,
+          4661320
+        ],
+        "url": "https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&CRS=EPSG%3A25831&BBOX=308142%2C4661110%2C308342%2C4661320&WIDTH=1000&HEIGHT=1050&LAYERS=ortofoto_25cm_color_2025&STYLES=&FORMAT=image%2Fjpeg",
+        "sampleSHA256": "40b9e957a7fec62c27976019d8dd2d023dc92a44468d9aa93b373c51eccd9685"
+      },
+      {
+        "bbox": [
+          308142,
+          4661110,
+          308342,
+          4661320
+        ],
+        "width": 400,
+        "height": 420,
+        "resolution": [
+          0.5,
+          -0.5
+        ],
+        "origin": [
+          308142,
+          4661320
+        ],
+        "noData": -9999,
+        "url": "https://datacloud.icgc.cat/datacloud/model-elevacions-terreny/tif_unzip/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023.tif",
+        "sampleSHA256": "23389ac9207894ff1d946e83c1cf24289112b8993cc1831bd1fd6d4b6e5ae439"
+      },
+      {
+        "bbox": [
+          308142,
+          4661110,
+          308342,
+          4661320
+        ],
+        "width": 200,
+        "height": 210,
+        "resolution": [
+          1,
+          -1
+        ],
+        "origin": [
+          308142,
+          4661320
+        ],
+        "noData": -9999,
+        "url": "https://datacloud.icgc.cat/datacloud/model-superficies/tif_unzip/model-superficies-lidar-catalunya-1m-2021-2023.tif",
+        "sampleSHA256": "31f018176439b18069092edd2f2248055c51cd7f0a2da8745ba57c6f0824acb2"
+      }
+    ]
+  },
+  "sources": [
+    "https://fundaciocatalunya-lapedrera.com/ca/espais-natura/congost-mont-rebei/itineraris",
+    "https://www.google.com/maps/d/viewer?mid=1EhOWyFnJQj6Cd-sGpsMurLioSoHG6sGL",
+    "https://www.openstreetmap.org/way/198762251",
+    "https://mediambient.repositori.gencat.cat/handle/20.500.14343/2295",
+    "https://commons.wikimedia.org/wiki/File:Congost_de_Mont-rebei_20201110_05.jpg",
+    "https://www.rutespirineus.cat/rutes/congost-de-mont-rebei/",
+    "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Dades-i-productes/Elevacions/Elevacions-territorial/Models-delevacions",
+    "https://catalegs.ide.cat/geonetwork/geonetwork/api/records/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023?language=cat",
+    "https://catalegs.ide.cat/geonetwork/hub-litoral/api/records/model-superficies-lidar-catalunya-1m-2021-2023"
+  ]
+}

@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import {readFile,writeFile} from 'node:fs/promises';
 import {openSolids,printGlb} from './monument-solids.mjs';
 
-const [id,input]=process.argv.slice(2);
+const [id,input,featureOutput]=process.argv.slice(2);
 assert(/^[a-z0-9-]+$/.test(id??''),'Pass the catalogue id of a cavity');
 const revision='r1',directory=`models/${id}/${revision}/`;
 const root=new URL('../',import.meta.url),catalogue=new URL('catalog.geojson',root),sidecar=new URL(directory+'terrain.json',root);
@@ -80,9 +80,9 @@ assert(relief.volume()<terrain.volume());
 assert.equal(relief.decompose().length,1,'The roof and floor stay connected to the hillside');
 for(const [name,ray] of Object.entries(rays)){
   const count=relief.rayCast(...ray.map(at)).length;
-  if(name==='entry'){
-    assert(terrain.rayCast(...ray.map(at)).length>0,'The source terrain fills the entrance');
-    assert.equal(count,0,'The approach and entrance are open');
+  if(name==='entry'||name.startsWith('entry-')){
+    assert(terrain.rayCast(...ray.map(at)).length>0,`The source terrain fills ${name}`);
+    assert.equal(count,0,`The approach through ${name} is open`);
   }else assert(count>0,`The ${name} is present`);
 }
 
@@ -102,10 +102,15 @@ const terrainJSON=JSON.stringify({grid:{side,step,elevations},void:{
   vertices:Array.from(voidVertices,value=>Math.round(value*100000)/100000),faces:Array.from(voidFaces)
 }})+'\n';
 assert(Buffer.byteLength(terrainJSON)<256*1024);
-const index=JSON.parse(await readFile(catalogue,'utf8')),existing=index.features.findIndex(feature=>feature.id===id);
-if(existing<0)index.features.push(entry);
-else index.features[existing]=entry;
+let entryFile=featureOutput,entryDocument=entry;
+if(!featureOutput){
+  const index=JSON.parse(await readFile(catalogue,'utf8')),existing=index.features.findIndex(feature=>feature.id===id);
+  if(existing<0)index.features.push(entry);
+  else index.features[existing]=entry;
+  entryFile=catalogue;
+  entryDocument=index;
+}
 await writeFile(sidecar,terrainJSON);
 await writeFile(new URL(entry.properties.mesh,root),glb);
-await writeFile(catalogue,JSON.stringify(index,null,2)+'\n');
+await writeFile(entryFile,JSON.stringify(entryDocument,null,2)+'\n');
 console.log(`${vertices} vertices · ${triangles} triangles · ${glb.length} bytes · ${voidFaces.length/3} cutter triangles`);

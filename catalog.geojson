@@ -20234,6 +20234,85 @@
         },
         "addedAt": "2026-11-09T17:52:02.637Z"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "congost-mont-rebei",
+      "bbox": [
+        0.6813685469818958,
+        42.07929235195988,
+        0.6821310432981043,
+        42.079858288000125
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.6813685469818958,
+              42.07929235195988
+            ],
+            [
+              0.6821310432981043,
+              42.07929235195988
+            ],
+            [
+              0.6821310432981043,
+              42.079858288000125
+            ],
+            [
+              0.6813685469818958,
+              42.079858288000125
+            ],
+            [
+              0.6813685469818958,
+              42.07929235195988
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "landform",
+        "geometryType": "terrain",
+        "name": "Congost de Mont-rebei",
+        "place": "Sant Esteve de la Sarga, Catalonia, Spain",
+        "city": "Sant Esteve de la Sarga",
+        "country": "Spain",
+        "aliases": [
+          "Camí nou de Mont-rebei",
+          "Mont-rebei gorge",
+          "Desfiladero de Mont-rebei"
+        ],
+        "revision": "r1",
+        "anchor": [
+          0.68174979514,
+          42.07957531998
+        ],
+        "height": 39,
+        "mesh": "models/congost-mont-rebei/r1/print.glb",
+        "byteLength": 21344,
+        "thumbnail": "models/congost-mont-rebei/r1/thumbnail.webp",
+        "license": "CC-BY-4.0",
+        "spatialDataLicense": "CC-BY-4.0",
+        "attribution": "Open Place Models contributors. Terrain elevations © Institut Cartogràfic i Geològic de Catalunya, CC BY 4.0.",
+        "sources": [
+          "https://fundaciocatalunya-lapedrera.com/ca/espais-natura/congost-mont-rebei/itineraris",
+          "https://www.google.com/maps/d/viewer?mid=1EhOWyFnJQj6Cd-sGpsMurLioSoHG6sGL",
+          "https://www.openstreetmap.org/way/198762251",
+          "https://mediambient.repositori.gencat.cat/handle/20.500.14343/2295",
+          "https://commons.wikimedia.org/wiki/File:Congost_de_Mont-rebei_20201110_05.jpg",
+          "https://www.rutespirineus.cat/rutes/congost-de-mont-rebei/",
+          "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Dades-i-productes/Elevacions/Elevacions-territorial/Models-delevacions",
+          "https://catalegs.ide.cat/geonetwork/geonetwork/api/records/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023?language=cat",
+          "https://catalegs.ide.cat/geonetwork/hub-litoral/api/records/model-superficies-lidar-catalunya-1m-2021-2023"
+        ],
+        "landform": {
+          "data": "models/congost-mont-rebei/r1/terrain.json",
+          "verticalDatum": "EGM08D595",
+          "minimumWidth": 1.35
+        },
+        "addedAt": "2026-11-09T17:52:49.570Z"
+      }
     }
   ],
   "assetAddedAt": {
@@ -20328,6 +20407,9 @@
     "models/aqueducte-ferreres/r1/print.glb": "2026-11-09T17:36:53.232Z",
     "models/aqueducte-ferreres/r1/thumbnail.webp": "2026-11-09T17:36:53.232Z",
     "models/castell-de-cardona/r1/print.glb": "2026-11-09T17:52:02.637Z",
-    "models/castell-de-cardona/r1/thumbnail.webp": "2026-11-09T17:52:02.637Z"
+    "models/castell-de-cardona/r1/thumbnail.webp": "2026-11-09T17:52:02.637Z",
+    "models/congost-mont-rebei/r1/print.glb": "2026-11-09T17:52:49.570Z",
+    "models/congost-mont-rebei/r1/thumbnail.webp": "2026-11-09T17:52:49.570Z",
+    "models/congost-mont-rebei/r1/terrain.json": "2026-11-09T17:52:49.570Z"
   }
 }
