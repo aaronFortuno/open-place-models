@@ -1,0 +1,20 @@
+# Westminster Abbey · r1
+
+A lightweight exterior reconstruction of the abbey church, Great Cloisters and Chapter House. The profile includes the two western towers with their pinnacles, the gabled nave and transepts, the low crossing lantern, Henry VII’s Lady Chapel, the octagonal Chapter House and the open cloister garth. The historic exterior uses original, simplified geometry. Saint Margaret’s Church and the modern Weston Tower are separate buildings in the surrounding map. [Abbey architecture](https://www.westminster-abbey.org/history/explore-our-history/architecture) · [Abbey plan](https://www.westminster-abbey.org/media/osapvrsd/self-guided-map.pdf)
+
+## Geometry and placement
+
+- The west pinnacles reach 68 m above the nominal 4.4 m grade, using the abbey’s published dimensions. The crossing and nave ridge are registered to the Environment Agency surface raster at about 53.6 m and 47.1 m Newlyn, with the Lady Chapel ridge near 29.9 m and the Chapter House roof near 39.7 m. The model treats the roofs as continuous planes across gaps and spurious low returns in the raster. [Abbey dimensions](https://www.westminster-abbey.org/media/lnbl3alq/abbey-dimensions-for-web.pdf) · [Chapter House](https://www.westminster-abbey.org/history/explore-our-history/chapter-house) · [Environment Agency DSM](https://www.data.gov.uk/dataset/cf3f1137-c12b-44a1-a835-e80fe4a60b92/lidar-composite-dsm-2022-1m)
+- The western doors and tower lancets are shallow recesses. Eighteen repeated flying buttress profiles give the nave its rhythm, with simple piers and pinnacles. Their sections and the enclosed volume beneath the roofs are interpretive. The three exposed cloister walks use the mapped outline, and the Chapter House joins the church through a simplified vestibule. [The Cloisters](https://www.westminster-abbey.org/history/explore-our-history/the-cloisters)
+- The WGS84 anchor is `[-0.1272, 51.4994]`. The local survey axes rotate 4.5° clockwise from east. The GLB bakes its positions in metres, X east, Y up and Z south. Its underside is at 1.0 m Ordnance Datum Newlyn. The 1 m bare-earth raster gives 3.86 m near the west front, 4.12 m in the cloister garth and 4.90 m by the crossing. [Environment Agency DTM](https://www.data.gov.uk/dataset/01b3ee39-da3f-47b6-83da-dc98e73a461f/lidar-composite-digital-terrain-model-dtm-1m)
+
+## Sources and reuse
+
+The registered footprint combines OSM ways `364313092`, `1149648663` and `363961396`. Open Place Models contributors release their geometry under CC BY 4.0. The footprint is © OpenStreetMap contributors under ODbL 1.0. LiDAR readings are © Environment Agency copyright and/or database right 2022, under Open Government Licence v3.0. [Abbey outline](https://www.openstreetmap.org/way/364313092) · [OSM attribution](https://www.openstreetmap.org/copyright) · [Open Government Licence](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
+
+## Validation
+
+- The GLB is 52,040 bytes, with 2,114 vertices and 4,300 triangles. It forms one closed, consistently oriented solid with positive signed volume. The weight preserves the twin tower details, the gabled roof junctions, the cloister and the flying buttresses. At 1:1,500 the model is approximately 107 × 65 × 48 mm, including the embedded base.
+- Relleu Obert 0.23.44 placed the crown at 72.4 m Newlyn. In the OSM case at 1:1,500 the three mapped abbey volumes and their parts were replaced, with Saint Margaret’s Church and the Weston Tower kept. The foundation at the interior control point was at 0.70 m under the generated ground at 5.49 m. Limited-height and hidden-building modes passed. At 1:2,500 and 26° the OpenFreeMap test replaced the overlapping nave roof. The 1:1,500 OSM crop at −19°, shifted 90 m west, cut the model and produced a closed result. These are digital checks.
+
+Run `node scripts/generate-westminster-abbey.mjs /path/to/feature.json` with the pinned dependencies. The GLB SHA-256 is `fb733cc8359a13a2a96231beb60be8d8bdc64c374ac42dfe72e9785ff6bf70cf`. For the thumbnail run `python scripts/render-thumbnail.py models/westminster-abbey/r1/print.glb --camera -1.2 .48 -1.0`.

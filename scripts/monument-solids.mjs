@@ -29,7 +29,7 @@ export async function openSolids() {
     }
     return mesh(vertices,faces);
   }
-  return {Manifold,box,prism,plate,turned,mesh};
+  return {Manifold,CrossSection,box,prism,plate,turned,mesh};
 }
 
 export function printGlb(solid,attribution,previewDirection) {
