@@ -4,6 +4,84 @@
   "features": [
     {
       "type": "Feature",
+      "id": "cremallera-de-nuria",
+      "bbox": [
+        2.1536307890715496,
+        42.30042646,
+        2.1720301,
+        42.3983118
+      ],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.1536307890715496,
+              42.37335910798778
+            ],
+            [
+              2.160638863457516,
+              42.37335910798778
+            ],
+            [
+              2.160638863457516,
+              42.398200521929574
+            ],
+            [
+              2.1536307890715496,
+              42.398200521929574
+            ],
+            [
+              2.1536307890715496,
+              42.37335910798778
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Cremallera de Núria · Roc del Dui–Núria",
+        "kind": "railway",
+        "geometryType": "road",
+        "place": "Queralbs, Spain",
+        "city": "Queralbs",
+        "country": "Spain",
+        "aliases": [
+          "Cremallera de Núria",
+          "Núria Rack Railway",
+          "Cremallera de Nuria",
+          "Roc del Dui",
+          "Fontalba",
+          "Vall de Núria"
+        ],
+        "revision": "r1",
+        "anchor": [
+          2.15974887,
+          42.37355841
+        ],
+        "height": 378.4,
+        "mesh": "models/cremallera-de-nuria/r1/print.glb",
+        "byteLength": 49196,
+        "thumbnail": "models/cremallera-de-nuria/r1/thumbnail.webp",
+        "railway": {
+          "data": "models/cremallera-de-nuria/r1/route.json"
+        },
+        "attribution": "Open Place Models contributors · Institut Cartogràfic i Geològic de Catalunya · OpenStreetMap contributors",
+        "license": "CC-BY-4.0",
+        "spatialDataLicense": "ICGC CC-BY-4.0; OpenStreetMap identifiers ODbL-1.0",
+        "sources": [
+          "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Dades-i-productes/Geoinformacio-cartografica/Referencial-Topografic-Territorial",
+          "https://maps.icgc.cat/vector01/rest/services/topografia_territorial/MapServer/24",
+          "https://maps.icgc.cat/vector01/rest/services/topografia_territorial/MapServer/25",
+          "https://datacloud.icgc.cat/datacloud/model-elevacions-terreny/tif_unzip/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023.tif",
+          "https://contractaciopublica.cat/portal-api/descarrega-document/1329761/3012731EB8F1723B79458A0AB5903822",
+          "https://contractaciopublica.cat/portal-api/descarrega-document-antic/109884094/45f2c47864e2c4ae0cd25fcf876000dd",
+          "https://www.openstreetmap.org/copyright"
+        ],
+        "addedAt": "2026-11-09T19:28:17.561Z"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "torre-glories",
       "bbox": [
         2.1892807,
@@ -17370,6 +17448,9 @@
     }
   ],
   "assetAddedAt": {
+    "models/cremallera-de-nuria/r1/print.glb": "2026-11-09T19:28:17.561Z",
+    "models/cremallera-de-nuria/r1/thumbnail.webp": "2026-11-09T19:28:17.561Z",
+    "models/cremallera-de-nuria/r1/route.json": "2026-11-09T19:28:17.561Z",
     "models/balma-de-can-sola/r1/print.glb": "2026-11-08T09:01:06.000Z",
     "models/balma-de-can-sola/r1/terrain.json": "2026-11-08T09:01:06.000Z",
     "models/balma-de-can-sola/r1/thumbnail.webp": "2026-11-08T09:01:06.000Z",

@@ -7,7 +7,7 @@ export async function prepareGalleryCatalogue(){
   const catalogue=JSON.parse(await readFile(new URL('catalog.geojson',root),'utf8'));
   const entries=readCatalog(catalogue,{includeComponents:true});
   const assets=[...new Set(entries.flatMap(entry=>[
-    entry.mesh,entry.thumbnail,entry.landform?.data,...entry.variants.map(variant=>variant.mesh),
+    entry.mesh,entry.thumbnail,entry.landform?.data,entry.railway?.data,...entry.variants.map(variant=>variant.mesh),
   ]).filter(Boolean))];
   for(const path of assets){
     if(!Object.hasOwn(catalogue.assetAddedAt??{},path))throw new Error(`Missing catalogue date for ${path}.`);
