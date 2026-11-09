@@ -283,7 +283,8 @@
         "country": "Spain",
         "geometryType": "building",
         "thumbnail": "models/torre-glories/r1/thumbnail.png",
-        "byteLength": 28492
+        "byteLength": 28492,
+        "addedAt": "2026-11-07T18:11:11.000Z"
       }
     },
     {
@@ -871,7 +872,8 @@
         "city": "Paris",
         "country": "France",
         "geometryType": "building",
-        "thumbnail": "models/eiffel-tower/r2/thumbnail.png"
+        "thumbnail": "models/eiffel-tower/r2/thumbnail.png",
+        "addedAt": "2026-11-07T19:03:16.000Z"
       }
     },
     {
@@ -1214,7 +1216,8 @@
           "https://datacloud.icgc.cat/datacloud/lidar-territorial/laz_unzip/full10km4358/lidar-territorial-v3r1-full1km431581-2021-2023.laz",
           "https://sketchfab.com/3d-models/cathedral-of-bcnsanta-creu-and-santa-eulalia-4395e17feb95400c891597121a59513f"
         ],
-        "thumbnail": "models/barcelona-cathedral/r2/thumbnail.webp"
+        "thumbnail": "models/barcelona-cathedral/r2/thumbnail.webp",
+        "addedAt": "2026-11-07T19:40:56.000Z"
       }
     },
     {
@@ -3383,7 +3386,8 @@
           },
           "maxPierAdjustment": 22
         },
-        "thumbnail": "models/millau-viaduct/r1/thumbnail.webp"
+        "thumbnail": "models/millau-viaduct/r1/thumbnail.webp",
+        "addedAt": "2026-11-07T19:49:08.000Z"
       }
     },
     {
@@ -3457,7 +3461,8 @@
           "data": "models/roca-foradada/r3/terrain.json",
           "verticalDatum": "EGM08D595",
           "minimumWidth": 10.2
-        }
+        },
+        "addedAt": "2026-11-07T20:18:28.000Z"
       }
     },
     {
@@ -4852,7 +4857,8 @@
           "https://www.openstreetmap.org/relation/9194723",
           "https://sagradafamilia.org/documents/20142/1693653/SF_Quadern_06_20260227_digital_AF.pdf/379fa0e6-018d-194b-b389-74ad8085ad18"
         ],
-        "thumbnail": "models/sagrada-familia/r1/thumbnail.png"
+        "thumbnail": "models/sagrada-familia/r1/thumbnail.png",
+        "addedAt": "2026-11-07T20:16:39.000Z"
       }
     },
     {
@@ -5009,7 +5015,8 @@
           "https://doi.org/10.1201/9781003308867-49",
           "https://www.openstreetmap.org/relation/12982355"
         ],
-        "thumbnail": "models/leaning-tower-pisa/r1/thumbnail.png"
+        "thumbnail": "models/leaning-tower-pisa/r1/thumbnail.png",
+        "addedAt": "2026-11-07T20:31:06.000Z"
       }
     },
     {
@@ -5739,7 +5746,8 @@
           "https://www.openstreetmap.org/way/138800932",
           "https://www.rteknos.it/wp-content/uploads/2025/06/467.pdf"
         ],
-        "thumbnail": "models/st-marks-basilica/r1/thumbnail.png"
+        "thumbnail": "models/st-marks-basilica/r1/thumbnail.png",
+        "addedAt": "2026-11-07T20:51:25.000Z"
       }
     },
     {
@@ -6348,7 +6356,8 @@
           "https://exhibits.lib.ttu.edu/s/openarch/item/18831",
           "https://emidius.mi.ingv.it/GNDT2/Pubblicazioni/Liberatore_Beni_Archeologici/Cap1_Liberatore.htm"
         ],
-        "thumbnail": "models/colosseum/r1/thumbnail.webp"
+        "thumbnail": "models/colosseum/r1/thumbnail.webp",
+        "addedAt": "2026-11-07T21:33:41.000Z"
       }
     },
     {
@@ -6567,7 +6576,8 @@
           "https://www.fisheries.noaa.gov/inport/item/64728",
           "https://www.openstreetmap.org/way/32965412"
         ],
-        "thumbnail": "models/statue-of-liberty/r1/thumbnail.webp"
+        "thumbnail": "models/statue-of-liberty/r1/thumbnail.webp",
+        "addedAt": "2026-11-07T21:55:30.000Z"
       }
     },
     {
@@ -12041,7 +12051,8 @@
           },
           "maxPierAdjustment": 12
         },
-        "thumbnail": "models/golden-gate-bridge/r1/thumbnail.webp"
+        "thumbnail": "models/golden-gate-bridge/r1/thumbnail.webp",
+        "addedAt": "2026-11-07T22:44:08.000Z"
       }
     },
     {
@@ -12182,7 +12193,8 @@
           "https://archiv.ub.uni-heidelberg.de/propylaeumdok/2560/1/Vortragsfassung%2520%2520Florenz%2520Englisch%252028.8-1.pdf",
           "https://commons.wikimedia.org/wiki/File:Pyramid_of_Menkaure_(50035374516).jpg",
           "https://www.openstreetmap.org/way/4420398"
-        ]
+        ],
+        "addedAt": "2026-11-08T07:54:47.000Z"
       }
     },
     {
@@ -12262,7 +12274,8 @@
           "https://egymonuments.gov.eg/monuments/the-great-pyramid/",
           "https://www.openstreetmap.org/way/4420397"
         ],
-        "galleryParent": "great-pyramid-giza"
+        "galleryParent": "great-pyramid-giza",
+        "addedAt": "2026-11-08T08:46:24.000Z"
       }
     },
     {
@@ -12338,7 +12351,8 @@
           "https://smarthistory.org/pyramid-of-khafre-and-the-great-sphinx/",
           "https://www.openstreetmap.org/way/4420396"
         ],
-        "galleryParent": "great-pyramid-giza"
+        "galleryParent": "great-pyramid-giza",
+        "addedAt": "2026-11-08T08:46:24.000Z"
       }
     },
     {
@@ -12415,7 +12429,8 @@
           "https://commons.wikimedia.org/wiki/File:Pyramid_of_Menkaure_(50035374516).jpg",
           "https://www.openstreetmap.org/way/4420398"
         ],
-        "galleryParent": "great-pyramid-giza"
+        "galleryParent": "great-pyramid-giza",
+        "addedAt": "2026-11-08T08:46:24.000Z"
       }
     },
     {
@@ -13098,7 +13113,8 @@
           "https://www.openstreetmap.org/way/322437078",
           "https://www.openstreetmap.org/way/322436982"
         ],
-        "thumbnail": "models/mont-saint-michel/r1/thumbnail.webp"
+        "thumbnail": "models/mont-saint-michel/r1/thumbnail.webp",
+        "addedAt": "2026-11-08T08:52:38.000Z"
       }
     },
     {
@@ -13170,7 +13186,8 @@
           "data": "models/balma-de-can-sola/r1/terrain.json",
           "verticalDatum": "EGM08D595",
           "minimumWidth": 12
-        }
+        },
+        "addedAt": "2026-11-08T09:01:06.000Z"
       }
     },
     {
@@ -13251,7 +13268,8 @@
           "data": "models/petra-treasury/r1/terrain.json",
           "verticalDatum": "EGM96 (approximate site registration)",
           "minimumWidth": 4.28
-        }
+        },
+        "addedAt": "2026-11-08T10:11:59.000Z"
       }
     },
     {
@@ -13436,7 +13454,8 @@
           "families": [
             "375257537"
           ]
-        }
+        },
+        "addedAt": "2026-11-08T10:25:18.000Z"
       }
     },
     {
@@ -13846,7 +13865,8 @@
           "families": [
             "109862851"
           ]
-        }
+        },
+        "addedAt": "2026-11-08T10:39:49.000Z"
       }
     },
     {
@@ -13923,7 +13943,8 @@
         ],
         "mesh": "models/st-peters-vatican/r1/print.glb",
         "byteLength": 86404,
-        "thumbnail": "models/st-peters-vatican/r1/thumbnail.webp"
+        "thumbnail": "models/st-peters-vatican/r1/thumbnail.webp",
+        "addedAt": "2026-11-08T10:51:10.000Z"
       }
     },
     {
@@ -14570,7 +14591,8 @@
             "244159210",
             "18531045"
           ]
-        }
+        },
+        "addedAt": "2026-11-08T10:51:10.000Z"
       }
     },
     {
@@ -15087,7 +15109,8 @@
             "12043628",
             "149407291"
           ]
-        }
+        },
+        "addedAt": "2026-11-08T10:51:10.000Z"
       }
     },
     {
@@ -15640,7 +15663,8 @@
             "149958437",
             "246418139"
           ]
-        }
+        },
+        "addedAt": "2026-11-08T10:51:10.000Z"
       }
     },
     {
@@ -15716,7 +15740,8 @@
           "families": [
             "799694267"
           ]
-        }
+        },
+        "addedAt": "2026-11-08T10:51:10.000Z"
       }
     },
     {
@@ -15793,7 +15818,8 @@
           "data": "models/coves-del-salnitre/r1/terrain.json",
           "verticalDatum": "EGM08D595",
           "minimumWidth": 1.12
-        }
+        },
+        "addedAt": "2026-11-08T11:23:16.000Z"
       }
     },
     {
@@ -16332,7 +16358,8 @@
           "https://www.icgc.cat/en/Geoinformation-and-Maps/Data-and-products/Elevations/Territorial-elevations/Elevation-models",
           "https://www.icgc.cat/es/Geoinformacion-y-mapas/Datos-y-productos/Imagen/Ortofoto-Territorial",
           "https://www.openstreetmap.org/relation/4008211"
-        ]
+        ],
+        "addedAt": "2026-11-08T11:28:34.000Z"
       }
     },
     {
@@ -16408,7 +16435,8 @@
           "data": "models/cova-simanya/r1/terrain.json",
           "verticalDatum": "EGM08D595",
           "minimumWidth": 1.8
-        }
+        },
+        "addedAt": "2026-11-08T11:34:28.000Z"
       }
     },
     {
@@ -17424,7 +17452,8 @@
           "families": [
             "osm-relation-1012115"
           ]
-        }
+        },
+        "addedAt": "2026-11-08T11:35:06.000Z"
       }
     },
     {
@@ -17497,7 +17526,8 @@
           "data": "models/cova-font-major/r1/terrain.json",
           "verticalDatum": "EGM08D595",
           "minimumWidth": 2.05
-        }
+        },
+        "addedAt": "2026-11-08T11:37:47.000Z"
       }
     },
     {
@@ -17573,7 +17603,8 @@
           "data": "models/cova-del-toll/r1/terrain.json",
           "verticalDatum": "EGM08D595",
           "minimumWidth": 1.35
-        }
+        },
+        "addedAt": "2026-11-08T11:40:53.000Z"
       }
     },
     {
@@ -17844,7 +17875,8 @@
           "https://catalegs.ide.cat/geonetwork/hub-litoral/api/records/model-superficies-lidar-catalunya-1m-2021-2023",
           "https://www.openstreetmap.org/way/174173363",
           "https://www.openstreetmap.org/relation/2325532"
-        ]
+        ],
+        "addedAt": "2026-11-08T11:45:26.000Z"
       }
     },
     {
@@ -17922,7 +17954,8 @@
           "data": "models/roca-dels-moros-cogul/r1/terrain.json",
           "verticalDatum": "EGM08D595",
           "minimumWidth": 2.6
-        }
+        },
+        "addedAt": "2026-11-08T11:51:58.000Z"
       }
     },
     {
@@ -18265,7 +18298,8 @@
           "https://committees.parliament.uk/writtenevidence/78705/html/",
           "https://www.data.gov.uk/dataset/01b3ee39-da3f-47b6-83da-dc98e73a461f/lidar-composite-digital-terrain-model-dtm-1m",
           "https://www.openstreetmap.org/way/123557148"
-        ]
+        ],
+        "addedAt": "2026-11-08T12:10:33.000Z"
       }
     },
     {
@@ -18710,7 +18744,8 @@
           "https://www.ign.es/web/ign/portal/ide-area-nodo-ide-ign",
           "https://www.openstreetmap.org/relation/6214762",
           "https://www.openstreetmap.org/way/55170713"
-        ]
+        ],
+        "addedAt": "2026-11-08T12:26:05.000Z"
       }
     },
     {
@@ -18982,7 +19017,8 @@
           "https://catalegs.ide.cat/geonetwork/geonetwork/api/records/model-elevacions-terreny-lidar-catalunya-50cm-2021-2023",
           "https://catalegs.ide.cat/geonetwork/hub-litoral/api/records/model-superficies-lidar-catalunya-1m-2021-2023",
           "https://www.openstreetmap.org/relation/3628735"
-        ]
+        ],
+        "addedAt": "2026-11-08T12:29:03.000Z"
       }
     },
     {
@@ -19263,7 +19299,8 @@
           "families": [
             "osm-way-25883629"
           ]
-        }
+        },
+        "addedAt": "2026-11-08T12:38:51.000Z"
       }
     },
     {
@@ -19947,7 +19984,8 @@
           "families": [
             "osm-way-118499485"
           ]
-        }
+        },
+        "addedAt": "2026-11-08T16:26:01.000Z"
       }
     },
     {
@@ -20470,7 +20508,8 @@
           "families": [
             "osm-relation-20725097"
           ]
-        }
+        },
+        "addedAt": "2026-11-08T18:51:41.000Z"
       }
     },
     {
@@ -20886,7 +20925,8 @@
           "families": [
             "osm-way-383196253"
           ]
-        }
+        },
+        "addedAt": "2026-11-09T16:21:03.000Z"
       }
     },
     {
@@ -21215,8 +21255,95 @@
           "https://www.openstreetmap.org/way/1103800106",
           "https://servicios.cac.es/portalocupacio/ofertas/139/Manuales_Temario/IV.2.pdf",
           "https://github.com/aaronFortuno/open-place-models/blob/main/models/museu-ciencies-valencia/r1/README.md#rights-and-licence"
-        ]
+        ],
+        "addedAt": "2026-11-09T16:25:07.000Z"
       }
     }
-  ]
+  ],
+  "assetAddedAt": {
+    "models/balma-de-can-sola/r1/print.glb": "2026-11-08T09:01:06.000Z",
+    "models/balma-de-can-sola/r1/terrain.json": "2026-11-08T09:01:06.000Z",
+    "models/balma-de-can-sola/r1/thumbnail.webp": "2026-11-08T09:01:06.000Z",
+    "models/barcelona-cathedral/r2/print.glb": "2026-11-07T21:07:45.000Z",
+    "models/barcelona-cathedral/r2/thumbnail.webp": "2026-11-07T21:07:45.000Z",
+    "models/castell-de-bellver/r1/print.glb": "2026-11-08T12:26:05.000Z",
+    "models/castell-de-bellver/r1/thumbnail.webp": "2026-11-08T12:26:05.000Z",
+    "models/catedral-de-girona/r1/print.glb": "2026-11-08T11:35:06.000Z",
+    "models/catedral-de-girona/r1/thumbnail.webp": "2026-11-08T11:35:06.000Z",
+    "models/catedral-de-mallorca/r1/print.glb": "2026-11-08T12:38:51.000Z",
+    "models/catedral-de-mallorca/r1/thumbnail.webp": "2026-11-08T12:38:51.000Z",
+    "models/colosseum/r1/print.glb": "2026-11-07T21:33:41.000Z",
+    "models/colosseum/r1/thumbnail.webp": "2026-11-07T21:33:41.000Z",
+    "models/cova-del-toll/r1/print.glb": "2026-11-08T11:40:53.000Z",
+    "models/cova-del-toll/r1/terrain.json": "2026-11-08T11:40:53.000Z",
+    "models/cova-del-toll/r1/thumbnail.webp": "2026-11-08T11:40:53.000Z",
+    "models/cova-font-major/r1/print.glb": "2026-11-08T11:37:47.000Z",
+    "models/cova-font-major/r1/terrain.json": "2026-11-08T11:37:47.000Z",
+    "models/cova-font-major/r1/thumbnail.webp": "2026-11-08T11:37:47.000Z",
+    "models/cova-simanya/r1/print.glb": "2026-11-08T11:34:28.000Z",
+    "models/cova-simanya/r1/terrain.json": "2026-11-08T11:34:28.000Z",
+    "models/cova-simanya/r1/thumbnail.webp": "2026-11-08T11:34:28.000Z",
+    "models/coves-del-salnitre/r1/print.glb": "2026-11-08T11:23:16.000Z",
+    "models/coves-del-salnitre/r1/terrain.json": "2026-11-08T11:23:16.000Z",
+    "models/coves-del-salnitre/r1/thumbnail.webp": "2026-11-08T11:23:16.000Z",
+    "models/eiffel-tower/r1/print.glb": "2026-11-07T19:03:16.000Z",
+    "models/eiffel-tower/r2/print.glb": "2026-11-07T19:29:24.000Z",
+    "models/eiffel-tower/r2/thumbnail.png": "2026-11-07T19:29:24.000Z",
+    "models/elizabeth-tower/r1/print.glb": "2026-11-08T12:10:33.000Z",
+    "models/elizabeth-tower/r1/thumbnail.webp": "2026-11-08T12:10:33.000Z",
+    "models/golden-gate-bridge/r1/print.glb": "2026-11-07T22:44:08.000Z",
+    "models/golden-gate-bridge/r1/thumbnail.webp": "2026-11-07T22:44:08.000Z",
+    "models/great-pyramid-giza/r1/print.glb": "2026-11-08T07:54:47.000Z",
+    "models/great-pyramid-giza/r2/khafre.glb": "2026-11-08T08:46:24.000Z",
+    "models/great-pyramid-giza/r2/menkaure.glb": "2026-11-08T08:46:24.000Z",
+    "models/great-pyramid-giza/r2/print.glb": "2026-11-08T08:46:24.000Z",
+    "models/great-pyramid-giza/r2/thumbnail.webp": "2026-11-08T08:46:24.000Z",
+    "models/guggenheim-bilbao/r2/print.glb": "2026-11-08T18:16:13.000Z",
+    "models/guggenheim-bilbao/r2/thumbnail.webp": "2026-11-08T18:16:13.000Z",
+    "models/hagia-sophia/r1/print.glb": "2026-11-08T10:39:49.000Z",
+    "models/hagia-sophia/r1/thumbnail.webp": "2026-11-08T10:39:49.000Z",
+    "models/leaning-tower-pisa/r1/print.glb": "2026-11-07T20:31:06.000Z",
+    "models/leaning-tower-pisa/r1/thumbnail.png": "2026-11-07T20:31:06.000Z",
+    "models/millau-viaduct/r1/print.glb": "2026-11-07T19:49:08.000Z",
+    "models/millau-viaduct/r1/thumbnail.webp": "2026-11-07T20:18:28.000Z",
+    "models/monestir-poblet/r1/print.glb": "2026-11-08T11:45:26.000Z",
+    "models/monestir-poblet/r1/thumbnail.webp": "2026-11-08T11:45:26.000Z",
+    "models/monestir-santes-creus/r1/print.glb": "2026-11-08T12:29:03.000Z",
+    "models/monestir-santes-creus/r1/thumbnail.webp": "2026-11-08T12:29:03.000Z",
+    "models/mont-saint-michel/r1/print.glb": "2026-11-08T08:52:38.000Z",
+    "models/mont-saint-michel/r1/thumbnail.webp": "2026-11-08T08:52:38.000Z",
+    "models/museu-ciencies-valencia/r1/print.glb": "2026-11-09T16:25:07.000Z",
+    "models/museu-ciencies-valencia/r1/thumbnail.webp": "2026-11-09T16:25:07.000Z",
+    "models/petra-treasury/r1/print.glb": "2026-11-08T10:11:59.000Z",
+    "models/petra-treasury/r1/terrain.json": "2026-11-08T10:11:59.000Z",
+    "models/petra-treasury/r1/thumbnail.webp": "2026-11-08T10:11:59.000Z",
+    "models/roca-dels-moros-cogul/r1/print.glb": "2026-11-08T11:51:58.000Z",
+    "models/roca-dels-moros-cogul/r1/terrain.json": "2026-11-08T11:51:58.000Z",
+    "models/roca-dels-moros-cogul/r1/thumbnail.webp": "2026-11-08T11:51:58.000Z",
+    "models/roca-foradada/r3/print.glb": "2026-11-08T08:15:46.000Z",
+    "models/roca-foradada/r3/terrain.json": "2026-11-08T08:15:46.000Z",
+    "models/roca-foradada/r3/thumbnail.webp": "2026-11-08T08:15:46.000Z",
+    "models/sagrada-familia/r1/print.glb": "2026-11-07T20:16:39.000Z",
+    "models/sagrada-familia/r1/thumbnail.png": "2026-11-07T20:16:39.000Z",
+    "models/seu-de-manresa/r1/print.glb": "2026-11-09T16:21:03.000Z",
+    "models/seu-de-manresa/r1/thumbnail.webp": "2026-11-09T16:21:03.000Z",
+    "models/seu-vella-lleida/r1/print.glb": "2026-11-08T11:28:34.000Z",
+    "models/seu-vella-lleida/r1/thumbnail.webp": "2026-11-08T11:28:34.000Z",
+    "models/st-marks-basilica/r1/print.glb": "2026-11-07T20:51:25.000Z",
+    "models/st-marks-basilica/r1/thumbnail.png": "2026-11-07T20:51:25.000Z",
+    "models/st-peters-vatican/r1/basilica.glb": "2026-11-08T10:51:10.000Z",
+    "models/st-peters-vatican/r1/north-colonnade.glb": "2026-11-08T10:51:10.000Z",
+    "models/st-peters-vatican/r1/obelisk.glb": "2026-11-08T10:51:10.000Z",
+    "models/st-peters-vatican/r1/print.glb": "2026-11-08T10:51:10.000Z",
+    "models/st-peters-vatican/r1/south-colonnade.glb": "2026-11-08T10:51:10.000Z",
+    "models/st-peters-vatican/r1/thumbnail.webp": "2026-11-08T10:51:10.000Z",
+    "models/statue-of-liberty/r1/print.glb": "2026-11-07T21:55:30.000Z",
+    "models/statue-of-liberty/r1/thumbnail.webp": "2026-11-07T21:55:30.000Z",
+    "models/taj-mahal/r1/print.glb": "2026-11-08T10:25:18.000Z",
+    "models/taj-mahal/r1/thumbnail.webp": "2026-11-08T10:25:18.000Z",
+    "models/torre-collserola/r2/print.glb": "2026-11-09T16:04:48.000Z",
+    "models/torre-collserola/r2/thumbnail.webp": "2026-11-09T16:04:48.000Z",
+    "models/torre-glories/r1/print.glb": "2026-11-07T18:11:11.000Z",
+    "models/torre-glories/r1/thumbnail.png": "2026-11-07T19:29:24.000Z"
+  }
 }

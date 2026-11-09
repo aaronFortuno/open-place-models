@@ -9,6 +9,7 @@ const clearFilters=byId('clear-filters'),variantSelect=byId('model-variant');
 const previewStatus=byId('preview-status'),viewTools=byId('view-tools'),viewHelp=byId('view-help');
 const retry=byId('reload-catalog'),number=new Intl.NumberFormat('en',{maximumFractionDigits:2});
 const fileSize=new Intl.NumberFormat('en',{maximumFractionDigits:1});
+const dateFormat=new Intl.DateTimeFormat('en',{dateStyle:'medium',timeZone:'UTC'});
 let entries=[],selection,selectedVariant,viewRequest,view,requestId=0;
 
 function link(href,label){
@@ -87,6 +88,13 @@ function licenseNode(id){
     ?link(`https://spdx.org/licenses/${id}.html`,id):document.createTextNode(id||'—');
 }
 
+function showDate(id,timestamp){
+  const time=byId(id);
+  time.textContent=timestamp?dateFormat.format(new Date(timestamp)):'—';
+  if(timestamp)time.dateTime=timestamp;
+  else time.removeAttribute('datetime');
+}
+
 function showDetails(entry,variant,meshURL){
   const model={...entry,...variant};
   byId('model-name').textContent=entry.name;
@@ -102,6 +110,8 @@ function showDetails(entry,variant,meshURL){
   byId('model-height').textContent=Number.isFinite(entry.height)?`${number.format(entry.height)} m`:'—';
   byId('model-type').textContent=geometryLabels[entry.geometryType];
   byId('model-revision').textContent=model.revision??'—';
+  showDate('model-added',entry.addedAt);
+  showDate('file-added',model.meshAddedAt);
   byId('model-variants').hidden=!entry.variants.length;
   variantSelect.replaceChildren(new Option('Lightweight','default'),
     ...entry.variants.map(item=>new Option(item.label,item.id)));

@@ -9,8 +9,12 @@ export async function prepareGalleryCatalogue(){
   const assets=[...new Set(entries.flatMap(entry=>[
     entry.mesh,entry.thumbnail,entry.landform?.data,...entry.variants.map(variant=>variant.mesh),
   ]).filter(Boolean))];
+  for(const path of assets){
+    if(!Object.hasOwn(catalogue.assetAddedAt??{},path))throw new Error(`Missing catalogue date for ${path}.`);
+  }
   const sizes=new Map(await Promise.all(assets.map(async path=>[path,(await stat(new URL(path,root))).size])));
-  for(const {properties} of catalogue.features){
+  for(const {id,properties} of catalogue.features){
+    if(!properties.addedAt)throw new Error(`Missing catalogue date for ${id}.`);
     for(const model of [properties,...(properties.variants??[])]){
       const size=sizes.get(model.mesh);
       if(model.byteLength!==undefined&&model.byteLength!==size)throw new Error(`File size differs for ${model.mesh}.`);
