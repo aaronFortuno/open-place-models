@@ -1,0 +1,248 @@
+{
+  "mesh": {
+    "id": "pont-del-diable-martorell",
+    "name": "Pont del Diable de Martorell",
+    "errors": [],
+    "empty": false,
+    "finite": true,
+    "vertices": 1049,
+    "triangles": 2098,
+    "bbox": {
+      "min": [
+        -0.2532398998737335,
+        0,
+        -16.52731704711914
+      ],
+      "max": [
+        128.29791259765625,
+        32,
+        2.9491472244262695
+      ]
+    },
+    "dimensions": [
+      128.55115249752998,
+      32,
+      19.47646427154541
+    ],
+    "signedVolume": 5285.7931198601955,
+    "orientation": "positiva",
+    "edges": {
+      "total": 3147,
+      "boundary": 0,
+      "nonManifold": 0,
+      "orientationConflicts": 0
+    },
+    "closed": true,
+    "components": 2
+  },
+  "cases": [
+    {
+      "name": "complet",
+      "center": [
+        41.474962,
+        1.93755
+      ],
+      "width": 200,
+      "height": 150,
+      "scale": 1000,
+      "rotation": 8,
+      "terrain": "ICGC MET5",
+      "openings": [
+        "small",
+        "main",
+        "east",
+        "shelter",
+        "roman-gate"
+      ],
+      "contacts": [
+        {
+          "station": 1,
+          "embeddedMM": 1.9816869860367028
+        },
+        {
+          "station": 39,
+          "embeddedMM": 1.9602803324627391
+        },
+        {
+          "station": 62.6,
+          "embeddedMM": 2.07964659490023
+        },
+        {
+          "station": 105,
+          "embeddedMM": 1.9054374102852547
+        },
+        {
+          "station": 126,
+          "embeddedMM": 3.5504507285269717
+        }
+      ],
+      "audits": [
+        {
+          "id": "terrain",
+          "closed": true,
+          "components": 1849,
+          "triangles": 17624,
+          "errors": []
+        },
+        {
+          "id": "water",
+          "closed": true,
+          "components": 286,
+          "triangles": 2640,
+          "errors": []
+        },
+        {
+          "id": "built",
+          "closed": true,
+          "components": 542,
+          "triangles": 17786,
+          "errors": []
+        },
+        {
+          "id": "green",
+          "closed": true,
+          "components": 866,
+          "triangles": 8836,
+          "errors": []
+        }
+      ],
+      "bridgeConnectedComponents": 1
+    },
+    {
+      "name": "girat",
+      "center": [
+        41.474962,
+        1.93755
+      ],
+      "width": 160,
+      "height": 120,
+      "scale": 2000,
+      "rotation": -14,
+      "terrain": "ICGC MET5",
+      "openings": [
+        "small",
+        "main",
+        "east",
+        "shelter",
+        "roman-gate"
+      ],
+      "contacts": [
+        {
+          "station": 1,
+          "embeddedMM": 1.0514482747753107
+        },
+        {
+          "station": 39,
+          "embeddedMM": 1.1233237748770701
+        },
+        {
+          "station": 62.6,
+          "embeddedMM": 1.0454817515087118
+        },
+        {
+          "station": 105,
+          "embeddedMM": 1.1021948753327795
+        },
+        {
+          "station": 126,
+          "embeddedMM": 1.4182794208943719
+        }
+      ],
+      "audits": [
+        {
+          "id": "terrain",
+          "closed": true,
+          "components": 2252,
+          "triangles": 23172,
+          "errors": []
+        },
+        {
+          "id": "water",
+          "closed": true,
+          "components": 169,
+          "triangles": 1668,
+          "errors": []
+        },
+        {
+          "id": "built",
+          "closed": true,
+          "components": 1020,
+          "triangles": 23562,
+          "errors": []
+        },
+        {
+          "id": "green",
+          "closed": true,
+          "components": 821,
+          "triangles": 9152,
+          "errors": []
+        }
+      ],
+      "bridgeConnectedComponents": 1
+    },
+    {
+      "name": "parcial",
+      "center": [
+        41.474985,
+        1.938
+      ],
+      "width": 100,
+      "height": 100,
+      "scale": 750,
+      "rotation": 19,
+      "terrain": "ICGC MET5",
+      "openings": [
+        "main",
+        "east",
+        "shelter",
+        "roman-gate"
+      ],
+      "contacts": [
+        {
+          "station": 62.6,
+          "embeddedMM": 2.775529776243321
+        },
+        {
+          "station": 105,
+          "embeddedMM": 2.64804616568299
+        },
+        {
+          "station": 126,
+          "embeddedMM": 4.9445605094884915
+        }
+      ],
+      "audits": [
+        {
+          "id": "terrain",
+          "closed": true,
+          "components": 1272,
+          "triangles": 10704,
+          "errors": []
+        },
+        {
+          "id": "water",
+          "closed": true,
+          "components": 490,
+          "triangles": 4184,
+          "errors": []
+        },
+        {
+          "id": "built",
+          "closed": true,
+          "components": 57,
+          "triangles": 6660,
+          "errors": []
+        },
+        {
+          "id": "green",
+          "closed": true,
+          "components": 801,
+          "triangles": 6896,
+          "errors": []
+        }
+      ],
+      "bridgeConnectedComponents": 1
+    }
+  ],
+  "sha256": "8cdf852519e31a56284de6bc790308dccce1f2cd70f65931701550629fc23d89"
+}
