@@ -1,5 +1,7 @@
 # Candidate queue
 
+The [next 80 places](MODELLING-QUEUE.md) are proposed in production order and await user validation. Keep this document as the detailed source record for researched and released candidates.
+
 Research snapshot · 7 November 2026
 
 The order balances a recognisable silhouette, evidence for its dimensions, and a viable route to a printable asset. Each revision should start with one place. Follow the [contribution guide](CONTRIBUTING.md) for georeferencing, licence attribution and validation. The coordinates below are WGS84 search centres in longitude–latitude order. Verify the final footprint, base anchor and orientation against the source before publishing. The scales are proposed review scales.
