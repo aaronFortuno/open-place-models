@@ -1,0 +1,723 @@
+{
+  "name": "complet",
+  "width": 220,
+  "height": 220,
+  "scale": 2000,
+  "rotation": 8,
+  "center": [
+    41.59325382484897,
+    1.837548641641394
+  ],
+  "export3mf": true,
+  "requireWholeModel": true,
+  "id": "monestir-de-montserrat",
+  "consumerVersion": "0.24.16",
+  "validationStatus": "passed-with-known-terrain-limitation",
+  "rayMethod": "Direct triangle intersections on exported indexed mesh; no Manifold reconstruction for read-only controls",
+  "terrain": "ICGC MET5",
+  "buildingSource": "icgc",
+  "catalogue": [
+    {
+      "id": "monestir-de-montserrat",
+      "family": null,
+      "fragments": 1,
+      "roof": 105.01042175292969,
+      "roofShape": "catalogue",
+      "roofFallback": null,
+      "roofSource": null,
+      "roofMetadata": null,
+      "baseOffsetMM": 0,
+      "estimated": false,
+      "landmark": {
+        "name": "Monestir de Montserrat",
+        "revision": "r1",
+        "license": "CC-BY-4.0",
+        "spatialDataLicense": "CC-BY-4.0",
+        "attribution": "Open Place Models contributors; Institut Cartografic i Geologic de Catalunya (ICGC)",
+        "sources": [
+          "https://geoserveis.icgc.cat/vector01/rest/services/topografia_territorial/MapServer/10",
+          "https://geoserveis.icgc.cat/servei/catalunya/elevacions-territorial/wms",
+          "https://www.icgc.cat/ca/LICGC/Informacio-publica/Transparencia/Reutilitzacio-de-la-informacio",
+          "https://www.arquitecturacatalana.cat/ca/obres/escolania-de-montserrat",
+          "https://abadiamontserrat.cat/santuari/basilica-i-altres-llocs-de-culte",
+          "https://www.montserratvisita.com/ca/oficines-de-turisme",
+          "https://www.tracrehabilitacio.es/sites/default/files/article_montserrat.pdf",
+          "https://documents.cateb.cat/Comunicacio/informatiu/pdf/319.pdf",
+          "https://radioteca.cat/p/perspectiva_reportatges-projectes/2026/02/05/32-anys-dintervencions-darcadi-pla-a-montserrat-ara-a-larxiu-AIrlyVvAcixcwz719YJWQg",
+          "https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms"
+        ],
+        "anchorElevation": 705.1920003890991
+      }
+    }
+  ],
+  "wholeModelCoverage": [
+    {
+      "id": "monestir-de-montserrat",
+      "bounds": [
+        48.26068,
+        56.72237,
+        171.81727,
+        163.92668
+      ]
+    }
+  ],
+  "cataloguePeers": [],
+  "assets": [
+    {
+      "id": "monestir-de-montserrat",
+      "mesh": "models/monestir-de-montserrat/r1/print.glb",
+      "byteLength": 73256,
+      "sha256": "8d73706984ef37e2f05ed98eb6773f39c74b25c904617500125a41e837959051"
+    }
+  ],
+  "expectedIds": [
+    "monestir-de-montserrat"
+  ],
+  "buildingCount": 29,
+  "transportReplacements": [],
+  "contacts": [
+    {
+      "name": "exterior-foot-0-25",
+      "sourceFoundationASL": 721.0670163494624,
+      "embeddedMM": 1.4152089438584312
+    },
+    {
+      "name": "exterior-foot-0-75",
+      "sourceFoundationASL": 721.4210003809095,
+      "embeddedMM": 1.6868398245083114
+    },
+    {
+      "name": "exterior-foot-18-83",
+      "sourceFoundationASL": 706.5265074695151,
+      "embeddedMM": 1.4339473104900549
+    },
+    {
+      "name": "exterior-foot-30-75",
+      "sourceFoundationASL": 707.306043040328,
+      "embeddedMM": 1.0986883324698198
+    },
+    {
+      "name": "exterior-foot-48-50",
+      "sourceFoundationASL": 717.9154910218729,
+      "embeddedMM": 0.14992324379883826
+    },
+    {
+      "name": "exterior-foot-66-50",
+      "sourceFoundationASL": 731.7174634087887,
+      "embeddedMM": 0.6976677402814317
+    },
+    {
+      "name": "exterior-foot-84-50",
+      "sourceFoundationASL": 735.6999998092651,
+      "embeddedMM": 2.0126494085322406
+    },
+    {
+      "name": "exterior-foot-96-50",
+      "sourceFoundationASL": 727.5239970530687,
+      "embeddedMM": 4.566165935790593
+    },
+    {
+      "name": "exterior-foot-102-50",
+      "sourceFoundationASL": 731.5789924470599,
+      "embeddedMM": 2.287846932400285
+    },
+    {
+      "name": "exterior-foot-108-50",
+      "sourceFoundationASL": 729.6730098246393,
+      "embeddedMM": 1.6412890749802642
+    },
+    {
+      "name": "exterior-foot-114-50",
+      "sourceFoundationASL": 725.4169968390565,
+      "embeddedMM": 1.7959491652252098
+    }
+  ],
+  "supportChecks": [
+    {
+      "id": "north-school-ledge",
+      "name": "north-school-ledge-connection",
+      "location": [
+        1.8387376741352097,
+        41.59396244657603
+      ],
+      "carrierLocation": [
+        1.838629437605395,
+        41.59392733639743
+      ],
+      "connectionElevation": 736.8,
+      "pathCrossings": 0,
+      "interiorProbes": [
+        [
+          1.8387376741352097,
+          41.59396244657603
+        ],
+        [
+          1.8386835558703025,
+          41.59394489148673
+        ],
+        [
+          1.838629437605395,
+          41.59392733639743
+        ]
+      ],
+      "component": 1365,
+      "method": "COAC school transverse sections/current ortho show a short rear wing on a high ledge, connected to lower rooms and the bearing wing. Exact interior DTM0.5m is733.93903m; the unchanged exported base is733.50746m. MET5 is2.15508m lower at the same location. Verify a solid path at736.8m to the real66-50 bearing wall, three interior samples and the same closed component. No pillar is extended to the cliff; the courtyard is not used as an alternative contact.",
+      "insideWindings": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "terrainSupportNotes": [
+    {
+      "name": "north-school-ledge-fine-DTM",
+      "location": [
+        1.8387376741352097,
+        41.59396244657603
+      ],
+      "sourceGroundElevation": 733.93903,
+      "meshBaseElevation": 733.5074646770839,
+      "burialMetres": 0.43156532291607164,
+      "nativeMET5ASL": 731.7839530365172,
+      "terrainResolutionDifferenceMetres": 2.1550769634827702,
+      "passed": true,
+      "source": "ICGC DTM0.5m2021-2023 EGM08D595",
+      "url": "https://geoserveis.icgc.cat/servei/catalunya/elevacions-territorial/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetFeatureInfo&LAYERS=model-elevacions-terreny-catalunya-lidar-50cm-2021-2023&STYLES=&FORMAT=image%2Fpng&QUERY_LAYERS=model-elevacions-terreny-catalunya-lidar-50cm-2021-2023&SRS=EPSG%3A4326&BBOX=1.8387296741352097%2C41.59395644657603%2C1.8387456741352097%2C41.59396844657603&WIDTH=3&HEIGHT=3&X=1&Y=1&INFO_FORMAT=text%2Fplain&FEATURE_COUNT=1",
+      "method": "COAC school transverse sections/current ortho show a short rear wing on a high ledge, connected to lower rooms and the bearing wing. Exact interior DTM0.5m is733.93903m; the unchanged exported base is733.50746m. MET5 is2.15508m lower at the same location. Verify a solid path at736.8m to the real66-50 bearing wall, three interior samples and the same closed component. No pillar is extended to the cliff; the courtyard is not used as an alternative contact.",
+      "supportId": "north-school-ledge",
+      "minElevation": 600,
+      "maxElevation": 800,
+      "renderedGroundASL": 731.8075171984956,
+      "foundationGapMM": 0.849975419040021,
+      "lateralSupportPassed": true
+    }
+  ],
+  "openings": [
+    "main-atrium",
+    "western-cloister",
+    "school-raised-court",
+    "basilica-entry",
+    "open-modern-belfry"
+  ],
+  "airCheckDetails": [
+    {
+      "name": "main-atrium",
+      "location": [
+        1.8374065784795195,
+        41.593243454103096
+      ],
+      "materials": [
+        "terrain",
+        "water",
+        "built",
+        "green"
+      ],
+      "requestedElevation": [
+        721,
+        736
+      ],
+      "effectiveElevation": [
+        721,
+        736
+      ],
+      "clearHeightMM": 7.499999999999886,
+      "midpointWinding": 0
+    },
+    {
+      "name": "western-cloister",
+      "location": [
+        1.8369661478987664,
+        41.5934962076583
+      ],
+      "materials": [
+        "terrain",
+        "water",
+        "built",
+        "green"
+      ],
+      "requestedElevation": [
+        740,
+        744
+      ],
+      "effectiveElevation": [
+        740,
+        744
+      ],
+      "clearHeightMM": 1.9999999999999858,
+      "midpointWinding": 0
+    },
+    {
+      "name": "school-raised-court",
+      "location": [
+        1.838721065636264,
+        41.59385072126902
+      ],
+      "materials": [
+        "terrain",
+        "water",
+        "built",
+        "green"
+      ],
+      "requestedElevation": [
+        737,
+        738.5
+      ],
+      "effectiveElevation": [
+        737,
+        738.5
+      ],
+      "clearHeightMM": 0.7499999999999858,
+      "midpointWinding": 0
+    },
+    {
+      "name": "basilica-entry",
+      "location": [
+        1.8375793630632673,
+        41.59330179207699
+      ],
+      "materials": [
+        "terrain",
+        "water",
+        "built",
+        "green"
+      ],
+      "requestedElevation": [
+        721,
+        724
+      ],
+      "effectiveElevation": [
+        721,
+        724
+      ],
+      "clearHeightMM": 1.4999999999999716,
+      "midpointWinding": 0
+    },
+    {
+      "name": "open-modern-belfry",
+      "location": [
+        1.837253257013483,
+        41.59341845121302
+      ],
+      "materials": [
+        "terrain",
+        "water",
+        "built",
+        "green"
+      ],
+      "requestedElevation": [
+        748,
+        751
+      ],
+      "effectiveElevation": [
+        748,
+        751
+      ],
+      "clearHeightMM": 1.4999999999999716,
+      "midpointWinding": 0
+    }
+  ],
+  "roofChecks": [
+    {
+      "name": "connected-masonry-substructure",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 729.4395538334147,
+      "surfaceElevationASL": 743.665056761742
+    },
+    {
+      "name": "west-range-low-mass",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 729.444391160142,
+      "surfaceElevationASL": 743.6605849890972
+    },
+    {
+      "name": "basilica-lateral-gallery",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 712.6036207413483,
+      "surfaceElevationASL": 744.8032523101549
+    },
+    {
+      "name": "west-entry-wing",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 734.208405726999,
+      "surfaceElevationASL": 741.0000010092722
+    },
+    {
+      "name": "west-cloister-range",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 723.4590986552978,
+      "surfaceElevationASL": 741.3999949057564
+    },
+    {
+      "name": "north-cloister-range",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 736.0902745684441,
+      "surfaceElevationASL": 746.0000010092723
+    },
+    {
+      "name": "east-cloister-range",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 724.4353388194371,
+      "surfaceElevationASL": 745.6109949855762
+    },
+    {
+      "name": "cloister-front-range",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 727.230788130217,
+      "surfaceElevationASL": 742.0999918539987
+    },
+    {
+      "name": "west-principal-facade-range",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 721.7230794308855,
+      "surfaceElevationASL": 742.0000010092722
+    },
+    {
+      "name": "atrium-west-range",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 718.7979244124753,
+      "surfaceElevationASL": 745.9499776078195
+    },
+    {
+      "name": "atrium-north-range",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 719.7165749973267,
+      "surfaceElevationASL": 745.0343362246656
+    },
+    {
+      "name": "north-monastic-return",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 729.6099302139928,
+      "surfaceElevationASL": 746.61299845486
+    },
+    {
+      "name": "atrium-south-range",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 713.2357586887535,
+      "surfaceElevationASL": 743.4677234502062
+    },
+    {
+      "name": "school-front-range",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 722.2147540948755,
+      "surfaceElevationASL": 739.1981144034366
+    },
+    {
+      "name": "school-back-range",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 732.6400566089891,
+      "surfaceElevationASL": 739.2460769238215
+    },
+    {
+      "name": "clericat-tower",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 729.4412281066043,
+      "surfaceElevationASL": 742.890429834081
+    },
+    {
+      "name": "folguera-tower",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 709.3796745527092,
+      "surfaceElevationASL": 763.099991853999
+    },
+    {
+      "name": "nave-eave",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 716.7891149440636,
+      "surfaceElevationASL": 745.4096443479134
+    },
+    {
+      "name": "upper-polygonal-apse",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 716.1014056824073,
+      "surfaceElevationASL": 744.4948158554207
+    },
+    {
+      "name": "lower-apse-0",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 714.1963692826787,
+      "surfaceElevationASL": 737.8499918539986
+    },
+    {
+      "name": "lower-apse-1",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 711.2345700347846,
+      "surfaceElevationASL": 736.8616883374697
+    },
+    {
+      "name": "lower-apse-2",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 719.8832005924792,
+      "surfaceElevationASL": 736.7816048147333
+    },
+    {
+      "name": "low-exterior-octagonal-drum",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 717.2101198391392,
+      "surfaceElevationASL": 748.0000010092722
+    },
+    {
+      "name": "santa-caterina-stone-body",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 722.9918441024655,
+      "surfaceElevationASL": 752.3249979575145
+    },
+    {
+      "name": "museum-exposed-facade-0",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 713.3578548186218,
+      "surfaceElevationASL": 716.7543295292683
+    },
+    {
+      "name": "museum-exposed-facade-1",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 708.7565204810924,
+      "surfaceElevationASL": 716.4850016196233
+    },
+    {
+      "name": "museum-exposed-facade-2",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 708.6392738612317,
+      "surfaceElevationASL": 716.4850016196233
+    },
+    {
+      "name": "museum-exposed-facade-3",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 708.6575963164383,
+      "surfaceElevationASL": 717.205999516919
+    },
+    {
+      "name": "museum-exposed-facade-4",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 708.7292357194341,
+      "surfaceElevationASL": 718.7343450488149
+    },
+    {
+      "name": "museum-exposed-facade-5",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 708.7816326434535,
+      "surfaceElevationASL": 719.3476631709987
+    },
+    {
+      "name": "museum-exposed-facade-6",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 708.8117998175014,
+      "surfaceElevationASL": 719.5088384698861
+    },
+    {
+      "name": "museum-exposed-facade-7",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 708.9583962830746,
+      "surfaceElevationASL": 719.5150003989203
+    },
+    {
+      "name": "museum-exposed-facade-8",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 709.081612026225,
+      "surfaceElevationASL": 719.5150003989203
+    },
+    {
+      "name": "museum-exposed-facade-9",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 708.7602355823188,
+      "surfaceElevationASL": 719.5510010032583
+    }
+  ],
+  "facadeChecks": [
+    {
+      "name": "school-front-1",
+      "modelId": "monestir-de-montserrat",
+      "originalDistanceMM": 2.5000117871072347,
+      "differenceMM": 0
+    },
+    {
+      "name": "school-front-15",
+      "modelId": "monestir-de-montserrat",
+      "originalDistanceMM": 2.499999594002741,
+      "differenceMM": 0
+    },
+    {
+      "name": "basilica-south-0",
+      "modelId": "monestir-de-montserrat",
+      "originalDistanceMM": 1.6083722590374776,
+      "differenceMM": 0
+    },
+    {
+      "name": "basilica-south-24",
+      "modelId": "monestir-de-montserrat",
+      "originalDistanceMM": 2.5000004568310072,
+      "differenceMM": 0
+    },
+    {
+      "name": "basilica-south-29",
+      "modelId": "monestir-de-montserrat",
+      "originalDistanceMM": 2.2897991837717298,
+      "differenceMM": 0
+    }
+  ],
+  "audits": [
+    {
+      "id": "terrain",
+      "closed": true,
+      "components": 14952,
+      "triangles": 133268,
+      "errors": []
+    },
+    {
+      "id": "water",
+      "closed": true,
+      "components": 57,
+      "triangles": 844,
+      "errors": []
+    },
+    {
+      "id": "built",
+      "closed": true,
+      "components": 2531,
+      "triangles": 40472,
+      "errors": []
+    },
+    {
+      "id": "green",
+      "closed": true,
+      "components": 4385,
+      "triangles": 46516,
+      "errors": []
+    }
+  ],
+  "warnings": [
+    "1 ponts procedimentals amb cotes estimades a partir del relleu i la cartografia.",
+    "Ferrocarrils realçats 0 mm sobre el nivell dels camins; és una plataforma simplificada de la maqueta, no una cota real.",
+    "Els arbres són una representació procedimental dins de zones verdes, no posicions d’arbres mesurades.",
+    "Les tessel·les vectorials estan generalitzades. Aquesta prova no substitueix cartografia topogràfica de precisió.",
+    "Model singular del catàleg «Monestir de Montserrat» (r1).",
+    "Altures de la font sobre el punt més alt de la petjada; coberta plana quan falten dades de forma.",
+    "Algunes petjades ICGC agrupen diverses cases sense divisions interiors. Pots comparar-les amb parts del Catastre.",
+    "0 pilars simplificats i 1 enllaços suaus amb camins i vies. Distribució procedimental de suports, no posicions mesurades. S’eviten camins i edificis disponibles.",
+    "1 extrems sense enllaç suau dins del retall."
+  ],
+  "replacementCheck": {
+    "removed": [
+      "icgc-1271519"
+    ],
+    "preserved": [
+      "126876190",
+      "icgc-404100",
+      "icgc-404101",
+      "icgc-404121",
+      "icgc-404122",
+      "icgc-404125",
+      "icgc-404126",
+      "icgc-404127",
+      "icgc-954387",
+      "icgc-954389",
+      "icgc-954390",
+      "icgc-954391",
+      "icgc-954392",
+      "icgc-954393",
+      "icgc-954394",
+      "icgc-954395",
+      "icgc-954396",
+      "icgc-1271483",
+      "icgc-1271520",
+      "icgc-1271521",
+      "icgc-1271522",
+      "icgc-1271523",
+      "icgc-1271524",
+      "icgc-1271526",
+      "icgc-1589181",
+      "icgc-1589182",
+      "icgc-1589183"
+    ]
+  },
+  "retainedBuildingChecks": [
+    {
+      "name": "unmodelled-icgc-954390",
+      "location": [
+        1.8361140435215964,
+        41.59314618890388
+      ],
+      "sources": [
+        "icgc-954390"
+      ],
+      "baselineTopASL": 753.0001514892027,
+      "integratedTopASL": 751.6889200766551,
+      "differenceMetres": -1.3112314125476132
+    },
+    {
+      "name": "unmodelled-icgc-404121",
+      "location": [
+        1.8364085172581988,
+        41.59226689571263
+      ],
+      "sources": [
+        "icgc-404121"
+      ],
+      "baselineTopASL": 738.4429462890073,
+      "integratedTopASL": 737.7530222495063,
+      "differenceMetres": -0.6899240395009656
+    },
+    {
+      "name": "unmodelled-icgc-404125",
+      "location": [
+        1.8383693207104423,
+        41.592894314266
+      ],
+      "sources": [
+        "icgc-404125"
+      ],
+      "baselineTopASL": 718.4050434569757,
+      "integratedTopASL": 719.0987253745062,
+      "differenceMetres": 0.6936819175305118
+    },
+    {
+      "name": "unmodelled-icgc-1271523",
+      "location": [
+        1.839735305548185,
+        41.59417033179461
+      ],
+      "sources": [
+        "icgc-1271523"
+      ],
+      "baselineTopASL": 734.2680500487728,
+      "integratedTopASL": 734.2680521567329,
+      "differenceMetres": 0.0000021079600855955505
+    }
+  ],
+  "hiddenModePassed": true,
+  "heightLimitPassed": true
+}

@@ -1,0 +1,893 @@
+{
+  "contacts": [
+    {
+      "name": "exterior-foot-0-25",
+      "location": [
+        1.8363036535744317,
+        41.59325767219229
+      ],
+      "elevation": 721.0670163494624,
+      "sourceToeASL": 721.69,
+      "sourceToeLocation": [
+        1.8363620011471464,
+        41.59322602554277
+      ]
+    },
+    {
+      "name": "exterior-foot-0-75",
+      "location": [
+        1.8363505319996942,
+        41.59330637965862
+      ],
+      "elevation": 721.4210003809095,
+      "sourceToeASL": 722.39801,
+      "sourceToeLocation": [
+        1.8363797058041664,
+        41.59329055632606
+      ]
+    },
+    {
+      "name": "exterior-foot-18-83",
+      "location": [
+        1.836107439405364,
+        41.59246859422951
+      ],
+      "elevation": 706.5265074695151,
+      "sourceToeASL": 708.13098,
+      "sourceToeLocation": [
+        1.8360811937351689,
+        41.592450105933295
+      ]
+    },
+    {
+      "name": "exterior-foot-30-75",
+      "location": [
+        1.8376618611866895,
+        41.593146679112195
+      ],
+      "elevation": 707.306043040328,
+      "sourceToeASL": 708.17603,
+      "sourceToeLocation": [
+        1.837701838457039,
+        41.59315633427453
+      ],
+      "originalBoundaryLocation": [
+        1.8376675797789477,
+        41.59314805135899
+      ],
+      "insetMetres": 0.5,
+      "physicalClassification": "Southern gallery/atrium wing wall; probe lies within its full foundation, away from the shared boundary."
+    },
+    {
+      "name": "exterior-foot-48-50",
+      "location": [
+        1.8383908816182595,
+        41.59355065760224
+      ],
+      "elevation": 717.9154910218729,
+      "sourceToeASL": 719.73499,
+      "sourceToeLocation": [
+        1.8384143484410391,
+        41.59358206436929
+      ],
+      "originalBoundaryLocation": [
+        1.8383967661236014,
+        41.593558488856026
+      ],
+      "insetMetres": 1,
+      "physicalClassification": "Lower central apse masonry; probe is inside the curved body, rather than on the exact cartographic arc."
+    },
+    {
+      "name": "exterior-foot-66-50",
+      "location": [
+        1.838629437605395,
+        41.59392733639743
+      ],
+      "elevation": 731.7174634087887,
+      "sourceToeASL": 736.00299,
+      "sourceToeLocation": [
+        1.8385984940338145,
+        41.59398106153797
+      ],
+      "originalBoundaryLocation": [
+        1.8386270477854967,
+        41.593931457036966
+      ],
+      "insetMetres": 0.5,
+      "physicalClassification": "Bearing masonry of the northern school wing; the original roof edge was not its vertical foundation."
+    },
+    {
+      "name": "exterior-foot-84-50",
+      "location": [
+        1.8375002872309136,
+        41.593643190487356
+      ],
+      "elevation": 735.6999998092651,
+      "sourceToeASL": 742.19897,
+      "sourceToeLocation": [
+        1.8375669989486096,
+        41.593663489967895
+      ]
+    },
+    {
+      "name": "exterior-foot-96-50",
+      "location": [
+        1.8371799402650646,
+        41.593635942392666
+      ],
+      "elevation": 727.5239970530687,
+      "sourceToeASL": 740.04797,
+      "sourceToeLocation": [
+        1.837193469632697,
+        41.59366097963534
+      ]
+    },
+    {
+      "name": "exterior-foot-102-50",
+      "location": [
+        1.8367959838046477,
+        41.593723254652936
+      ],
+      "elevation": 731.5789924470599,
+      "sourceToeASL": 734.44702,
+      "sourceToeLocation": [
+        1.8368055029900043,
+        41.59374931133342
+      ]
+    },
+    {
+      "name": "exterior-foot-108-50",
+      "location": [
+        1.8364447755285371,
+        41.593557077498815
+      ],
+      "elevation": 729.6730098246393,
+      "sourceToeASL": 734.00897,
+      "sourceToeLocation": [
+        1.8364218317255598,
+        41.59350585832384
+      ]
+    },
+    {
+      "name": "exterior-foot-114-50",
+      "location": [
+        1.8363375669975042,
+        41.593393594611776
+      ],
+      "elevation": 725.4169968390565,
+      "sourceToeASL": 729.86298,
+      "sourceToeLocation": [
+        1.8363739068075293,
+        41.5934402407185
+      ]
+    }
+  ],
+  "surfaceControls": [
+    {
+      "name": "connected-masonry-substructure",
+      "location": [
+        1.836223322679044,
+        41.59331233509707
+      ],
+      "expectedElevation": 743.6650571934065,
+      "toleranceMetres": 0.04
+    },
+    {
+      "name": "west-range-low-mass",
+      "location": [
+        1.836223211152638,
+        41.59331232161553
+      ],
+      "expectedElevation": 743.6605849724806,
+      "toleranceMetres": 0.04
+    },
+    {
+      "name": "basilica-lateral-gallery",
+      "location": [
+        1.8375898299558941,
+        41.59318378813701
+      ],
+      "expectedElevation": 744.8032494117674,
+      "toleranceMetres": 0.04
+    },
+    {
+      "name": "west-entry-wing",
+      "location": [
+        1.8361345052912612,
+        41.593314280300255
+      ],
+      "expectedElevation": 740.9999990463257,
+      "toleranceMetres": 0.04
+    },
+    {
+      "name": "west-cloister-range",
+      "location": [
+        1.836521626460215,
+        41.59334183372491
+      ],
+      "expectedElevation": 741.4000005722046,
+      "toleranceMetres": 0.04
+    },
+    {
+      "name": "north-cloister-range",
+      "location": [
+        1.8365815001643768,
+        41.593724012010696
+      ],
+      "expectedElevation": 745.9999990463258,
+      "toleranceMetres": 0.04
+    },
+    {
+      "name": "east-cloister-range",
+      "location": [
+        1.8370207595158596,
+        41.59347228002848
+      ],
+      "expectedElevation": 745.6109998142354,
+      "toleranceMetres": 0.04
+    },
+    {
+      "name": "cloister-front-range",
+      "location": [
+        1.8365830514841632,
+        41.59352213684012
+      ],
+      "expectedElevation": 742.0999975204468,
+      "toleranceMetres": 0.04
+    },
+    {
+      "name": "west-principal-facade-range",
+      "location": [
+        1.8367554547518181,
+        41.593351114458656
+      ],
+      "expectedElevation": 741.9999990463257,
+      "toleranceMetres": 0.04
+    },
+    {
+      "name": "atrium-west-range",
+      "location": [
+        1.8370685900787702,
+        41.59327318740176
+      ],
+      "expectedElevation": 745.9499789213717,
+      "toleranceMetres": 0.04
+    },
+    {
+      "name": "atrium-north-range",
+      "location": [
+        1.8371754008363532,
+        41.593345559489954
+      ],
+      "expectedElevation": 745.0343662632006,
+      "toleranceMetres": 0.04
+    },
+    {
+      "name": "north-monastic-return",
+      "location": [
+        1.8374172842417784,
+        41.59354031305131
+      ],
+      "expectedElevation": 746.6130237923337,
+      "toleranceMetres": 0.04
+    },
+    {
+      "name": "atrium-south-range",
+      "location": [
+        1.837294892880975,
+        41.59309925585387
+      ],
+      "expectedElevation": 743.4677152269242,
+      "toleranceMetres": 0.04
+    },
+    {
+      "name": "school-front-range",
+      "location": [
+        1.838362808019533,
+        41.59365037509181
+      ],
+      "expectedElevation": 739.1981059630141,
+      "toleranceMetres": 0.04
+    },
+    {
+      "name": "school-back-range",
+      "location": [
+        1.8385342062054721,
+        41.59387336876272
+      ],
+      "expectedElevation": 739.2460790184354,
+      "toleranceMetres": 0.04
+    },
+    {
+      "name": "clericat-tower",
+      "location": [
+        1.8389269839412092,
+        41.594027285172274
+      ],
+      "expectedElevation": 742.8904344668133,
+      "toleranceMetres": 0.04
+    },
+    {
+      "name": "folguera-tower",
+      "location": [
+        1.8370323950099205,
+        41.59293796196991
+      ],
+      "expectedElevation": 763.0999975204468,
+      "toleranceMetres": 0.04
+    },
+    {
+      "name": "nave-eave",
+      "location": [
+        1.8377757025533945,
+        41.59334346404794
+      ],
+      "expectedElevation": 745.409645600605,
+      "toleranceMetres": 0.04
+    },
+    {
+      "name": "upper-polygonal-apse",
+      "location": [
+        1.83818906076857,
+        41.593418385632894
+      ],
+      "expectedElevation": 744.4948217509706,
+      "toleranceMetres": 0.04
+    },
+    {
+      "name": "lower-apse-0",
+      "location": [
+        1.838340673082578,
+        41.59341825388157
+      ],
+      "expectedElevation": 737.8499975204468,
+      "toleranceMetres": 0.04
+    },
+    {
+      "name": "lower-apse-1",
+      "location": [
+        1.8383743245948594,
+        41.593368932642186
+      ],
+      "expectedElevation": 736.8616911793259,
+      "toleranceMetres": 0.04
+    },
+    {
+      "name": "lower-apse-2",
+      "location": [
+        1.8382673987368934,
+        41.5935601474153
+      ],
+      "expectedElevation": 736.7816065664473,
+      "toleranceMetres": 0.04
+    },
+    {
+      "name": "low-exterior-octagonal-drum",
+      "location": [
+        1.838027559016206,
+        41.59341767334989
+      ],
+      "expectedElevation": 747.9999990463257,
+      "toleranceMetres": 0.04
+    },
+    {
+      "name": "santa-caterina-stone-body",
+      "location": [
+        1.8372213264466855,
+        41.59344233131954
+      ],
+      "expectedElevation": 752.3249998092651,
+      "toleranceMetres": 0.04
+    },
+    {
+      "name": "museum-exposed-facade-0",
+      "location": [
+        1.8360054305975413,
+        41.592556779870556
+      ],
+      "expectedElevation": 716.7543335332675,
+      "toleranceMetres": 0.04
+    },
+    {
+      "name": "museum-exposed-facade-1",
+      "location": [
+        1.836153344456432,
+        41.592441740613054
+      ],
+      "expectedElevation": 716.4850006103516,
+      "toleranceMetres": 0.04
+    },
+    {
+      "name": "museum-exposed-facade-2",
+      "location": [
+        1.836172882196619,
+        41.59244304683503
+      ],
+      "expectedElevation": 716.4850006103516,
+      "toleranceMetres": 0.04
+    },
+    {
+      "name": "museum-exposed-facade-3",
+      "location": [
+        1.8363293556079103,
+        41.5925395147673
+      ],
+      "expectedElevation": 717.2060000504065,
+      "toleranceMetres": 0.04
+    },
+    {
+      "name": "museum-exposed-facade-4",
+      "location": [
+        1.8366309802550704,
+        41.592738576558666
+      ],
+      "expectedElevation": 718.7343467162576,
+      "toleranceMetres": 0.04
+    },
+    {
+      "name": "museum-exposed-facade-5",
+      "location": [
+        1.8366655982226254,
+        41.59276081004353
+      ],
+      "expectedElevation": 719.3476599890256,
+      "toleranceMetres": 0.04
+    },
+    {
+      "name": "museum-exposed-facade-6",
+      "location": [
+        1.8366709584242502,
+        41.59276561163208
+      ],
+      "expectedElevation": 719.5088352515857,
+      "toleranceMetres": 0.04
+    },
+    {
+      "name": "museum-exposed-facade-7",
+      "location": [
+        1.836673303227994,
+        41.59277597933638
+      ],
+      "expectedElevation": 719.5149993896484,
+      "toleranceMetres": 0.04
+    },
+    {
+      "name": "museum-exposed-facade-8",
+      "location": [
+        1.8366694964233385,
+        41.5927814968489
+      ],
+      "expectedElevation": 719.5149993896484,
+      "toleranceMetres": 0.04
+    },
+    {
+      "name": "museum-exposed-facade-9",
+      "location": [
+        1.8367921438084185,
+        41.59282797302273
+      ],
+      "expectedElevation": 719.550999365159,
+      "toleranceMetres": 0.04
+    }
+  ],
+  "facadeControls": [
+    {
+      "name": "school-front-1",
+      "from": [
+        1.8383679243168802,
+        41.59374648812128
+      ],
+      "to": [
+        1.8384060213322797,
+        41.59368051254032
+      ],
+      "elevation": 729,
+      "expectedLocation": [
+        1.8383917350865961,
+        41.59370525314923
+      ],
+      "depthMetres": 5.000028367829412
+    },
+    {
+      "name": "school-front-15",
+      "from": [
+        1.8388148329558403,
+        41.593718555222296
+      ],
+      "to": [
+        1.8387766437664492,
+        41.593784500990736
+      ],
+      "elevation": 729,
+      "expectedLocation": [
+        1.8387909647598462,
+        41.593759771245765
+      ],
+      "depthMetres": 4.999990075664427
+    },
+    {
+      "name": "basilica-south-0",
+      "from": [
+        1.8378471212605634,
+        41.59354880071429
+      ],
+      "to": [
+        1.8378801931157536,
+        41.59348132620588
+      ],
+      "elevation": 730,
+      "expectedLocation": [
+        1.8378604191708996,
+        41.5935216697911
+      ],
+      "depthMetres": 3.21673163110978
+    },
+    {
+      "name": "basilica-south-24",
+      "from": [
+        1.8380362878207397,
+        41.59322140080297
+      ],
+      "to": [
+        1.8380067045455388,
+        41.59328977524098
+      ],
+      "elevation": 730,
+      "expectedLocation": [
+        1.8380177982705843,
+        41.593264134834016
+      ],
+      "depthMetres": 5.000000853190296
+    },
+    {
+      "name": "basilica-south-29",
+      "from": [
+        1.837519675535731,
+        41.59328788877427
+      ],
+      "to": [
+        1.8376114493360691,
+        41.59330918991252
+      ],
+      "elevation": 730,
+      "expectedLocation": [
+        1.8375722115806534,
+        41.59330008264171
+      ],
+      "depthMetres": 4.579611586654925
+    }
+  ],
+  "airControls": [
+    {
+      "name": "main-atrium",
+      "location": [
+        1.8374065784795195,
+        41.593243454103096
+      ],
+      "minElevation": 721,
+      "maxElevation": 736,
+      "source": "Primary owner plan / exact RTT courtyard hole; fineDTM719.1m, real terrain supplies floor."
+    },
+    {
+      "name": "western-cloister",
+      "location": [
+        1.8369661478987664,
+        41.5934962076583
+      ],
+      "minElevation": 740,
+      "maxElevation": 744,
+      "source": "Primary current ortho / exact RTT court hole; site terrain remains unmodified."
+    },
+    {
+      "name": "school-raised-court",
+      "location": [
+        1.838721065636264,
+        41.59385072126902
+      ],
+      "minElevation": 737,
+      "maxElevation": 738.5,
+      "source": "COAC raised open court; modelled real architectural floor735.8m, not a cut to interpolated DTM under rooms."
+    },
+    {
+      "name": "basilica-entry",
+      "location": [
+        1.8375793630632673,
+        41.59330179207699
+      ],
+      "minElevation": 721,
+      "maxElevation": 724,
+      "source": "Primary basilica entry aligned to atrium wall; approximate arch dimensions."
+    },
+    {
+      "name": "open-modern-belfry",
+      "location": [
+        1.837253257013483,
+        41.59341845121302
+      ],
+      "minElevation": 748,
+      "maxElevation": 751,
+      "source": "Architect-described 18m open modern crown; steel frame is simplified, not an invented solid exterior cone."
+    }
+  ],
+  "sourceGuards": [
+    {
+      "name": "folguera-roof",
+      "pixel": [
+        646.4609182063633,
+        935.156552831714
+      ],
+      "point": [
+        -41.576381859367196,
+        -35.39677081799255
+      ],
+      "location": [
+        1.837049247148755,
+        41.59293585170113
+      ],
+      "elevation": 763.13501,
+      "toleranceMetres": 0.25,
+      "source": "Independent retained ICGC DSM1m2021-2023 query, EGM08D595 ASL. Tolerance reflects fitted roof geometry/cell placement; not survey accuracy.",
+      "meshElevation": 763.0999975204468,
+      "differenceMetres": -0.035012479553188314,
+      "passed": true
+    },
+    {
+      "name": "nave-crown",
+      "pixel": [
+        851.7142857142857,
+        794.7142857142857
+      ],
+      "point": [
+        24.431498813849274,
+        11.261341542692094
+      ],
+      "location": [
+        1.8378421004612553,
+        41.593354986738504
+      ],
+      "elevation": 745.34497,
+      "toleranceMetres": 1,
+      "source": "Independent retained ICGC DSM1m2021-2023 query, EGM08D595 ASL. Tolerance reflects fitted roof geometry/cell placement; not survey accuracy.",
+      "meshElevation": 745.3631636667659,
+      "differenceMetres": 0.018193666765910166,
+      "passed": true
+    },
+    {
+      "name": "low-exterior-drum",
+      "pixel": [
+        910.2857142857143,
+        768.4285714285714
+      ],
+      "point": [
+        43.32804190411098,
+        20.082406617954973
+      ],
+      "location": [
+        1.8380690761894731,
+        41.59343422735183
+      ],
+      "elevation": 747.96899,
+      "toleranceMetres": 1.5,
+      "source": "Independent retained ICGC DSM1m2021-2023 query, EGM08D595 ASL. Tolerance reflects fitted roof geometry/cell placement; not survey accuracy.",
+      "meshElevation": 747.9999990463257,
+      "differenceMetres": 0.0310090463257211,
+      "passed": true
+    },
+    {
+      "name": "central-lower-apse",
+      "pixel": [
+        974.8571428571429,
+        751.2857142857143
+      ],
+      "point": [
+        64.21209654563296,
+        25.95091934332288
+      ],
+      "location": [
+        1.8383199249022646,
+        41.593486944857446
+      ],
+      "elevation": 738.341,
+      "toleranceMetres": 1,
+      "source": "Independent retained ICGC DSM1m2021-2023 query, EGM08D595 ASL. Tolerance reflects fitted roof geometry/cell placement; not survey accuracy.",
+      "meshElevation": 738.2120069491422,
+      "differenceMetres": -0.12899305085784363,
+      "passed": true
+    },
+    {
+      "name": "clericat-roof",
+      "pixel": [
+        1160.3,
+        585
+      ],
+      "point": [
+        123.67812590748292,
+        80.9412533879734
+      ],
+      "location": [
+        1.83903420080205,
+        41.593980929173334
+      ],
+      "elevation": 745.75201,
+      "toleranceMetres": 0.7,
+      "source": "Independent retained ICGC DSM1m2021-2023 query, EGM08D595 ASL. Tolerance reflects fitted roof geometry/cell placement; not survey accuracy.",
+      "meshElevation": 745.1088342117683,
+      "differenceMetres": -0.6431757882317015,
+      "passed": true
+    }
+  ],
+  "sourceComparisons": [
+    {
+      "name": "folguera-roof",
+      "pixel": [
+        646.4609182063633,
+        935.156552831714
+      ],
+      "point": [
+        -41.576381859367196,
+        -35.39677081799255
+      ],
+      "location": [
+        1.837049247148755,
+        41.59293585170113
+      ],
+      "elevation": 763.13501,
+      "toleranceMetres": 0.25,
+      "source": "Independent retained ICGC DSM1m2021-2023 query, EGM08D595 ASL. Tolerance reflects fitted roof geometry/cell placement; not survey accuracy.",
+      "meshElevation": 763.0999975204468,
+      "differenceMetres": -0.035012479553188314,
+      "passed": true
+    },
+    {
+      "name": "nave-crown",
+      "pixel": [
+        851.7142857142857,
+        794.7142857142857
+      ],
+      "point": [
+        24.431498813849274,
+        11.261341542692094
+      ],
+      "location": [
+        1.8378421004612553,
+        41.593354986738504
+      ],
+      "elevation": 745.34497,
+      "toleranceMetres": 1,
+      "source": "Independent retained ICGC DSM1m2021-2023 query, EGM08D595 ASL. Tolerance reflects fitted roof geometry/cell placement; not survey accuracy.",
+      "meshElevation": 745.3631636667659,
+      "differenceMetres": 0.018193666765910166,
+      "passed": true
+    },
+    {
+      "name": "low-exterior-drum",
+      "pixel": [
+        910.2857142857143,
+        768.4285714285714
+      ],
+      "point": [
+        43.32804190411098,
+        20.082406617954973
+      ],
+      "location": [
+        1.8380690761894731,
+        41.59343422735183
+      ],
+      "elevation": 747.96899,
+      "toleranceMetres": 1.5,
+      "source": "Independent retained ICGC DSM1m2021-2023 query, EGM08D595 ASL. Tolerance reflects fitted roof geometry/cell placement; not survey accuracy.",
+      "meshElevation": 747.9999990463257,
+      "differenceMetres": 0.0310090463257211,
+      "passed": true
+    },
+    {
+      "name": "central-lower-apse",
+      "pixel": [
+        974.8571428571429,
+        751.2857142857143
+      ],
+      "point": [
+        64.21209654563296,
+        25.95091934332288
+      ],
+      "location": [
+        1.8383199249022646,
+        41.593486944857446
+      ],
+      "elevation": 738.341,
+      "toleranceMetres": 1,
+      "source": "Independent retained ICGC DSM1m2021-2023 query, EGM08D595 ASL. Tolerance reflects fitted roof geometry/cell placement; not survey accuracy.",
+      "meshElevation": 738.2120069491422,
+      "differenceMetres": -0.12899305085784363,
+      "passed": true
+    },
+    {
+      "name": "clericat-roof",
+      "pixel": [
+        1160.3,
+        585
+      ],
+      "point": [
+        123.67812590748292,
+        80.9412533879734
+      ],
+      "location": [
+        1.83903420080205,
+        41.593980929173334
+      ],
+      "elevation": 745.75201,
+      "toleranceMetres": 0.7,
+      "source": "Independent retained ICGC DSM1m2021-2023 query, EGM08D595 ASL. Tolerance reflects fitted roof geometry/cell placement; not survey accuracy.",
+      "meshElevation": 745.1088342117683,
+      "differenceMetres": -0.6431757882317015,
+      "passed": true
+    }
+  ],
+  "supportControls": [
+    {
+      "name": "santa-caterina-modern-crown",
+      "location": [
+        1.837253257013483,
+        41.59341845121302
+      ],
+      "stoneCapASL": 746,
+      "overlapVolumeCubicMetres": 0.8447913981511508,
+      "positiveOverlap": true,
+      "method": "Eight metal feet overlap the actual old octagonal stone body; no isolated floating crown."
+    },
+    {
+      "id": "north-school-ledge",
+      "name": "north-school-ledge-connection",
+      "location": [
+        1.8387376741352097,
+        41.59396244657603
+      ],
+      "carrierLocation": [
+        1.838629437605395,
+        41.59392733639743
+      ],
+      "connectionElevation": 736.8,
+      "pathCrossings": 0,
+      "interiorProbes": [
+        [
+          1.8387376741352097,
+          41.59396244657603
+        ],
+        [
+          1.8386835558703025,
+          41.59394489148673
+        ],
+        [
+          1.838629437605395,
+          41.59392733639743
+        ]
+      ],
+      "component": 1365,
+      "method": "COAC school transverse sections/current ortho show a short rear wing on a high ledge, connected to lower rooms and the bearing wing. Exact interior DTM0.5m is733.93903m; the unchanged exported base is733.50746m. MET5 is2.15508m lower at the same location. Verify a solid path at736.8m to the real66-50 bearing wall, three interior samples and the same closed component. No pillar is extended to the cliff; the courtyard is not used as an alternative contact."
+    }
+  ],
+  "expectedReplacements": {
+    "mode": "footprint",
+    "featureIds": [
+      "icgc-1271519"
+    ]
+  },
+  "foundationGuards": [
+    {
+      "name": "north-school-ledge-fine-DTM",
+      "location": [
+        1.8387376741352097,
+        41.59396244657603
+      ],
+      "sourceGroundElevation": 733.93903,
+      "meshBaseElevation": 733.5074646770839,
+      "burialMetres": 0.43156532291607164,
+      "nativeMET5ASL": 731.7839530365172,
+      "terrainResolutionDifferenceMetres": 2.1550769634827702,
+      "passed": true,
+      "source": "ICGC DTM0.5m2021-2023 EGM08D595",
+      "url": "https://geoserveis.icgc.cat/servei/catalunya/elevacions-territorial/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetFeatureInfo&LAYERS=model-elevacions-terreny-catalunya-lidar-50cm-2021-2023&STYLES=&FORMAT=image%2Fpng&QUERY_LAYERS=model-elevacions-terreny-catalunya-lidar-50cm-2021-2023&SRS=EPSG%3A4326&BBOX=1.8387296741352097%2C41.59395644657603%2C1.8387456741352097%2C41.59396844657603&WIDTH=3&HEIGHT=3&X=1&Y=1&INFO_FORMAT=text%2Fplain&FEATURE_COUNT=1",
+      "method": "COAC school transverse sections/current ortho show a short rear wing on a high ledge, connected to lower rooms and the bearing wing. Exact interior DTM0.5m is733.93903m; the unchanged exported base is733.50746m. MET5 is2.15508m lower at the same location. Verify a solid path at736.8m to the real66-50 bearing wall, three interior samples and the same closed component. No pillar is extended to the cliff; the courtyard is not used as an alternative contact."
+    }
+  ]
+}

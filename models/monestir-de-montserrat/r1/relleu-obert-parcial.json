@@ -1,0 +1,309 @@
+{
+  "name": "parcial",
+  "width": 110,
+  "height": 100,
+  "scale": 1000,
+  "rotation": -17,
+  "center": [
+    41.5935,
+    1.8378
+  ],
+  "export3mf": true,
+  "id": "monestir-de-montserrat",
+  "consumerVersion": "0.24.16",
+  "validationStatus": "passed",
+  "rayMethod": "Direct triangle intersections on exported indexed mesh; no Manifold reconstruction for read-only controls",
+  "terrain": "ICGC MET5",
+  "buildingSource": "icgc",
+  "catalogue": [
+    {
+      "id": "monestir-de-montserrat",
+      "family": null,
+      "fragments": 1,
+      "roof": 77.44087982177734,
+      "roofShape": "catalogue",
+      "roofFallback": null,
+      "roofSource": null,
+      "roofMetadata": null,
+      "baseOffsetMM": 0,
+      "estimated": false,
+      "landmark": {
+        "name": "Monestir de Montserrat",
+        "revision": "r1",
+        "license": "CC-BY-4.0",
+        "spatialDataLicense": "CC-BY-4.0",
+        "attribution": "Open Place Models contributors; Institut Cartografic i Geologic de Catalunya (ICGC)",
+        "sources": [
+          "https://geoserveis.icgc.cat/vector01/rest/services/topografia_territorial/MapServer/10",
+          "https://geoserveis.icgc.cat/servei/catalunya/elevacions-territorial/wms",
+          "https://www.icgc.cat/ca/LICGC/Informacio-publica/Transparencia/Reutilitzacio-de-la-informacio",
+          "https://www.arquitecturacatalana.cat/ca/obres/escolania-de-montserrat",
+          "https://abadiamontserrat.cat/santuari/basilica-i-altres-llocs-de-culte",
+          "https://www.montserratvisita.com/ca/oficines-de-turisme",
+          "https://www.tracrehabilitacio.es/sites/default/files/article_montserrat.pdf",
+          "https://documents.cateb.cat/Comunicacio/informatiu/pdf/319.pdf",
+          "https://radioteca.cat/p/perspectiva_reportatges-projectes/2026/02/05/32-anys-dintervencions-darcadi-pla-a-montserrat-ara-a-larxiu-AIrlyVvAcixcwz719YJWQg",
+          "https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms"
+        ],
+        "anchorElevation": 705.1920003890991
+      }
+    }
+  ],
+  "wholeModelCoverage": [],
+  "cataloguePeers": [],
+  "assets": [
+    {
+      "id": "monestir-de-montserrat",
+      "mesh": "models/monestir-de-montserrat/r1/print.glb",
+      "byteLength": 73256,
+      "sha256": "8d73706984ef37e2f05ed98eb6773f39c74b25c904617500125a41e837959051"
+    }
+  ],
+  "expectedIds": [
+    "monestir-de-montserrat"
+  ],
+  "buildingCount": 3,
+  "transportReplacements": [],
+  "contacts": [
+    {
+      "name": "exterior-foot-30-75",
+      "sourceFoundationASL": 707.306043040328,
+      "embeddedMM": 2.2540859191486717
+    },
+    {
+      "name": "exterior-foot-48-50",
+      "sourceFoundationASL": 717.9154910218729,
+      "embeddedMM": 0.3034373711494318
+    },
+    {
+      "name": "exterior-foot-84-50",
+      "sourceFoundationASL": 735.6999998092651,
+      "embeddedMM": 4.0067074487779735
+    },
+    {
+      "name": "exterior-foot-96-50",
+      "sourceFoundationASL": 727.5239970530687,
+      "embeddedMM": 9.160748201809469
+    }
+  ],
+  "supportChecks": [],
+  "terrainSupportNotes": [],
+  "openings": [
+    "main-atrium",
+    "basilica-entry",
+    "open-modern-belfry"
+  ],
+  "airCheckDetails": [
+    {
+      "name": "main-atrium",
+      "location": [
+        1.8374065784795195,
+        41.593243454103096
+      ],
+      "materials": [
+        "terrain",
+        "built",
+        "green"
+      ],
+      "requestedElevation": [
+        721,
+        736
+      ],
+      "effectiveElevation": [
+        721,
+        736
+      ],
+      "clearHeightMM": 14.999999999971436,
+      "midpointWinding": 0
+    },
+    {
+      "name": "basilica-entry",
+      "location": [
+        1.8375793630632673,
+        41.59330179207699
+      ],
+      "materials": [
+        "terrain",
+        "built",
+        "green"
+      ],
+      "requestedElevation": [
+        721,
+        724
+      ],
+      "effectiveElevation": [
+        721,
+        724
+      ],
+      "clearHeightMM": 2.9999999999942872,
+      "midpointWinding": 0
+    },
+    {
+      "name": "open-modern-belfry",
+      "location": [
+        1.837253257013483,
+        41.59341845121302
+      ],
+      "materials": [
+        "terrain",
+        "built",
+        "green"
+      ],
+      "requestedElevation": [
+        748,
+        751
+      ],
+      "effectiveElevation": [
+        748,
+        751
+      ],
+      "clearHeightMM": 2.9999999999942872,
+      "midpointWinding": 0
+    }
+  ],
+  "roofChecks": [
+    {
+      "name": "basilica-lateral-gallery",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 712.6804089383776,
+      "surfaceElevationASL": 744.8032486806133
+    },
+    {
+      "name": "atrium-north-range",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": -8.427122395460174e-7,
+      "terrainElevationASL": 719.724135620667,
+      "surfaceElevationASL": 745.034361187001
+    },
+    {
+      "name": "north-monastic-return",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": -8.526512829121202e-14,
+      "terrainElevationASL": 729.4412838714804,
+      "surfaceElevationASL": 746.6130303909927
+    },
+    {
+      "name": "atrium-south-range",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 2.842170943040401e-14,
+      "terrainElevationASL": 713.245005837196,
+      "surfaceElevationASL": 743.4677156138848
+    },
+    {
+      "name": "school-front-range",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": -2.0499595621004119e-7,
+      "terrainElevationASL": 722.2269236136466,
+      "surfaceElevationASL": 739.198101060755
+    },
+    {
+      "name": "nave-eave",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 716.7898956922556,
+      "surfaceElevationASL": 745.4096444028957
+    },
+    {
+      "name": "upper-polygonal-apse",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": -8.526512829121202e-14,
+      "terrainElevationASL": 716.0932070460194,
+      "surfaceElevationASL": 744.494819911217
+    },
+    {
+      "name": "lower-apse-0",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 714.0469364521904,
+      "surfaceElevationASL": 737.849997090751
+    },
+    {
+      "name": "lower-apse-1",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": -2.842170943040401e-14,
+      "terrainElevationASL": 711.346580772008,
+      "surfaceElevationASL": 736.861691240954
+    },
+    {
+      "name": "lower-apse-2",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": -2.842170943040401e-14,
+      "terrainElevationASL": 719.8608884400958,
+      "surfaceElevationASL": 736.7816066339345
+    },
+    {
+      "name": "low-exterior-octagonal-drum",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 2.842170943040401e-14,
+      "terrainElevationASL": 717.2064691900092,
+      "surfaceElevationASL": 747.9999986166492
+    },
+    {
+      "name": "santa-caterina-stone-body",
+      "modelId": "monestir-de-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 723.0030076803157,
+      "surfaceElevationASL": 752.3250031942943
+    }
+  ],
+  "facadeChecks": [
+    {
+      "name": "school-front-1",
+      "modelId": "monestir-de-montserrat",
+      "originalDistanceMM": 5.000024898875499,
+      "differenceMM": 4.2218746987288114e-7
+    },
+    {
+      "name": "basilica-south-0",
+      "modelId": "monestir-de-montserrat",
+      "originalDistanceMM": 3.216732454515961,
+      "differenceMM": 0
+    },
+    {
+      "name": "basilica-south-24",
+      "modelId": "monestir-de-montserrat",
+      "originalDistanceMM": 4.999994730607212,
+      "differenceMM": 0
+    },
+    {
+      "name": "basilica-south-29",
+      "modelId": "monestir-de-montserrat",
+      "originalDistanceMM": 4.579599255943556,
+      "differenceMM": 0
+    }
+  ],
+  "audits": [
+    {
+      "id": "terrain",
+      "closed": true,
+      "components": 3947,
+      "triangles": 32548,
+      "errors": []
+    },
+    {
+      "id": "built",
+      "closed": true,
+      "components": 294,
+      "triangles": 7420,
+      "errors": []
+    },
+    {
+      "id": "green",
+      "closed": true,
+      "components": 309,
+      "triangles": 3064,
+      "errors": []
+    }
+  ],
+  "warnings": [
+    "Els arbres són una representació procedimental dins de zones verdes, no posicions d’arbres mesurades.",
+    "Les tessel·les vectorials estan generalitzades. Aquesta prova no substitueix cartografia topogràfica de precisió.",
+    "Model singular del catàleg «Monestir de Montserrat» (r1).",
+    "Altures de la font sobre el punt més alt de la petjada; coberta plana quan falten dades de forma.",
+    "Algunes petjades ICGC agrupen diverses cases sense divisions interiors. Pots comparar-les amb parts del Catastre.",
+    "Aigua: no hi ha geometria exportable d’aquesta capa a les dades carregades."
+  ],
+  "hiddenModePassed": true,
+  "heightLimitPassed": true
+}

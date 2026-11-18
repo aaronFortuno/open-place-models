@@ -1,0 +1,1040 @@
+{
+  "id": "monestir-de-montserrat",
+  "vertices": 2993,
+  "triangles": 6094,
+  "components": 3,
+  "nonManifoldVertices": 0,
+  "finite": true,
+  "zeroAreaTriangles": 0,
+  "minimumAreaSquareMetres": 6.247601280707796e-7,
+  "minimumEdgeMetres": 0.00009918212890625,
+  "signedVolume": 207270.4683965351,
+  "bbox": {
+    "min": [
+      -134.7563934326172,
+      0,
+      -91.43720245361328
+    ],
+    "max": [
+      134.7790069580078,
+      58.80799865722656,
+      91.43720245361328
+    ]
+  },
+  "edges": {
+    "total": 9141,
+    "boundary": 0,
+    "nonManifold": 0,
+    "orientationConflicts": 0
+  },
+  "passed": true,
+  "contactReview": {
+    "correctedBoundaryProbes": [
+      {
+        "name": "exterior-foot-30-75",
+        "kind": "ground-contact",
+        "insetMetres": 0.5,
+        "physicalClassification": "Southern gallery/atrium wing wall; probe lies within its full foundation, away from the shared boundary."
+      },
+      {
+        "name": "exterior-foot-48-50",
+        "kind": "ground-contact",
+        "insetMetres": 1,
+        "physicalClassification": "Lower central apse masonry; probe is inside the curved body, rather than on the exact cartographic arc."
+      },
+      {
+        "name": "exterior-foot-66-50",
+        "kind": "ground-contact",
+        "insetMetres": 0.5,
+        "physicalClassification": "Bearing masonry of the northern school wing; the original roof edge was not its vertical foundation."
+      },
+      {
+        "name": "exterior-foot-66-17",
+        "kind": "lateral-support",
+        "insetMetres": 0.5,
+        "physicalClassification": "Northern school wing on the high ledge. Fine DTM confirms the real footing; the MET5 surface smooths the ledge down. Load is conveyed through the same continuous wing to the verified bearing-wall probe66-50."
+      }
+    ],
+    "foundationGuards": [
+      {
+        "name": "north-school-ledge-fine-DTM",
+        "location": [
+          1.8387376741352097,
+          41.59396244657603
+        ],
+        "sourceGroundElevation": 733.93903,
+        "meshBaseElevation": 733.5074646770839,
+        "burialMetres": 0.43156532291607164,
+        "nativeMET5ASL": 731.7839530365172,
+        "terrainResolutionDifferenceMetres": 2.1550769634827702,
+        "passed": true,
+        "source": "ICGC DTM0.5m2021-2023 EGM08D595",
+        "url": "https://geoserveis.icgc.cat/servei/catalunya/elevacions-territorial/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetFeatureInfo&LAYERS=model-elevacions-terreny-catalunya-lidar-50cm-2021-2023&STYLES=&FORMAT=image%2Fpng&QUERY_LAYERS=model-elevacions-terreny-catalunya-lidar-50cm-2021-2023&SRS=EPSG%3A4326&BBOX=1.8387296741352097%2C41.59395644657603%2C1.8387456741352097%2C41.59396844657603&WIDTH=3&HEIGHT=3&X=1&Y=1&INFO_FORMAT=text%2Fplain&FEATURE_COUNT=1",
+        "method": "COAC school transverse sections/current ortho show a short rear wing on a high ledge, connected to lower rooms and the bearing wing. Exact interior DTM0.5m is733.93903m; the unchanged exported base is733.50746m. MET5 is2.15508m lower at the same location. Verify a solid path at736.8m to the real66-50 bearing wall, three interior samples and the same closed component. No pillar is extended to the cliff; the courtyard is not used as an alternative contact."
+      }
+    ],
+    "supportChecks": [
+      {
+        "id": "north-school-ledge",
+        "name": "north-school-ledge-connection",
+        "location": [
+          1.8387376741352097,
+          41.59396244657603
+        ],
+        "carrierLocation": [
+          1.838629437605395,
+          41.59392733639743
+        ],
+        "connectionElevation": 736.8,
+        "pathCrossings": 0,
+        "interiorProbes": [
+          [
+            1.8387376741352097,
+            41.59396244657603
+          ],
+          [
+            1.8386835558703025,
+            41.59394489148673
+          ],
+          [
+            1.838629437605395,
+            41.59392733639743
+          ]
+        ],
+        "component": 1365,
+        "method": "COAC school transverse sections/current ortho show a short rear wing on a high ledge, connected to lower rooms and the bearing wing. Exact interior DTM0.5m is733.93903m; the unchanged exported base is733.50746m. MET5 is2.15508m lower at the same location. Verify a solid path at736.8m to the real66-50 bearing wall, three interior samples and the same closed component. No pillar is extended to the cliff; the courtyard is not used as an alternative contact."
+      }
+    ]
+  },
+  "footprintProjection": {
+    "passed": true,
+    "toleranceMetres": 0.002,
+    "maximumOutsideDistanceMetres": 0.00006808226910481462,
+    "verticesOutsideTolerance": 0,
+    "upperStoreyOverlapMetres": 0.02
+  },
+  "closed": true,
+  "byteLength": 73256,
+  "sha256": "8d73706984ef37e2f05ed98eb6773f39c74b25c904617500125a41e837959051",
+  "anchor": [
+    1.837548641641394,
+    41.59325382484897
+  ],
+  "anchorElevation": 705.1920003890991,
+  "datumNormalization": {
+    "originalDatum": 695,
+    "minimumLocalYBeforeRebasing": 10.192000389099121,
+    "absoluteHeightsPreserved": true
+  },
+  "closedComponents": 3,
+  "cleanup": [
+    {
+      "quantizationMetres": 0.0001,
+      "maximumVertexMoveMetres": 0.00007983569922049084,
+      "weldedEdgeCount": 50,
+      "repeatedIDFacesRemoved": 100,
+      "localCollinearRepairs": 7,
+      "cancelledCoincidentOppositeFacePairs": 0,
+      "retainedCoincidentNonAdjacentVertexGroups": [],
+      "sourceAudit": {
+        "vertices": 2959,
+        "triangles": 6034,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 33,
+        "minimumAreaSquareMetres": 0,
+        "minimumEdgeMetres": 0,
+        "signedVolume": 205837.21424810166,
+        "bbox": {
+          "min": [
+            -117.8547134399414,
+            10.192000389099121,
+            -91.43724060058594
+          ],
+          "max": [
+            134.7790069580078,
+            69,
+            51.6886100769043
+          ]
+        },
+        "edges": {
+          "total": 9051,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": false
+      },
+      "cleanedAudit": {
+        "vertices": 2909,
+        "triangles": 5934,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 6.247601280707796e-7,
+        "minimumEdgeMetres": 0.00009918212890625,
+        "signedVolume": 205837.15655557206,
+        "bbox": {
+          "min": [
+            -117.85469818115234,
+            10.192000389099121,
+            -91.43720245361328
+          ],
+          "max": [
+            134.7790069580078,
+            69,
+            51.6885986328125
+          ]
+        },
+        "edges": {
+          "total": 8901,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "relativeVolumeChange": -2.8028230859653447e-7,
+      "volumeChangeCubicMetres": -0.05769252960453741,
+      "repairLog": [
+        {
+          "zeroFace": 1282,
+          "neighbourFace": 1283,
+          "longEdge": [
+            2600,
+            2542
+          ],
+          "middleVertex": 2563,
+          "oppositeVertex": 2598,
+          "neighbourAreaBefore": 0.5696556060968319,
+          "neighbourAreaAfter": 0.5696556060968319,
+          "geometryMoved": false
+        },
+        {
+          "zeroFace": 2145,
+          "neighbourFace": 2146,
+          "longEdge": [
+            491,
+            471
+          ],
+          "middleVertex": 483,
+          "oppositeVertex": 484,
+          "neighbourAreaBefore": 0.027919616676918117,
+          "neighbourAreaAfter": 0.027919616676918113,
+          "geometryMoved": false
+        },
+        {
+          "zeroFace": 2325,
+          "neighbourFace": 2324,
+          "longEdge": [
+            468,
+            549
+          ],
+          "middleVertex": 482,
+          "oppositeVertex": 467,
+          "neighbourAreaBefore": 7.898335906976137,
+          "neighbourAreaAfter": 7.898335906976138,
+          "geometryMoved": false
+        },
+        {
+          "zeroFace": 2322,
+          "neighbourFace": 6036,
+          "longEdge": [
+            468,
+            482
+          ],
+          "middleVertex": 469,
+          "oppositeVertex": 467,
+          "neighbourAreaBefore": 5.04351543721908,
+          "neighbourAreaAfter": 5.04351543721908,
+          "geometryMoved": false
+        },
+        {
+          "zeroFace": 2534,
+          "neighbourFace": 2535,
+          "longEdge": [
+            2860,
+            2845
+          ],
+          "middleVertex": 2855,
+          "oppositeVertex": 2856,
+          "neighbourAreaBefore": 0.754686985104696,
+          "neighbourAreaAfter": 0.754686985104696,
+          "geometryMoved": false
+        },
+        {
+          "zeroFace": 3486,
+          "neighbourFace": 3487,
+          "longEdge": [
+            2211,
+            2198
+          ],
+          "middleVertex": 2212,
+          "oppositeVertex": 2210,
+          "neighbourAreaBefore": 0.3919244027712914,
+          "neighbourAreaAfter": 0.39192440277129137,
+          "geometryMoved": false
+        },
+        {
+          "zeroFace": 3632,
+          "neighbourFace": 3633,
+          "longEdge": [
+            2866,
+            2901
+          ],
+          "middleVertex": 2869,
+          "oppositeVertex": 2868,
+          "neighbourAreaBefore": 0.014007261826604299,
+          "neighbourAreaAfter": 0.014007261826604299,
+          "geometryMoved": false
+        }
+      ],
+      "safeEdgeWeldLog": [
+        {
+          "retained": 85,
+          "removed": 86,
+          "link": [
+            90,
+            41
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 1884,
+          "removed": 1885,
+          "link": [
+            65,
+            1898
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 325,
+          "removed": 326,
+          "link": [
+            457,
+            327
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 471,
+          "removed": 475,
+          "link": [
+            469,
+            491
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 471,
+          "removed": 474,
+          "link": [
+            468,
+            476
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 644,
+          "removed": 645,
+          "link": [
+            642,
+            656
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 690,
+          "removed": 692,
+          "link": [
+            695,
+            691
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 936,
+          "removed": 937,
+          "link": [
+            935,
+            939
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 872,
+          "removed": 873,
+          "link": [
+            871,
+            869
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 877,
+          "removed": 878,
+          "link": [
+            876,
+            884
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 2156,
+          "removed": 2157,
+          "link": [
+            2170,
+            2160
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 2205,
+          "removed": 2206,
+          "link": [
+            2252,
+            2195
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 2500,
+          "removed": 2501,
+          "link": [
+            2579,
+            2480
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 2503,
+          "removed": 2506,
+          "link": [
+            2482,
+            2505
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 2507,
+          "removed": 2508,
+          "link": [
+            2584,
+            2488
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 2528,
+          "removed": 2529,
+          "link": [
+            2589,
+            2515
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 2551,
+          "removed": 2552,
+          "link": [
+            2540,
+            2570
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 2542,
+          "removed": 2544,
+          "link": [
+            2600,
+            2537
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 2557,
+          "removed": 2558,
+          "link": [
+            2574,
+            2554
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 2569,
+          "removed": 2570,
+          "link": [
+            2605,
+            2551
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 2866,
+          "removed": 2867,
+          "link": [
+            2864,
+            2869
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 2904,
+          "removed": 2905,
+          "link": [
+            2906,
+            2912
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 2912,
+          "removed": 2913,
+          "link": [
+            2915,
+            2923
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 2921,
+          "removed": 2923,
+          "link": [
+            2954,
+            2912
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 215,
+          "removed": 216,
+          "link": [
+            724,
+            224
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 325,
+          "removed": 327,
+          "link": [
+            330,
+            322
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 1034,
+          "removed": 1035,
+          "link": [
+            1036,
+            1008
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 2845,
+          "removed": 2846,
+          "link": [
+            2843,
+            2855
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 983,
+          "removed": 984,
+          "link": [
+            938,
+            985
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 989,
+          "removed": 990,
+          "link": [
+            999,
+            997
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 2313,
+          "removed": 2314,
+          "link": [
+            2798,
+            2316
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 2312,
+          "removed": 2313,
+          "link": [
+            2798,
+            2316
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 2311,
+          "removed": 2312,
+          "link": [
+            2798,
+            2316
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 2310,
+          "removed": 2311,
+          "link": [
+            2798,
+            2316
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 2309,
+          "removed": 2310,
+          "link": [
+            2798,
+            2316
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 2308,
+          "removed": 2309,
+          "link": [
+            2798,
+            2316
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 2307,
+          "removed": 2308,
+          "link": [
+            2798,
+            2316
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 2307,
+          "removed": 2316,
+          "link": [
+            2798,
+            2315
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 2307,
+          "removed": 2315,
+          "link": [
+            2300,
+            2798
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 2122,
+          "removed": 2123,
+          "link": [
+            2124,
+            2132
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 2158,
+          "removed": 2160,
+          "link": [
+            2125,
+            2156
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 2478,
+          "removed": 2480,
+          "link": [
+            2477,
+            2500
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 2486,
+          "removed": 2488,
+          "link": [
+            2489,
+            2507
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 2513,
+          "removed": 2515,
+          "link": [
+            2516,
+            2528
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 1254,
+          "removed": 1255,
+          "link": [
+            1260,
+            1309
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 1238,
+          "removed": 1240,
+          "link": [
+            1239,
+            1310
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 1280,
+          "removed": 1281,
+          "link": [
+            1279,
+            1310
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 1293,
+          "removed": 1294,
+          "link": [
+            1304,
+            1311
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 1328,
+          "removed": 1330,
+          "link": [
+            1324,
+            1156
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 1418,
+          "removed": 1419,
+          "link": [
+            1413,
+            1423
+          ],
+          "geometryMoved": false
+        }
+      ]
+    },
+    {
+      "quantizationMetres": 0.0001,
+      "maximumVertexMoveMetres": 0.00006749562179268073,
+      "weldedEdgeCount": 0,
+      "repeatedIDFacesRemoved": 0,
+      "localCollinearRepairs": 0,
+      "cancelledCoincidentOppositeFacePairs": 0,
+      "retainedCoincidentNonAdjacentVertexGroups": [],
+      "sourceAudit": {
+        "vertices": 30,
+        "triangles": 56,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 0.00032256022128480694,
+        "minimumEdgeMetres": 0.0011997222900390625,
+        "signedVolume": 1247.2572630849131,
+        "bbox": {
+          "min": [
+            -134.7564239501953,
+            10.22599983215332,
+            58.1256103515625
+          ],
+          "max": [
+            -77.07653045654297,
+            23.650999069213867,
+            91.43724060058594
+          ]
+        },
+        "edges": {
+          "total": 84,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "cleanedAudit": {
+        "vertices": 30,
+        "triangles": 56,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 0.00032255596065800137,
+        "minimumEdgeMetres": 0.0011997222900390625,
+        "signedVolume": 1247.2772148351985,
+        "bbox": {
+          "min": [
+            -134.7563934326172,
+            10.22599983215332,
+            58.1255989074707
+          ],
+          "max": [
+            -77.07649993896484,
+            23.650999069213867,
+            91.43720245361328
+          ]
+        },
+        "edges": {
+          "total": 84,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "relativeVolumeChange": 0.00001599649958022655,
+      "volumeChangeCubicMetres": 0.019951750285372327,
+      "repairLog": [],
+      "safeEdgeWeldLog": []
+    },
+    {
+      "quantizationMetres": 0.0001,
+      "maximumVertexMoveMetres": 0.000078479921766056,
+      "weldedEdgeCount": 0,
+      "repeatedIDFacesRemoved": 0,
+      "localCollinearRepairs": 0,
+      "cancelledCoincidentOppositeFacePairs": 0,
+      "retainedCoincidentNonAdjacentVertexGroups": [],
+      "sourceAudit": {
+        "vertices": 54,
+        "triangles": 104,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 0.000014401968603069448,
+        "minimumEdgeMetres": 0.000659942626953125,
+        "signedVolume": 186.04014388656717,
+        "bbox": {
+          "min": [
+            -78.04962921142578,
+            10.22599983215332,
+            51.6886100769043
+          ],
+          "max": [
+            -71.81367492675781,
+            24.515010833740234,
+            59.24937057495117
+          ]
+        },
+        "edges": {
+          "total": 156,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "cleanedAudit": {
+        "vertices": 54,
+        "triangles": 104,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 0.000019886539020660194,
+        "minimumEdgeMetres": 0.0006999969482421875,
+        "signedVolume": 186.04093743473803,
+        "bbox": {
+          "min": [
+            -78.04959869384766,
+            10.22599983215332,
+            51.6885986328125
+          ],
+          "max": [
+            -71.8136978149414,
+            24.514999389648438,
+            59.2494010925293
+          ]
+        },
+        "edges": {
+          "total": 156,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "relativeVolumeChange": 0.000004265467410868363,
+      "volumeChangeCubicMetres": 0.0007935481708614134,
+      "repairLog": [],
+      "safeEdgeWeldLog": []
+    }
+  ],
+  "sourceComparisons": [
+    {
+      "name": "folguera-roof",
+      "pixel": [
+        646.4609182063633,
+        935.156552831714
+      ],
+      "point": [
+        -41.576381859367196,
+        -35.39677081799255
+      ],
+      "location": [
+        1.837049247148755,
+        41.59293585170113
+      ],
+      "elevation": 763.13501,
+      "toleranceMetres": 0.25,
+      "source": "Independent retained ICGC DSM1m2021-2023 query, EGM08D595 ASL. Tolerance reflects fitted roof geometry/cell placement; not survey accuracy.",
+      "meshElevation": 763.0999975204468,
+      "differenceMetres": -0.035012479553188314,
+      "passed": true
+    },
+    {
+      "name": "nave-crown",
+      "pixel": [
+        851.7142857142857,
+        794.7142857142857
+      ],
+      "point": [
+        24.431498813849274,
+        11.261341542692094
+      ],
+      "location": [
+        1.8378421004612553,
+        41.593354986738504
+      ],
+      "elevation": 745.34497,
+      "toleranceMetres": 1,
+      "source": "Independent retained ICGC DSM1m2021-2023 query, EGM08D595 ASL. Tolerance reflects fitted roof geometry/cell placement; not survey accuracy.",
+      "meshElevation": 745.3631636667659,
+      "differenceMetres": 0.018193666765910166,
+      "passed": true
+    },
+    {
+      "name": "low-exterior-drum",
+      "pixel": [
+        910.2857142857143,
+        768.4285714285714
+      ],
+      "point": [
+        43.32804190411098,
+        20.082406617954973
+      ],
+      "location": [
+        1.8380690761894731,
+        41.59343422735183
+      ],
+      "elevation": 747.96899,
+      "toleranceMetres": 1.5,
+      "source": "Independent retained ICGC DSM1m2021-2023 query, EGM08D595 ASL. Tolerance reflects fitted roof geometry/cell placement; not survey accuracy.",
+      "meshElevation": 747.9999990463257,
+      "differenceMetres": 0.0310090463257211,
+      "passed": true
+    },
+    {
+      "name": "central-lower-apse",
+      "pixel": [
+        974.8571428571429,
+        751.2857142857143
+      ],
+      "point": [
+        64.21209654563296,
+        25.95091934332288
+      ],
+      "location": [
+        1.8383199249022646,
+        41.593486944857446
+      ],
+      "elevation": 738.341,
+      "toleranceMetres": 1,
+      "source": "Independent retained ICGC DSM1m2021-2023 query, EGM08D595 ASL. Tolerance reflects fitted roof geometry/cell placement; not survey accuracy.",
+      "meshElevation": 738.2120069491422,
+      "differenceMetres": -0.12899305085784363,
+      "passed": true
+    },
+    {
+      "name": "clericat-roof",
+      "pixel": [
+        1160.3,
+        585
+      ],
+      "point": [
+        123.67812590748292,
+        80.9412533879734
+      ],
+      "location": [
+        1.83903420080205,
+        41.593980929173334
+      ],
+      "elevation": 745.75201,
+      "toleranceMetres": 0.7,
+      "source": "Independent retained ICGC DSM1m2021-2023 query, EGM08D595 ASL. Tolerance reflects fitted roof geometry/cell placement; not survey accuracy.",
+      "meshElevation": 745.1088342117683,
+      "differenceMetres": -0.6431757882317015,
+      "passed": true
+    }
+  ],
+  "scopeVerification": {
+    "sourceId": "icgc-1271519",
+    "classificationMap": "scope-review.webp",
+    "sourceAreaLocalM2": 11395.980660877904,
+    "classifiedUnionAreaLocalM2": 11395.980477589479,
+    "unclassifiedAreaLocalM2": 0.0005356385618000559,
+    "outsideSourceAreaLocalM2": 0.0003523501331130774,
+    "members": [
+      {
+        "id": "west-monastic-wings",
+        "role": "Roofed western monastery, atrium ranges, principal facade and Folguera tower; current ortho and official2025plan.",
+        "areaLocalM2": 5425.839700751554
+      },
+      {
+        "id": "basilica-and-apse",
+        "role": "Single nave, flat lateral galleries, buttresses, upper polygonal apse and three lower neoromanesque apses; technical restoration section1994 and current DSM.",
+        "areaLocalM2": 2200.9479953864748
+      },
+      {
+        "id": "escolania-and-clericat",
+        "role": "Three connected school ranges, raised open court and hipped Torre del Clericat. Partial COAC roof plan/elevations, present ortho.",
+        "areaLocalM2": 1487.5378894012554
+      },
+      {
+        "id": "museum-under-places",
+        "role": "Built rooms/retaining facade beneath public places, documented by technical articlep65 and owner2025plan. Only exposed perimeter masonry will be modelled; the real roof/plaza remains supplied by terrain, with no invented platform.",
+        "areaLocalM2": 2262.4450246055676
+      },
+      {
+        "id": "open-terrace-stair-connector",
+        "role": "Very narrow terrace/stair strip in aggregated source plan; local DSM approaches ground. Not extruded to the56.24m source maximum.",
+        "areaLocalM2": 26.411664512866764
+      }
+    ],
+    "verifiedWholeCounterpart": true,
+    "basis": "Official2025owner diagram, primary technical restoration paperpp62–65, partialCOACschool drawings/current ortho. All source members belong to the represented architectural complex, including museum rooms under public places. No hotel/transport source is included. Open surfaces/hidden subsoil need not become artificial building slabs.",
+    "coverageToleranceSquareMetres": 0.001
+  },
+  "discardedInternalCavitiesCubicMetres": 0
+}

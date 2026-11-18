@@ -1,0 +1,38 @@
+[
+  {
+    "id": "monestir-de-montserrat",
+    "name": "Monestir de Montserrat",
+    "errors": [],
+    "empty": false,
+    "finite": true,
+    "vertices": 2993,
+    "triangles": 6094,
+    "bbox": {
+      "min": [
+        -134.7563934326172,
+        0,
+        -91.43720245361328
+      ],
+      "max": [
+        134.7790069580078,
+        58.80799865722656,
+        91.43720245361328
+      ]
+    },
+    "dimensions": [
+      269.535400390625,
+      58.80799865722656,
+      182.87440490722656
+    ],
+    "signedVolume": 207270.46839653366,
+    "orientation": "positiva",
+    "edges": {
+      "total": 9141,
+      "boundary": 0,
+      "nonManifold": 0,
+      "orientationConflicts": 0
+    },
+    "closed": true,
+    "components": 3
+  }
+]
