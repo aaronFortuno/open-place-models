@@ -1,0 +1,55 @@
+{
+  "id": "recinte-modernista-sant-pau",
+  "errors": [],
+  "closed": true,
+  "finite": true,
+  "vertices": 17897,
+  "triangles": 35950,
+  "components": 13,
+  "byteLength": 431256,
+  "sha256": "d52c603c8ac9cfb3b64d70b74d9e585310d8baa8d091d98fcf527356e8a12f38",
+  "signedVolume": 263081.02581122925,
+  "edges": {
+    "total": 53925,
+    "boundary": 0,
+    "nonManifold": 0,
+    "orientationConflicts": 0
+  },
+  "bbox": {
+    "min": [
+      -77.22450256347656,
+      0,
+      -132.86180114746094
+    ],
+    "max": [
+      78.04119873046875,
+      62.472999572753906,
+      132.55780029296875
+    ]
+  },
+  "dimensions": [
+    155.2657012939453,
+    62.472999572753906,
+    265.4196014404297
+  ],
+  "anchor": [
+    2.1743219,
+    41.4127923
+  ],
+  "anchorElevation": 50,
+  "componentIds": [
+    "sant-pau-administracio",
+    "sant-pau-sant-jordi",
+    "sant-pau-santa-apollonia",
+    "sant-pau-purissima",
+    "sant-pau-sant-salvador",
+    "sant-pau-carme",
+    "sant-pau-sant-leopold",
+    "sant-pau-operacions",
+    "sant-pau-merce",
+    "sant-pau-sant-rafael",
+    "sant-pau-sant-manuel",
+    "sant-pau-montserrat",
+    "sant-pau-convent-farmacia-cuines"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "sant-pau-convent-farmacia-cuines",
+  "name": "Convent, Farmàcia i Cuines",
+  "errors": [],
+  "closed": true,
+  "finite": true,
+  "vertices": 567,
+  "triangles": 1130,
+  "components": 1,
+  "byteLength": 14364,
+  "sha256": "5baaf7fb7f1e749a737e6f0274fe4ae5df1f4489a747a906fd466b66b65c4935",
+  "signedVolume": 102413.16006192628,
+  "edges": {
+    "total": 1695,
+    "boundary": 0,
+    "nonManifold": 0,
+    "orientationConflicts": 0
+  },
+  "bbox": {
+    "min": [
+      -77.17737579345703,
+      0,
+      -25.660640716552734
+    ],
+    "max": [
+      77.99412536621094,
+      29.774999618530273,
+      25.30306053161621
+    ]
+  },
+  "dimensions": [
+    155.17150115966797,
+    29.774999618530273,
+    50.963701248168945
+  ],
+  "anchor": [
+    2.17432245,
+    41.4137553
+  ],
+  "anchorElevation": 60,
+  "omittedOpenings": [],
+  "filledInternalCavitiesCubicMetres": [
+    0.03052208849521776,
+    0.0030448031741343584
+  ],
+  "openingDepthChecks": [],
+  "maximumProjectionOutsideFootprintMetres": 0.000004957984309970217
+}

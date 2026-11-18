@@ -1,0 +1,45 @@
+{
+  "id": "sant-pau-santa-apollonia",
+  "name": "Santa Apol·lònia",
+  "errors": [],
+  "closed": true,
+  "finite": true,
+  "vertices": 99,
+  "triangles": 194,
+  "components": 1,
+  "byteLength": 3132,
+  "sha256": "ba617e3d32d98528d86413e304adfa5e4eaccc044fa759ecc2474d6bf1bf9ecf",
+  "signedVolume": 2146.572473709255,
+  "edges": {
+    "total": 291,
+    "boundary": 0,
+    "nonManifold": 0,
+    "orientationConflicts": 0
+  },
+  "bbox": {
+    "min": [
+      -10.035172462463379,
+      0,
+      -10.410136222839355
+    ],
+    "max": [
+      10.219894409179688,
+      13.862000465393066,
+      9.80726432800293
+    ]
+  },
+  "dimensions": [
+    20.255066871643066,
+    13.862000465393066,
+    20.217400550842285
+  ],
+  "anchor": [
+    2.1737151,
+    41.4119375
+  ],
+  "anchorElevation": 54,
+  "omittedOpenings": [],
+  "filledInternalCavitiesCubicMetres": [],
+  "openingDepthChecks": [],
+  "maximumProjectionOutsideFootprintMetres": 0.0000037900392552318883
+}

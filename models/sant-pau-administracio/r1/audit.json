@@ -1,0 +1,194 @@
+{
+  "id": "sant-pau-administracio",
+  "name": "Edifici d’Administració",
+  "errors": [],
+  "closed": true,
+  "finite": true,
+  "vertices": 3823,
+  "triangles": 7674,
+  "components": 1,
+  "byteLength": 92708,
+  "sha256": "c74af3943dd3beb7b606d0d82bad0e848a4cccaf84058bb86bbfe0b530970bfe",
+  "signedVolume": 45619.69627817019,
+  "edges": {
+    "total": 11511,
+    "boundary": 0,
+    "nonManifold": 0,
+    "orientationConflicts": 0
+  },
+  "bbox": {
+    "min": [
+      -47.88564682006836,
+      0,
+      -21.293827056884766
+    ],
+    "max": [
+      47.41242599487305,
+      62.472999572753906,
+      20.91497230529785
+    ]
+  },
+  "dimensions": [
+    95.2980728149414,
+    62.472999572753906,
+    42.20879936218262
+  ],
+  "anchor": [
+    2.1743427,
+    41.4117894
+  ],
+  "anchorElevation": 50,
+  "omittedOpenings": [],
+  "filledInternalCavitiesCubicMetres": [
+    182.72107578381986,
+    0.028787291676280802
+  ],
+  "openingDepthChecks": [
+    {
+      "name": "central--5.2-60",
+      "expected": 1.1,
+      "actual": 1.1000000000000085
+    },
+    {
+      "name": "central--5.2-70.5",
+      "expected": 1.1,
+      "actual": 1.1000000000000085
+    },
+    {
+      "name": "central--5.2-78",
+      "expected": 1.1,
+      "actual": 1.1000000000000085
+    },
+    {
+      "name": "central-0.5-60",
+      "expected": 1.1,
+      "actual": 1.1000000000000085
+    },
+    {
+      "name": "central-0.5-70.5",
+      "expected": 1.1,
+      "actual": 1.1000000000000085
+    },
+    {
+      "name": "central-0.5-78",
+      "expected": 1.1,
+      "actual": 1.1000000000000085
+    },
+    {
+      "name": "central-6.1-60",
+      "expected": 1.1,
+      "actual": 1.1000000000000085
+    },
+    {
+      "name": "central-6.1-70.5",
+      "expected": 1.1,
+      "actual": 1.1000000000000085
+    },
+    {
+      "name": "central-6.1-78",
+      "expected": 1.1,
+      "actual": 1.1000000000000085
+    },
+    {
+      "name": "wing--1--2-61",
+      "expected": 0.9,
+      "actual": 0.899999999999995
+    },
+    {
+      "name": "wing--1--2-70",
+      "expected": 0.9,
+      "actual": 0.9000000000000021
+    },
+    {
+      "name": "wing--1--1-61",
+      "expected": 0.9,
+      "actual": 0.9000000000000083
+    },
+    {
+      "name": "wing--1--1-70",
+      "expected": 0.9,
+      "actual": 0.8999999999999932
+    },
+    {
+      "name": "wing--1-0-61",
+      "expected": 0.9,
+      "actual": 0.9000000000000039
+    },
+    {
+      "name": "wing--1-0-70",
+      "expected": 0.9,
+      "actual": 0.9000000000000039
+    },
+    {
+      "name": "wing--1-1-61",
+      "expected": 0.9,
+      "actual": 0.8999999999999986
+    },
+    {
+      "name": "wing--1-1-70",
+      "expected": 0.9,
+      "actual": 0.9000000000000012
+    },
+    {
+      "name": "wing--1-2-61",
+      "expected": 0.9,
+      "actual": 0.8999999999999986
+    },
+    {
+      "name": "wing--1-2-70",
+      "expected": 0.9,
+      "actual": 0.8999999999999986
+    },
+    {
+      "name": "wing-1--2-61",
+      "expected": 0.9,
+      "actual": 0.9000000000000004
+    },
+    {
+      "name": "wing-1--2-70",
+      "expected": 0.9,
+      "actual": 0.9000000000000039
+    },
+    {
+      "name": "wing-1--1-61",
+      "expected": 0.9,
+      "actual": 0.8999999999999986
+    },
+    {
+      "name": "wing-1--1-70",
+      "expected": 0.9,
+      "actual": 0.9000000000000012
+    },
+    {
+      "name": "wing-1-0-61",
+      "expected": 0.9,
+      "actual": 0.900000000000011
+    },
+    {
+      "name": "wing-1-0-70",
+      "expected": 0.9,
+      "actual": 0.9000000000000137
+    },
+    {
+      "name": "wing-1-1-61",
+      "expected": 0.9,
+      "actual": 0.9000000000000012
+    },
+    {
+      "name": "wing-1-1-70",
+      "expected": 0.9,
+      "actual": 0.8999999999999986
+    },
+    {
+      "name": "wing-1-2-61",
+      "expected": 0.9,
+      "actual": 0.9000000000000004
+    },
+    {
+      "name": "wing-1-2-70",
+      "expected": 0.9,
+      "actual": 0.9000000000000021
+    }
+  ],
+  "maximumProjectionOutsideFootprintMetres": 0.0000046205568596382255
+}

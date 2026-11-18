@@ -1,0 +1,135 @@
+{
+  "id": "sant-pau-carme",
+  "name": "Mare de Déu del Carme",
+  "errors": [],
+  "closed": true,
+  "finite": true,
+  "vertices": 1580,
+  "triangles": 3164,
+  "components": 1,
+  "byteLength": 38732,
+  "sha256": "ee3c740fbb104bb608b87329496f331d9a2035a2afc4d6fc1f341f66a2f85eae",
+  "signedVolume": 11725.62278690511,
+  "edges": {
+    "total": 4746,
+    "boundary": 0,
+    "nonManifold": 0,
+    "orientationConflicts": 0
+  },
+  "bbox": {
+    "min": [
+      -26.857486724853516,
+      0,
+      -10.295782089233398
+    ],
+    "max": [
+      27.761695861816406,
+      22.280000686645508,
+      9.92421817779541
+    ]
+  },
+  "dimensions": [
+    54.61918258666992,
+    22.280000686645508,
+    20.22000026702881
+  ],
+  "anchor": [
+    2.1737193,
+    41.41253595
+  ],
+  "anchorElevation": 55,
+  "omittedOpenings": [
+    "dayroom-4 (adjoining volume covers this facade)",
+    "dayroom-5 (adjoining volume covers this facade)",
+    "dayroom-6 (adjoining volume covers this facade)"
+  ],
+  "filledInternalCavitiesCubicMetres": [],
+  "openingDepthChecks": [
+    {
+      "name": "ward--1-0",
+      "expected": 0.8,
+      "actual": 0.8000000014686357
+    },
+    {
+      "name": "ward--1-1",
+      "expected": 0.8,
+      "actual": 0.8000000014686179
+    },
+    {
+      "name": "ward--1-2",
+      "expected": 0.8,
+      "actual": 0.8000000014686073
+    },
+    {
+      "name": "ward--1-3",
+      "expected": 0.8,
+      "actual": 0.8000000014686393
+    },
+    {
+      "name": "ward--1-4",
+      "expected": 0.8,
+      "actual": 0.8000000014686428
+    },
+    {
+      "name": "ward--1-5",
+      "expected": 0.8,
+      "actual": 0.8000000014686357
+    },
+    {
+      "name": "ward-1-0",
+      "expected": 0.8,
+      "actual": 0.79999999892636
+    },
+    {
+      "name": "ward-1-1",
+      "expected": 0.8,
+      "actual": 0.7999999989263671
+    },
+    {
+      "name": "ward-1-2",
+      "expected": 0.8,
+      "actual": 0.7999999989263742
+    },
+    {
+      "name": "ward-1-3",
+      "expected": 0.8,
+      "actual": 0.7999999989263529
+    },
+    {
+      "name": "ward-1-4",
+      "expected": 0.8,
+      "actual": 0.7999999989256921
+    },
+    {
+      "name": "ward-1-5",
+      "expected": 0.8,
+      "actual": 0.799999998924978
+    },
+    {
+      "name": "dayroom-0",
+      "expected": 1,
+      "actual": 1
+    },
+    {
+      "name": "dayroom-1",
+      "expected": 1,
+      "actual": 0.9999999999999982
+    },
+    {
+      "name": "dayroom-2",
+      "expected": 1,
+      "actual": 1
+    },
+    {
+      "name": "dayroom-3",
+      "expected": 1,
+      "actual": 0.9999999999999991
+    },
+    {
+      "name": "dayroom-7",
+      "expected": 1,
+      "actual": 0.9999999999999929
+    }
+  ],
+  "maximumProjectionOutsideFootprintMetres": 0.000003762687546884182
+}

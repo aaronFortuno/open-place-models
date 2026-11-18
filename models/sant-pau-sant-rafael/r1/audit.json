@@ -1,0 +1,139 @@
+{
+  "id": "sant-pau-sant-rafael",
+  "name": "Sant Rafael",
+  "errors": [],
+  "closed": true,
+  "finite": true,
+  "vertices": 1554,
+  "triangles": 3112,
+  "components": 1,
+  "byteLength": 38108,
+  "sha256": "1c6d162859b871bdde22f2f5729e39d2ae5b514f0cda4661a0c246253e13672f",
+  "signedVolume": 11150.051415530152,
+  "edges": {
+    "total": 4668,
+    "boundary": 0,
+    "nonManifold": 0,
+    "orientationConflicts": 0
+  },
+  "bbox": {
+    "min": [
+      -26.594186782836914,
+      0,
+      -10.13074779510498
+    ],
+    "max": [
+      27.555265426635742,
+      21.465999603271484,
+      9.707103729248047
+    ]
+  },
+  "dimensions": [
+    54.149452209472656,
+    21.465999603271484,
+    19.837851524353027
+  ],
+  "anchor": [
+    2.1749229999999997,
+    41.4128984
+  ],
+  "anchorElevation": 56,
+  "omittedOpenings": [
+    "dayroom-3 (adjoining volume covers this facade)",
+    "dayroom-4 (adjoining volume covers this facade)"
+  ],
+  "filledInternalCavitiesCubicMetres": [],
+  "openingDepthChecks": [
+    {
+      "name": "ward--1-0",
+      "expected": 0.8,
+      "actual": 0.8000000037178134
+    },
+    {
+      "name": "ward--1-1",
+      "expected": 0.8,
+      "actual": 0.8000000037403812
+    },
+    {
+      "name": "ward--1-2",
+      "expected": 0.8,
+      "actual": 0.8000000037628432
+    },
+    {
+      "name": "ward--1-3",
+      "expected": 0.8,
+      "actual": 0.8000000037833512
+    },
+    {
+      "name": "ward--1-4",
+      "expected": 0.8,
+      "actual": 0.8000000038040085
+    },
+    {
+      "name": "ward--1-5",
+      "expected": 0.8,
+      "actual": 0.8000000038246711
+    },
+    {
+      "name": "ward-1-0",
+      "expected": 0.8,
+      "actual": 0.7999999926368915
+    },
+    {
+      "name": "ward-1-1",
+      "expected": 0.8,
+      "actual": 0.7999999926369554
+    },
+    {
+      "name": "ward-1-2",
+      "expected": 0.8,
+      "actual": 0.7999999926370158
+    },
+    {
+      "name": "ward-1-3",
+      "expected": 0.8,
+      "actual": 0.7999999926369519
+    },
+    {
+      "name": "ward-1-4",
+      "expected": 0.8,
+      "actual": 0.7999999926370762
+    },
+    {
+      "name": "ward-1-5",
+      "expected": 0.8,
+      "actual": 0.7999999926372148
+    },
+    {
+      "name": "dayroom-0",
+      "expected": 1,
+      "actual": 1
+    },
+    {
+      "name": "dayroom-1",
+      "expected": 1,
+      "actual": 1.0000000000000036
+    },
+    {
+      "name": "dayroom-2",
+      "expected": 1,
+      "actual": 1
+    },
+    {
+      "name": "dayroom-5",
+      "expected": 1,
+      "actual": 1.0000000000000027
+    },
+    {
+      "name": "dayroom-6",
+      "expected": 1,
+      "actual": 0.9999999999999964
+    },
+    {
+      "name": "dayroom-7",
+      "expected": 1,
+      "actual": 0.9999999999999991
+    }
+  ],
+  "maximumProjectionOutsideFootprintMetres": 0.000002769127247259261
+}

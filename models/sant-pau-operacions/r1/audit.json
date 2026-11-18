@@ -1,0 +1,61 @@
+{
+  "id": "sant-pau-operacions",
+  "name": "Pavelló d’Operacions",
+  "errors": [],
+  "closed": true,
+  "finite": true,
+  "vertices": 645,
+  "triangles": 1366,
+  "components": 1,
+  "byteLength": 16720,
+  "sha256": "49341e5a25accd893195d6a931018235953f0446c69f0cf31bd946009eed4471",
+  "signedVolume": 8552.02597095624,
+  "edges": {
+    "total": 2049,
+    "boundary": 0,
+    "nonManifold": 0,
+    "orientationConflicts": 0
+  },
+  "bbox": {
+    "min": [
+      -14.23015308380127,
+      0,
+      -15.147117614746094
+    ],
+    "max": [
+      15.019562721252441,
+      25.25200080871582,
+      14.900181770324707
+    ]
+  },
+  "dimensions": [
+    29.24971580505371,
+    25.25200080871582,
+    30.0472993850708
+  ],
+  "anchor": [
+    2.1743204499999997,
+    41.41275615
+  ],
+  "anchorElevation": 58,
+  "omittedOpenings": [],
+  "filledInternalCavitiesCubicMetres": [],
+  "openingDepthChecks": [
+    {
+      "name": "operations--3",
+      "expected": 1,
+      "actual": 0.9999999999999982
+    },
+    {
+      "name": "operations-0",
+      "expected": 1,
+      "actual": 1
+    },
+    {
+      "name": "operations-3",
+      "expected": 1,
+      "actual": 1
+    }
+  ],
+  "maximumProjectionOutsideFootprintMetres": 9.005529196295189e-7
+}

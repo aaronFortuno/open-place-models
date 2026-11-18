@@ -1,0 +1,1659 @@
+{
+  "name": "complet",
+  "width": 240,
+  "height": 260,
+  "scale": 2000,
+  "rotation": 10,
+  "center": [
+    41.4127923,
+    2.1743219
+  ],
+  "export3mf": true,
+  "id": "recinte-modernista-sant-pau",
+  "consumerVersion": "0.24.13",
+  "terrain": "ICGC MET5",
+  "buildingSource": "icgc",
+  "catalogue": [
+    {
+      "id": "sant-pau-administracio",
+      "family": null,
+      "fragments": 1,
+      "roof": 39.64802932739258,
+      "roofShape": "catalogue",
+      "roofFallback": null,
+      "roofSource": null,
+      "roofMetadata": null,
+      "baseOffsetMM": 0,
+      "estimated": false,
+      "landmark": {
+        "name": "Edifici d’Administració",
+        "revision": "r1",
+        "license": "CC-BY-4.0",
+        "spatialDataLicense": "CC-BY-4.0; ODbL-1.0",
+        "attribution": "Open Place Models contributors · Ajuntament de Barcelona · ICGC · OpenStreetMap contributors",
+        "sources": [
+          "https://w20.bcn.cat/CartoBCN/getFile.ashx?prod=146.35.47",
+          "https://portaldades.ajuntament.barcelona.cat/mapes/146",
+          "https://geoserveis.icgc.cat/servei/catalunya/elevacions-territorial/wms",
+          "https://api.openstreetmap.org/api/0.6/map?bbox=2.1703,41.4103,2.1783,41.4173",
+          "https://santpaubarcelona.org/wp-content/uploads/2025/08/Proposta-recorregut-CAT.pdf",
+          "https://www.arquitecturacatalana.cat/ca/obres/pavello-de-ladministracio-de-lhospital-de-la-santa-creu-i-sant-pau",
+          "https://www.arquitecturacatalana.cat/ca/obres/restauracio-de-la-torre-del-rellotge-de-lhospital-de-la-santa-creu-i-sant-pau",
+          "https://www.arquitecturacatalana.cat/ca/obres/pavello-de-sant-rafael-de-lhospital-de-la-santa-creu-i-de-sant-pau"
+        ],
+        "anchorElevation": 50
+      }
+    },
+    {
+      "id": "sant-pau-sant-jordi",
+      "family": null,
+      "fragments": 1,
+      "roof": 15.25552749633789,
+      "roofShape": "catalogue",
+      "roofFallback": null,
+      "roofSource": null,
+      "roofMetadata": null,
+      "baseOffsetMM": 0,
+      "estimated": false,
+      "landmark": {
+        "name": "Sant Jordi",
+        "revision": "r1",
+        "license": "CC-BY-4.0",
+        "spatialDataLicense": "CC-BY-4.0; ODbL-1.0",
+        "attribution": "Open Place Models contributors · Ajuntament de Barcelona · ICGC · OpenStreetMap contributors",
+        "sources": [
+          "https://w20.bcn.cat/CartoBCN/getFile.ashx?prod=146.35.47",
+          "https://portaldades.ajuntament.barcelona.cat/mapes/146",
+          "https://geoserveis.icgc.cat/servei/catalunya/elevacions-territorial/wms",
+          "https://api.openstreetmap.org/api/0.6/map?bbox=2.1703,41.4103,2.1783,41.4173",
+          "https://santpaubarcelona.org/wp-content/uploads/2025/08/Proposta-recorregut-CAT.pdf",
+          "https://www.arquitecturacatalana.cat/ca/obres/pavello-de-ladministracio-de-lhospital-de-la-santa-creu-i-sant-pau",
+          "https://www.arquitecturacatalana.cat/ca/obres/restauracio-de-la-torre-del-rellotge-de-lhospital-de-la-santa-creu-i-sant-pau",
+          "https://www.arquitecturacatalana.cat/ca/obres/pavello-de-sant-rafael-de-lhospital-de-la-santa-creu-i-de-sant-pau"
+        ],
+        "anchorElevation": 50
+      }
+    },
+    {
+      "id": "sant-pau-santa-apollonia",
+      "family": null,
+      "fragments": 1,
+      "roof": 17.342527389526367,
+      "roofShape": "catalogue",
+      "roofFallback": null,
+      "roofSource": null,
+      "roofMetadata": null,
+      "baseOffsetMM": 0,
+      "estimated": false,
+      "landmark": {
+        "name": "Santa Apol·lònia",
+        "revision": "r1",
+        "license": "CC-BY-4.0",
+        "spatialDataLicense": "CC-BY-4.0; ODbL-1.0",
+        "attribution": "Open Place Models contributors · Ajuntament de Barcelona · ICGC · OpenStreetMap contributors",
+        "sources": [
+          "https://w20.bcn.cat/CartoBCN/getFile.ashx?prod=146.35.47",
+          "https://portaldades.ajuntament.barcelona.cat/mapes/146",
+          "https://geoserveis.icgc.cat/servei/catalunya/elevacions-territorial/wms",
+          "https://api.openstreetmap.org/api/0.6/map?bbox=2.1703,41.4103,2.1783,41.4173",
+          "https://santpaubarcelona.org/wp-content/uploads/2025/08/Proposta-recorregut-CAT.pdf",
+          "https://www.arquitecturacatalana.cat/ca/obres/pavello-de-ladministracio-de-lhospital-de-la-santa-creu-i-sant-pau",
+          "https://www.arquitecturacatalana.cat/ca/obres/restauracio-de-la-torre-del-rellotge-de-lhospital-de-la-santa-creu-i-sant-pau",
+          "https://www.arquitecturacatalana.cat/ca/obres/pavello-de-sant-rafael-de-lhospital-de-la-santa-creu-i-de-sant-pau"
+        ],
+        "anchorElevation": 54
+      }
+    },
+    {
+      "id": "sant-pau-purissima",
+      "family": null,
+      "fragments": 1,
+      "roof": 21.021028518676758,
+      "roofShape": "catalogue",
+      "roofFallback": null,
+      "roofSource": null,
+      "roofMetadata": null,
+      "baseOffsetMM": 0,
+      "estimated": false,
+      "landmark": {
+        "name": "Puríssima",
+        "revision": "r1",
+        "license": "CC-BY-4.0",
+        "spatialDataLicense": "CC-BY-4.0; ODbL-1.0",
+        "attribution": "Open Place Models contributors · Ajuntament de Barcelona · ICGC · OpenStreetMap contributors",
+        "sources": [
+          "https://w20.bcn.cat/CartoBCN/getFile.ashx?prod=146.35.47",
+          "https://portaldades.ajuntament.barcelona.cat/mapes/146",
+          "https://geoserveis.icgc.cat/servei/catalunya/elevacions-territorial/wms",
+          "https://api.openstreetmap.org/api/0.6/map?bbox=2.1703,41.4103,2.1783,41.4173",
+          "https://santpaubarcelona.org/wp-content/uploads/2025/08/Proposta-recorregut-CAT.pdf",
+          "https://www.arquitecturacatalana.cat/ca/obres/pavello-de-ladministracio-de-lhospital-de-la-santa-creu-i-sant-pau",
+          "https://www.arquitecturacatalana.cat/ca/obres/restauracio-de-la-torre-del-rellotge-de-lhospital-de-la-santa-creu-i-sant-pau",
+          "https://www.arquitecturacatalana.cat/ca/obres/pavello-de-sant-rafael-de-lhospital-de-la-santa-creu-i-de-sant-pau"
+        ],
+        "anchorElevation": 53
+      }
+    },
+    {
+      "id": "sant-pau-sant-salvador",
+      "family": null,
+      "fragments": 1,
+      "roof": 21.25552749633789,
+      "roofShape": "catalogue",
+      "roofFallback": null,
+      "roofSource": null,
+      "roofMetadata": null,
+      "baseOffsetMM": 0,
+      "estimated": false,
+      "landmark": {
+        "name": "Sant Salvador",
+        "revision": "r1",
+        "license": "CC-BY-4.0",
+        "spatialDataLicense": "CC-BY-4.0; ODbL-1.0",
+        "attribution": "Open Place Models contributors · Ajuntament de Barcelona · ICGC · OpenStreetMap contributors",
+        "sources": [
+          "https://w20.bcn.cat/CartoBCN/getFile.ashx?prod=146.35.47",
+          "https://portaldades.ajuntament.barcelona.cat/mapes/146",
+          "https://geoserveis.icgc.cat/servei/catalunya/elevacions-territorial/wms",
+          "https://api.openstreetmap.org/api/0.6/map?bbox=2.1703,41.4103,2.1783,41.4173",
+          "https://santpaubarcelona.org/wp-content/uploads/2025/08/Proposta-recorregut-CAT.pdf",
+          "https://www.arquitecturacatalana.cat/ca/obres/pavello-de-ladministracio-de-lhospital-de-la-santa-creu-i-sant-pau",
+          "https://www.arquitecturacatalana.cat/ca/obres/restauracio-de-la-torre-del-rellotge-de-lhospital-de-la-santa-creu-i-sant-pau",
+          "https://www.arquitecturacatalana.cat/ca/obres/pavello-de-sant-rafael-de-lhospital-de-la-santa-creu-i-de-sant-pau"
+        ],
+        "anchorElevation": 51
+      }
+    },
+    {
+      "id": "sant-pau-carme",
+      "family": null,
+      "fragments": 1,
+      "roof": 22.051528930664062,
+      "roofShape": "catalogue",
+      "roofFallback": null,
+      "roofSource": null,
+      "roofMetadata": null,
+      "baseOffsetMM": 0,
+      "estimated": false,
+      "landmark": {
+        "name": "Mare de Déu del Carme",
+        "revision": "r1",
+        "license": "CC-BY-4.0",
+        "spatialDataLicense": "CC-BY-4.0; ODbL-1.0",
+        "attribution": "Open Place Models contributors · Ajuntament de Barcelona · ICGC · OpenStreetMap contributors",
+        "sources": [
+          "https://w20.bcn.cat/CartoBCN/getFile.ashx?prod=146.35.47",
+          "https://portaldades.ajuntament.barcelona.cat/mapes/146",
+          "https://geoserveis.icgc.cat/servei/catalunya/elevacions-territorial/wms",
+          "https://api.openstreetmap.org/api/0.6/map?bbox=2.1703,41.4103,2.1783,41.4173",
+          "https://santpaubarcelona.org/wp-content/uploads/2025/08/Proposta-recorregut-CAT.pdf",
+          "https://www.arquitecturacatalana.cat/ca/obres/pavello-de-ladministracio-de-lhospital-de-la-santa-creu-i-sant-pau",
+          "https://www.arquitecturacatalana.cat/ca/obres/restauracio-de-la-torre-del-rellotge-de-lhospital-de-la-santa-creu-i-sant-pau",
+          "https://www.arquitecturacatalana.cat/ca/obres/pavello-de-sant-rafael-de-lhospital-de-la-santa-creu-i-de-sant-pau"
+        ],
+        "anchorElevation": 55
+      }
+    },
+    {
+      "id": "sant-pau-sant-leopold",
+      "family": null,
+      "fragments": 1,
+      "roof": 22.403528213500977,
+      "roofShape": "catalogue",
+      "roofFallback": null,
+      "roofSource": null,
+      "roofMetadata": null,
+      "baseOffsetMM": 0,
+      "estimated": false,
+      "landmark": {
+        "name": "Sant Leopold",
+        "revision": "r1",
+        "license": "CC-BY-4.0",
+        "spatialDataLicense": "CC-BY-4.0; ODbL-1.0",
+        "attribution": "Open Place Models contributors · Ajuntament de Barcelona · ICGC · OpenStreetMap contributors",
+        "sources": [
+          "https://w20.bcn.cat/CartoBCN/getFile.ashx?prod=146.35.47",
+          "https://portaldades.ajuntament.barcelona.cat/mapes/146",
+          "https://geoserveis.icgc.cat/servei/catalunya/elevacions-territorial/wms",
+          "https://api.openstreetmap.org/api/0.6/map?bbox=2.1703,41.4103,2.1783,41.4173",
+          "https://santpaubarcelona.org/wp-content/uploads/2025/08/Proposta-recorregut-CAT.pdf",
+          "https://www.arquitecturacatalana.cat/ca/obres/pavello-de-ladministracio-de-lhospital-de-la-santa-creu-i-sant-pau",
+          "https://www.arquitecturacatalana.cat/ca/obres/restauracio-de-la-torre-del-rellotge-de-lhospital-de-la-santa-creu-i-sant-pau",
+          "https://www.arquitecturacatalana.cat/ca/obres/pavello-de-sant-rafael-de-lhospital-de-la-santa-creu-i-de-sant-pau"
+        ],
+        "anchorElevation": 54
+      }
+    },
+    {
+      "id": "sant-pau-operacions",
+      "family": null,
+      "fragments": 1,
+      "roof": 25.03752899169922,
+      "roofShape": "catalogue",
+      "roofFallback": null,
+      "roofSource": null,
+      "roofMetadata": null,
+      "baseOffsetMM": 0,
+      "estimated": false,
+      "landmark": {
+        "name": "Pavelló d’Operacions",
+        "revision": "r1",
+        "license": "CC-BY-4.0",
+        "spatialDataLicense": "CC-BY-4.0; ODbL-1.0",
+        "attribution": "Open Place Models contributors · Ajuntament de Barcelona · ICGC · OpenStreetMap contributors",
+        "sources": [
+          "https://w20.bcn.cat/CartoBCN/getFile.ashx?prod=146.35.47",
+          "https://portaldades.ajuntament.barcelona.cat/mapes/146",
+          "https://geoserveis.icgc.cat/servei/catalunya/elevacions-territorial/wms",
+          "https://api.openstreetmap.org/api/0.6/map?bbox=2.1703,41.4103,2.1783,41.4173",
+          "https://santpaubarcelona.org/wp-content/uploads/2025/08/Proposta-recorregut-CAT.pdf",
+          "https://www.arquitecturacatalana.cat/ca/obres/pavello-de-ladministracio-de-lhospital-de-la-santa-creu-i-sant-pau",
+          "https://www.arquitecturacatalana.cat/ca/obres/restauracio-de-la-torre-del-rellotge-de-lhospital-de-la-santa-creu-i-sant-pau",
+          "https://www.arquitecturacatalana.cat/ca/obres/pavello-de-sant-rafael-de-lhospital-de-la-santa-creu-i-de-sant-pau"
+        ],
+        "anchorElevation": 58
+      }
+    },
+    {
+      "id": "sant-pau-merce",
+      "family": null,
+      "fragments": 1,
+      "roof": 21.977527618408203,
+      "roofShape": "catalogue",
+      "roofFallback": null,
+      "roofSource": null,
+      "roofMetadata": null,
+      "baseOffsetMM": 0,
+      "estimated": false,
+      "landmark": {
+        "name": "Mare de Déu de la Mercè",
+        "revision": "r1",
+        "license": "CC-BY-4.0",
+        "spatialDataLicense": "CC-BY-4.0; ODbL-1.0",
+        "attribution": "Open Place Models contributors · Ajuntament de Barcelona · ICGC · OpenStreetMap contributors",
+        "sources": [
+          "https://w20.bcn.cat/CartoBCN/getFile.ashx?prod=146.35.47",
+          "https://portaldades.ajuntament.barcelona.cat/mapes/146",
+          "https://geoserveis.icgc.cat/servei/catalunya/elevacions-territorial/wms",
+          "https://api.openstreetmap.org/api/0.6/map?bbox=2.1703,41.4103,2.1783,41.4173",
+          "https://santpaubarcelona.org/wp-content/uploads/2025/08/Proposta-recorregut-CAT.pdf",
+          "https://www.arquitecturacatalana.cat/ca/obres/pavello-de-ladministracio-de-lhospital-de-la-santa-creu-i-sant-pau",
+          "https://www.arquitecturacatalana.cat/ca/obres/restauracio-de-la-torre-del-rellotge-de-lhospital-de-la-santa-creu-i-sant-pau",
+          "https://www.arquitecturacatalana.cat/ca/obres/pavello-de-sant-rafael-de-lhospital-de-la-santa-creu-i-de-sant-pau"
+        ],
+        "anchorElevation": 57
+      }
+    },
+    {
+      "id": "sant-pau-sant-rafael",
+      "family": null,
+      "fragments": 1,
+      "roof": 22.144527435302734,
+      "roofShape": "catalogue",
+      "roofFallback": null,
+      "roofSource": null,
+      "roofMetadata": null,
+      "baseOffsetMM": 0,
+      "estimated": false,
+      "landmark": {
+        "name": "Sant Rafael",
+        "revision": "r1",
+        "license": "CC-BY-4.0",
+        "spatialDataLicense": "CC-BY-4.0; ODbL-1.0",
+        "attribution": "Open Place Models contributors · Ajuntament de Barcelona · ICGC · OpenStreetMap contributors",
+        "sources": [
+          "https://w20.bcn.cat/CartoBCN/getFile.ashx?prod=146.35.47",
+          "https://portaldades.ajuntament.barcelona.cat/mapes/146",
+          "https://geoserveis.icgc.cat/servei/catalunya/elevacions-territorial/wms",
+          "https://api.openstreetmap.org/api/0.6/map?bbox=2.1703,41.4103,2.1783,41.4173",
+          "https://santpaubarcelona.org/wp-content/uploads/2025/08/Proposta-recorregut-CAT.pdf",
+          "https://www.arquitecturacatalana.cat/ca/obres/pavello-de-ladministracio-de-lhospital-de-la-santa-creu-i-sant-pau",
+          "https://www.arquitecturacatalana.cat/ca/obres/restauracio-de-la-torre-del-rellotge-de-lhospital-de-la-santa-creu-i-sant-pau",
+          "https://www.arquitecturacatalana.cat/ca/obres/pavello-de-sant-rafael-de-lhospital-de-la-santa-creu-i-de-sant-pau"
+        ],
+        "anchorElevation": 56
+      }
+    },
+    {
+      "id": "sant-pau-sant-manuel",
+      "family": null,
+      "fragments": 1,
+      "roof": 27.82902717590332,
+      "roofShape": "catalogue",
+      "roofFallback": null,
+      "roofSource": null,
+      "roofMetadata": null,
+      "baseOffsetMM": 0,
+      "estimated": false,
+      "landmark": {
+        "name": "Sant Manuel",
+        "revision": "r1",
+        "license": "CC-BY-4.0",
+        "spatialDataLicense": "CC-BY-4.0; ODbL-1.0",
+        "attribution": "Open Place Models contributors · Ajuntament de Barcelona · ICGC · OpenStreetMap contributors",
+        "sources": [
+          "https://w20.bcn.cat/CartoBCN/getFile.ashx?prod=146.35.47",
+          "https://portaldades.ajuntament.barcelona.cat/mapes/146",
+          "https://geoserveis.icgc.cat/servei/catalunya/elevacions-territorial/wms",
+          "https://api.openstreetmap.org/api/0.6/map?bbox=2.1703,41.4103,2.1783,41.4173",
+          "https://santpaubarcelona.org/wp-content/uploads/2025/08/Proposta-recorregut-CAT.pdf",
+          "https://www.arquitecturacatalana.cat/ca/obres/pavello-de-ladministracio-de-lhospital-de-la-santa-creu-i-sant-pau",
+          "https://www.arquitecturacatalana.cat/ca/obres/restauracio-de-la-torre-del-rellotge-de-lhospital-de-la-santa-creu-i-sant-pau",
+          "https://www.arquitecturacatalana.cat/ca/obres/pavello-de-sant-rafael-de-lhospital-de-la-santa-creu-i-de-sant-pau"
+        ],
+        "anchorElevation": 58
+      }
+    },
+    {
+      "id": "sant-pau-montserrat",
+      "family": null,
+      "fragments": 1,
+      "roof": 27.77202796936035,
+      "roofShape": "catalogue",
+      "roofFallback": null,
+      "roofSource": null,
+      "roofMetadata": null,
+      "baseOffsetMM": 0,
+      "estimated": false,
+      "landmark": {
+        "name": "Mare de Déu de Montserrat",
+        "revision": "r1",
+        "license": "CC-BY-4.0",
+        "spatialDataLicense": "CC-BY-4.0; ODbL-1.0",
+        "attribution": "Open Place Models contributors · Ajuntament de Barcelona · ICGC · OpenStreetMap contributors",
+        "sources": [
+          "https://w20.bcn.cat/CartoBCN/getFile.ashx?prod=146.35.47",
+          "https://portaldades.ajuntament.barcelona.cat/mapes/146",
+          "https://geoserveis.icgc.cat/servei/catalunya/elevacions-territorial/wms",
+          "https://api.openstreetmap.org/api/0.6/map?bbox=2.1703,41.4103,2.1783,41.4173",
+          "https://santpaubarcelona.org/wp-content/uploads/2025/08/Proposta-recorregut-CAT.pdf",
+          "https://www.arquitecturacatalana.cat/ca/obres/pavello-de-ladministracio-de-lhospital-de-la-santa-creu-i-sant-pau",
+          "https://www.arquitecturacatalana.cat/ca/obres/restauracio-de-la-torre-del-rellotge-de-lhospital-de-la-santa-creu-i-sant-pau",
+          "https://www.arquitecturacatalana.cat/ca/obres/pavello-de-sant-rafael-de-lhospital-de-la-santa-creu-i-de-sant-pau"
+        ],
+        "anchorElevation": 59
+      }
+    },
+    {
+      "id": "sant-pau-convent-farmacia-cuines",
+      "family": null,
+      "fragments": 1,
+      "roof": 28.299028396606445,
+      "roofShape": "catalogue",
+      "roofFallback": null,
+      "roofSource": null,
+      "roofMetadata": null,
+      "baseOffsetMM": 0,
+      "estimated": false,
+      "landmark": {
+        "name": "Convent, Farmàcia i Cuines",
+        "revision": "r1",
+        "license": "CC-BY-4.0",
+        "spatialDataLicense": "CC-BY-4.0; ODbL-1.0",
+        "attribution": "Open Place Models contributors · Ajuntament de Barcelona · ICGC · OpenStreetMap contributors",
+        "sources": [
+          "https://w20.bcn.cat/CartoBCN/getFile.ashx?prod=146.35.47",
+          "https://portaldades.ajuntament.barcelona.cat/mapes/146",
+          "https://geoserveis.icgc.cat/servei/catalunya/elevacions-territorial/wms",
+          "https://api.openstreetmap.org/api/0.6/map?bbox=2.1703,41.4103,2.1783,41.4173",
+          "https://santpaubarcelona.org/wp-content/uploads/2025/08/Proposta-recorregut-CAT.pdf",
+          "https://www.arquitecturacatalana.cat/ca/obres/pavello-de-ladministracio-de-lhospital-de-la-santa-creu-i-sant-pau",
+          "https://www.arquitecturacatalana.cat/ca/obres/restauracio-de-la-torre-del-rellotge-de-lhospital-de-la-santa-creu-i-sant-pau",
+          "https://www.arquitecturacatalana.cat/ca/obres/pavello-de-sant-rafael-de-lhospital-de-la-santa-creu-i-de-sant-pau"
+        ],
+        "anchorElevation": 60
+      }
+    }
+  ],
+  "expectedIds": [
+    "sant-pau-administracio",
+    "sant-pau-carme",
+    "sant-pau-convent-farmacia-cuines",
+    "sant-pau-merce",
+    "sant-pau-montserrat",
+    "sant-pau-operacions",
+    "sant-pau-purissima",
+    "sant-pau-sant-jordi",
+    "sant-pau-sant-leopold",
+    "sant-pau-sant-manuel",
+    "sant-pau-sant-rafael",
+    "sant-pau-sant-salvador",
+    "sant-pau-santa-apollonia"
+  ],
+  "buildingCount": 81,
+  "contacts": [
+    {
+      "name": "footing-17E114",
+      "sourceFoundationASL": 50,
+      "embeddedMM": 3.935790631024629
+    },
+    {
+      "name": "footing-17FE51",
+      "sourceFoundationASL": 50,
+      "embeddedMM": 2.9443416355017984
+    },
+    {
+      "name": "footing-178090",
+      "sourceFoundationASL": 50,
+      "embeddedMM": 3.2017423258364612
+    },
+    {
+      "name": "footing-17CDAF",
+      "sourceFoundationASL": 50,
+      "embeddedMM": 3.1756735134255667
+    },
+    {
+      "name": "footing-17B56D",
+      "sourceFoundationASL": 50,
+      "embeddedMM": 2.6120024775440314
+    },
+    {
+      "name": "footing-17E822",
+      "sourceFoundationASL": 50,
+      "embeddedMM": 2.710235677434147
+    },
+    {
+      "name": "footing-17F644",
+      "sourceFoundationASL": 50,
+      "embeddedMM": 2.6369546606402245
+    },
+    {
+      "name": "footing-17B93F",
+      "sourceFoundationASL": 54,
+      "embeddedMM": 2.241573868665016
+    },
+    {
+      "name": "footing-179B93",
+      "sourceFoundationASL": 54,
+      "embeddedMM": 2.4046039944602438
+    },
+    {
+      "name": "footing-17EAFE",
+      "sourceFoundationASL": 54,
+      "embeddedMM": 2.428224388917462
+    },
+    {
+      "name": "footing-17B08D",
+      "sourceFoundationASL": 53,
+      "embeddedMM": 3.2822264776158647
+    },
+    {
+      "name": "footing-178F39",
+      "sourceFoundationASL": 53,
+      "embeddedMM": 3.142951940742579
+    },
+    {
+      "name": "footing-17CB7B",
+      "sourceFoundationASL": 53,
+      "embeddedMM": 3.4743544521721326
+    },
+    {
+      "name": "footing-17CCB6",
+      "sourceFoundationASL": 53,
+      "embeddedMM": 3.150962392693838
+    },
+    {
+      "name": "footing-178009",
+      "sourceFoundationASL": 51,
+      "embeddedMM": 2.056704833412155
+    },
+    {
+      "name": "footing-17C8D5",
+      "sourceFoundationASL": 51,
+      "embeddedMM": 2.2411801187188196
+    },
+    {
+      "name": "footing-180295",
+      "sourceFoundationASL": 51,
+      "embeddedMM": 2.7757539837854477
+    },
+    {
+      "name": "footing-1807A8",
+      "sourceFoundationASL": 51,
+      "embeddedMM": 3.3549766033068273
+    },
+    {
+      "name": "footing-179FAA",
+      "sourceFoundationASL": 55,
+      "embeddedMM": 3.7949490231020224
+    },
+    {
+      "name": "footing-17F26F",
+      "sourceFoundationASL": 55,
+      "embeddedMM": 3.596711662923136
+    },
+    {
+      "name": "footing-17F32F",
+      "sourceFoundationASL": 55,
+      "embeddedMM": 3.131798075345378
+    },
+    {
+      "name": "footing-17BA2C",
+      "sourceFoundationASL": 55,
+      "embeddedMM": 2.8374904017966625
+    },
+    {
+      "name": "footing-17B85E",
+      "sourceFoundationASL": 54,
+      "embeddedMM": 1.594335702356899
+    },
+    {
+      "name": "footing-177700",
+      "sourceFoundationASL": 54,
+      "embeddedMM": 2.7292633993656157
+    },
+    {
+      "name": "footing-17BD50",
+      "sourceFoundationASL": 54,
+      "embeddedMM": 1.9235957801146384
+    },
+    {
+      "name": "footing-17CF9E",
+      "sourceFoundationASL": 54,
+      "embeddedMM": 3.339058830565275
+    },
+    {
+      "name": "footing-176EAB",
+      "sourceFoundationASL": 58,
+      "embeddedMM": 1.9732585339854598
+    },
+    {
+      "name": "footing-17BF09",
+      "sourceFoundationASL": 58,
+      "embeddedMM": 2.4961275413997335
+    },
+    {
+      "name": "footing-17D280",
+      "sourceFoundationASL": 58,
+      "embeddedMM": 2.257140038923243
+    },
+    {
+      "name": "footing-17EB67",
+      "sourceFoundationASL": 58,
+      "embeddedMM": 2.258526081575768
+    },
+    {
+      "name": "footing-17CD2B",
+      "sourceFoundationASL": 57,
+      "embeddedMM": 3.757878727215516
+    },
+    {
+      "name": "footing-17985D",
+      "sourceFoundationASL": 57,
+      "embeddedMM": 3.4376758886612127
+    },
+    {
+      "name": "footing-17CBF0",
+      "sourceFoundationASL": 57,
+      "embeddedMM": 3.2655877224842875
+    },
+    {
+      "name": "footing-177BC8",
+      "sourceFoundationASL": 57,
+      "embeddedMM": 3.2352546108878713
+    },
+    {
+      "name": "footing-17D9B8",
+      "sourceFoundationASL": 56,
+      "embeddedMM": 1.874687957009801
+    },
+    {
+      "name": "footing-1780A2",
+      "sourceFoundationASL": 56,
+      "embeddedMM": 2.3940068818700535
+    },
+    {
+      "name": "footing-17879B",
+      "sourceFoundationASL": 56,
+      "embeddedMM": 2.121174657829105
+    },
+    {
+      "name": "footing-176F29",
+      "sourceFoundationASL": 56,
+      "embeddedMM": 2.7988992835106217
+    },
+    {
+      "name": "footing-1773C7",
+      "sourceFoundationASL": 58,
+      "embeddedMM": 2.1651597076555635
+    },
+    {
+      "name": "footing-17CB9C",
+      "sourceFoundationASL": 58,
+      "embeddedMM": 2.676863302383234
+    },
+    {
+      "name": "footing-177B9E",
+      "sourceFoundationASL": 58,
+      "embeddedMM": 3.1015106453881387
+    },
+    {
+      "name": "footing-17FC74",
+      "sourceFoundationASL": 58,
+      "embeddedMM": 3.4372703573980434
+    },
+    {
+      "name": "footing-17AB1A",
+      "sourceFoundationASL": 59,
+      "embeddedMM": 3.5470920786452886
+    },
+    {
+      "name": "footing-17F52D",
+      "sourceFoundationASL": 59,
+      "embeddedMM": 3.313984595875249
+    },
+    {
+      "name": "footing-17B1E0",
+      "sourceFoundationASL": 59,
+      "embeddedMM": 4.1596364794605165
+    },
+    {
+      "name": "footing-17F13A",
+      "sourceFoundationASL": 59,
+      "embeddedMM": 3.0754687464359005
+    },
+    {
+      "name": "footing-17C53C",
+      "sourceFoundationASL": 60,
+      "embeddedMM": 2.774589768698382
+    },
+    {
+      "name": "footing-17A41E",
+      "sourceFoundationASL": 60,
+      "embeddedMM": 4.270519308723237
+    },
+    {
+      "name": "footing-179A9A",
+      "sourceFoundationASL": 60,
+      "embeddedMM": 3.5165598974558456
+    },
+    {
+      "name": "footing-176F92",
+      "sourceFoundationASL": 60,
+      "embeddedMM": 3.404888941385778
+    }
+  ],
+  "openings": [
+    "open-clock-belfry",
+    "open-forecourt",
+    "open-upper-courtyard"
+  ],
+  "roofChecks": [
+    {
+      "name": "roof-17D502",
+      "modelId": "sant-pau-administracio",
+      "differenceMM": 0,
+      "terrainElevationASL": 56.70392647937134,
+      "surfaceElevationASL": 112.47300302695922
+    },
+    {
+      "name": "roof-1784A1",
+      "modelId": "sant-pau-administracio",
+      "differenceMM": 0,
+      "terrainElevationASL": 56.67001328563502,
+      "surfaceElevationASL": 103.25532436772811
+    },
+    {
+      "name": "roof-17E114",
+      "modelId": "sant-pau-administracio",
+      "differenceMM": 0,
+      "terrainElevationASL": 56.88039363134443,
+      "surfaceElevationASL": 86.10299691789774
+    },
+    {
+      "name": "roof-17B56D",
+      "modelId": "sant-pau-sant-jordi",
+      "differenceMM": 0,
+      "terrainElevationASL": 54.61735802366993,
+      "surfaceElevationASL": 63.68683629431599
+    },
+    {
+      "name": "roof-17E822",
+      "modelId": "sant-pau-sant-jordi",
+      "differenceMM": 0,
+      "terrainElevationASL": 54.611633881072486,
+      "surfaceElevationASL": 59.8733650271152
+    },
+    {
+      "name": "roof-17F644",
+      "modelId": "sant-pau-sant-jordi",
+      "differenceMM": 0,
+      "terrainElevationASL": 54.66300001448445,
+      "surfaceElevationASL": 59.42497303728058
+    },
+    {
+      "name": "roof-17B93F",
+      "modelId": "sant-pau-santa-apollonia",
+      "differenceMM": 0,
+      "terrainElevationASL": 57.94788320202534,
+      "surfaceElevationASL": 67.85474461563803
+    },
+    {
+      "name": "roof-179B93",
+      "modelId": "sant-pau-santa-apollonia",
+      "differenceMM": 0,
+      "terrainElevationASL": 58.214758934660274,
+      "surfaceElevationASL": 64.63964363720416
+    },
+    {
+      "name": "roof-17EAFE",
+      "modelId": "sant-pau-santa-apollonia",
+      "differenceMM": 0,
+      "terrainElevationASL": 58.173312755086236,
+      "surfaceElevationASL": 63.30588006899204
+    },
+    {
+      "name": "ridge-0",
+      "modelId": "sant-pau-purissima",
+      "differenceMM": 0,
+      "terrainElevationASL": 58.76757598970472,
+      "surfaceElevationASL": 72.31899295413625
+    },
+    {
+      "name": "pitch-0-0.08",
+      "modelId": "sant-pau-purissima",
+      "differenceMM": 0,
+      "terrainElevationASL": 59.06303361512664,
+      "surfaceElevationASL": 70.10771420077516
+    },
+    {
+      "name": "pitch-0-0.5",
+      "modelId": "sant-pau-purissima",
+      "differenceMM": 0,
+      "terrainElevationASL": 59.00760904719161,
+      "surfaceElevationASL": 72.3189919176937
+    },
+    {
+      "name": "pitch-0-0.92",
+      "modelId": "sant-pau-purissima",
+      "differenceMM": 0,
+      "terrainElevationASL": 59.07146532184916,
+      "surfaceElevationASL": 70.10771366526026
+    },
+    {
+      "name": "roof-17DAF6",
+      "modelId": "sant-pau-purissima",
+      "differenceMM": 0,
+      "terrainElevationASL": 58.83891642487579,
+      "surfaceElevationASL": 75.2190014095255
+    },
+    {
+      "name": "roof-179335",
+      "modelId": "sant-pau-purissima",
+      "differenceMM": 0,
+      "terrainElevationASL": 58.23409915802693,
+      "surfaceElevationASL": 72.78599893760155
+    },
+    {
+      "name": "roof-178F39",
+      "modelId": "sant-pau-purissima",
+      "differenceMM": 0,
+      "terrainElevationASL": 58.67398532610295,
+      "surfaceElevationASL": 72.3131226621518
+    },
+    {
+      "name": "ridge-0",
+      "modelId": "sant-pau-sant-salvador",
+      "differenceMM": 0,
+      "terrainElevationASL": 55.109066610661856,
+      "surfaceElevationASL": 72.19999553055477
+    },
+    {
+      "name": "pitch-0-0.08",
+      "modelId": "sant-pau-sant-salvador",
+      "differenceMM": 0,
+      "terrainElevationASL": 55.751870760832055,
+      "surfaceElevationASL": 70.04284779535845
+    },
+    {
+      "name": "pitch-0-0.92",
+      "modelId": "sant-pau-sant-salvador",
+      "differenceMM": 0,
+      "terrainElevationASL": 56.34190749596462,
+      "surfaceElevationASL": 70.04284263318391
+    },
+    {
+      "name": "pitch-0-0.5",
+      "modelId": "sant-pau-sant-salvador",
+      "differenceMM": 0,
+      "terrainElevationASL": 56.01627925177483,
+      "surfaceElevationASL": 72.19999399881242
+    },
+    {
+      "name": "roof-17AB80",
+      "modelId": "sant-pau-sant-salvador",
+      "differenceMM": 0,
+      "terrainElevationASL": 57.738319652320236,
+      "surfaceElevationASL": 75.6879993648478
+    },
+    {
+      "name": "roof-17DA2D",
+      "modelId": "sant-pau-sant-salvador",
+      "differenceMM": 0,
+      "terrainElevationASL": 56.53159618635514,
+      "surfaceElevationASL": 72.37000238608786
+    },
+    {
+      "name": "roof-17C8D5",
+      "modelId": "sant-pau-sant-salvador",
+      "differenceMM": 0,
+      "terrainElevationASL": 54.83816699968288,
+      "surfaceElevationASL": 72.19922247872772
+    },
+    {
+      "name": "ridge-0",
+      "modelId": "sant-pau-carme",
+      "differenceMM": 0,
+      "terrainElevationASL": 61.12719875280822,
+      "surfaceElevationASL": 74.3759903806153
+    },
+    {
+      "name": "pitch-0-0.08",
+      "modelId": "sant-pau-carme",
+      "differenceMM": 0,
+      "terrainElevationASL": 61.23487497672333,
+      "surfaceElevationASL": 72.23002421013845
+    },
+    {
+      "name": "pitch-0-0.5",
+      "modelId": "sant-pau-carme",
+      "differenceMM": 0,
+      "terrainElevationASL": 61.587086077350236,
+      "surfaceElevationASL": 74.37558296950905
+    },
+    {
+      "name": "pitch-0-0.92",
+      "modelId": "sant-pau-carme",
+      "differenceMM": 0,
+      "terrainElevationASL": 61.92153315001579,
+      "surfaceElevationASL": 72.23012526356369
+    },
+    {
+      "name": "roof-177EF2",
+      "modelId": "sant-pau-carme",
+      "differenceMM": 0,
+      "terrainElevationASL": 62.63854843930426,
+      "surfaceElevationASL": 77.28000223350023
+    },
+    {
+      "name": "roof-17FC29",
+      "modelId": "sant-pau-carme",
+      "differenceMM": 0,
+      "terrainElevationASL": 60.05819259827773,
+      "surfaceElevationASL": 74.40399896811923
+    },
+    {
+      "name": "roof-17BC24",
+      "modelId": "sant-pau-carme",
+      "differenceMM": 0,
+      "terrainElevationASL": 60.93742289721705,
+      "surfaceElevationASL": 74.37599909018952
+    },
+    {
+      "name": "ridge-0",
+      "modelId": "sant-pau-sant-leopold",
+      "differenceMM": 0,
+      "terrainElevationASL": 58.01608450482826,
+      "surfaceElevationASL": 74.70299875449619
+    },
+    {
+      "name": "pitch-0-0.08",
+      "modelId": "sant-pau-sant-leopold",
+      "differenceMM": 0,
+      "terrainElevationASL": 58.70398052279159,
+      "surfaceElevationASL": 72.30087234924869
+    },
+    {
+      "name": "pitch-0-0.5",
+      "modelId": "sant-pau-sant-leopold",
+      "differenceMM": 0,
+      "terrainElevationASL": 59.00725485774542,
+      "surfaceElevationASL": 74.6799688808421
+    },
+    {
+      "name": "pitch-0-0.92",
+      "modelId": "sant-pau-sant-leopold",
+      "differenceMM": 0,
+      "terrainElevationASL": 59.18799380820024,
+      "surfaceElevationASL": 72.30081745776583
+    },
+    {
+      "name": "roof-17A96A",
+      "modelId": "sant-pau-sant-leopold",
+      "differenceMM": 0,
+      "terrainElevationASL": 60.50824134339095,
+      "surfaceElevationASL": 77.98400079917411
+    },
+    {
+      "name": "roof-17DBFB",
+      "modelId": "sant-pau-sant-leopold",
+      "differenceMM": 0,
+      "terrainElevationASL": 58.040848466934776,
+      "surfaceElevationASL": 74.70363056804973
+    },
+    {
+      "name": "roof-17F053",
+      "modelId": "sant-pau-sant-leopold",
+      "differenceMM": 0,
+      "terrainElevationASL": 57.979610138374376,
+      "surfaceElevationASL": 74.70299875449619
+    },
+    {
+      "name": "roof-17B2EE",
+      "modelId": "sant-pau-operacions",
+      "differenceMM": 0,
+      "terrainElevationASL": 61.61966002414211,
+      "surfaceElevationASL": 83.25200235557088
+    },
+    {
+      "name": "roof-180649",
+      "modelId": "sant-pau-operacions",
+      "differenceMM": 0,
+      "terrainElevationASL": 61.15151689939957,
+      "surfaceElevationASL": 83.25200235557088
+    },
+    {
+      "name": "roof-176EAB",
+      "modelId": "sant-pau-operacions",
+      "differenceMM": 0,
+      "terrainElevationASL": 61.38015976352812,
+      "surfaceElevationASL": 81.72699958477668
+    },
+    {
+      "name": "ridge-0",
+      "modelId": "sant-pau-merce",
+      "differenceMM": 0,
+      "terrainElevationASL": 63.03269321841634,
+      "surfaceElevationASL": 76.801994929502
+    },
+    {
+      "name": "pitch-0-0.08",
+      "modelId": "sant-pau-merce",
+      "differenceMM": 0,
+      "terrainElevationASL": 63.36207262094277,
+      "surfaceElevationASL": 74.47064176808213
+    },
+    {
+      "name": "pitch-0-0.5",
+      "modelId": "sant-pau-merce",
+      "differenceMM": 0,
+      "terrainElevationASL": 63.36593397497032,
+      "surfaceElevationASL": 76.80199680937221
+    },
+    {
+      "name": "pitch-0-0.92",
+      "modelId": "sant-pau-merce",
+      "differenceMM": 0,
+      "terrainElevationASL": 63.484168935349544,
+      "surfaceElevationASL": 74.4706391212243
+    },
+    {
+      "name": "roof-1791C7",
+      "modelId": "sant-pau-merce",
+      "differenceMM": 0,
+      "terrainElevationASL": 63.1538231541216,
+      "surfaceElevationASL": 77.13199960898851
+    },
+    {
+      "name": "roof-17DCE5",
+      "modelId": "sant-pau-merce",
+      "differenceMM": 0,
+      "terrainElevationASL": 62.91328723833544,
+      "surfaceElevationASL": 77.13199960898851
+    },
+    {
+      "name": "roof-17AEDA",
+      "modelId": "sant-pau-merce",
+      "differenceMM": 0,
+      "terrainElevationASL": 62.268944375310454,
+      "surfaceElevationASL": 77.03100168418382
+    },
+    {
+      "name": "ridge-0",
+      "modelId": "sant-pau-sant-rafael",
+      "differenceMM": 0,
+      "terrainElevationASL": 59.69951869353207,
+      "surfaceElevationASL": 76.66799890708418
+    },
+    {
+      "name": "pitch-0-0.08",
+      "modelId": "sant-pau-sant-rafael",
+      "differenceMM": 0,
+      "terrainElevationASL": 59.86951755201288,
+      "surfaceElevationASL": 74.52350771468421
+    },
+    {
+      "name": "pitch-0-0.5",
+      "modelId": "sant-pau-sant-rafael",
+      "differenceMM": 0,
+      "terrainElevationASL": 60.273749406808406,
+      "surfaceElevationASL": 76.66799783477803
+    },
+    {
+      "name": "pitch-0-0.92",
+      "modelId": "sant-pau-sant-rafael",
+      "differenceMM": 0,
+      "terrainElevationASL": 60.5981821964891,
+      "surfaceElevationASL": 74.52350655979441
+    },
+    {
+      "name": "roof-17FCCB",
+      "modelId": "sant-pau-sant-rafael",
+      "differenceMM": 0,
+      "terrainElevationASL": 60.79615053511472,
+      "surfaceElevationASL": 77.4659992427776
+    },
+    {
+      "name": "roof-1780A2",
+      "modelId": "sant-pau-sant-rafael",
+      "differenceMM": 0,
+      "terrainElevationASL": 60.11105906990984,
+      "surfaceElevationASL": 76.65642850396331
+    },
+    {
+      "name": "roof-17879B",
+      "modelId": "sant-pau-sant-rafael",
+      "differenceMM": 0,
+      "terrainElevationASL": 59.6082921938309,
+      "surfaceElevationASL": 76.61490100541953
+    },
+    {
+      "name": "ridge-0",
+      "modelId": "sant-pau-sant-manuel",
+      "differenceMM": 0,
+      "terrainElevationASL": 63.15063413806516,
+      "surfaceElevationASL": 87.28898654006511
+    },
+    {
+      "name": "pitch-0-0.08",
+      "modelId": "sant-pau-sant-manuel",
+      "differenceMM": 0,
+      "terrainElevationASL": 63.24525524933844,
+      "surfaceElevationASL": 85.00464471239579
+    },
+    {
+      "name": "pitch-0-0.5",
+      "modelId": "sant-pau-sant-manuel",
+      "differenceMM": 0,
+      "terrainElevationASL": 63.62247023630014,
+      "surfaceElevationASL": 87.2889904198384
+    },
+    {
+      "name": "pitch-0-0.92",
+      "modelId": "sant-pau-sant-manuel",
+      "differenceMM": 0,
+      "terrainElevationASL": 63.99670581151507,
+      "surfaceElevationASL": 85.00464091474885
+    },
+    {
+      "name": "roof-17C899",
+      "modelId": "sant-pau-sant-manuel",
+      "differenceMM": 0,
+      "terrainElevationASL": 63.40951101961811,
+      "surfaceElevationASL": 88.8349987239794
+    },
+    {
+      "name": "roof-17D6AC",
+      "modelId": "sant-pau-sant-manuel",
+      "differenceMM": 0,
+      "terrainElevationASL": 63.48223870373387,
+      "surfaceElevationASL": 86.98551776122946
+    },
+    {
+      "name": "roof-177B9E",
+      "modelId": "sant-pau-sant-manuel",
+      "differenceMM": 0,
+      "terrainElevationASL": 63.535587867167365,
+      "surfaceElevationASL": 87.28204297813562
+    },
+    {
+      "name": "ridge-0",
+      "modelId": "sant-pau-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 65.13991662463008,
+      "surfaceElevationASL": 87.00900222469745
+    },
+    {
+      "name": "pitch-0-0.08",
+      "modelId": "sant-pau-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 65.10632666059871,
+      "surfaceElevationASL": 84.83261436690975
+    },
+    {
+      "name": "pitch-0-0.5",
+      "modelId": "sant-pau-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 65.45164698712817,
+      "surfaceElevationASL": 87.00897588609104
+    },
+    {
+      "name": "pitch-0-0.92",
+      "modelId": "sant-pau-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 65.80735627974562,
+      "surfaceElevationASL": 84.83266508827128
+    },
+    {
+      "name": "roof-17D2CE",
+      "modelId": "sant-pau-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 64.5528346739895,
+      "surfaceElevationASL": 88.72100031089346
+    },
+    {
+      "name": "roof-17F13A",
+      "modelId": "sant-pau-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 64.58798185157693,
+      "surfaceElevationASL": 86.88585456759893
+    },
+    {
+      "name": "roof-1780CC",
+      "modelId": "sant-pau-montserrat",
+      "differenceMM": 0,
+      "terrainElevationASL": 65.27678662070367,
+      "surfaceElevationASL": 87.0090023250535
+    },
+    {
+      "name": "ridge-0",
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "differenceMM": 0,
+      "terrainElevationASL": 66.20979294521314,
+      "surfaceElevationASL": 89.4079888692863
+    },
+    {
+      "name": "ridge-1",
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "differenceMM": 0,
+      "terrainElevationASL": 66.4497525386281,
+      "surfaceElevationASL": 89.77499382776847
+    },
+    {
+      "name": "ridge-2",
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "differenceMM": 0,
+      "terrainElevationASL": 67.6367889976116,
+      "surfaceElevationASL": 84.75299953139917
+    },
+    {
+      "name": "ridge-3",
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "differenceMM": 0,
+      "terrainElevationASL": 64.77940558613064,
+      "surfaceElevationASL": 84.42299610395207
+    },
+    {
+      "name": "pitch-0-0.08",
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "differenceMM": 0,
+      "terrainElevationASL": 66.04386201203553,
+      "surfaceElevationASL": 86.56413036757134
+    },
+    {
+      "name": "pitch-0-0.5",
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "differenceMM": 0,
+      "terrainElevationASL": 66.08925093752075,
+      "surfaceElevationASL": 89.40799507176015
+    },
+    {
+      "name": "pitch-0-0.92",
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "differenceMM": 0,
+      "terrainElevationASL": 66.13444882007863,
+      "surfaceElevationASL": 86.56412296170552
+    },
+    {
+      "name": "pitch-1-0.08",
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "differenceMM": 0,
+      "terrainElevationASL": 66.2825618439914,
+      "surfaceElevationASL": 86.74722166904094
+    },
+    {
+      "name": "pitch-1-0.5",
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "differenceMM": 0,
+      "terrainElevationASL": 66.32826467601329,
+      "surfaceElevationASL": 89.77469050176413
+    },
+    {
+      "name": "pitch-1-0.92",
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "differenceMM": 0,
+      "terrainElevationASL": 66.37407752443121,
+      "surfaceElevationASL": 86.74658892689246
+    },
+    {
+      "name": "pitch-2-0.08",
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "differenceMM": 0,
+      "terrainElevationASL": 68.2532468858535,
+      "surfaceElevationASL": 83.0152001135371
+    },
+    {
+      "name": "pitch-2-0.5",
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "differenceMM": 0,
+      "terrainElevationASL": 68.35825898804458,
+      "surfaceElevationASL": 84.75299267610177
+    },
+    {
+      "name": "pitch-2-0.92",
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "differenceMM": 0,
+      "terrainElevationASL": 68.47568564152436,
+      "surfaceElevationASL": 83.01518291477589
+    },
+    {
+      "name": "pitch-3-0.08",
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "differenceMM": 0,
+      "terrainElevationASL": 65.41800124828129,
+      "surfaceElevationASL": 83.05150958023802
+    },
+    {
+      "name": "pitch-3-0.5",
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "differenceMM": 0,
+      "terrainElevationASL": 65.4845770741301,
+      "surfaceElevationASL": 84.4229975744189
+    },
+    {
+      "name": "pitch-3-0.92",
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "differenceMM": 0,
+      "terrainElevationASL": 65.58549124932625,
+      "surfaceElevationASL": 83.05150250431888
+    },
+    {
+      "name": "roof-179A9A",
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "differenceMM": 0,
+      "terrainElevationASL": 66.44980475193753,
+      "surfaceElevationASL": 89.77176591281352
+    },
+    {
+      "name": "roof-176F92",
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "differenceMM": 0,
+      "terrainElevationASL": 66.20974073870735,
+      "surfaceElevationASL": 89.40468107352126
+    },
+    {
+      "name": "roof-178585",
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "differenceMM": 0,
+      "terrainElevationASL": 66.41082266165638,
+      "surfaceElevationASL": 88.27000009727038
+    },
+    {
+      "name": "courtyard-deck",
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "differenceMM": 0,
+      "terrainElevationASL": 66.3223976879857,
+      "surfaceElevationASL": 69.2999988765662
+    }
+  ],
+  "facadeChecks": [
+    {
+      "name": "central--5.2-60",
+      "modelId": "sant-pau-administracio",
+      "originalDistanceMM": 1.5499986799751708,
+      "differenceMM": 0
+    },
+    {
+      "name": "central-0.5-78",
+      "modelId": "sant-pau-administracio",
+      "originalDistanceMM": 1.5499981907550735,
+      "differenceMM": 0
+    },
+    {
+      "name": "wing--1--2-70",
+      "modelId": "sant-pau-administracio",
+      "originalDistanceMM": 1.4500026173405258,
+      "differenceMM": 0
+    },
+    {
+      "name": "wing--1-1-61",
+      "modelId": "sant-pau-administracio",
+      "originalDistanceMM": 1.4500045235662267,
+      "differenceMM": 0
+    },
+    {
+      "name": "ward--1-0",
+      "modelId": "sant-pau-purissima",
+      "originalDistanceMM": 1.3999949713109014,
+      "differenceMM": 0
+    },
+    {
+      "name": "ward--1-5",
+      "modelId": "sant-pau-purissima",
+      "originalDistanceMM": 1.400005493805075,
+      "differenceMM": 0
+    },
+    {
+      "name": "ward-1-4",
+      "modelId": "sant-pau-purissima",
+      "originalDistanceMM": 1.4000022448425489,
+      "differenceMM": 0
+    },
+    {
+      "name": "dayroom-3",
+      "modelId": "sant-pau-purissima",
+      "originalDistanceMM": 1.4999939962996707,
+      "differenceMM": 0
+    },
+    {
+      "name": "ward--1-0",
+      "modelId": "sant-pau-sant-salvador",
+      "originalDistanceMM": 1.3999935326715722,
+      "differenceMM": 0
+    },
+    {
+      "name": "ward--1-5",
+      "modelId": "sant-pau-sant-salvador",
+      "originalDistanceMM": 1.4000016240078157,
+      "differenceMM": 0
+    },
+    {
+      "name": "ward-1-4",
+      "modelId": "sant-pau-sant-salvador",
+      "originalDistanceMM": 1.4000074943460232,
+      "differenceMM": 0
+    },
+    {
+      "name": "dayroom-6",
+      "modelId": "sant-pau-sant-salvador",
+      "originalDistanceMM": 1.4999976698519688,
+      "differenceMM": 0
+    },
+    {
+      "name": "ward--1-0",
+      "modelId": "sant-pau-carme",
+      "originalDistanceMM": 1.399996139132664,
+      "differenceMM": 0
+    },
+    {
+      "name": "ward--1-5",
+      "modelId": "sant-pau-carme",
+      "originalDistanceMM": 1.3999975184949407,
+      "differenceMM": 0
+    },
+    {
+      "name": "ward-1-4",
+      "modelId": "sant-pau-carme",
+      "originalDistanceMM": 1.4000036408800214,
+      "differenceMM": 0
+    },
+    {
+      "name": "dayroom-3",
+      "modelId": "sant-pau-carme",
+      "originalDistanceMM": 1.4999951586724876,
+      "differenceMM": 0
+    },
+    {
+      "name": "ward--1-0",
+      "modelId": "sant-pau-sant-leopold",
+      "originalDistanceMM": 1.4000078042231796,
+      "differenceMM": 0
+    },
+    {
+      "name": "ward--1-5",
+      "modelId": "sant-pau-sant-leopold",
+      "originalDistanceMM": 1.4000005959417903,
+      "differenceMM": 0
+    },
+    {
+      "name": "ward-1-4",
+      "modelId": "sant-pau-sant-leopold",
+      "originalDistanceMM": 1.4000006914700234,
+      "differenceMM": 0
+    },
+    {
+      "name": "dayroom-6",
+      "modelId": "sant-pau-sant-leopold",
+      "originalDistanceMM": 1.500005749061705,
+      "differenceMM": 0
+    },
+    {
+      "name": "operations--3",
+      "modelId": "sant-pau-operacions",
+      "originalDistanceMM": 1.500003289622618,
+      "differenceMM": 0
+    },
+    {
+      "name": "ward--1-0",
+      "modelId": "sant-pau-merce",
+      "originalDistanceMM": 1.4000025681133412,
+      "differenceMM": 0
+    },
+    {
+      "name": "ward--1-5",
+      "modelId": "sant-pau-merce",
+      "originalDistanceMM": 1.3999939952932225,
+      "differenceMM": 0
+    },
+    {
+      "name": "ward-1-4",
+      "modelId": "sant-pau-merce",
+      "originalDistanceMM": 1.399997951337671,
+      "differenceMM": 0
+    },
+    {
+      "name": "dayroom-3",
+      "modelId": "sant-pau-merce",
+      "originalDistanceMM": 1.500003879369742,
+      "differenceMM": 0
+    },
+    {
+      "name": "ward--1-0",
+      "modelId": "sant-pau-sant-rafael",
+      "originalDistanceMM": 1.4000072395438,
+      "differenceMM": 0
+    },
+    {
+      "name": "ward--1-5",
+      "modelId": "sant-pau-sant-rafael",
+      "originalDistanceMM": 1.3999991546978066,
+      "differenceMM": 0
+    },
+    {
+      "name": "ward-1-4",
+      "modelId": "sant-pau-sant-rafael",
+      "originalDistanceMM": 1.3999987805043057,
+      "differenceMM": 0
+    },
+    {
+      "name": "dayroom-5",
+      "modelId": "sant-pau-sant-rafael",
+      "originalDistanceMM": 1.4999997728893186,
+      "differenceMM": 0
+    },
+    {
+      "name": "ward--1-0",
+      "modelId": "sant-pau-sant-manuel",
+      "originalDistanceMM": 1.3999981932555197,
+      "differenceMM": 0
+    },
+    {
+      "name": "ward--1-5",
+      "modelId": "sant-pau-sant-manuel",
+      "originalDistanceMM": 1.400003178363165,
+      "differenceMM": 0
+    },
+    {
+      "name": "ward-1-4",
+      "modelId": "sant-pau-sant-manuel",
+      "originalDistanceMM": 1.399999771833581,
+      "differenceMM": 0
+    },
+    {
+      "name": "dayroom-4",
+      "modelId": "sant-pau-sant-manuel",
+      "originalDistanceMM": 1.4999961073392352,
+      "differenceMM": 0
+    },
+    {
+      "name": "ward--1-0",
+      "modelId": "sant-pau-montserrat",
+      "originalDistanceMM": 1.3999899334387433,
+      "differenceMM": 0
+    },
+    {
+      "name": "ward--1-5",
+      "modelId": "sant-pau-montserrat",
+      "originalDistanceMM": 1.4000017399651807,
+      "differenceMM": 0
+    },
+    {
+      "name": "ward-1-4",
+      "modelId": "sant-pau-montserrat",
+      "originalDistanceMM": 1.4000023043936258,
+      "differenceMM": 0
+    },
+    {
+      "name": "dayroom-3",
+      "modelId": "sant-pau-montserrat",
+      "originalDistanceMM": 1.5000019043758945,
+      "differenceMM": 0
+    }
+  ],
+  "audits": [
+    {
+      "id": "terrain",
+      "closed": true,
+      "components": 106290,
+      "triangles": 892228,
+      "errors": []
+    },
+    {
+      "id": "water",
+      "closed": true,
+      "components": 35,
+      "triangles": 408,
+      "errors": []
+    },
+    {
+      "id": "built",
+      "closed": true,
+      "components": 19580,
+      "triangles": 243466,
+      "errors": []
+    },
+    {
+      "id": "green",
+      "closed": true,
+      "components": 11311,
+      "triangles": 103024,
+      "errors": []
+    }
+  ],
+  "warnings": [
+    "Els arbres són una representació procedimental dins de zones verdes, no posicions d’arbres mesurades.",
+    "Les tessel·les vectorials estan generalitzades. Aquesta prova no substitueix cartografia topogràfica de precisió.",
+    "Model singular del catàleg «Edifici d’Administració» (r1).",
+    "Model singular del catàleg «Sant Jordi» (r1).",
+    "Model singular del catàleg «Santa Apol·lònia» (r1).",
+    "Model singular del catàleg «Puríssima» (r1).",
+    "Model singular del catàleg «Sant Salvador» (r1).",
+    "Model singular del catàleg «Mare de Déu del Carme» (r1).",
+    "Model singular del catàleg «Sant Leopold» (r1).",
+    "Model singular del catàleg «Pavelló d’Operacions» (r1).",
+    "Model singular del catàleg «Mare de Déu de la Mercè» (r1).",
+    "Model singular del catàleg «Sant Rafael» (r1).",
+    "Model singular del catàleg «Sant Manuel» (r1).",
+    "Model singular del catàleg «Mare de Déu de Montserrat» (r1).",
+    "Model singular del catàleg «Convent, Farmàcia i Cuines» (r1).",
+    "Altures de la font sobre el punt més alt de la petjada; coberta plana quan falten dades de forma.",
+    "Algunes petjades ICGC agrupen diverses cases sense divisions interiors. Pots comparar-les amb parts del Catastre."
+  ],
+  "replacementCheck": {
+    "removed": [
+      "89672950",
+      "icgc-638739",
+      "icgc-638743",
+      "icgc-883108",
+      "icgc-883112",
+      "icgc-883113",
+      "icgc-883115",
+      "icgc-883117",
+      "icgc-883119",
+      "icgc-1200045",
+      "icgc-1200050",
+      "icgc-1200053",
+      "icgc-1518092",
+      "icgc-1518093",
+      "icgc-1518095"
+    ],
+    "preserved": [
+      "89714970",
+      "53785220",
+      "73195370",
+      "73195360",
+      "icgc-455845",
+      "icgc-457950",
+      "icgc-459848",
+      "icgc-461083",
+      "icgc-638692",
+      "icgc-638719",
+      "icgc-638728",
+      "icgc-638729",
+      "icgc-638730",
+      "icgc-638734",
+      "icgc-638737",
+      "icgc-638738",
+      "icgc-638741",
+      "icgc-638742",
+      "icgc-638747",
+      "icgc-638753",
+      "icgc-638754",
+      "icgc-638757",
+      "icgc-694365",
+      "icgc-883102",
+      "icgc-883104",
+      "icgc-883106",
+      "icgc-883107",
+      "icgc-883116",
+      "icgc-883118",
+      "icgc-883123",
+      "icgc-883132",
+      "icgc-1014879",
+      "icgc-1200000",
+      "icgc-1200031",
+      "icgc-1200032",
+      "icgc-1200034",
+      "icgc-1200035",
+      "icgc-1200037",
+      "icgc-1200038",
+      "icgc-1200044",
+      "icgc-1200058",
+      "icgc-1200061",
+      "icgc-1200062",
+      "icgc-1200066",
+      "icgc-1200075",
+      "icgc-1200077",
+      "icgc-1200081",
+      "icgc-1329177",
+      "icgc-1329178",
+      "icgc-1329179",
+      "icgc-1331846",
+      "icgc-1518072",
+      "icgc-1518079",
+      "icgc-1518081",
+      "icgc-1518083",
+      "icgc-1518084",
+      "icgc-1518087",
+      "icgc-1518096",
+      "icgc-1518100",
+      "icgc-1518102",
+      "icgc-1518103",
+      "icgc-1518104",
+      "icgc-1518106",
+      "icgc-1518164"
+    ]
+  },
+  "hiddenModePassed": true,
+  "heightLimitPassed": true
+}

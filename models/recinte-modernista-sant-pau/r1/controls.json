@@ -1,0 +1,3192 @@
+{
+  "contacts": [
+    {
+      "modelId": "sant-pau-administracio",
+      "name": "footing-17E114",
+      "location": [
+        2.174238554032559,
+        41.41196695204953
+      ],
+      "elevation": 50
+    },
+    {
+      "modelId": "sant-pau-administracio",
+      "name": "footing-17FE51",
+      "location": [
+        2.1739969303474944,
+        41.41175870996849
+      ],
+      "elevation": 50
+    },
+    {
+      "modelId": "sant-pau-administracio",
+      "name": "footing-178090",
+      "location": [
+        2.173992806132079,
+        41.411829348710924
+      ],
+      "elevation": 50
+    },
+    {
+      "modelId": "sant-pau-administracio",
+      "name": "footing-17CDAF",
+      "location": [
+        2.1746280109739025,
+        41.41183217168639
+      ],
+      "elevation": 50
+    },
+    {
+      "modelId": "sant-pau-sant-jordi",
+      "name": "footing-17B56D",
+      "location": [
+        2.1749525010201527,
+        41.411922893154866
+      ],
+      "elevation": 50
+    },
+    {
+      "modelId": "sant-pau-sant-jordi",
+      "name": "footing-17E822",
+      "location": [
+        2.1748246610856086,
+        41.411914551183656
+      ],
+      "elevation": 50
+    },
+    {
+      "modelId": "sant-pau-sant-jordi",
+      "name": "footing-17F644",
+      "location": [
+        2.1748957505308284,
+        41.41195398061188
+      ],
+      "elevation": 50
+    },
+    {
+      "modelId": "sant-pau-santa-apollonia",
+      "name": "footing-17B93F",
+      "location": [
+        2.1736948508626255,
+        41.411915860905495
+      ],
+      "elevation": 54
+    },
+    {
+      "modelId": "sant-pau-santa-apollonia",
+      "name": "footing-179B93",
+      "location": [
+        2.173726131458922,
+        41.41195708355985
+      ],
+      "elevation": 54
+    },
+    {
+      "modelId": "sant-pau-santa-apollonia",
+      "name": "footing-17EAFE",
+      "location": [
+        2.1737393615719527,
+        41.41196645666547
+      ],
+      "elevation": 54
+    },
+    {
+      "modelId": "sant-pau-purissima",
+      "name": "footing-17B08D",
+      "location": [
+        2.173642638876849,
+        41.412196573322404
+      ],
+      "elevation": 53
+    },
+    {
+      "modelId": "sant-pau-purissima",
+      "name": "footing-178F39",
+      "location": [
+        2.1738626956536797,
+        41.41219427640708
+      ],
+      "elevation": 53
+    },
+    {
+      "modelId": "sant-pau-purissima",
+      "name": "footing-17CB7B",
+      "location": [
+        2.1734808104560632,
+        41.412184710585954
+      ],
+      "elevation": 53
+    },
+    {
+      "modelId": "sant-pau-purissima",
+      "name": "footing-17CCB6",
+      "location": [
+        2.173981477379179,
+        41.412221541950714
+      ],
+      "elevation": 53
+    },
+    {
+      "modelId": "sant-pau-sant-salvador",
+      "name": "footing-178009",
+      "location": [
+        2.1751489776099007,
+        41.412192264726315
+      ],
+      "elevation": 51
+    },
+    {
+      "modelId": "sant-pau-sant-salvador",
+      "name": "footing-17C8D5",
+      "location": [
+        2.1749775802081697,
+        41.412191288225216
+      ],
+      "elevation": 51
+    },
+    {
+      "modelId": "sant-pau-sant-salvador",
+      "name": "footing-180295",
+      "location": [
+        2.1747935540495433,
+        41.412190301369925
+      ],
+      "elevation": 51
+    },
+    {
+      "modelId": "sant-pau-sant-salvador",
+      "name": "footing-1807A8",
+      "location": [
+        2.1746747474974115,
+        41.41221890213798
+      ],
+      "elevation": 51
+    },
+    {
+      "modelId": "sant-pau-carme",
+      "name": "footing-179FAA",
+      "location": [
+        2.173481730323114,
+        41.412541813384834
+      ],
+      "elevation": 55
+    },
+    {
+      "modelId": "sant-pau-carme",
+      "name": "footing-17F26F",
+      "location": [
+        2.173631582048119,
+        41.41255118896874
+      ],
+      "elevation": 55
+    },
+    {
+      "modelId": "sant-pau-carme",
+      "name": "footing-17F32F",
+      "location": [
+        2.1738567795367407,
+        41.412543637304616
+      ],
+      "elevation": 55
+    },
+    {
+      "modelId": "sant-pau-carme",
+      "name": "footing-17BA2C",
+      "location": [
+        2.1739510260054353,
+        41.412490455167635
+      ],
+      "elevation": 55
+    },
+    {
+      "modelId": "sant-pau-sant-leopold",
+      "name": "footing-17B85E",
+      "location": [
+        2.1751497175013936,
+        41.412553721317394
+      ],
+      "elevation": 54
+    },
+    {
+      "modelId": "sant-pau-sant-leopold",
+      "name": "footing-177700",
+      "location": [
+        2.174799502582126,
+        41.412543976304796
+      ],
+      "elevation": 54
+    },
+    {
+      "modelId": "sant-pau-sant-leopold",
+      "name": "footing-17BD50",
+      "location": [
+        2.1749906056463897,
+        41.41254717513475
+      ],
+      "elevation": 54
+    },
+    {
+      "modelId": "sant-pau-sant-leopold",
+      "name": "footing-17CF9E",
+      "location": [
+        2.174681672509261,
+        41.41258606014631
+      ],
+      "elevation": 54
+    },
+    {
+      "modelId": "sant-pau-operacions",
+      "name": "footing-176EAB",
+      "location": [
+        2.1743288514710915,
+        41.41269748539432
+      ],
+      "elevation": 58
+    },
+    {
+      "modelId": "sant-pau-operacions",
+      "name": "footing-17BF09",
+      "location": [
+        2.1743266199985425,
+        41.41286485682593
+      ],
+      "elevation": 58
+    },
+    {
+      "modelId": "sant-pau-operacions",
+      "name": "footing-17D280",
+      "location": [
+        2.174394232465583,
+        41.41279458434115
+      ],
+      "elevation": 58
+    },
+    {
+      "modelId": "sant-pau-operacions",
+      "name": "footing-17EB67",
+      "location": [
+        2.1742574701780923,
+        41.41279586981375
+      ],
+      "elevation": 58
+    },
+    {
+      "modelId": "sant-pau-merce",
+      "name": "footing-17CD2B",
+      "location": [
+        2.173483773566227,
+        41.41291296637303
+      ],
+      "elevation": 57
+    },
+    {
+      "modelId": "sant-pau-merce",
+      "name": "footing-17985D",
+      "location": [
+        2.1736476854011078,
+        41.412903946155225
+      ],
+      "elevation": 57
+    },
+    {
+      "modelId": "sant-pau-merce",
+      "name": "footing-17CBF0",
+      "location": [
+        2.1738250884166685,
+        41.41291527105192
+      ],
+      "elevation": 57
+    },
+    {
+      "modelId": "sant-pau-merce",
+      "name": "footing-177BC8",
+      "location": [
+        2.173975759621116,
+        41.41294480290882
+      ],
+      "elevation": 57
+    },
+    {
+      "modelId": "sant-pau-sant-rafael",
+      "name": "footing-17D9B8",
+      "location": [
+        2.1751634902356862,
+        41.412915376596
+      ],
+      "elevation": 56
+    },
+    {
+      "modelId": "sant-pau-sant-rafael",
+      "name": "footing-1780A2",
+      "location": [
+        2.1747951025141345,
+        41.41290483110402
+      ],
+      "elevation": 56
+    },
+    {
+      "modelId": "sant-pau-sant-rafael",
+      "name": "footing-17879B",
+      "location": [
+        2.1749908846155668,
+        41.41291256957501
+      ],
+      "elevation": 56
+    },
+    {
+      "modelId": "sant-pau-sant-rafael",
+      "name": "footing-176F29",
+      "location": [
+        2.174677515948074,
+        41.41294108216952
+      ],
+      "elevation": 56
+    },
+    {
+      "modelId": "sant-pau-sant-manuel",
+      "name": "footing-1773C7",
+      "location": [
+        2.175173663048147,
+        41.41326559979638
+      ],
+      "elevation": 58
+    },
+    {
+      "modelId": "sant-pau-sant-manuel",
+      "name": "footing-17CB9C",
+      "location": [
+        2.1749853939695436,
+        41.41326502727273
+      ],
+      "elevation": 58
+    },
+    {
+      "modelId": "sant-pau-sant-manuel",
+      "name": "footing-177B9E",
+      "location": [
+        2.174812657226667,
+        41.413274427393354
+      ],
+      "elevation": 58
+    },
+    {
+      "modelId": "sant-pau-sant-manuel",
+      "name": "footing-17FC74",
+      "location": [
+        2.174679979517008,
+        41.41331097710704
+      ],
+      "elevation": 58
+    },
+    {
+      "modelId": "sant-pau-montserrat",
+      "name": "footing-17AB1A",
+      "location": [
+        2.1736312883002893,
+        41.41327782084937
+      ],
+      "elevation": 59
+    },
+    {
+      "modelId": "sant-pau-montserrat",
+      "name": "footing-17F52D",
+      "location": [
+        2.173853025910044,
+        41.413267682624415
+      ],
+      "elevation": 59
+    },
+    {
+      "modelId": "sant-pau-montserrat",
+      "name": "footing-17B1E0",
+      "location": [
+        2.1734106916181832,
+        41.41332370842063
+      ],
+      "elevation": 59
+    },
+    {
+      "modelId": "sant-pau-montserrat",
+      "name": "footing-17F13A",
+      "location": [
+        2.1739515104509914,
+        41.41321212068978
+      ],
+      "elevation": 59
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "footing-17C53C",
+      "location": [
+        2.174939907097852,
+        41.413750683110806
+      ],
+      "elevation": 60
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "footing-17A41E",
+      "location": [
+        2.1735968244036377,
+        41.41374442006801
+      ],
+      "elevation": 60
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "footing-179A9A",
+      "location": [
+        2.174174205023529,
+        41.41372946702599
+      ],
+      "elevation": 60
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "footing-176F92",
+      "location": [
+        2.1744733841235955,
+        41.41372344382653
+      ],
+      "elevation": 60
+    }
+  ],
+  "surfaceControls": [
+    {
+      "modelId": "sant-pau-administracio",
+      "name": "roof-17D502",
+      "location": [
+        2.174327873461934,
+        41.411834992687744
+      ],
+      "expectedElevation": 112.4729995727539,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-administracio",
+      "name": "roof-1784A1",
+      "location": [
+        2.1743418870016007,
+        41.411831923607615
+      ],
+      "expectedElevation": 103.25535216360211,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-administracio",
+      "name": "roof-17E114",
+      "location": [
+        2.1743275368782555,
+        41.411885393783685
+      ],
+      "expectedElevation": 86.10300063575565,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-sant-jordi",
+      "name": "roof-17B56D",
+      "location": [
+        2.1749653359978964,
+        41.41191490061085
+      ],
+      "expectedElevation": 63.68683102479292,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-sant-jordi",
+      "name": "roof-17E822",
+      "location": [
+        2.174934736728525,
+        41.41195163794466
+      ],
+      "expectedElevation": 59.87335789628839,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-sant-jordi",
+      "name": "roof-17F644",
+      "location": [
+        2.17490629371082,
+        41.4119598444664
+      ],
+      "expectedElevation": 59.424964178017376,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-santa-apollonia",
+      "name": "roof-17B93F",
+      "location": [
+        2.1736865899226485,
+        41.41191839773626
+      ],
+      "expectedElevation": 67.85474411519844,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-santa-apollonia",
+      "name": "roof-179B93",
+      "location": [
+        2.173720426264584,
+        41.41195534976644
+      ],
+      "expectedElevation": 64.63964429542257,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-santa-apollonia",
+      "name": "roof-17EAFE",
+      "location": [
+        2.1737492657563013,
+        41.41196292208049
+      ],
+      "expectedElevation": 63.3058763469134,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-purissima",
+      "name": "ridge-0",
+      "location": [
+        2.1737483837275007,
+        41.41218877999787
+      ],
+      "expectedElevation": 72.31899179390867,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-purissima",
+      "name": "pitch-0-0.08",
+      "location": [
+        2.1736229652911487,
+        41.41215058527678
+      ],
+      "expectedElevation": 70.10771496481487,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-purissima",
+      "name": "pitch-0-0.5",
+      "location": [
+        2.1736230797525287,
+        41.41218899022256
+      ],
+      "expectedElevation": 72.31899834729649,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-purissima",
+      "name": "pitch-0-0.92",
+      "location": [
+        2.1736231942139086,
+        41.41222739516835
+      ],
+      "expectedElevation": 70.10771281879212,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-purissima",
+      "name": "roof-17DAF6",
+      "location": [
+        2.1740198730445845,
+        41.41225875571326
+      ],
+      "expectedElevation": 75.2189998626709,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-purissima",
+      "name": "roof-179335",
+      "location": [
+        2.173999210280379,
+        41.41213238354294
+      ],
+      "expectedElevation": 72.7859992980957,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-purissima",
+      "name": "roof-178F39",
+      "location": [
+        2.173839281527521,
+        41.4121885257456
+      ],
+      "expectedElevation": 72.31312565458906,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-sant-salvador",
+      "name": "ridge-0",
+      "location": [
+        2.174907146455785,
+        41.41218698559312
+      ],
+      "expectedElevation": 72.19999815258441,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-sant-salvador",
+      "name": "pitch-0-0.08",
+      "location": [
+        2.1747813677657355,
+        41.41214798220015
+      ],
+      "expectedElevation": 70.04284617482571,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-sant-salvador",
+      "name": "pitch-0-0.92",
+      "location": [
+        2.174781212445523,
+        41.41222570617781
+      ],
+      "expectedElevation": 70.04284659582922,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-sant-salvador",
+      "name": "pitch-0-0.5",
+      "location": [
+        2.174781290105629,
+        41.41218684418898
+      ],
+      "expectedElevation": 72.20000031959788,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-sant-salvador",
+      "name": "roof-17AB80",
+      "location": [
+        2.174637440011523,
+        41.412259362522455
+      ],
+      "expectedElevation": 75.6879997253418,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-sant-salvador",
+      "name": "roof-17DA2D",
+      "location": [
+        2.1746558341298683,
+        41.41213200894718
+      ],
+      "expectedElevation": 72.3700008392334,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-sant-salvador",
+      "name": "roof-17C8D5",
+      "location": [
+        2.17499613400336,
+        41.41218709967661
+      ],
+      "expectedElevation": 72.19922271658461,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-carme",
+      "name": "ridge-0",
+      "location": [
+        2.1737494732817515,
+        41.412548001287895
+      ],
+      "expectedElevation": 74.3759941673149,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-carme",
+      "name": "pitch-0-0.08",
+      "location": [
+        2.173624651035475,
+        41.41251006207612
+      ],
+      "expectedElevation": 72.23001893555316,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-carme",
+      "name": "pitch-0-0.5",
+      "location": [
+        2.173624625846684,
+        41.4125479514925
+      ],
+      "expectedElevation": 74.37557902133553,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-carme",
+      "name": "pitch-0-0.92",
+      "location": [
+        2.1736245998934214,
+        41.41258585388391
+      ],
+      "expectedElevation": 72.23012424345438,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-carme",
+      "name": "roof-177EF2",
+      "location": [
+        2.1734708493673414,
+        41.41260629838304
+      ],
+      "expectedElevation": 77.28,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-carme",
+      "name": "roof-17FC29",
+      "location": [
+        2.1739980124736946,
+        41.4124917619116
+      ],
+      "expectedElevation": 74.40399932861328,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-carme",
+      "name": "roof-17BC24",
+      "location": [
+        2.1737507803828535,
+        41.41252552089472
+      ],
+      "expectedElevation": 74.37599989864545,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-sant-leopold",
+      "name": "ridge-0",
+      "location": [
+        2.174906014097098,
+        41.41254617410625
+      ],
+      "expectedElevation": 74.703,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-sant-leopold",
+      "name": "pitch-0-0.08",
+      "location": [
+        2.1747805942673013,
+        41.41250801570678
+      ],
+      "expectedElevation": 72.30087437225546,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-sant-leopold",
+      "name": "pitch-0-0.5",
+      "location": [
+        2.174780754021552,
+        41.41254646807948
+      ],
+      "expectedElevation": 74.67997175353376,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-sant-leopold",
+      "name": "pitch-0-0.92",
+      "location": [
+        2.174780913775803,
+        41.41258492045219
+      ],
+      "expectedElevation": 72.30081814798079,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-sant-leopold",
+      "name": "roof-17A96A",
+      "location": [
+        2.1746367321077726,
+        41.41262063587855
+      ],
+      "expectedElevation": 77.98399925231934,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-sant-leopold",
+      "name": "roof-17DBFB",
+      "location": [
+        2.1749057535000054,
+        41.41256972544017
+      ],
+      "expectedElevation": 74.70362975903153,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-sant-leopold",
+      "name": "roof-17F053",
+      "location": [
+        2.174906328447214,
+        41.41252453724398
+      ],
+      "expectedElevation": 74.703,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-operacions",
+      "name": "roof-17B2EE",
+      "location": [
+        2.174329913326717,
+        41.412750171900825
+      ],
+      "expectedElevation": 83.25200080871582,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-operacions",
+      "name": "roof-180649",
+      "location": [
+        2.1743296288476293,
+        41.4126583204815
+      ],
+      "expectedElevation": 83.25200080871582,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-operacions",
+      "name": "roof-176EAB",
+      "location": [
+        2.174329234170327,
+        41.41270425247934
+      ],
+      "expectedElevation": 81.72699927487747,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-merce",
+      "name": "ridge-0",
+      "location": [
+        2.173749670843799,
+        41.41290790334507
+      ],
+      "expectedElevation": 76.80199702981876,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-merce",
+      "name": "pitch-0-0.08",
+      "location": [
+        2.173623263907469,
+        41.41287035702873
+      ],
+      "expectedElevation": 74.47064464597358,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-merce",
+      "name": "pitch-0-0.5",
+      "location": [
+        2.1736234536112162,
+        41.41290825871211
+      ],
+      "expectedElevation": 76.8019998670438,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-merce",
+      "name": "pitch-0-0.92",
+      "location": [
+        2.173623643314964,
+        41.412946160395485
+      ],
+      "expectedElevation": 74.4706448861246,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-merce",
+      "name": "roof-1791C7",
+      "location": [
+        2.17375233693264,
+        41.412930478224936
+      ],
+      "expectedElevation": 77.132,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-merce",
+      "name": "roof-17DCE5",
+      "location": [
+        2.1737511966206764,
+        41.41288559500539
+      ],
+      "expectedElevation": 77.132,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-merce",
+      "name": "roof-17AEDA",
+      "location": [
+        2.1740010914357764,
+        41.41285009195113
+      ],
+      "expectedElevation": 77.0310001373291,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-sant-rafael",
+      "name": "ridge-0",
+      "location": [
+        2.1749069827723866,
+        41.4129077236447
+      ],
+      "expectedElevation": 76.66799926757986,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-sant-rafael",
+      "name": "pitch-0-0.08",
+      "location": [
+        2.1747823384348104,
+        41.41286957112555
+      ],
+      "expectedElevation": 74.5235073529119,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-sant-rafael",
+      "name": "pitch-0-0.5",
+      "location": [
+        2.174782499166068,
+        41.412908016425526
+      ],
+      "expectedElevation": 76.66799925731246,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-sant-rafael",
+      "name": "pitch-0-0.92",
+      "location": [
+        2.174782659897326,
+        41.41294646172551
+      ],
+      "expectedElevation": 74.52350721559884,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-sant-rafael",
+      "name": "roof-17FCCB",
+      "location": [
+        2.1746577769723103,
+        41.41285392145167
+      ],
+      "expectedElevation": 77.46599960327148,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-sant-rafael",
+      "name": "roof-1780A2",
+      "location": [
+        2.174817438614278,
+        41.41290814171757
+      ],
+      "expectedElevation": 76.65642769973299,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-sant-rafael",
+      "name": "roof-17879B",
+      "location": [
+        2.174995463231617,
+        41.41290846735537
+      ],
+      "expectedElevation": 76.61491319146806,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-sant-manuel",
+      "name": "ridge-0",
+      "location": [
+        2.174909091598087,
+        41.41326939313237
+      ],
+      "expectedElevation": 87.28899596093042,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-sant-manuel",
+      "name": "pitch-0-0.08",
+      "location": [
+        2.1747842052302473,
+        41.413231900066975
+      ],
+      "expectedElevation": 85.0046400156543,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-sant-manuel",
+      "name": "pitch-0-0.5",
+      "location": [
+        2.174784079636148,
+        41.41326915616058
+      ],
+      "expectedElevation": 87.28899922655837,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-sant-manuel",
+      "name": "pitch-0-0.92",
+      "location": [
+        2.1747839540420486,
+        41.41330641225419
+      ],
+      "expectedElevation": 85.00463935378079,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-sant-manuel",
+      "name": "roof-17C899",
+      "location": [
+        2.1746593784398467,
+        41.41321180008983
+      ],
+      "expectedElevation": 88.83499908447266,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-sant-manuel",
+      "name": "roof-17D6AC",
+      "location": [
+        2.1746408639419297,
+        41.41321302269134
+      ],
+      "expectedElevation": 86.98551989589046,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-sant-manuel",
+      "name": "roof-177B9E",
+      "location": [
+        2.174818631629735,
+        41.4132691083004
+      ],
+      "expectedElevation": 87.28204837362445,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-montserrat",
+      "name": "ridge-0",
+      "location": [
+        2.1737488404685923,
+        41.413270631743636
+      ],
+      "expectedElevation": 87.00899248876101,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-montserrat",
+      "name": "pitch-0-0.08",
+      "location": [
+        2.173622306623797,
+        41.41323255856329
+      ],
+      "expectedElevation": 84.83262513582977,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-montserrat",
+      "name": "pitch-0-0.5",
+      "location": [
+        2.17362272983757,
+        41.41327140329859
+      ],
+      "expectedElevation": 87.00898280561474,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-montserrat",
+      "name": "pitch-0-0.92",
+      "location": [
+        2.1736231530513432,
+        41.41331024803388
+      ],
+      "expectedElevation": 84.83266109408399,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-montserrat",
+      "name": "roof-17D2CE",
+      "location": [
+        2.173999991250337,
+        41.41321188138699
+      ],
+      "expectedElevation": 88.72100067138672,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-montserrat",
+      "name": "roof-17F13A",
+      "location": [
+        2.1740181613788327,
+        41.41321195594682
+      ],
+      "expectedElevation": 86.88585340843191,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-montserrat",
+      "name": "roof-1780CC",
+      "location": [
+        2.1737530927486577,
+        41.41329336674452
+      ],
+      "expectedElevation": 87.00900029545429,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "ridge-0",
+      "location": [
+        2.174493437331119,
+        41.41374137166127
+      ],
+      "expectedElevation": 89.40798839442473,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "ridge-1",
+      "location": [
+        2.1741651451767843,
+        41.41374143079083
+      ],
+      "expectedElevation": 89.77499165507166,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "ridge-2",
+      "location": [
+        2.1736801783041098,
+        41.413741583444846
+      ],
+      "expectedElevation": 84.75299874038089,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "ridge-3",
+      "location": [
+        2.1749790780636777,
+        41.41374110719132
+      ],
+      "expectedElevation": 84.42299667798855,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "pitch-0-0.08",
+      "location": [
+        2.1745554944363996,
+        41.41359426169211
+      ],
+      "expectedElevation": 86.56412765003742,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "pitch-0-0.5",
+      "location": [
+        2.17449332187124,
+        41.41359428907704
+      ],
+      "expectedElevation": 89.40800093755959,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "pitch-0-0.92",
+      "location": [
+        2.17443114930608,
+        41.41359431646196
+      ],
+      "expectedElevation": 86.56412766729669,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "pitch-1-0.08",
+      "location": [
+        2.1742280634952884,
+        41.41359425855852
+      ],
+      "expectedElevation": 86.74722436908898,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "pitch-1-0.5",
+      "location": [
+        2.1741650259938057,
+        41.41359428665707
+      ],
+      "expectedElevation": 89.77468384651785,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "pitch-1-0.92",
+      "location": [
+        2.1741019884923234,
+        41.41359431475563
+      ],
+      "expectedElevation": 86.74659301219418,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "pitch-2-0.08",
+      "location": [
+        2.1734857776726755,
+        41.41362988411552
+      ],
+      "expectedElevation": 83.01519811839438,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "pitch-2-0.5",
+      "location": [
+        2.1734860294196423,
+        41.4137418282307
+      ],
+      "expectedElevation": 84.75299176768237,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "pitch-2-0.92",
+      "location": [
+        2.1734862811666096,
+        41.41385377234588
+      ],
+      "expectedElevation": 83.01518097799661,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "pitch-3-0.08",
+      "location": [
+        2.1747850254926404,
+        41.41362778828556
+      ],
+      "expectedElevation": 83.05150690714956,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "pitch-3-0.5",
+      "location": [
+        2.174784875360951,
+        41.413740963421276
+      ],
+      "expectedElevation": 84.42299711716791,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "pitch-3-0.92",
+      "location": [
+        2.1747847252292614,
+        41.413854138556985
+      ],
+      "expectedElevation": 83.05150091759266,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "roof-179A9A",
+      "location": [
+        2.174165077758777,
+        41.41374143357887
+      ],
+      "expectedElevation": 89.77175303882898,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "roof-176F92",
+      "location": [
+        2.174493509763642,
+        41.413741372044555
+      ],
+      "expectedElevation": 89.40467522900002,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "roof-178585",
+      "location": [
+        2.1743289748451797,
+        41.413839169385554
+      ],
+      "expectedElevation": 88.27,
+      "toleranceMetres": 0.015
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "courtyard-deck",
+      "location": [
+        2.17432,
+        41.4137243
+      ],
+      "expectedElevation": 69.3,
+      "toleranceMetres": 0.015
+    }
+  ],
+  "airControls": [
+    {
+      "modelId": "sant-pau-administracio",
+      "name": "open-clock-belfry",
+      "location": [
+        2.174327873461934,
+        41.411834992687744
+      ],
+      "minElevation": 91.4,
+      "maxElevation": 94.6
+    },
+    {
+      "modelId": "sant-pau-administracio",
+      "name": "open-forecourt",
+      "location": [
+        2.1743219,
+        41.411660427919514
+      ],
+      "minElevation": 54,
+      "maxElevation": 89
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "open-upper-courtyard",
+      "location": [
+        2.17432,
+        41.4137243
+      ],
+      "minElevation": 69.5,
+      "maxElevation": 89
+    }
+  ],
+  "facadeControls": [
+    {
+      "modelId": "sant-pau-administracio",
+      "name": "central--5.2-60",
+      "from": [
+        2.1742656030858436,
+        41.4117753960347
+      ],
+      "to": [
+        2.1742656030858436,
+        41.411820311593445
+      ],
+      "elevation": 63.4,
+      "expectedLocation": [
+        2.1742656030858436,
+        41.41180324368112
+      ],
+      "depthMetres": 1.1000000000000085
+    },
+    {
+      "modelId": "sant-pau-administracio",
+      "name": "central-0.5-78",
+      "from": [
+        2.1743338780668418,
+        41.41177400801739
+      ],
+      "to": [
+        2.1743338780668418,
+        41.411818923576135
+      ],
+      "elevation": 80.05,
+      "expectedLocation": [
+        2.1743338780668418,
+        41.41180185566381
+      ],
+      "depthMetres": 1.1000000000000085
+    },
+    {
+      "modelId": "sant-pau-administracio",
+      "name": "wing--1--2-70",
+      "from": [
+        2.1740200294313503,
+        41.411640638722446
+      ],
+      "to": [
+        2.173977680569904,
+        41.41167239881862
+      ],
+      "elevation": 73,
+      "expectedLocation": [
+        2.173995467091711,
+        41.41165905957823
+      ],
+      "depthMetres": 0.9000000000000021
+    },
+    {
+      "modelId": "sant-pau-administracio",
+      "name": "wing--1-1-61",
+      "from": [
+        2.1741443659352595,
+        41.411768441164426
+      ],
+      "to": [
+        2.174102017073813,
+        41.4118002012606
+      ],
+      "elevation": 64.75,
+      "expectedLocation": [
+        2.1741198035956204,
+        41.41178686202021
+      ],
+      "depthMetres": 0.8999999999999986
+    },
+    {
+      "modelId": "sant-pau-purissima",
+      "name": "ward--1-0",
+      "from": [
+        2.173599023133376,
+        41.41212540868477
+      ],
+      "to": [
+        2.173599156998514,
+        41.412170324131324
+      ],
+      "elevation": 65.921,
+      "expectedLocation": [
+        2.1735990980978532,
+        41.41215056133484
+      ],
+      "depthMetres": 0.8000000001560608
+    },
+    {
+      "modelId": "sant-pau-purissima",
+      "name": "ward--1-5",
+      "from": [
+        2.1738973660144043,
+        41.41212521880253
+      ],
+      "to": [
+        2.1738974998795424,
+        41.41217013424908
+      ],
+      "elevation": 65.921,
+      "expectedLocation": [
+        2.1738974409788816,
+        41.4121503714526
+      ],
+      "depthMetres": 0.8000000001559897
+    },
+    {
+      "modelId": "sant-pau-purissima",
+      "name": "ward-1-4",
+      "from": [
+        2.1738380758654023,
+        41.412252229544734
+      ],
+      "to": [
+        2.173837942000264,
+        41.41220731409818
+      ],
+      "elevation": 65.921,
+      "expectedLocation": [
+        2.173838000900925,
+        41.412227076894666
+      ],
+      "depthMetres": 0.7999999998626208
+    },
+    {
+      "modelId": "sant-pau-purissima",
+      "name": "dayroom-3",
+      "from": [
+        2.1740521523865035,
+        41.412169856330806
+      ],
+      "to": [
+        2.1740098035250566,
+        41.412138096234635
+      ],
+      "elevation": 64.898,
+      "expectedLocation": [
+        2.174026743069635,
+        41.4121508002731
+      ],
+      "depthMetres": 0.9999999999999907
+    },
+    {
+      "modelId": "sant-pau-sant-salvador",
+      "name": "ward--1-0",
+      "from": [
+        2.1747574453297083,
+        41.41212258887948
+      ],
+      "to": [
+        2.1747573555724835,
+        41.41216750438779
+      ],
+      "elevation": 65.867,
+      "expectedLocation": [
+        2.1747573950656625,
+        41.412147741564155
+      ],
+      "depthMetres": 0.7999999970570286
+    },
+    {
+      "modelId": "sant-pau-sant-salvador",
+      "name": "ward--1-5",
+      "from": [
+        2.1750571042791216,
+        41.41212292815761
+      ],
+      "to": [
+        2.175057014521897,
+        41.41216784366591
+      ],
+      "elevation": 65.867,
+      "expectedLocation": [
+        2.1750570540150758,
+        41.412148080842286
+      ],
+      "depthMetres": 0.7999999970570144
+    },
+    {
+      "modelId": "sant-pau-sant-salvador",
+      "name": "ward-1-4",
+      "from": [
+        2.174996915798827,
+        41.41225131102407
+      ],
+      "to": [
+        2.174997005556052,
+        41.41220639551577
+      ],
+      "elevation": 65.867,
+      "expectedLocation": [
+        2.174996966062873,
+        41.41222615833944
+      ],
+      "depthMetres": 0.8000000025864367
+    },
+    {
+      "modelId": "sant-pau-sant-salvador",
+      "name": "dayroom-6",
+      "from": [
+        2.174582517834698,
+        41.412131685106
+      ],
+      "to": [
+        2.1746424081689066,
+        41.412131685106
+      ],
+      "elevation": 64.83699999999999,
+      "expectedLocation": [
+        2.1746184520352227,
+        41.412131685106
+      ],
+      "depthMetres": 0.9999999999999964
+    },
+    {
+      "modelId": "sant-pau-carme",
+      "name": "ward--1-0",
+      "from": [
+        2.1736008859274247,
+        41.41248487082156
+      ],
+      "to": [
+        2.1736008588833453,
+        41.41252978637573
+      ],
+      "elevation": 68.056,
+      "expectedLocation": [
+        2.17360087078274,
+        41.41251002353188
+      ],
+      "depthMetres": 0.8000000014686357
+    },
+    {
+      "modelId": "sant-pau-carme",
+      "name": "ward--1-5",
+      "from": [
+        2.1738981365991896,
+        41.41248497012054
+      ],
+      "to": [
+        2.1738981095551106,
+        41.4125298856747
+      ],
+      "elevation": 68.056,
+      "expectedLocation": [
+        2.1738981214545054,
+        41.41251012283086
+      ],
+      "depthMetres": 0.8000000014686357
+    },
+    {
+      "modelId": "sant-pau-carme",
+      "name": "ward-1-4",
+      "from": [
+        2.1738386105797285,
+        41.41261098234511
+      ],
+      "to": [
+        2.173838637623808,
+        41.41256606679094
+      ],
+      "elevation": 68.056,
+      "expectedLocation": [
+        2.173838625724413,
+        41.412585829634764
+      ],
+      "depthMetres": 0.7999999989256921
+    },
+    {
+      "modelId": "sant-pau-carme",
+      "name": "dayroom-3",
+      "from": [
+        2.174050505035784,
+        41.41253075526541
+      ],
+      "to": [
+        2.174008156174337,
+        41.41249899516924
+      ],
+      "elevation": 66.07199999999999,
+      "expectedLocation": [
+        2.1740250957189162,
+        41.412511699207705
+      ],
+      "depthMetres": 0.9999999999999991
+    },
+    {
+      "modelId": "sant-pau-sant-leopold",
+      "name": "ward--1-0",
+      "from": [
+        2.1747564922999145,
+        41.4124498588179
+      ],
+      "to": [
+        2.174756679591004,
+        41.41249477415701
+      ],
+      "elevation": 68.081,
+      "expectedLocation": [
+        2.174756597182924,
+        41.41247501140774
+      ],
+      "depthMetres": 0.8000000067526329
+    },
+    {
+      "modelId": "sant-pau-sant-leopold",
+      "name": "ward--1-5",
+      "from": [
+        2.175054877453026,
+        41.41248458486008
+      ],
+      "to": [
+        2.1750550647441154,
+        41.4125295001992
+      ],
+      "elevation": 68.081,
+      "expectedLocation": [
+        2.175054982336036,
+        41.41250973744993
+      ],
+      "depthMetres": 0.8000000059962602
+    },
+    {
+      "modelId": "sant-pau-sant-leopold",
+      "name": "ward-1-4",
+      "from": [
+        2.1749957510928377,
+        41.41260969905373
+      ],
+      "to": [
+        2.174995563801748,
+        41.412564783714615
+      ],
+      "elevation": 68.081,
+      "expectedLocation": [
+        2.1749956462098274,
+        41.41258454646379
+      ],
+      "depthMetres": 0.7999999955980108
+    },
+    {
+      "modelId": "sant-pau-sant-leopold",
+      "name": "dayroom-6",
+      "from": [
+        2.1745806602208733,
+        41.412491469511316
+      ],
+      "to": [
+        2.174640550555082,
+        41.412491469511316
+      ],
+      "elevation": 65.95299999999999,
+      "expectedLocation": [
+        2.174616594421398,
+        41.412491469511316
+      ],
+      "depthMetres": 0.9999999999999964
+    },
+    {
+      "modelId": "sant-pau-operacions",
+      "name": "operations--3",
+      "from": [
+        2.1742859657994744,
+        41.41263331177172
+      ],
+      "to": [
+        2.1742859657994744,
+        41.412678227330474
+      ],
+      "elevation": 69.25,
+      "expectedLocation": [
+        2.1742859657994744,
+        41.41266026110697
+      ],
+      "depthMetres": 0.9999999999999982
+    },
+    {
+      "modelId": "sant-pau-merce",
+      "name": "ward--1-0",
+      "from": [
+        2.173599097256155,
+        41.41284533374807
+      ],
+      "to": [
+        2.1735993220638674,
+        41.412890248990394
+      ],
+      "elevation": 70.26,
+      "expectedLocation": [
+        2.173599223148474,
+        41.41287048628378
+      ],
+      "depthMetres": 0.7999999999279348
+    },
+    {
+      "modelId": "sant-pau-merce",
+      "name": "ward--1-5",
+      "from": [
+        2.173899446738543,
+        41.41281109865039
+      ],
+      "to": [
+        2.1738996715462555,
+        41.41285601389271
+      ],
+      "elevation": 70.26,
+      "expectedLocation": [
+        2.173899572630862,
+        41.412836251186086
+      ],
+      "depthMetres": 0.7999999999595331
+    },
+    {
+      "modelId": "sant-pau-merce",
+      "name": "ward-1-4",
+      "from": [
+        2.1738401411658286,
+        41.41297065300664
+      ],
+      "to": [
+        2.173839916358116,
+        41.41292573776432
+      ],
+      "elevation": 70.26,
+      "expectedLocation": [
+        2.1738400152735093,
+        41.41294550047094
+      ],
+      "depthMetres": 0.8000000001436902
+    },
+    {
+      "modelId": "sant-pau-merce",
+      "name": "dayroom-3",
+      "from": [
+        2.174052642133474,
+        41.41288888019875
+      ],
+      "to": [
+        2.1740102932720275,
+        41.41285712010258
+      ],
+      "elevation": 68.97699999999999,
+      "expectedLocation": [
+        2.174027232816606,
+        41.41286982414105
+      ],
+      "depthMetres": 0.9999999999999991
+    },
+    {
+      "modelId": "sant-pau-sant-rafael",
+      "name": "ward--1-0",
+      "from": [
+        2.1747585228989905,
+        41.41284457594911
+      ],
+      "to": [
+        2.174758710680043,
+        41.4128894912871
+      ],
+      "elevation": 70.35,
+      "expectedLocation": [
+        2.1747586280563795,
+        41.412869728538354
+      ],
+      "depthMetres": 0.8000000037178134
+    },
+    {
+      "modelId": "sant-pau-sant-rafael",
+      "name": "ward--1-5",
+      "from": [
+        2.175054921146532,
+        41.41284613396772
+      ],
+      "to": [
+        2.1750551089275847,
+        41.412891049305706
+      ],
+      "elevation": 70.35,
+      "expectedLocation": [
+        2.1750550263039212,
+        41.41287128655696
+      ],
+      "depthMetres": 0.8000000038246711
+    },
+    {
+      "modelId": "sant-pau-sant-rafael",
+      "name": "ward-1-4",
+      "from": [
+        2.1749961658570607,
+        41.41297124400793
+      ],
+      "to": [
+        2.174995978076008,
+        41.41292632866994
+      ],
+      "elevation": 70.35,
+      "expectedLocation": [
+        2.1749960606996708,
+        41.41294609141859
+      ],
+      "depthMetres": 0.7999999926370762
+    },
+    {
+      "modelId": "sant-pau-sant-rafael",
+      "name": "dayroom-5",
+      "from": [
+        2.1746054125086602,
+        41.41289159882976
+      ],
+      "to": [
+        2.1746477613701067,
+        41.41285983873359
+      ],
+      "elevation": 68.85199999999999,
+      "expectedLocation": [
+        2.174630821825528,
+        41.41287254277206
+      ],
+      "depthMetres": 1.0000000000000027
+    },
+    {
+      "modelId": "sant-pau-sant-manuel",
+      "name": "ward--1-0",
+      "from": [
+        2.1747604781651,
+        41.41320679356314
+      ],
+      "to": [
+        2.1747603267506563,
+        41.41325170897834
+      ],
+      "elevation": 80.803,
+      "expectedLocation": [
+        2.174760393373011,
+        41.4132319461957
+      ],
+      "depthMetres": 0.7999999946308449
+    },
+    {
+      "modelId": "sant-pau-sant-manuel",
+      "name": "ward--1-5",
+      "from": [
+        2.1750581251638352,
+        41.413207364977914
+      ],
+      "to": [
+        2.175057973749392,
+        41.41325228039311
+      ],
+      "elevation": 80.803,
+      "expectedLocation": [
+        2.1750580403717468,
+        41.413232517610474
+      ],
+      "depthMetres": 0.7999999946307668
+    },
+    {
+      "modelId": "sant-pau-sant-manuel",
+      "name": "ward-1-4",
+      "from": [
+        2.174998177158103,
+        41.41333142551742
+      ],
+      "to": [
+        2.1749983285725465,
+        41.413286510102225
+      ],
+      "elevation": 80.803,
+      "expectedLocation": [
+        2.174998261950191,
+        41.41330627288497
+      ],
+      "depthMetres": 0.8000000062730521
+    },
+    {
+      "modelId": "sant-pau-sant-manuel",
+      "name": "dayroom-4",
+      "from": [
+        2.174658783129925,
+        41.413269361372755
+      ],
+      "to": [
+        2.174658783129925,
+        41.41322444581401
+      ],
+      "elevation": 80.66399999999999,
+      "expectedLocation": [
+        2.174658783129925,
+        41.413242412037505
+      ],
+      "depthMetres": 1
+    },
+    {
+      "modelId": "sant-pau-montserrat",
+      "name": "ward--1-0",
+      "from": [
+        2.1735980124741388,
+        41.413207567511826
+      ],
+      "to": [
+        2.1735985013316865,
+        41.41325248157426
+      ],
+      "elevation": 80.653,
+      "expectedLocation": [
+        2.173598286234365,
+        41.413232719386734
+      ],
+      "depthMetres": 0.8000000060835646
+    },
+    {
+      "modelId": "sant-pau-montserrat",
+      "name": "ward--1-5",
+      "from": [
+        2.1738983010965987,
+        41.41320806841332
+      ],
+      "to": [
+        2.1738987899541464,
+        41.413252982475754
+      ],
+      "elevation": 80.653,
+      "expectedLocation": [
+        2.1738985748568247,
+        41.41323322028823
+      ],
+      "depthMetres": 0.8000000061161998
+    },
+    {
+      "modelId": "sant-pau-montserrat",
+      "name": "ward-1-4",
+      "from": [
+        2.1738396181465607,
+        41.41333427640993
+      ],
+      "to": [
+        2.1738391292890125,
+        41.41328936234749
+      ],
+      "elevation": 80.653,
+      "expectedLocation": [
+        2.173839344386333,
+        41.4133091245349
+      ],
+      "depthMetres": 0.7999999928297115
+    },
+    {
+      "modelId": "sant-pau-montserrat",
+      "name": "dayroom-3",
+      "from": [
+        2.174053550581141,
+        41.41325207452676
+      ],
+      "to": [
+        2.1740112017196944,
+        41.41322031443059
+      ],
+      "elevation": 80.56599999999999,
+      "expectedLocation": [
+        2.174028141264273,
+        41.41323301846906
+      ],
+      "depthMetres": 1.000000000000003
+    }
+  ],
+  "expectedReplacements": [
+    {
+      "modelId": "sant-pau-administracio",
+      "featureIds": [
+        "osm-relation-7422815",
+        "icgc-883117",
+        "icgc-883115"
+      ]
+    },
+    {
+      "modelId": "sant-pau-sant-jordi",
+      "featureIds": [
+        "osm-way-288931982",
+        "icgc-1200053"
+      ]
+    },
+    {
+      "modelId": "sant-pau-santa-apollonia",
+      "featureIds": [
+        "osm-way-288931981",
+        "icgc-1200045"
+      ]
+    },
+    {
+      "modelId": "sant-pau-purissima",
+      "featureIds": [
+        "osm-way-156739051",
+        "icgc-883108"
+      ]
+    },
+    {
+      "modelId": "sant-pau-sant-salvador",
+      "featureIds": [
+        "osm-way-156739055",
+        "icgc-638743"
+      ]
+    },
+    {
+      "modelId": "sant-pau-carme",
+      "featureIds": [
+        "osm-relation-7422829",
+        "icgc-883113"
+      ]
+    },
+    {
+      "modelId": "sant-pau-sant-leopold",
+      "featureIds": [
+        "osm-relation-7422839",
+        "icgc-1518093"
+      ]
+    },
+    {
+      "modelId": "sant-pau-operacions",
+      "featureIds": [
+        "osm-way-288931980",
+        "icgc-883119"
+      ]
+    },
+    {
+      "modelId": "sant-pau-merce",
+      "featureIds": [
+        "osm-relation-7422832",
+        "icgc-638739"
+      ]
+    },
+    {
+      "modelId": "sant-pau-sant-rafael",
+      "featureIds": [
+        "osm-way-163655152",
+        "icgc-1518092"
+      ]
+    },
+    {
+      "modelId": "sant-pau-sant-manuel",
+      "featureIds": [
+        "osm-relation-7422836",
+        "icgc-1518095",
+        "osm-way-645208192"
+      ]
+    },
+    {
+      "modelId": "sant-pau-montserrat",
+      "featureIds": [
+        "osm-relation-7422834",
+        "icgc-1200050"
+      ]
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "featureIds": [
+        "osm-relation-7422816",
+        "icgc-883112",
+        "osm-way-645284289",
+        "osm-way-645284279",
+        "osm-way-645284281"
+      ]
+    }
+  ],
+  "sourceComparisons": [
+    {
+      "modelId": "sant-pau-administracio",
+      "name": "roof-17D502",
+      "location": [
+        2.174327873461934,
+        41.411834992687744
+      ],
+      "meshElevation": 112.4729995727539,
+      "referenceElevation": 112.473,
+      "differenceMetres": -4.2724609272681846e-7,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-administracio",
+      "name": "roof-1784A1",
+      "location": [
+        2.1743418870016007,
+        41.411831923607615
+      ],
+      "meshElevation": 103.25535216360211,
+      "referenceElevation": 102.502,
+      "differenceMetres": 0.7533521636021163,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-administracio",
+      "name": "roof-17E114",
+      "location": [
+        2.1743275368782555,
+        41.411885393783685
+      ],
+      "meshElevation": 86.10300063575565,
+      "referenceElevation": 86.667999,
+      "differenceMetres": -0.5649983642443459,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-sant-jordi",
+      "name": "roof-17B56D",
+      "location": [
+        2.1749653359978964,
+        41.41191490061085
+      ],
+      "meshElevation": 63.68683102479292,
+      "referenceElevation": 63.426998,
+      "differenceMetres": 0.25983302479292547,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-sant-jordi",
+      "name": "roof-17E822",
+      "location": [
+        2.174934736728525,
+        41.41195163794466
+      ],
+      "meshElevation": 59.87335789628839,
+      "referenceElevation": 59.916,
+      "differenceMetres": -0.04264210371160715,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-sant-jordi",
+      "name": "roof-17F644",
+      "location": [
+        2.17490629371082,
+        41.4119598444664
+      ],
+      "meshElevation": 59.424964178017376,
+      "referenceElevation": 59.264,
+      "differenceMetres": 0.16096417801737317,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-santa-apollonia",
+      "name": "roof-17B93F",
+      "location": [
+        2.1736865899226485,
+        41.41191839773626
+      ],
+      "meshElevation": 67.85474411519844,
+      "referenceElevation": 67.676003,
+      "differenceMetres": 0.1787411151984486,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-santa-apollonia",
+      "name": "roof-179B93",
+      "location": [
+        2.173720426264584,
+        41.41195534976644
+      ],
+      "meshElevation": 64.63964429542257,
+      "referenceElevation": 64.016998,
+      "differenceMetres": 0.6226462954225696,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-santa-apollonia",
+      "name": "roof-17EAFE",
+      "location": [
+        2.1737492657563013,
+        41.41196292208049
+      ],
+      "meshElevation": 63.3058763469134,
+      "referenceElevation": 63.334,
+      "differenceMetres": -0.028123653086602474,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-purissima",
+      "name": "ridge-0",
+      "location": [
+        2.1737483837275007,
+        41.41218877999787
+      ],
+      "meshElevation": 72.31899179390867,
+      "referenceElevation": 72.319,
+      "differenceMetres": -0.00000820609133711514,
+      "note": "Mid-roof may intersect a source dormer or lantern; source main ridge is also preserved away from it."
+    },
+    {
+      "modelId": "sant-pau-purissima",
+      "name": "pitch-0-0.08",
+      "location": [
+        2.1736229652911487,
+        41.41215058527678
+      ],
+      "meshElevation": 70.10771496481487,
+      "referenceElevation": 69.889999,
+      "differenceMetres": 0.21771596481487165,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-purissima",
+      "name": "pitch-0-0.5",
+      "location": [
+        2.1736230797525287,
+        41.41218899022256
+      ],
+      "meshElevation": 72.31899834729649,
+      "referenceElevation": 72.296997,
+      "differenceMetres": 0.022001347296480844,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-purissima",
+      "name": "pitch-0-0.92",
+      "location": [
+        2.1736231942139086,
+        41.41222739516835
+      ],
+      "meshElevation": 70.10771281879212,
+      "referenceElevation": 69.908997,
+      "differenceMetres": 0.19871581879212386,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-purissima",
+      "name": "roof-17DAF6",
+      "location": [
+        2.1740198730445845,
+        41.41225875571326
+      ],
+      "meshElevation": 75.2189998626709,
+      "referenceElevation": 75.422997,
+      "differenceMetres": -0.20399713732909674,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-purissima",
+      "name": "roof-179335",
+      "location": [
+        2.173999210280379,
+        41.41213238354294
+      ],
+      "meshElevation": 72.7859992980957,
+      "referenceElevation": 72.744003,
+      "differenceMetres": 0.041996298095696716,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-purissima",
+      "name": "roof-178F39",
+      "location": [
+        2.173839281527521,
+        41.4121885257456
+      ],
+      "meshElevation": 72.31312565458906,
+      "referenceElevation": 72.260002,
+      "differenceMetres": 0.05312365458905788,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-sant-salvador",
+      "name": "ridge-0",
+      "location": [
+        2.174907146455785,
+        41.41218698559312
+      ],
+      "meshElevation": 72.19999815258441,
+      "referenceElevation": 72.2,
+      "differenceMetres": -0.0000018474155893954958,
+      "note": "Mid-roof may intersect a source dormer or lantern; source main ridge is also preserved away from it."
+    },
+    {
+      "modelId": "sant-pau-sant-salvador",
+      "name": "pitch-0-0.08",
+      "location": [
+        2.1747813677657355,
+        41.41214798220015
+      ],
+      "meshElevation": 70.04284617482571,
+      "referenceElevation": 69.917,
+      "differenceMetres": 0.12584617482571048,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-sant-salvador",
+      "name": "pitch-0-0.92",
+      "location": [
+        2.174781212445523,
+        41.41222570617781
+      ],
+      "meshElevation": 70.04284659582922,
+      "referenceElevation": 69.901001,
+      "differenceMetres": 0.14184559582922418,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-sant-salvador",
+      "name": "pitch-0-0.5",
+      "location": [
+        2.174781290105629,
+        41.41218684418898
+      ],
+      "meshElevation": 72.20000031959788,
+      "referenceElevation": 72.003998,
+      "differenceMetres": 0.19600231959788061,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-sant-salvador",
+      "name": "roof-17AB80",
+      "location": [
+        2.174637440011523,
+        41.412259362522455
+      ],
+      "meshElevation": 75.6879997253418,
+      "referenceElevation": 75.675003,
+      "differenceMetres": 0.01299672534179308,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-sant-salvador",
+      "name": "roof-17DA2D",
+      "location": [
+        2.1746558341298683,
+        41.41213200894718
+      ],
+      "meshElevation": 72.3700008392334,
+      "referenceElevation": 72.554001,
+      "differenceMetres": -0.18400016076660108,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-sant-salvador",
+      "name": "roof-17C8D5",
+      "location": [
+        2.17499613400336,
+        41.41218709967661
+      ],
+      "meshElevation": 72.19922271658461,
+      "referenceElevation": 73.603996,
+      "differenceMetres": -1.4047732834153805,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-carme",
+      "name": "ridge-0",
+      "location": [
+        2.1737494732817515,
+        41.412548001287895
+      ],
+      "meshElevation": 74.3759941673149,
+      "referenceElevation": 74.376,
+      "differenceMetres": -0.000005832685104678603,
+      "note": "Mid-roof may intersect a source dormer or lantern; source main ridge is also preserved away from it."
+    },
+    {
+      "modelId": "sant-pau-carme",
+      "name": "pitch-0-0.08",
+      "location": [
+        2.173624651035475,
+        41.41251006207612
+      ],
+      "meshElevation": 72.23001893555316,
+      "referenceElevation": 72.084999,
+      "differenceMetres": 0.14501993555316517,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-carme",
+      "name": "pitch-0-0.5",
+      "location": [
+        2.173624625846684,
+        41.4125479514925
+      ],
+      "meshElevation": 74.37557902133553,
+      "referenceElevation": 74.252998,
+      "differenceMetres": 0.12258102133552029,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-carme",
+      "name": "pitch-0-0.92",
+      "location": [
+        2.1736245998934214,
+        41.41258585388391
+      ],
+      "meshElevation": 72.23012424345438,
+      "referenceElevation": 72.120003,
+      "differenceMetres": 0.11012124345438679,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-carme",
+      "name": "roof-177EF2",
+      "location": [
+        2.1734708493673414,
+        41.41260629838304
+      ],
+      "meshElevation": 77.28,
+      "referenceElevation": 77.202003,
+      "differenceMetres": 0.07799699999999632,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-carme",
+      "name": "roof-17FC29",
+      "location": [
+        2.1739980124736946,
+        41.4124917619116
+      ],
+      "meshElevation": 74.40399932861328,
+      "referenceElevation": 74.497002,
+      "differenceMetres": -0.09300267138671359,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-carme",
+      "name": "roof-17BC24",
+      "location": [
+        2.1737507803828535,
+        41.41252552089472
+      ],
+      "meshElevation": 74.37599989864545,
+      "referenceElevation": 74.350998,
+      "differenceMetres": 0.02500189864544211,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-sant-leopold",
+      "name": "ridge-0",
+      "location": [
+        2.174906014097098,
+        41.41254617410625
+      ],
+      "meshElevation": 74.703,
+      "referenceElevation": 74.68,
+      "differenceMetres": 0.022999999999996135,
+      "note": "Mid-roof may intersect a source dormer or lantern; source main ridge is also preserved away from it."
+    },
+    {
+      "modelId": "sant-pau-sant-leopold",
+      "name": "pitch-0-0.08",
+      "location": [
+        2.1747805942673013,
+        41.41250801570678
+      ],
+      "meshElevation": 72.30087437225546,
+      "referenceElevation": 72.147003,
+      "differenceMetres": 0.1538713722554661,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-sant-leopold",
+      "name": "pitch-0-0.5",
+      "location": [
+        2.174780754021552,
+        41.41254646807948
+      ],
+      "meshElevation": 74.67997175353376,
+      "referenceElevation": 74.260002,
+      "differenceMetres": 0.4199697535337634,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-sant-leopold",
+      "name": "pitch-0-0.92",
+      "location": [
+        2.174780913775803,
+        41.41258492045219
+      ],
+      "meshElevation": 72.30081814798079,
+      "referenceElevation": 72.130997,
+      "differenceMetres": 0.16982114798079806,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-sant-leopold",
+      "name": "roof-17A96A",
+      "location": [
+        2.1746367321077726,
+        41.41262063587855
+      ],
+      "meshElevation": 77.98399925231934,
+      "referenceElevation": 77.807999,
+      "differenceMetres": 0.1760002523193407,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-sant-leopold",
+      "name": "roof-17DBFB",
+      "location": [
+        2.1749057535000054,
+        41.41256972544017
+      ],
+      "meshElevation": 74.70362975903153,
+      "referenceElevation": 74.569,
+      "differenceMetres": 0.13462975903152596,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-sant-leopold",
+      "name": "roof-17F053",
+      "location": [
+        2.174906328447214,
+        41.41252453724398
+      ],
+      "meshElevation": 74.703,
+      "referenceElevation": 74.612,
+      "differenceMetres": 0.09100000000000819,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-operacions",
+      "name": "roof-17B2EE",
+      "location": [
+        2.174329913326717,
+        41.412750171900825
+      ],
+      "meshElevation": 83.25200080871582,
+      "referenceElevation": 82.888,
+      "differenceMetres": 0.3640008087158151,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-operacions",
+      "name": "roof-180649",
+      "location": [
+        2.1743296288476293,
+        41.4126583204815
+      ],
+      "meshElevation": 83.25200080871582,
+      "referenceElevation": 84.833,
+      "differenceMetres": -1.580999191284178,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-operacions",
+      "name": "roof-176EAB",
+      "location": [
+        2.174329234170327,
+        41.41270425247934
+      ],
+      "meshElevation": 81.72699927487747,
+      "referenceElevation": 81.869003,
+      "differenceMetres": -0.14200372512253523,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-merce",
+      "name": "ridge-0",
+      "location": [
+        2.173749670843799,
+        41.41290790334507
+      ],
+      "meshElevation": 76.80199702981876,
+      "referenceElevation": 76.802,
+      "differenceMetres": -0.000002970181242289982,
+      "note": "Mid-roof may intersect a source dormer or lantern; source main ridge is also preserved away from it."
+    },
+    {
+      "modelId": "sant-pau-merce",
+      "name": "pitch-0-0.08",
+      "location": [
+        2.173623263907469,
+        41.41287035702873
+      ],
+      "meshElevation": 74.47064464597358,
+      "referenceElevation": 74.230003,
+      "differenceMetres": 0.24064164597358229,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-merce",
+      "name": "pitch-0-0.5",
+      "location": [
+        2.1736234536112162,
+        41.41290825871211
+      ],
+      "meshElevation": 76.8019998670438,
+      "referenceElevation": 76.514999,
+      "differenceMetres": 0.2870008670438011,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-merce",
+      "name": "pitch-0-0.92",
+      "location": [
+        2.173623643314964,
+        41.412946160395485
+      ],
+      "meshElevation": 74.4706448861246,
+      "referenceElevation": 74.264,
+      "differenceMetres": 0.2066448861246073,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-merce",
+      "name": "roof-1791C7",
+      "location": [
+        2.17375233693264,
+        41.412930478224936
+      ],
+      "meshElevation": 77.132,
+      "referenceElevation": 76.700996,
+      "differenceMetres": 0.4310040000000015,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-merce",
+      "name": "roof-17DCE5",
+      "location": [
+        2.1737511966206764,
+        41.41288559500539
+      ],
+      "meshElevation": 77.132,
+      "referenceElevation": 76.651001,
+      "differenceMetres": 0.4809990000000113,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-merce",
+      "name": "roof-17AEDA",
+      "location": [
+        2.1740010914357764,
+        41.41285009195113
+      ],
+      "meshElevation": 77.0310001373291,
+      "referenceElevation": 77.261002,
+      "differenceMetres": -0.23000186267090328,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-sant-rafael",
+      "name": "ridge-0",
+      "location": [
+        2.1749069827723866,
+        41.4129077236447
+      ],
+      "meshElevation": 76.66799926757986,
+      "referenceElevation": 76.668,
+      "differenceMetres": -7.324201476421877e-7,
+      "note": "Mid-roof may intersect a source dormer or lantern; source main ridge is also preserved away from it."
+    },
+    {
+      "modelId": "sant-pau-sant-rafael",
+      "name": "pitch-0-0.08",
+      "location": [
+        2.1747823384348104,
+        41.41286957112555
+      ],
+      "meshElevation": 74.5235073529119,
+      "referenceElevation": 74.400002,
+      "differenceMetres": 0.12350535291190567,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-sant-rafael",
+      "name": "pitch-0-0.5",
+      "location": [
+        2.174782499166068,
+        41.412908016425526
+      ],
+      "meshElevation": 76.66799925731246,
+      "referenceElevation": 76.560997,
+      "differenceMetres": 0.10700225731245894,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-sant-rafael",
+      "name": "pitch-0-0.92",
+      "location": [
+        2.174782659897326,
+        41.41294646172551
+      ],
+      "meshElevation": 74.52350721559884,
+      "referenceElevation": 74.483002,
+      "differenceMetres": 0.04050521559884146,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-sant-rafael",
+      "name": "roof-17FCCB",
+      "location": [
+        2.1746577769723103,
+        41.41285392145167
+      ],
+      "meshElevation": 77.46599960327148,
+      "referenceElevation": 77.196999,
+      "differenceMetres": 0.2690006032714791,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-sant-rafael",
+      "name": "roof-1780A2",
+      "location": [
+        2.174817438614278,
+        41.41290814171757
+      ],
+      "meshElevation": 76.65642769973299,
+      "referenceElevation": 77.954002,
+      "differenceMetres": -1.2975743002670157,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-sant-rafael",
+      "name": "roof-17879B",
+      "location": [
+        2.174995463231617,
+        41.41290846735537
+      ],
+      "meshElevation": 76.61491319146806,
+      "referenceElevation": 77.985001,
+      "differenceMetres": -1.3700878085319346,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-sant-manuel",
+      "name": "ridge-0",
+      "location": [
+        2.174909091598087,
+        41.41326939313237
+      ],
+      "meshElevation": 87.28899596093042,
+      "referenceElevation": 87.289,
+      "differenceMetres": -0.000004039069580130672,
+      "note": "Mid-roof may intersect a source dormer or lantern; source main ridge is also preserved away from it."
+    },
+    {
+      "modelId": "sant-pau-sant-manuel",
+      "name": "pitch-0-0.08",
+      "location": [
+        2.1747842052302473,
+        41.413231900066975
+      ],
+      "meshElevation": 85.0046400156543,
+      "referenceElevation": 84.841003,
+      "differenceMetres": 0.16363701565430233,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-sant-manuel",
+      "name": "pitch-0-0.5",
+      "location": [
+        2.174784079636148,
+        41.41326915616058
+      ],
+      "meshElevation": 87.28899922655837,
+      "referenceElevation": 87.071999,
+      "differenceMetres": 0.21700022655836904,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-sant-manuel",
+      "name": "pitch-0-0.92",
+      "location": [
+        2.1747839540420486,
+        41.41330641225419
+      ],
+      "meshElevation": 85.00463935378079,
+      "referenceElevation": 84.831001,
+      "differenceMetres": 0.17363835378078818,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-sant-manuel",
+      "name": "roof-17C899",
+      "location": [
+        2.1746593784398467,
+        41.41321180008983
+      ],
+      "meshElevation": 88.83499908447266,
+      "referenceElevation": 89.017998,
+      "differenceMetres": -0.18299891552734948,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-sant-manuel",
+      "name": "roof-17D6AC",
+      "location": [
+        2.1746408639419297,
+        41.41321302269134
+      ],
+      "meshElevation": 86.98551989589046,
+      "referenceElevation": 88.791,
+      "differenceMetres": -1.8054801041095345,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-sant-manuel",
+      "name": "roof-177B9E",
+      "location": [
+        2.174818631629735,
+        41.4132691083004
+      ],
+      "meshElevation": 87.28204837362445,
+      "referenceElevation": 88.359001,
+      "differenceMetres": -1.076952626375558,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-montserrat",
+      "name": "ridge-0",
+      "location": [
+        2.1737488404685923,
+        41.413270631743636
+      ],
+      "meshElevation": 87.00899248876101,
+      "referenceElevation": 87.009,
+      "differenceMetres": -0.000007511238990787206,
+      "note": "Mid-roof may intersect a source dormer or lantern; source main ridge is also preserved away from it."
+    },
+    {
+      "modelId": "sant-pau-montserrat",
+      "name": "pitch-0-0.08",
+      "location": [
+        2.173622306623797,
+        41.41323255856329
+      ],
+      "meshElevation": 84.83262513582977,
+      "referenceElevation": 84.472,
+      "differenceMetres": 0.3606251358297783,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-montserrat",
+      "name": "pitch-0-0.5",
+      "location": [
+        2.17362272983757,
+        41.41327140329859
+      ],
+      "meshElevation": 87.00898280561474,
+      "referenceElevation": 87.012001,
+      "differenceMetres": -0.003018194385262518,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-montserrat",
+      "name": "pitch-0-0.92",
+      "location": [
+        2.1736231530513432,
+        41.41331024803388
+      ],
+      "meshElevation": 84.83266109408399,
+      "referenceElevation": 84.710999,
+      "differenceMetres": 0.12166209408398743,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-montserrat",
+      "name": "roof-17D2CE",
+      "location": [
+        2.173999991250337,
+        41.41321188138699
+      ],
+      "meshElevation": 88.72100067138672,
+      "referenceElevation": 88.917,
+      "differenceMetres": -0.19599932861328284,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-montserrat",
+      "name": "roof-17F13A",
+      "location": [
+        2.1740181613788327,
+        41.41321195594682
+      ],
+      "meshElevation": 86.88585340843191,
+      "referenceElevation": 87.153,
+      "differenceMetres": -0.2671465915680926,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-montserrat",
+      "name": "roof-1780CC",
+      "location": [
+        2.1737530927486577,
+        41.41329336674452
+      ],
+      "meshElevation": 87.00900029545429,
+      "referenceElevation": 87.026001,
+      "differenceMetres": -0.017000704545708345,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "ridge-0",
+      "location": [
+        2.174493437331119,
+        41.41374137166127
+      ],
+      "meshElevation": 89.40798839442473,
+      "referenceElevation": 89.408,
+      "differenceMetres": -0.000011605575267026325,
+      "note": "Mid-roof may intersect a source dormer or lantern; source main ridge is also preserved away from it."
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "ridge-1",
+      "location": [
+        2.1741651451767843,
+        41.41374143079083
+      ],
+      "meshElevation": 89.77499165507166,
+      "referenceElevation": 89.775,
+      "differenceMetres": -0.000008344928346559755,
+      "note": "Mid-roof may intersect a source dormer or lantern; source main ridge is also preserved away from it."
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "ridge-2",
+      "location": [
+        2.1736801783041098,
+        41.413741583444846
+      ],
+      "meshElevation": 84.75299874038089,
+      "referenceElevation": 84.753,
+      "differenceMetres": -0.0000012596191112379529,
+      "note": "Mid-roof may intersect a source dormer or lantern; source main ridge is also preserved away from it."
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "ridge-3",
+      "location": [
+        2.1749790780636777,
+        41.41374110719132
+      ],
+      "meshElevation": 84.42299667798855,
+      "referenceElevation": 84.423,
+      "differenceMetres": -0.000003322011451700746,
+      "note": "Mid-roof may intersect a source dormer or lantern; source main ridge is also preserved away from it."
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "pitch-0-0.08",
+      "location": [
+        2.1745554944363996,
+        41.41359426169211
+      ],
+      "meshElevation": 86.56412765003742,
+      "referenceElevation": 86.306,
+      "differenceMetres": 0.258127650037423,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "pitch-0-0.5",
+      "location": [
+        2.17449332187124,
+        41.41359428907704
+      ],
+      "meshElevation": 89.40800093755959,
+      "referenceElevation": 89.372002,
+      "differenceMetres": 0.035998937559597266,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "pitch-0-0.92",
+      "location": [
+        2.17443114930608,
+        41.41359431646196
+      ],
+      "meshElevation": 86.56412766729669,
+      "referenceElevation": 85.978996,
+      "differenceMetres": 0.5851316672966931,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "pitch-1-0.08",
+      "location": [
+        2.1742280634952884,
+        41.41359425855852
+      ],
+      "meshElevation": 86.74722436908898,
+      "referenceElevation": 86.235001,
+      "differenceMetres": 0.5122233690889857,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "pitch-1-0.5",
+      "location": [
+        2.1741650259938057,
+        41.41359428665707
+      ],
+      "meshElevation": 89.77468384651785,
+      "referenceElevation": 89.253998,
+      "differenceMetres": 0.5206858465178499,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "pitch-1-0.92",
+      "location": [
+        2.1741019884923234,
+        41.41359431475563
+      ],
+      "meshElevation": 86.74659301219418,
+      "referenceElevation": 86.699997,
+      "differenceMetres": 0.04659601219418619,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "pitch-2-0.08",
+      "location": [
+        2.1734857776726755,
+        41.41362988411552
+      ],
+      "meshElevation": 83.01519811839438,
+      "referenceElevation": 83.235001,
+      "differenceMetres": -0.21980288160561656,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "pitch-2-0.5",
+      "location": [
+        2.1734860294196423,
+        41.4137418282307
+      ],
+      "meshElevation": 84.75299176768237,
+      "referenceElevation": 84.536003,
+      "differenceMetres": 0.2169887676823805,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "pitch-2-0.92",
+      "location": [
+        2.1734862811666096,
+        41.41385377234588
+      ],
+      "meshElevation": 83.01518097799661,
+      "referenceElevation": 82.671997,
+      "differenceMetres": 0.3431839779966026,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "pitch-3-0.08",
+      "location": [
+        2.1747850254926404,
+        41.41362778828556
+      ],
+      "meshElevation": 83.05150690714956,
+      "referenceElevation": 82.669998,
+      "differenceMetres": 0.3815089071495521,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "pitch-3-0.5",
+      "location": [
+        2.174784875360951,
+        41.413740963421276
+      ],
+      "meshElevation": 84.42299711716791,
+      "referenceElevation": 84.341003,
+      "differenceMetres": 0.08199411716790905,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "pitch-3-0.92",
+      "location": [
+        2.1747847252292614,
+        41.413854138556985
+      ],
+      "meshElevation": 83.05150091759266,
+      "referenceElevation": 83.102997,
+      "differenceMetres": -0.05149608240733983,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "roof-179A9A",
+      "location": [
+        2.174165077758777,
+        41.41374143357887
+      ],
+      "meshElevation": 89.77175303882898,
+      "referenceElevation": 89.350998,
+      "differenceMetres": 0.4207550388289718,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "roof-176F92",
+      "location": [
+        2.174493509763642,
+        41.413741372044555
+      ],
+      "meshElevation": 89.40467522900002,
+      "referenceElevation": 89.285004,
+      "differenceMetres": 0.11967122900001925,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "roof-178585",
+      "location": [
+        2.1743289748451797,
+        41.413839169385554
+      ],
+      "meshElevation": 88.27,
+      "referenceElevation": 87.807999,
+      "differenceMetres": 0.46200100000000077,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    },
+    {
+      "modelId": "sant-pau-convent-farmacia-cuines",
+      "name": "courtyard-deck",
+      "location": [
+        2.17432,
+        41.4137243
+      ],
+      "meshElevation": 69.3,
+      "referenceElevation": 69.3,
+      "differenceMetres": 0,
+      "note": "DSM is a1m surface cell; curved/ornamented surfaces may differ at subcell positions."
+    }
+  ]
+}

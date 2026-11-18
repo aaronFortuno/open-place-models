@@ -1,0 +1,45 @@
+{
+  "id": "sant-pau-sant-jordi",
+  "name": "Sant Jordi",
+  "errors": [],
+  "closed": true,
+  "finite": true,
+  "vertices": 93,
+  "triangles": 182,
+  "components": 1,
+  "byteLength": 2988,
+  "sha256": "fdb5de33c0040a65c740a969902f3bec75c9b62c108039a309fcdb024f465dec",
+  "signedVolume": 2205.9855254848194,
+  "edges": {
+    "total": 273,
+    "boundary": 0,
+    "nonManifold": 0,
+    "orientationConflicts": 0
+  },
+  "bbox": {
+    "min": [
+      -12.19741439819336,
+      0,
+      -12.244389533996582
+    ],
+    "max": [
+      12.197413444519043,
+      13.687999725341797,
+      12.195110321044922
+    ]
+  },
+  "dimensions": [
+    24.394827842712402,
+    13.687999725341797,
+    24.439499855041504
+  ],
+  "anchor": [
+    2.1749542,
+    41.411919049999995
+  ],
+  "anchorElevation": 50,
+  "omittedOpenings": [],
+  "filledInternalCavitiesCubicMetres": [],
+  "openingDepthChecks": [],
+  "maximumProjectionOutsideFootprintMetres": 0.000003630084659485525
+}
