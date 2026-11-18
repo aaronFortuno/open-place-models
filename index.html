@@ -13,7 +13,13 @@
   <a class="skip" href="#preview">Skip to model</a>
   <header class="masthead frame">
     <a href="./" class="brand"><img src="./site/mark.svg" alt="" width="32" height="32">Open Place Models</a>
-    <a class="subtle-link" href="https://github.com/aaronFortuno/open-place-models">Repository <span aria-hidden="true">↗</span></a>
+    <nav class="header-actions" aria-label="Catalogue navigation">
+      <button id="open-globe" class="globe-toggle" type="button" aria-haspopup="dialog" aria-controls="globe-dialog" aria-expanded="false" disabled>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18M5 6.5h14M5 17.5h14"/></svg>
+        Explore globe
+      </button>
+      <a class="subtle-link" href="https://github.com/aaronFortuno/open-place-models">Repository <span aria-hidden="true">↗</span></a>
+    </nav>
   </header>
   <main class="workspace frame">
       <h1 class="sr-only">A gallery of real places</h1>
@@ -107,6 +113,33 @@
       </aside>
       <noscript><p>JavaScript is required to browse the models. <a href="./catalog.geojson">Download the GeoJSON catalogue.</a></p></noscript>
   </main>
+  <dialog id="globe-dialog" class="globe-dialog" aria-labelledby="globe-title" aria-describedby="globe-count">
+    <div class="globe-shell">
+      <header class="globe-heading">
+        <div><p class="globe-eyebrow">Open Place Models · Atlas</p><h2 id="globe-title">Real places, around the world</h2><p id="globe-count"></p></div>
+        <button id="close-globe" class="globe-close" type="button" aria-label="Close globe">×</button>
+      </header>
+      <div class="globe-content">
+        <section class="globe-map" aria-label="Globe locator">
+          <div id="globe-stage" class="globe-stage"><p id="globe-status" role="status">Loading globe…</p></div>
+          <div id="globe-tools" class="globe-tools" hidden>
+            <button id="globe-zoom-in" type="button" aria-label="Zoom in on globe" title="Zoom in">+</button>
+            <button id="globe-zoom-out" type="button" aria-label="Zoom out on globe" title="Zoom out">−</button>
+            <button id="globe-reset" type="button">World view</button>
+            <button id="globe-focus" type="button">Find selected</button>
+          </div>
+          <p id="globe-help" class="globe-help">Drag or use arrow keys to orbit. Scroll or use + / − to zoom. Choose a numbered marker to see nearby models.</p>
+          <div class="globe-map-footer"><span><i class="globe-key" aria-hidden="true"></i> Models <i class="globe-key selected" aria-hidden="true"></i> Selected</span><a href="https://www.naturalearthdata.com/about/terms-of-use/">Natural Earth</a></div>
+        </section>
+        <section class="globe-places" aria-labelledby="globe-area-title">
+          <div class="globe-list-heading"><h3 id="globe-area-title" tabindex="-1">All matching models</h3><button id="globe-all" class="text-button" type="button" hidden>Show all</button></div>
+          <p id="globe-empty" class="catalog-status" hidden>No models match the current filters.</p>
+          <ul id="globe-models" class="globe-models" aria-label="Places on the globe"></ul>
+          <div class="globe-chosen"><p id="globe-selection" role="status"></p><button id="globe-view-model" type="button">View model <span aria-hidden="true">↗</span></button></div>
+        </section>
+      </div>
+    </div>
+  </dialog>
   <footer class="frame footer">
     <p id="catalog-summary" role="status">Open models for real-world landscapes.</p>
     <nav aria-label="Project resources">

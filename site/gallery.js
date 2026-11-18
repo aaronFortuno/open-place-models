@@ -1,5 +1,6 @@
 import './gallery.css';
 import {geometryLabels,readCatalog,searchKey} from './catalog.js';
+import {createGlobeLocator} from './globe-locator.js';
 
 const byId=id=>document.getElementById(id);
 const indexURL=new URL('./catalog.geojson',document.baseURI);
@@ -11,6 +12,7 @@ const retry=byId('reload-catalog'),number=new Intl.NumberFormat('en',{maximumFra
 const fileSize=new Intl.NumberFormat('en',{maximumFractionDigits:1});
 const dateFormat=new Intl.DateTimeFormat('en',{dateStyle:'medium',timeZone:'UTC'});
 let entries=[],selection,selectedVariant,viewRequest,view,requestId=0;
+const globe=createGlobeLocator({onSelect:entry=>showModel(entry,{updateURL:true})});
 
 function link(href,label){
   const anchor=document.createElement('a');
@@ -74,6 +76,7 @@ function renderList(){
   clearFilters.disabled=!active;
   status.textContent=matching.length?'':entries.length?'No models match your search.':'The catalogue is empty.';
   updateCurrent();
+  globe.setEntries(matching,selection);
 }
 
 function updateCurrent(){
@@ -155,6 +158,7 @@ async function showModel(entry,{variantId,updateURL=false}={}){
   if(entry===selection&&variant===selectedVariant)return;
   selection=entry;
   selectedVariant=variant;
+  globe.setSelection(entry);
   updateCurrent();
   const meshURL=new URL(variant?.mesh??entry.mesh,indexURL);
   showDetails(entry,variant,meshURL);
