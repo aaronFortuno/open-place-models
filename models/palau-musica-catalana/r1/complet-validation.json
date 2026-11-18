@@ -1,0 +1,187 @@
+{
+  "name": "complet",
+  "width": 140,
+  "height": 140,
+  "scale": 1000,
+  "rotation": 10,
+  "center": [
+    41.3875838,
+    2.17521985
+  ],
+  "export3mf": true,
+  "id": "palau-musica-catalana",
+  "consumerVersion": "0.24.12",
+  "terrain": "ICGC MET5",
+  "buildingSource": "icgc",
+  "catalogue": {
+    "id": "palau-musica-catalana",
+    "family": null,
+    "fragments": 1,
+    "roof": 35.924808502197266,
+    "roofShape": "catalogue",
+    "roofFallback": null,
+    "roofSource": null,
+    "roofMetadata": null,
+    "baseOffsetMM": 0,
+    "estimated": false,
+    "landmark": {
+      "name": "Palau de la Música Catalana",
+      "revision": "r1",
+      "license": "CC-BY-4.0",
+      "spatialDataLicense": "CC-BY-4.0; ODbL-1.0",
+      "attribution": "Open Place Models contributors · Ajuntament de Barcelona · ICGC · OpenStreetMap contributors",
+      "sources": [
+        "https://www.palaumusica.cat/proyecto-tecnico-fachadas-palau-de-la-musica_722971.pdf",
+        "https://www.palaumusica.cat/es/la-historia-del-palau_1671659",
+        "https://portaldades.ajuntament.barcelona.cat/mapes/146",
+        "https://w20.bcn.cat/CartoBCN/getFile.ashx?prod=146.04.47",
+        "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Geoinformacio-en-linia-Geoserveis/WMS-Elevacions/WMS-Elevacions-territorial",
+        "https://www.openstreetmap.org/way/671830491",
+        "https://www.openstreetmap.org/way/671830503",
+        "https://www.openstreetmap.org/way/671830480"
+      ],
+      "anchorElevation": 8
+    }
+  },
+  "buildingCount": 16,
+  "contacts": [
+    {
+      "name": "footing-17C571",
+      "sourceFoundationASL": 8,
+      "embeddedMM": 3.0417913495671733
+    },
+    {
+      "name": "footing-177AE2",
+      "sourceFoundationASL": 8,
+      "embeddedMM": 3.182119417826823
+    },
+    {
+      "name": "footing-17A85F",
+      "sourceFoundationASL": 8,
+      "embeddedMM": 2.3450842768325924
+    },
+    {
+      "name": "footing-17D003",
+      "sourceFoundationASL": 8,
+      "embeddedMM": 2.3903749189886607
+    }
+  ],
+  "openings": [
+    "plaza-north",
+    "plaza-south",
+    "corner-cage-air"
+  ],
+  "roofChecks": [
+    {
+      "name": "main-plane",
+      "differenceMM": 0,
+      "terrainElevationASL": 10.308205552692792,
+      "surfaceElevationASL": 34.41600061436637
+    },
+    {
+      "name": "skylight",
+      "differenceMM": 0,
+      "terrainElevationASL": 10.890138743525581,
+      "surfaceElevationASL": 37.66099763890868
+    },
+    {
+      "name": "front-crest",
+      "differenceMM": 0,
+      "terrainElevationASL": 10.154067144307433,
+      "surfaceElevationASL": 37.20499978360775
+    },
+    {
+      "name": "corner-peak",
+      "differenceMM": 0,
+      "terrainElevationASL": 10.219026706167726,
+      "surfaceElevationASL": 39.99999834081743
+    },
+    {
+      "name": "annex",
+      "differenceMM": 0,
+      "terrainElevationASL": 10.893787480593783,
+      "surfaceElevationASL": 37.914999256340806
+    },
+    {
+      "name": "petit",
+      "differenceMM": 0,
+      "terrainElevationASL": 10.029355681421787,
+      "surfaceElevationASL": 33.490999469955426
+    }
+  ],
+  "facadeChecks": [
+    {
+      "name": "front-upper-1",
+      "originalDistanceMM": 1.919992566513377,
+      "differenceMM": 0
+    },
+    {
+      "name": "front-clerestory-1",
+      "originalDistanceMM": 1.919992566513377,
+      "differenceMM": 0
+    },
+    {
+      "name": "front-middle-0",
+      "originalDistanceMM": 1.9200021954214475,
+      "differenceMM": 0
+    },
+    {
+      "name": "side-upper-4",
+      "originalDistanceMM": 1.9199953955360307,
+      "differenceMM": 0
+    },
+    {
+      "name": "side-middle-4",
+      "originalDistanceMM": 1.919994197894764,
+      "differenceMM": 0
+    },
+    {
+      "name": "side-upper-8",
+      "originalDistanceMM": 1.9199991443546485,
+      "differenceMM": 0
+    }
+  ],
+  "audits": [
+    {
+      "id": "terrain",
+      "closed": true,
+      "components": 9464,
+      "triangles": 78812,
+      "errors": []
+    },
+    {
+      "id": "built",
+      "closed": true,
+      "components": 4345,
+      "triangles": 47816,
+      "errors": []
+    }
+  ],
+  "warnings": [
+    "Els arbres són una representació procedimental dins de zones verdes, no posicions d’arbres mesurades.",
+    "Les tessel·les vectorials estan generalitzades. Aquesta prova no substitueix cartografia topogràfica de precisió.",
+    "Model singular del catàleg «Palau de la Música Catalana» (r1).",
+    "Altures de la font sobre el punt més alt de la petjada; coberta plana quan falten dades de forma.",
+    "Algunes petjades ICGC agrupen diverses cases sense divisions interiors. Pots comparar-les amb parts del Catastre.",
+    "Aigua: no hi ha geometria exportable d’aquesta capa a les dades carregades.",
+    "Vegetació: no hi ha geometria exportable d’aquesta capa a les dades carregades."
+  ],
+  "replacementCheck": {
+    "removed": [],
+    "preserved": [
+      "88998270",
+      "89111400",
+      "89114250",
+      "icgc-638945",
+      "icgc-638964",
+      "icgc-883328",
+      "icgc-1200252",
+      "icgc-1518291",
+      "icgc-1518300",
+      "icgc-1518309",
+      "icgc-1518323"
+    ]
+  },
+  "hiddenModePassed": true,
+  "heightLimitPassed": true
+}
