@@ -1,0 +1,155 @@
+{
+  "id": "la-pedrera-casa-mila",
+  "name": "La Pedrera · Casa Milà",
+  "errors": [],
+  "empty": false,
+  "finite": true,
+  "vertices": 1196,
+  "triangles": 2404,
+  "bbox": {
+    "min": [
+      -32.27594757080078,
+      0,
+      -26.21586036682129
+    ],
+    "max": [
+      32.27594757080078,
+      43.573997497558594,
+      26.17133140563965
+    ]
+  },
+  "dimensions": [
+    64.55189514160156,
+    43.573997497558594,
+    52.38719177246094
+  ],
+  "signedVolume": 51771.308555937685,
+  "orientation": "positiva",
+  "edges": {
+    "total": 3606,
+    "boundary": 0,
+    "nonManifold": 0,
+    "orientationConflicts": 0
+  },
+  "closed": true,
+  "components": 1,
+  "byteLength": 29564,
+  "sha256": "15da3230f4726ea6fb3098c575593d476ba831a69dfeccb308001c41d47b7a66",
+  "openings": [
+    {
+      "name": "court-0",
+      "east": -11.993161290322579,
+      "north": -8.010290322580646,
+      "location": [
+        2.161733883558759,
+        41.39532744266688
+      ],
+      "clearFromASL": 45,
+      "clearToASL": 80
+    },
+    {
+      "name": "court-1",
+      "east": -2.9418888888888888,
+      "north": -2.267,
+      "location": [
+        2.1618422712890273,
+        41.395379035285664
+      ],
+      "clearFromASL": 45,
+      "clearToASL": 80
+    },
+    {
+      "name": "court-2",
+      "east": -0.36949999999999994,
+      "north": -12.943750000000001,
+      "location": [
+        2.161873075288804,
+        41.39528312484729
+      ],
+      "clearFromASL": 45,
+      "clearToASL": 80
+    },
+    {
+      "name": "court-3",
+      "east": 10.09518367346939,
+      "north": 3.977632653061225,
+      "location": [
+        2.1619983884228073,
+        41.395435131518624
+      ],
+      "clearFromASL": 45,
+      "clearToASL": 80
+    }
+  ],
+  "lowRoof": [
+    {
+      "east": -2,
+      "north": -12,
+      "location": [
+        2.1618535502776934,
+        41.395291602659
+      ],
+      "elevation": 64.93499755859375
+    },
+    {
+      "east": -7,
+      "north": 8,
+      "location": [
+        2.1617936759719267,
+        41.395471264894
+      ],
+      "elevation": 65.36000061035156
+    },
+    {
+      "east": 3,
+      "north": -22,
+      "location": [
+        2.16191342458346,
+        41.3952017715415
+      ],
+      "elevation": 66.14700317382812
+    }
+  ],
+  "contacts": [
+    {
+      "name": "southwest",
+      "east": -20,
+      "north": -14,
+      "location": [
+        2.1616380027769333,
+        41.395273636435505
+      ],
+      "elevation": 34
+    },
+    {
+      "name": "south",
+      "east": 0,
+      "north": -23,
+      "location": [
+        2.1618775,
+        41.39519278842975
+      ],
+      "elevation": 34
+    },
+    {
+      "name": "northwest-party-wall",
+      "east": -15,
+      "north": 3,
+      "location": [
+        2.1616978770827,
+        41.39542634933525
+      ],
+      "elevation": 34
+    },
+    {
+      "name": "northeast",
+      "east": 16,
+      "north": 17,
+      "location": [
+        2.1620690977784536,
+        41.39555211289975
+      ],
+      "elevation": 34
+    }
+  ]
+}

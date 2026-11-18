@@ -8,9 +8,9 @@ Es treballa seqüencialment: documentar les fonts, crear una malla lleugera, com
 
 ## Seguiment
 
-- **En curs:** 3. La Pedrera — Casa Milà. Recerca de fonts.
-- **Següent:** 4. Casa Batlló.
-- **Publicats d’aquesta tanda:** 1. [Palau Nacional — MNAC · r1](models/palau-nacional-mnac/r1/README.md), 36,0 kB; 2. [Temple del Sagrat Cor del Tibidabo · r1](models/temple-sagrat-cor-tibidabo/r1/README.md), 28,3 kB. Tots dos validats localment a Relleu Obert en tres escales/retalls.
+- **En curs:** 4. Casa Batlló. Fonts municipals preparades.
+- **Següent:** 5. Palau de la Música Catalana.
+- **Publicats d’aquesta tanda:** 1. [Palau Nacional — MNAC · r1](models/palau-nacional-mnac/r1/README.md), 36,0 kB; 2. [Temple del Sagrat Cor del Tibidabo · r1](models/temple-sagrat-cor-tibidabo/r1/README.md), 28,3 kB; 3. [La Pedrera — Casa Milà · r1](models/la-pedrera-casa-mila/r1/README.md), 29,6 kB. Tots tres validats localment a Relleu Obert en tres escales/retalls. La Pedrera requereix Relleu Obert 0.24.12 per conservar els veïns d'una petjada RTT agregada sense tapar els quatre buits interiors.
 - **Localitzador orbital:** incorporat al visor, amb filtres i agrupació de marcadors. Build i comprovacions de coordenades correctes; revisió visual interactiva pendent perquè el control del navegador no n’ha pogut identificar l’adreça amb seguretat.
 
 ## Catalunya · 1–30
