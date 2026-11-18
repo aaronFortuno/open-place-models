@@ -1,0 +1,273 @@
+{
+  "id": "la-pedrera-casa-mila",
+  "name": "La Pedrera · Casa Milà",
+  "errors": [],
+  "empty": false,
+  "finite": true,
+  "vertices": 16428,
+  "triangles": 32868,
+  "bbox": {
+    "min": [
+      -31.758197784423828,
+      0,
+      -26.21586036682129
+    ],
+    "max": [
+      32.26242446899414,
+      43.573997497558594,
+      26.62156105041504
+    ]
+  },
+  "dimensions": [
+    64.02062225341797,
+    43.573997497558594,
+    52.83742141723633
+  ],
+  "signedVolume": 50950.65602673849,
+  "orientation": "positiva",
+  "edges": {
+    "total": 49302,
+    "boundary": 0,
+    "nonManifold": 0,
+    "orientationConflicts": 0
+  },
+  "closed": true,
+  "components": 1,
+  "byteLength": 395144,
+  "sha256": "e54b7e3bdd908e29a347231d8ccc7bf5f2978ce8aa7a0185a397e1dc1dbe35b1",
+  "openings": [
+    {
+      "name": "court-0",
+      "east": -11.993161290322579,
+      "north": -8.010290322580646,
+      "location": [
+        2.161733883558759,
+        41.39532744266688
+      ],
+      "clearFromASL": 45,
+      "clearToASL": 80
+    },
+    {
+      "name": "court-1",
+      "east": -2.9418888888888888,
+      "north": -2.267,
+      "location": [
+        2.1618422712890273,
+        41.395379035285664
+      ],
+      "clearFromASL": 45,
+      "clearToASL": 80
+    },
+    {
+      "name": "court-2",
+      "east": -0.36949999999999994,
+      "north": -12.943750000000001,
+      "location": [
+        2.161873075288804,
+        41.39528312484729
+      ],
+      "clearFromASL": 45,
+      "clearToASL": 80
+    },
+    {
+      "name": "court-3",
+      "east": 10.09518367346939,
+      "north": 3.977632653061225,
+      "location": [
+        2.1619983884228073,
+        41.395435131518624
+      ],
+      "clearFromASL": 45,
+      "clearToASL": 80
+    }
+  ],
+  "lowRoof": [
+    {
+      "east": -2,
+      "north": -12,
+      "location": [
+        2.1618535502776934,
+        41.395291602659
+      ],
+      "elevation": 64.93499755859375
+    },
+    {
+      "east": -7,
+      "north": 8,
+      "location": [
+        2.1617936759719267,
+        41.395471264894
+      ],
+      "elevation": 65.36000061035156
+    },
+    {
+      "east": 3,
+      "north": -22,
+      "location": [
+        2.16191342458346,
+        41.3952017715415
+      ],
+      "elevation": 66.14700317382812
+    }
+  ],
+  "contacts": [
+    {
+      "name": "southwest",
+      "east": -20,
+      "north": -14,
+      "location": [
+        2.1616380027769333,
+        41.395273636435505
+      ],
+      "elevation": 34
+    },
+    {
+      "name": "south",
+      "east": 0,
+      "north": -23,
+      "location": [
+        2.1618775,
+        41.39519278842975
+      ],
+      "elevation": 34
+    },
+    {
+      "name": "northwest-party-wall",
+      "east": -15,
+      "north": 3,
+      "location": [
+        2.1616978770827,
+        41.39542634933525
+      ],
+      "elevation": 34
+    },
+    {
+      "name": "northeast",
+      "east": 16,
+      "north": 17,
+      "location": [
+        2.1620690977784536,
+        41.39555211289975
+      ],
+      "elevation": 34
+    }
+  ],
+  "facadeChecks": [
+    {
+      "name": "passeig-gracia-cornice",
+      "from": [
+        2.16158503291681,
+        41.39520366263477,
+        49
+      ],
+      "to": [
+        2.1616295793285776,
+        41.39523630193357,
+        49
+      ],
+      "sourceEntryDistanceMetres": 2.281646492612983,
+      "surfaceOffsetMetres": 0.5183535073870168
+    },
+    {
+      "name": "passeig-gracia-window",
+      "from": [
+        2.16158503291681,
+        41.39520366263477,
+        51.05
+      ],
+      "to": [
+        2.1616295793285776,
+        41.39523630193357,
+        51.05
+      ],
+      "sourceEntryDistanceMetres": 3.7418857621673514,
+      "surfaceOffsetMetres": -0.9418857621673518
+    },
+    {
+      "name": "chamfer-cornice",
+      "from": [
+        2.1618389722007643,
+        41.3951473188703,
+        49
+      ],
+      "to": [
+        2.1618219788781725,
+        41.395192257961575,
+        49
+      ],
+      "sourceEntryDistanceMetres": 2.6683474979293877,
+      "surfaceOffsetMetres": 0.13165250207061197
+    },
+    {
+      "name": "chamfer-window",
+      "from": [
+        2.1618389722007643,
+        41.3951473188703,
+        51.05
+      ],
+      "to": [
+        2.1618219788781725,
+        41.395192257961575,
+        51.05
+      ],
+      "sourceEntryDistanceMetres": 4.028274613379762,
+      "surfaceOffsetMetres": -1.228274613379762
+    },
+    {
+      "name": "provenca-cornice",
+      "from": [
+        2.16208647584129,
+        41.39530331966961,
+        49
+      ],
+      "to": [
+        2.1620435109628615,
+        41.39533713104417,
+        49
+      ],
+      "sourceEntryDistanceMetres": 1.9151403857795324,
+      "surfaceOffsetMetres": 0.8848596142204675
+    },
+    {
+      "name": "provenca-window",
+      "from": [
+        2.16208647584129,
+        41.39530331966961,
+        51.05
+      ],
+      "to": [
+        2.1620435109628615,
+        41.39533713104417,
+        51.05
+      ],
+      "sourceEntryDistanceMetres": 3.4634125011213963,
+      "surfaceOffsetMetres": -0.6634125011213964
+    }
+  ],
+  "facadeProfileChanges": [
+    {
+      "name": "passeig-gracia",
+      "distance": 15.478,
+      "corniceASL": 49,
+      "windowASL": 51.05,
+      "measuredMeshOffsetDifferenceMetres": 1.4602392695543687,
+      "note": "A geometric check of the synthetic facade, not a survey measurement"
+    },
+    {
+      "name": "chamfer",
+      "distance": 45.637,
+      "corniceASL": 49,
+      "windowASL": 51.05,
+      "measuredMeshOffsetDifferenceMetres": 1.359927115450374,
+      "note": "A geometric check of the synthetic facade, not a survey measurement"
+    },
+    {
+      "name": "provenca",
+      "distance": 80.081,
+      "corniceASL": 49,
+      "windowASL": 51.05,
+      "measuredMeshOffsetDifferenceMetres": 1.548272115341864,
+      "note": "A geometric check of the synthetic facade, not a survey measurement"
+    }
+  ]
+}

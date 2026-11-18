@@ -116,7 +116,7 @@ function showDetails(entry,variant,meshURL){
   showDate('model-added',entry.addedAt);
   showDate('file-added',model.meshAddedAt);
   byId('model-variants').hidden=!entry.variants.length;
-  variantSelect.replaceChildren(new Option('Lightweight','default'),
+  variantSelect.replaceChildren(new Option('Default','default'),
     ...entry.variants.map(item=>new Option(item.label,item.id)));
   variantSelect.value=variant?.id??'default';
   const scale=byId('variant-scale');

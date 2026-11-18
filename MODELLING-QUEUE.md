@@ -8,10 +8,10 @@ Es treballa seqüencialment: documentar les fonts, crear una malla lleugera, com
 
 ## Seguiment
 
-- **Prioritat de revisió:** La Pedrera r2, arran de la revisió de l'usuari del 18 de novembre. Façana ondulada per plantes i obertures reconstruïdes; ajustant l'envolupant perquè una franja de la petjada RTT no tapi els rebaixos. El Tibidabo r2 ja incorpora corona, absis, frontons, marcs i escales, amb tres controls locals de Relleu Obert correctes. S'admet més pes quan aporti fidelitat; les comprovacions geomètriques no equivalen a una aprovació de semblança de l'usuari.
-- **Cua pausada:** 4. Casa Batlló. Fonts municipals, ortofoto i mesures LiDAR conservades; encara sense malla publicada. Es reprendrà després de revisar aquestes dues peces.
+- **Revisions publicades:** La Pedrera r2 i el Temple del Sagrat Cor del Tibidabo r2, arran de la revisió de l'usuari del 18 de novembre. Façana ondulada per plantes, cornises i obertures de Casa Milà; corona, absis, frontons, marcs i escales del temple. S'admet més pes quan aporti fidelitat. Totes dues passen tres casos locals de Relleu Obert; l'aprovació de semblança de l'usuari continua pendent i les r1 queden seleccionables per comparar.
+- **En curs:** 4. Casa Batlló. Fonts municipals, ortofoto i mesures LiDAR conservades; façana i coberta en preparació amb referències actuals del gestor.
 - **Següent de la cua:** 5. Palau de la Música Catalana.
-- **Publicats d’aquesta tanda:** 1. [Palau Nacional — MNAC · r1](models/palau-nacional-mnac/r1/README.md), 36,0 kB; 2. [Temple del Sagrat Cor del Tibidabo · r2](models/temple-sagrat-cor-tibidabo/r2/README.md), 121,1 kB (r1 conservada); 3. [La Pedrera — Casa Milà · r1](models/la-pedrera-casa-mila/r1/README.md), 29,6 kB. Tots tres validats localment a Relleu Obert en tres escales/retalls. La Pedrera requereix Relleu Obert 0.24.12 per conservar els veïns d'una petjada RTT agregada sense tapar els quatre buits interiors.
+- **Publicats d’aquesta tanda:** 1. [Palau Nacional — MNAC · r1](models/palau-nacional-mnac/r1/README.md), 36,0 kB; 2. [Temple del Sagrat Cor del Tibidabo · r2](models/temple-sagrat-cor-tibidabo/r2/README.md), 121,1 kB; 3. [La Pedrera — Casa Milà · r2](models/la-pedrera-casa-mila/r2/README.md), 395,1 kB. Tots tres validats localment a Relleu Obert en tres retalls i dues escales. Les r1 revisades es conserven. La Pedrera requereix Relleu Obert 0.24.12 per conservar els veïns d'una petjada RTT agregada sense tapar els quatre buits interiors.
 - **Localitzador orbital:** incorporat al visor, amb filtres i agrupació de marcadors. Build i comprovacions de coordenades correctes; revisió visual interactiva pendent perquè el control del navegador no n’ha pogut identificar l’adreça amb seguretat.
 
 ## Catalunya · 1–30

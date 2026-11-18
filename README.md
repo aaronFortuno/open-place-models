@@ -12,7 +12,7 @@ Source code is MIT licensed. Each model entry records its geometry licence, attr
 
 Regenerate the pilot with `node scripts/generate-glories.mjs`.
 
-See the [candidate queue](CANDIDATES.md) for places under consideration and the [contribution guide](CONTRIBUTING.md) for the catalogue format and validation steps.
+See the [approved production queue](MODELLING-QUEUE.md) for the next 80 places and current progress, the [candidate queue](CANDIDATES.md) for other places under consideration, and the [contribution guide](CONTRIBUTING.md) for the catalogue format and validation steps.
 
 ## Gallery development and publishing
 
