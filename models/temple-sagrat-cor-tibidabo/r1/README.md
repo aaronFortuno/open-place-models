@@ -1,0 +1,35 @@
+# Temple del Sagrat Cor del Tibidabo · r1
+
+A simplified reconstruction of the Tibidabo temple in Barcelona. It retains the broad fortified crypt and its terraces, the recessed western access, the north-west annex, the upper church with three semicircular apses, four pointed side towers and the high central crown. A compact original figure with an upright body, head and open arms marks the summit. The small hermitage, surrounding paths and amusement-park structures remain separate.
+
+## Plan and geographic registration
+
+The Ajuntament de Barcelona's municipal 3D cartography, product 146, supplies **24 local building parts** from `Barri_22_MTM_DWG.dwg`, released on **12 November 2026**. The drawing uses ETRS89 / UTM 31N, EPSG:25831, in metres. The reduced fixture retains their original handles, roof-tier heights and polygon coordinates. The source archive and drawing hashes are recorded in `survey.json`. LibreDWG 0.14 supplied the intermediate JSON conversion. [Municipal product and licence](https://portaldades.ajuntament.barcelona.cat/mapes/146) · [District 05 / neighbourhood 22 download](https://w20.bcn.cat/CartoBCN/getFile.ashx?prod=146.22.47)
+
+The origin is **[2.1187514, 41.4220884]** in longitude–latitude order. Coordinates use X east, Y up and Z south. Y=0 is a buried foundation at **500 m EGM08D595**, placed using `anchorElevation: 500`. The lowest municipal base is 503 m and the surrounding ground and terraces vary substantially across the hillside. The model's total 75.405 m height therefore includes its buried foundation.
+
+OpenStreetMap way `486759610` supplies the initial outline. The final footprint combines that outline, the bounded municipal geometry and two verified ICGC RTT polygons: `icgc-1196281` covers the upper church and `icgc-1196284` covers the wider crypt/terraces and annex. Overlaying them with the orthophoto confirms that the latter's portion beyond OSM belongs to the same complex. Those two official IDs and the OSM way are the only explicit replacements. [OSM building](https://www.openstreetmap.org/way/486759610) · [ICGC RTT buildings](https://geoserveis.icgc.cat/vector01/rest/services/topografia_territorial/MapServer/10)
+
+The wider envelope has a common buried plinth only up to 507 m. The visible crypt and annex follow the separate municipal polygons and their individual heights. In particular, the western stair/access recess is kept below the surrounding 518.5 m terrace rather than being filled to terrace level. Individual stair treads are omitted.
+
+## Heights and synthetic roof forms
+
+The ICGC 2021–2023 surface and terrain layers supplied **73 point queries**, including repeated controls, on 18 November 2026. The maximum sampled height on the crowning figure is **575.405 m above sea level**. The four side towers reach approximately 557.63–558.31 m, and the crypt terrace samples are approximately 518.3–518.8 m. The CAD's central pedestal reaches 568.853 m. Raw locations and returned elevations are retained in `survey.json`. These sampled raster values constrain the reconstruction; they are not a new detailed survey of the sculpture. [ICGC elevation service](https://www.icgc.cat/ca/Geoinformacio-i-mapes/Geoinformacio-en-linia-Geoserveis/WMS-Elevacions/WMS-Elevacions-territorial)
+
+The lower building volumes and upper church tiers retain the municipal plan. The central tapered roof and tower caps are original faceted surfaces fitted to the measured sections and the exterior arrangement described by the custodians. Their intermediate slopes are approximate. The central roof has 12 radial segments and the side tower caps 10. The summit figure is an original geometric silhouette; facial features, hands, fingers, detailed drapery and sculptural surface detail are omitted. Façade mosaics, window tracery, railings, minor pinnacles, carvings and individual stair treads are also omitted. [Diocesan architectural description](https://www.cataloniasacra.cat/temple-del-sagrat-cor-de-jesus-del-tibidabo/) · [Municipal temple description](https://tibidabo.cat/en/who-are-we/surroundings/temple-sacred-heart)
+
+Plan projections are simplified with a 0.65 m tolerance and the united solid with a 0.22 m tolerance. Sealed interior pockets resulting from roof and CAD intersections are filled because this revision models the exterior. The open western recess remains intact. The arms are approximately 0.56–0.76 m thick, or 0.56–0.76 mm at 1:1,000 and 0.22–0.30 mm at 1:2,500. At the smaller scale they may be below a standard 0.4 mm nozzle pass.
+
+## Reproduction and raw validation
+
+Run `node scripts/generate-temple-sagrat-cor-tibidabo.mjs` from the repository root. An optional filename writes its catalogue feature. Render the thumbnail with `python scripts/render-thumbnail.py models/temple-sagrat-cor-tibidabo/r1/print.glb --camera -0.85 0.65 1.20`. The retained fixture is sufficient to regenerate the mesh without downloading the full neighbourhood drawing.
+
+The GLB is **28,272 bytes**, with **1,145 vertices and 2,290 triangles**. It has a single indexed mesh and primitive, baked metre coordinates and no transforms, compression or external resources. Its bounds are approximately **71.59 × 75.40 × 68.04 m** in X/Y/Z. Raw audit finds one connected closed component, positive volume and no boundary, non-manifold or inconsistent-orientation edges. Two vertical rays in the western access are clear between 515 and 518 m ASL. Both statue arms remain present and connected.
+
+`audit.json` records those controls and SHA-256 `054b09f1c9f51a217da85f2dda2e058913e879e4d53049f8da9d6040886c16f2`.
+
+The local integration review on 18 November 2026 passed three Relleu Obert 0.23.46 cases using ICGC MET5 terrain and RTT buildings: a 140 × 140 mm full crop at 1:1,000 / +12°, a 160 × 140 mm surrounding crop at 1:2,500 / −23°, and a 65 × 70 mm partial crop at 1:1,000 / −19°. Four foundation contacts reach the terrain in the full crops; the partial crop retains two controls. Both western access rays remain clear between 515 and 518 m ASL. The exported material meshes are closed and pass their audits. A comparison with the catalogue disabled confirms that only the two verified RTT counterparts are removed and all 14 other source identifiers remain. Hidden-building mode and the 5 m height limit also pass. The three `*-validation.json` reports and `complet-review.3mf` accompany catalogue publication. The local gallery build passes; interactive gallery review remains pending because browser control stopped when it could not identify the current URL. Slicer and physical-print checks remain with the user.
+
+## Reuse
+
+The modelling code uses the repository's MIT licence. The original reconstruction and municipal/ICGC-derived geometry are attributed under CC BY 4.0. The OSM-derived outline and registration retain ODbL 1.0 attribution. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · [OpenStreetMap attribution](https://www.openstreetmap.org/copyright) · [ICGC reuse conditions](https://www.icgc.cat/ca/LICGC/Informacio-publica/Transparencia/Reutilitzacio-de-la-informacio)

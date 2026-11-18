@@ -1,0 +1,87 @@
+{
+  "center": [
+    41.4219,
+    2.11883
+  ],
+  "height": 70,
+  "name": "parcial",
+  "scale": 1000,
+  "rotation": -19,
+  "width": 65,
+  "id": "temple-sagrat-cor-tibidabo",
+  "terrain": "ICGC MET5",
+  "buildingSource": "icgc",
+  "catalogue": {
+    "id": "temple-sagrat-cor-tibidabo",
+    "family": null,
+    "fragments": 1,
+    "roof": 86.1822738647461,
+    "roofShape": "catalogue",
+    "roofFallback": null,
+    "roofSource": null,
+    "roofMetadata": null,
+    "baseOffsetMM": 0,
+    "estimated": false,
+    "landmark": {
+      "name": "Temple del Sagrat Cor del Tibidabo",
+      "revision": "r1",
+      "license": "CC-BY-4.0",
+      "spatialDataLicense": "CC-BY-4.0; ODbL-1.0",
+      "attribution": "Open Place Models contributors · Ajuntament de Barcelona · ICGC · OpenStreetMap contributors",
+      "sources": [
+        "https://www.cataloniasacra.cat/temple-del-sagrat-cor-de-jesus-del-tibidabo/",
+        "https://tibidabo.cat/en/who-are-we/surroundings/temple-sacred-heart",
+        "https://portaldades.ajuntament.barcelona.cat/mapes/146",
+        "https://w20.bcn.cat/CartoBCN/getFile.ashx?prod=146.22.47",
+        "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Geoinformacio-en-linia-Geoserveis/WMS-Elevacions/WMS-Elevacions-territorial",
+        "https://geoserveis.icgc.cat/vector01/rest/services/topografia_territorial/MapServer/10",
+        "https://www.openstreetmap.org/way/486759610"
+      ],
+      "anchorElevation": 500
+    }
+  },
+  "buildingCount": 4,
+  "contacts": [
+    {
+      "name": "cripta-llevant",
+      "sourceFoundationASL": 500,
+      "embeddedMM": 11.45931499392379
+    },
+    {
+      "name": "cripta-front",
+      "sourceFoundationASL": 500,
+      "embeddedMM": 8.40313149096032
+    }
+  ],
+  "openings": [
+    "acces-ponent-baix",
+    "acces-ponent-alt"
+  ],
+  "audits": [
+    {
+      "id": "terrain",
+      "closed": true,
+      "components": 3485,
+      "triangles": 29864,
+      "errors": []
+    },
+    {
+      "id": "built",
+      "closed": true,
+      "components": 740,
+      "triangles": 10012,
+      "errors": []
+    }
+  ],
+  "warnings": [
+    "Els arbres són una representació procedimental dins de zones verdes, no posicions d’arbres mesurades.",
+    "Les tessel·les vectorials estan generalitzades. Aquesta prova no substitueix cartografia topogràfica de precisió.",
+    "Model singular del catàleg «Temple del Sagrat Cor del Tibidabo» (r1).",
+    "Altures de la font sobre el punt més alt de la petjada; coberta plana quan falten dades de forma.",
+    "Algunes petjades ICGC agrupen diverses cases sense divisions interiors. Pots comparar-les amb parts del Catastre.",
+    "Aigua: no hi ha geometria exportable d’aquesta capa a les dades carregades.",
+    "Vegetació: no hi ha geometria exportable d’aquesta capa a les dades carregades."
+  ],
+  "hiddenModePassed": true,
+  "heightLimitPassed": true
+}

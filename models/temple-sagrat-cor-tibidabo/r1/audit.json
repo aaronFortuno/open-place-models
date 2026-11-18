@@ -1,0 +1,55 @@
+{
+  "id": "temple-sagrat-cor-tibidabo",
+  "name": "Temple del Sagrat Cor del Tibidabo",
+  "errors": [],
+  "empty": false,
+  "finite": true,
+  "vertices": 1145,
+  "triangles": 2290,
+  "bbox": {
+    "min": [
+      -34.731712341308594,
+      0,
+      -34.10100173950195
+    ],
+    "max": [
+      36.853660583496094,
+      75.40499877929688,
+      33.938018798828125
+    ]
+  },
+  "dimensions": [
+    71.58537292480469,
+    75.40499877929688,
+    68.03902053833008
+  ],
+  "signedVolume": 75275.33138198544,
+  "orientation": "positiva",
+  "edges": {
+    "total": 3435,
+    "boundary": 0,
+    "nonManifold": 0,
+    "orientationConflicts": 0
+  },
+  "closed": true,
+  "components": 1,
+  "byteLength": 28272,
+  "sha256": "054b09f1c9f51a217da85f2dda2e058913e879e4d53049f8da9d6040886c16f2",
+  "accessRecessRays": [
+    {
+      "name": "west-access-lower",
+      "east": -14,
+      "north": -15,
+      "clearFromASL": 515,
+      "clearToASL": 518
+    },
+    {
+      "name": "west-access-upper",
+      "east": -12,
+      "north": -10,
+      "clearFromASL": 515,
+      "clearToASL": 518
+    }
+  ],
+  "statueArmsPresent": true
+}
