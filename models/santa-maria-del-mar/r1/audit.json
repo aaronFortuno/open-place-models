@@ -1,0 +1,651 @@
+{
+  "id": "santa-maria-del-mar",
+  "vertices": 4567,
+  "triangles": 9374,
+  "components": 1,
+  "nonManifoldVertices": 0,
+  "finite": true,
+  "zeroAreaTriangles": 0,
+  "minimumAreaSquareMetres": 5.459696694742888e-9,
+  "minimumEdgeMetres": 0.00009918212890625,
+  "signedVolume": 82843.41549586118,
+  "bbox": {
+    "min": [
+      -32.27750015258789,
+      0,
+      -50.1885986328125
+    ],
+    "max": [
+      32.27750015258789,
+      50.823001861572266,
+      41.895301818847656
+    ]
+  },
+  "edges": {
+    "total": 14061,
+    "boundary": 0,
+    "nonManifold": 0,
+    "orientationConflicts": 0
+  },
+  "passed": true,
+  "errors": [],
+  "closed": true,
+  "byteLength": 111868,
+  "sha256": "3d8b96164d0d9f4e9843d778f7c508609362e615f0e8ce9436ba5a6a83f5d9b8",
+  "dimensions": [
+    64.55500030517578,
+    50.823001861572266,
+    92.08390045166016
+  ],
+  "anchor": [
+    2.18200335,
+    41.383803549999996
+  ],
+  "anchorElevation": 2,
+  "maximumProjectionOutsideFootprintMetres": 0.00004979005591314239,
+  "sourceGuardResults": [
+    {
+      "name": "section-18--9",
+      "location": [
+        2.181821289793147,
+        41.38370393890967
+      ],
+      "cadElevation": 31.826,
+      "dsmElevation": 32.008999,
+      "toleranceMetres": 0.02,
+      "role": "measured-terrace-plane",
+      "meshElevation": 31.826000213623015,
+      "differenceMetres": 2.1362301438898612e-7,
+      "passed": true
+    },
+    {
+      "name": "section-18-9",
+      "location": [
+        2.1820096392209547,
+        41.383625359218755
+      ],
+      "cadElevation": 31.826,
+      "dsmElevation": 31.917999,
+      "toleranceMetres": 0.02,
+      "role": "measured-terrace-plane",
+      "meshElevation": 31.826000213623043,
+      "differenceMetres": 2.1362304281069555e-7,
+      "passed": true
+    },
+    {
+      "name": "section-36--9",
+      "location": [
+        2.1819260211038847,
+        41.38384525710492
+      ],
+      "cadElevation": 31.826,
+      "dsmElevation": 31.973,
+      "toleranceMetres": 0.02,
+      "role": "measured-terrace-plane",
+      "meshElevation": 31.82600021362305,
+      "differenceMetres": 2.136230499161229e-7,
+      "passed": true
+    },
+    {
+      "name": "section-36-9",
+      "location": [
+        2.1821143705316923,
+        41.383766677414016
+      ],
+      "cadElevation": 31.826,
+      "dsmElevation": 31.941,
+      "toleranceMetres": 0.02,
+      "role": "measured-terrace-plane",
+      "meshElevation": 31.826000213623058,
+      "differenceMetres": 2.1362305702155027e-7,
+      "passed": true
+    },
+    {
+      "name": "section-54--9",
+      "location": [
+        2.1820307524146223,
+        41.383986575300185
+      ],
+      "cadElevation": 31.826,
+      "dsmElevation": 31.743999,
+      "toleranceMetres": 0.02,
+      "role": "measured-terrace-plane",
+      "meshElevation": 31.82600021362305,
+      "differenceMetres": 2.136230499161229e-7,
+      "passed": true
+    },
+    {
+      "name": "section-54-9",
+      "location": [
+        2.18221910184243,
+        41.38390799560927
+      ],
+      "cadElevation": 31.826,
+      "dsmElevation": 31.789,
+      "toleranceMetres": 0.02,
+      "role": "measured-terrace-plane",
+      "meshElevation": 31.82600021362304,
+      "differenceMetres": 2.1362303925798187e-7,
+      "passed": true
+    },
+    {
+      "name": "frame--10-3",
+      "location": [
+        2.1817235498437655,
+        41.383590539285336
+      ],
+      "cadElevation": 31.826,
+      "dsmElevation": 34.297001,
+      "toleranceMetres": 0.02,
+      "role": "CAD-preservation-only",
+      "limitation": "DSM34.11–34.30m does not corroborate this front terrace cap. This is a regression check on retained CAD geometry, not a physical-height accuracy assertion.",
+      "meshElevation": 31.826000213623047,
+      "differenceMetres": 2.1362304636340923e-7,
+      "passed": true
+    },
+    {
+      "name": "frame-10-3",
+      "location": [
+        2.181932826985774,
+        41.38350322851766
+      ],
+      "cadElevation": 31.826,
+      "dsmElevation": 34.110001,
+      "toleranceMetres": 0.02,
+      "role": "CAD-preservation-only",
+      "limitation": "DSM34.11–34.30m does not corroborate this front terrace cap. This is a regression check on retained CAD geometry, not a physical-height accuracy assertion.",
+      "meshElevation": 31.826000213623047,
+      "differenceMetres": 2.1362304636340923e-7,
+      "passed": true
+    }
+  ],
+  "openingDepthChecks": [
+    {
+      "name": "rose",
+      "expected": 1.25,
+      "actual": 1.2500233481625997
+    },
+    {
+      "name": "front-upper--10.8",
+      "expected": 0.9,
+      "actual": 0.900001086969861
+    },
+    {
+      "name": "front-upper-10.8",
+      "expected": 0.9,
+      "actual": 0.8999948315968708
+    },
+    {
+      "name": "front-lower--11",
+      "expected": 0.9,
+      "actual": 0.8999887196690205
+    },
+    {
+      "name": "front-lower--8.5",
+      "expected": 0.9,
+      "actual": 0.899996503785095
+    },
+    {
+      "name": "front-lower-8.5",
+      "expected": 0.9,
+      "actual": 0.8999799068303305
+    },
+    {
+      "name": "front-lower-11",
+      "expected": 0.9,
+      "actual": 0.8999782159350374
+    },
+    {
+      "name": "side-upper--1-7.6",
+      "expected": 0.9,
+      "actual": 0.899956446913662
+    },
+    {
+      "name": "side-upper--1-21.5",
+      "expected": 0.9,
+      "actual": 0.9000033532991518
+    },
+    {
+      "name": "side-upper--1-35",
+      "expected": 0.9,
+      "actual": 0.8999542277678774
+    },
+    {
+      "name": "side-upper--1-48.5",
+      "expected": 0.9,
+      "actual": 0.9000271724481645
+    },
+    {
+      "name": "side-upper--1-58.7",
+      "expected": 0.9,
+      "actual": 0.9000057849425278
+    },
+    {
+      "name": "side-lower--1-4.8",
+      "expected": 0.9,
+      "actual": 0.9000338400074573
+    },
+    {
+      "name": "side-lower--1-10.6",
+      "expected": 0.9,
+      "actual": 0.8999903131568701
+    },
+    {
+      "name": "side-lower--1-18.8",
+      "expected": 0.9,
+      "actual": 0.8999986823910456
+    },
+    {
+      "name": "side-lower--1-25",
+      "expected": 0.9,
+      "actual": 0.8999714475834983
+    },
+    {
+      "name": "side-lower--1-32.5",
+      "expected": 0.9,
+      "actual": 0.8999793781146261
+    },
+    {
+      "name": "side-lower--1-38.5",
+      "expected": 0.9,
+      "actual": 0.8999873590257765
+    },
+    {
+      "name": "side-lower--1-45.5",
+      "expected": 0.9,
+      "actual": 0.8999736843740279
+    },
+    {
+      "name": "side-lower--1-51.5",
+      "expected": 0.9,
+      "actual": 0.9000061684777783
+    },
+    {
+      "name": "side-lower--1-58.7",
+      "expected": 0.9,
+      "actual": 0.8999942163451686
+    },
+    {
+      "name": "side-lower--1-65.7",
+      "expected": 0.9,
+      "actual": 0.9000073932859574
+    },
+    {
+      "name": "side-upper-1-7.6",
+      "expected": 0.9,
+      "actual": 0.9000004071957923
+    },
+    {
+      "name": "side-upper-1-21.5",
+      "expected": 0.9,
+      "actual": 0.8999643619496992
+    },
+    {
+      "name": "side-upper-1-35",
+      "expected": 0.9,
+      "actual": 0.9000050611611043
+    },
+    {
+      "name": "side-upper-1-48.5",
+      "expected": 0.9,
+      "actual": 0.9000177328433504
+    },
+    {
+      "name": "side-upper-1-58.7",
+      "expected": 0.9,
+      "actual": 0.9000211215857533
+    },
+    {
+      "name": "side-lower-1-4.8",
+      "expected": 0.9,
+      "actual": 0.8999688060507209
+    },
+    {
+      "name": "side-lower-1-10.6",
+      "expected": 0.9,
+      "actual": 0.9000058709023645
+    },
+    {
+      "name": "side-lower-1-18.8",
+      "expected": 0.9,
+      "actual": 0.900005360855283
+    },
+    {
+      "name": "side-lower-1-25",
+      "expected": 0.9,
+      "actual": 0.9000130715983471
+    },
+    {
+      "name": "side-lower-1-32.5",
+      "expected": 0.9,
+      "actual": 0.8999888369553711
+    },
+    {
+      "name": "side-lower-1-38.5",
+      "expected": 0.9,
+      "actual": 0.9000128819140616
+    },
+    {
+      "name": "side-lower-1-45.5",
+      "expected": 0.9,
+      "actual": 0.8999809200173119
+    },
+    {
+      "name": "side-lower-1-51.5",
+      "expected": 0.9,
+      "actual": 0.9000070574800192
+    },
+    {
+      "name": "side-lower-1-58.7",
+      "expected": 0.9,
+      "actual": 0.9000065650904536
+    },
+    {
+      "name": "side-lower-1-65.7",
+      "expected": 0.9,
+      "actual": 0.900004730661326
+    },
+    {
+      "name": "apse-17C535",
+      "expected": 0.9,
+      "actual": 0.8999837176204895
+    },
+    {
+      "name": "apse-17CFE8",
+      "expected": 0.9,
+      "actual": 0.9000058309780021
+    },
+    {
+      "name": "apse-17D1D1",
+      "expected": 0.9,
+      "actual": 0.9000418535261665
+    }
+  ],
+  "omittedOpenings": [
+    "apse-17A2AD (adjoining volume covers this face)",
+    "apse-17CA24 (adjoining volume covers this face)"
+  ],
+  "filledInternalCavitiesCubicMetres": [],
+  "cleanup": {
+    "quantizationMetres": 0.0001,
+    "maximumVertexMoveMetres": 0.00008467351166388964,
+    "weldedEdgeCount": 17,
+    "repeatedIDFacesRemoved": 34,
+    "localCollinearRepairs": 1,
+    "cancelledCoincidentOppositeFacePairs": 0,
+    "retainedCoincidentNonAdjacentVertexGroups": [
+      [
+        1153,
+        1154
+      ],
+      [
+        1561,
+        1562
+      ],
+      [
+        1927,
+        1928
+      ],
+      [
+        1960,
+        1961
+      ],
+      [
+        3233,
+        3234
+      ],
+      [
+        3241,
+        3242
+      ],
+      [
+        3244,
+        3245
+      ],
+      [
+        3271,
+        3272
+      ],
+      [
+        3273,
+        3274
+      ],
+      [
+        3765,
+        3766
+      ]
+    ],
+    "sourceAudit": {
+      "vertices": 4584,
+      "triangles": 9408,
+      "components": 1,
+      "nonManifoldVertices": 0,
+      "finite": true,
+      "zeroAreaTriangles": 17,
+      "minimumAreaSquareMetres": 0,
+      "minimumEdgeMetres": 0,
+      "signedVolume": 82843.4314236959,
+      "bbox": {
+        "min": [
+          -32.277530670166016,
+          0,
+          -50.188621520996094
+        ],
+        "max": [
+          32.277530670166016,
+          50.823001861572266,
+          41.89528274536133
+        ]
+      },
+      "edges": {
+        "total": 14112,
+        "boundary": 0,
+        "nonManifold": 0,
+        "orientationConflicts": 0
+      },
+      "passed": false
+    },
+    "cleanedAudit": {
+      "vertices": 4567,
+      "triangles": 9374,
+      "components": 1,
+      "nonManifoldVertices": 0,
+      "finite": true,
+      "zeroAreaTriangles": 0,
+      "minimumAreaSquareMetres": 5.459696694742888e-9,
+      "minimumEdgeMetres": 0.00009918212890625,
+      "signedVolume": 82843.41549586118,
+      "bbox": {
+        "min": [
+          -32.27750015258789,
+          0,
+          -50.1885986328125
+        ],
+        "max": [
+          32.27750015258789,
+          50.823001861572266,
+          41.895301818847656
+        ]
+      },
+      "edges": {
+        "total": 14061,
+        "boundary": 0,
+        "nonManifold": 0,
+        "orientationConflicts": 0
+      },
+      "passed": true
+    },
+    "relativeVolumeChange": -1.9226430452734537e-7,
+    "volumeChangeCubicMetres": -0.01592783472733572,
+    "repairLog": [
+      {
+        "zeroFace": 1690,
+        "neighbourFace": 1694,
+        "longEdge": [
+          293,
+          271
+        ],
+        "middleVertex": 275,
+        "oppositeVertex": 289,
+        "neighbourAreaBefore": 20.93741074078804,
+        "neighbourAreaAfter": 20.93741074078804,
+        "geometryMoved": false
+      }
+    ],
+    "safeEdgeWeldLog": [
+      {
+        "retained": 183,
+        "removed": 184,
+        "link": [
+          157,
+          180
+        ],
+        "geometryMoved": false
+      },
+      {
+        "retained": 4410,
+        "removed": 4411,
+        "link": [
+          4413,
+          4400
+        ],
+        "geometryMoved": false
+      },
+      {
+        "retained": 3739,
+        "removed": 3740,
+        "link": [
+          2,
+          3758
+        ],
+        "geometryMoved": false
+      },
+      {
+        "retained": 2129,
+        "removed": 2130,
+        "link": [
+          2131,
+          811
+        ],
+        "geometryMoved": false
+      },
+      {
+        "retained": 243,
+        "removed": 244,
+        "link": [
+          241,
+          233
+        ],
+        "geometryMoved": false
+      },
+      {
+        "retained": 3783,
+        "removed": 3784,
+        "link": [
+          3862,
+          3776
+        ],
+        "geometryMoved": false
+      },
+      {
+        "retained": 271,
+        "removed": 272,
+        "link": [
+          293,
+          273
+        ],
+        "geometryMoved": false
+      },
+      {
+        "retained": 568,
+        "removed": 569,
+        "link": [
+          562,
+          567
+        ],
+        "geometryMoved": false
+      },
+      {
+        "retained": 586,
+        "removed": 587,
+        "link": [
+          589,
+          577
+        ],
+        "geometryMoved": false
+      },
+      {
+        "retained": 624,
+        "removed": 625,
+        "link": [
+          631,
+          642
+        ],
+        "geometryMoved": false
+      },
+      {
+        "retained": 3983,
+        "removed": 3984,
+        "link": [
+          3985,
+          3994
+        ],
+        "geometryMoved": false
+      },
+      {
+        "retained": 1642,
+        "removed": 1643,
+        "link": [
+          1750,
+          1749
+        ],
+        "geometryMoved": false
+      },
+      {
+        "retained": 1733,
+        "removed": 1734,
+        "link": [
+          1737,
+          1735
+        ],
+        "geometryMoved": false
+      },
+      {
+        "retained": 1453,
+        "removed": 1454,
+        "link": [
+          1738,
+          1736
+        ],
+        "geometryMoved": false
+      },
+      {
+        "retained": 1449,
+        "removed": 1450,
+        "link": [
+          1447,
+          1445
+        ],
+        "geometryMoved": false
+      },
+      {
+        "retained": 1451,
+        "removed": 1452,
+        "link": [
+          1448,
+          1507
+        ],
+        "geometryMoved": false
+      },
+      {
+        "retained": 1516,
+        "removed": 1517,
+        "link": [
+          1511,
+          1506
+        ],
+        "geometryMoved": false
+      }
+    ]
+  }
+}

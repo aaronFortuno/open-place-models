@@ -1,0 +1,1378 @@
+{
+  "contacts": [
+    {
+      "name": "footing-0-6",
+      "location": [
+        2.181845643633226,
+        41.38357043693404
+      ],
+      "elevation": 2
+    },
+    {
+      "name": "footing--11-20",
+      "location": [
+        2.1818119988912503,
+        41.38372837200813
+      ],
+      "elevation": 2
+    },
+    {
+      "name": "footing-11-40",
+      "location": [
+        2.1821585718705014,
+        41.38378935038064
+      ],
+      "elevation": 2
+    },
+    {
+      "name": "footing-0-62",
+      "location": [
+        2.1821714743777427,
+        41.384010093541505
+      ],
+      "elevation": 2
+    },
+    {
+      "name": "footing--14-52",
+      "location": [
+        2.181966796316816,
+        41.38399270097041
+      ],
+      "elevation": 2
+    },
+    {
+      "name": "footing-0-82",
+      "location": [
+        2.182287842500785,
+        41.38416711375846
+      ],
+      "elevation": 2
+    }
+  ],
+  "surfaceControls": [
+    {
+      "name": "section-18--17",
+      "location": [
+        2.181737578936344,
+        41.38373886321674
+      ],
+      "expectedElevation": 20.271999359130866,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "section-18--13",
+      "location": [
+        2.1817794343647456,
+        41.383721401063205
+      ],
+      "expectedElevation": 31.826000213623047,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "section-18--9",
+      "location": [
+        2.181821289793147,
+        41.38370393890967
+      ],
+      "expectedElevation": 31.826000213623047,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "section-18--6",
+      "location": [
+        2.1818526813644485,
+        41.38369084229451
+      ],
+      "expectedElevation": 36.20900646342371,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "section-18--3",
+      "location": [
+        2.1818840729357496,
+        41.383677745679364
+      ],
+      "expectedElevation": 36.76502406119136,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "section-18-0",
+      "location": [
+        2.181915464507051,
+        41.38366464906421
+      ],
+      "expectedElevation": 37.32099821911466,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "section-18-3",
+      "location": [
+        2.181946856078352,
+        41.38365155244906
+      ],
+      "expectedElevation": 36.702019160574395,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "section-18-6",
+      "location": [
+        2.1819782476496536,
+        41.38363845583391
+      ],
+      "expectedElevation": 36.0830112634878,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "section-18-9",
+      "location": [
+        2.1820096392209547,
+        41.383625359218755
+      ],
+      "expectedElevation": 31.82600021362304,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "section-18-13",
+      "location": [
+        2.1820514946493565,
+        41.38360789706522
+      ],
+      "expectedElevation": 31.826000213623068,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "section-18-17",
+      "location": [
+        2.1820933500777584,
+        41.38359043491168
+      ],
+      "expectedElevation": 20.271999359130852,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "section-36--13",
+      "location": [
+        2.1818841656754833,
+        41.38386271925846
+      ],
+      "expectedElevation": 37.3489990234375,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "section-36--9",
+      "location": [
+        2.1819260211038847,
+        41.38384525710492
+      ],
+      "expectedElevation": 31.826000213623047,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "section-36--6",
+      "location": [
+        2.181957412675186,
+        41.383832160489774
+      ],
+      "expectedElevation": 37.40099048626324,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "section-36--3",
+      "location": [
+        2.1819888042464872,
+        41.38381906387462
+      ],
+      "expectedElevation": 37.422000865767906,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "section-36-0",
+      "location": [
+        2.1820201958177887,
+        41.38380596725947
+      ],
+      "expectedElevation": 37.44300054164475,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "section-36-3",
+      "location": [
+        2.1820515873890898,
+        41.38379287064432
+      ],
+      "expectedElevation": 37.427999979226044,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "section-36-6",
+      "location": [
+        2.1820829789603913,
+        41.383779774029165
+      ],
+      "expectedElevation": 37.41300880713175,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "section-36-9",
+      "location": [
+        2.1821143705316923,
+        41.383766677414016
+      ],
+      "expectedElevation": 31.826000213623033,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "section-36-13",
+      "location": [
+        2.182156225960094,
+        41.38374921526048
+      ],
+      "expectedElevation": 31.826000213623068,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "section-36-17",
+      "location": [
+        2.182198081388496,
+        41.38373175310694
+      ],
+      "expectedElevation": 20.271999359130852,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "section-54--17",
+      "location": [
+        2.181947041557819,
+        41.38402149960725
+      ],
+      "expectedElevation": 20.27199935913086,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "section-54--13",
+      "location": [
+        2.181988896986221,
+        41.38400403745372
+      ],
+      "expectedElevation": 31.826000213623047,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "section-54--9",
+      "location": [
+        2.1820307524146223,
+        41.383986575300185
+      ],
+      "expectedElevation": 31.826000213623047,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "section-54--6",
+      "location": [
+        2.182062143985924,
+        41.38397347868503
+      ],
+      "expectedElevation": 35.790868201125775,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "section-54--3",
+      "location": [
+        2.182093535557225,
+        41.38396038206988
+      ],
+      "expectedElevation": 36.345027795014,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "section-54-0",
+      "location": [
+        2.1821249271285263,
+        41.383947285454724
+      ],
+      "expectedElevation": 37.1349996095896,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "section-54-3",
+      "location": [
+        2.1821563186998274,
+        41.383934188839575
+      ],
+      "expectedElevation": 36.38500371607367,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "section-54-6",
+      "location": [
+        2.182187710271129,
+        41.383921092224426
+      ],
+      "expectedElevation": 35.81751374945055,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "section-54-9",
+      "location": [
+        2.18221910184243,
+        41.38390799560927
+      ],
+      "expectedElevation": 31.826000213623068,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "section-54-13",
+      "location": [
+        2.182260957270832,
+        41.383890533455734
+      ],
+      "expectedElevation": 31.826000213623047,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "frame-0-1",
+      "location": [
+        2.1818165516024655,
+        41.3835311818798
+      ],
+      "expectedElevation": 34.62799835205079,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "frame--6-14",
+      "location": [
+        2.18182940773984,
+        41.38365943825112
+      ],
+      "expectedElevation": 35.92364290275234,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "frame-0-14",
+      "location": [
+        2.1818921908824427,
+        41.383633245020825
+      ],
+      "expectedElevation": 37.44999616690019,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "frame-6-14",
+      "location": [
+        2.1819549740250452,
+        41.38360705179052
+      ],
+      "expectedElevation": 35.88099314725027,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "frame--6-26",
+      "location": [
+        2.1818992286136654,
+        41.383753650381294
+      ],
+      "expectedElevation": 35.875857558845254,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "frame-0-26",
+      "location": [
+        2.181962011756268,
+        41.38372745715099
+      ],
+      "expectedElevation": 37.23300057715381,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "frame-6-26",
+      "location": [
+        2.1820247948988705,
+        41.38370126392069
+      ],
+      "expectedElevation": 35.94299703618318,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "frame--6-40",
+      "location": [
+        2.1819806862997946,
+        41.383863564533165
+      ],
+      "expectedElevation": 35.80219293530068,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "frame-0-40",
+      "location": [
+        2.182043469442397,
+        41.38383737130286
+      ],
+      "expectedElevation": 37.18700084191828,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "frame-6-40",
+      "location": [
+        2.1821062525849997,
+        41.383811178072555
+      ],
+      "expectedElevation": 35.84552004788881,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "frame--6-61",
+      "location": [
+        2.182102872828988,
+        41.38402843576096
+      ],
+      "expectedElevation": 37.412007609979,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "frame-0-61",
+      "location": [
+        2.1821656559715907,
+        41.38400224253066
+      ],
+      "expectedElevation": 37.449993683074744,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "frame-6-61",
+      "location": [
+        2.1822284391141933,
+        41.38397604930036
+      ],
+      "expectedElevation": 37.347998730896585,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "frame--10-3",
+      "location": [
+        2.1817235498437655,
+        41.383590539285336
+      ],
+      "expectedElevation": 31.826000213623047,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "frame-10-3",
+      "location": [
+        2.181932826985774,
+        41.38350322851766
+      ],
+      "expectedElevation": 31.826000213623047,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "frontal-cornice-interior",
+      "location": [
+        2.181811896877544,
+        41.38352490107113
+      ],
+      "expectedElevation": 34.62799835205078,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "west-parapet",
+      "location": [
+        2.1816623068434087,
+        41.38357933319396
+      ],
+      "expectedElevation": 50.7599983215332,
+      "toleranceMetres": 0.015
+    },
+    {
+      "name": "east-parapet",
+      "location": [
+        2.1819850352504426,
+        41.38344449049915
+      ],
+      "expectedElevation": 50.099998474121094,
+      "toleranceMetres": 0.015
+    }
+  ],
+  "facadeControls": [
+    {
+      "name": "rose",
+      "from": [
+        2.181799096384009,
+        41.38350762884726
+      ],
+      "to": [
+        2.18182818841477,
+        41.383546883901495
+      ],
+      "elevation": 26.1,
+      "expectedLocation": [
+        2.1818180063398525,
+        41.38353314481582
+      ],
+      "depthMetres": 1.2500233481625997
+    },
+    {
+      "name": "front-upper--10.8",
+      "from": [
+        2.181686086727325,
+        41.3835547766618
+      ],
+      "to": [
+        2.1817151787580853,
+        41.383594031716044
+      ],
+      "elevation": 24.9,
+      "expectedLocation": [
+        2.1817029601114903,
+        41.3835775446018
+      ],
+      "depthMetres": 0.900001086969861
+    },
+    {
+      "name": "front-upper-10.8",
+      "from": [
+        2.1819121060406936,
+        41.383460481032714
+      ],
+      "to": [
+        2.1819411980714545,
+        41.383499736086954
+      ],
+      "elevation": 24.9,
+      "expectedLocation": [
+        2.181928979388463,
+        41.383483248923596
+      ],
+      "depthMetres": 0.8999948315968708
+    },
+    {
+      "name": "front-lower-8.5",
+      "from": [
+        2.181879367670056,
+        41.38345882096611
+      ],
+      "to": [
+        2.1819084597008165,
+        41.38349807602035
+      ],
+      "elevation": 11.8,
+      "expectedLocation": [
+        2.181896240930987,
+        41.38348158873982
+      ],
+      "depthMetres": 0.8999799068303305
+    },
+    {
+      "name": "side-upper--1-48.5",
+      "from": [
+        2.1819282483825884,
+        41.38397280862383
+      ],
+      "to": [
+        2.1819805676680906,
+        41.38395098093191
+      ],
+      "elevation": 26.05,
+      "expectedLocation": [
+        2.181958593852508,
+        41.38396014844389
+      ],
+      "depthMetres": 0.9000271724481645
+    },
+    {
+      "name": "side-lower--1-25",
+      "from": [
+        2.1817536503556068,
+        41.38380410741042
+      ],
+      "to": [
+        2.181805969641109,
+        41.383782279718496
+      ],
+      "elevation": 12.6,
+      "expectedLocation": [
+        2.1817839952424296,
+        41.38379144747375
+      ],
+      "depthMetres": 0.8999714475834983
+    },
+    {
+      "name": "side-lower--1-58.7",
+      "from": [
+        2.181951667631723,
+        41.38406787836107
+      ],
+      "to": [
+        2.182003986917225,
+        41.384046050669156
+      ],
+      "elevation": 12.6,
+      "expectedLocation": [
+        2.181982012756795,
+        41.38405521832501
+      ],
+      "depthMetres": 0.8999942163451686
+    },
+    {
+      "name": "side-upper-1-48.5",
+      "from": [
+        2.182263112662428,
+        41.38383310269579
+      ],
+      "to": [
+        2.182210793376926,
+        41.38385493038771
+      ],
+      "elevation": 26.05,
+      "expectedLocation": [
+        2.182232767291283,
+        41.38384576283452
+      ],
+      "depthMetres": 0.9000177328433504
+    },
+    {
+      "name": "side-lower-1-25",
+      "from": [
+        2.1821632564448143,
+        41.38363321907664
+      ],
+      "to": [
+        2.182110937159312,
+        41.38365504676857
+      ],
+      "elevation": 12.6,
+      "expectedLocation": [
+        2.1821329111224435,
+        41.38364587919502
+      ],
+      "depthMetres": 0.9000130715983471
+    },
+    {
+      "name": "side-lower-1-58.7",
+      "from": [
+        2.182357106801853,
+        41.38389872847279
+      ],
+      "to": [
+        2.1823047875163506,
+        41.38392055616471
+      ],
+      "elevation": 12.6,
+      "expectedLocation": [
+        2.182326761547565,
+        41.383911388562765
+      ],
+      "depthMetres": 0.9000065650904536
+    }
+  ],
+  "airControls": [
+    {
+      "name": "west-belfry-0",
+      "location": [
+        2.18164931192361,
+        41.38359067608929
+      ],
+      "minElevation": 32.55,
+      "maxElevation": 36.7
+    },
+    {
+      "name": "west-belfry-1",
+      "location": [
+        2.18164931192361,
+        41.38359067608929
+      ],
+      "minElevation": 38.5,
+      "maxElevation": 43.25
+    },
+    {
+      "name": "west-belfry-2",
+      "location": [
+        2.18164931192361,
+        41.38359067608929
+      ],
+      "minElevation": 45.15,
+      "maxElevation": 47.7
+    },
+    {
+      "name": "east-belfry-0",
+      "location": [
+        2.181972154469017,
+        41.38345598564862
+      ],
+      "minElevation": 32.55,
+      "maxElevation": 36.7
+    },
+    {
+      "name": "east-belfry-1",
+      "location": [
+        2.181972154469017,
+        41.38345598564862
+      ],
+      "minElevation": 38.5,
+      "maxElevation": 43.25
+    },
+    {
+      "name": "east-belfry-2",
+      "location": [
+        2.181972154469017,
+        41.38345598564862
+      ],
+      "minElevation": 45.15,
+      "maxElevation": 47.7
+    },
+    {
+      "name": "outside-front-court",
+      "location": [
+        2.181775822759401,
+        41.38347622480387
+      ],
+      "minElevation": 5.5,
+      "maxElevation": 45
+    }
+  ],
+  "sourceComparisons": [
+    {
+      "name": "section-18--17",
+      "location": [
+        2.181737578936344,
+        41.38373886321674
+      ],
+      "meshElevation": 20.271999359130866,
+      "sourceElevation": 21.202999,
+      "differenceMetres": -0.9309996408691319,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "section-18--13",
+      "location": [
+        2.1817794343647456,
+        41.383721401063205
+      ],
+      "meshElevation": 31.826000213623047,
+      "sourceElevation": 32.616001,
+      "differenceMetres": -0.7900007863769503,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "section-18--9",
+      "location": [
+        2.181821289793147,
+        41.38370393890967
+      ],
+      "meshElevation": 31.826000213623047,
+      "sourceElevation": 32.008999,
+      "differenceMetres": -0.182998786376956,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "section-18--6",
+      "location": [
+        2.1818526813644485,
+        41.38369084229451
+      ],
+      "meshElevation": 36.20900646342371,
+      "sourceElevation": 36.341,
+      "differenceMetres": -0.13199353657628876,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "section-18--3",
+      "location": [
+        2.1818840729357496,
+        41.383677745679364
+      ],
+      "meshElevation": 36.76502406119136,
+      "sourceElevation": 36.764999,
+      "differenceMetres": 0.00002506119135858853,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "section-18-0",
+      "location": [
+        2.181915464507051,
+        41.38366464906421
+      ],
+      "meshElevation": 37.32099821911466,
+      "sourceElevation": 37.320999,
+      "differenceMetres": -7.808853439428276e-7,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "section-18-3",
+      "location": [
+        2.181946856078352,
+        41.38365155244906
+      ],
+      "meshElevation": 36.702019160574395,
+      "sourceElevation": 36.702,
+      "differenceMetres": 0.00001916057439643737,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "section-18-6",
+      "location": [
+        2.1819782476496536,
+        41.38363845583391
+      ],
+      "meshElevation": 36.0830112634878,
+      "sourceElevation": 37.549,
+      "differenceMetres": -1.4659887365122017,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "section-18-9",
+      "location": [
+        2.1820096392209547,
+        41.383625359218755
+      ],
+      "meshElevation": 31.82600021362304,
+      "sourceElevation": 31.917999,
+      "differenceMetres": -0.09199878637695846,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "section-18-13",
+      "location": [
+        2.1820514946493565,
+        41.38360789706522
+      ],
+      "meshElevation": 31.826000213623068,
+      "sourceElevation": 31.809999,
+      "differenceMetres": 0.016001213623066946,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "section-18-17",
+      "location": [
+        2.1820933500777584,
+        41.38359043491168
+      ],
+      "meshElevation": 20.271999359130852,
+      "sourceElevation": 20.502001,
+      "differenceMetres": -0.23000164086914765,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "section-36--13",
+      "location": [
+        2.1818841656754833,
+        41.38386271925846
+      ],
+      "meshElevation": 37.3489990234375,
+      "sourceElevation": 37.179001,
+      "differenceMetres": 0.16999802343750048,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "section-36--9",
+      "location": [
+        2.1819260211038847,
+        41.38384525710492
+      ],
+      "meshElevation": 31.826000213623047,
+      "sourceElevation": 31.973,
+      "differenceMetres": -0.1469997863769521,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "section-36--6",
+      "location": [
+        2.181957412675186,
+        41.383832160489774
+      ],
+      "meshElevation": 37.40099048626324,
+      "sourceElevation": 37.487,
+      "differenceMetres": -0.08600951373676224,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "section-36--3",
+      "location": [
+        2.1819888042464872,
+        41.38381906387462
+      ],
+      "meshElevation": 37.422000865767906,
+      "sourceElevation": 37.422001,
+      "differenceMetres": -1.3423209566099104e-7,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "section-36-0",
+      "location": [
+        2.1820201958177887,
+        41.38380596725947
+      ],
+      "meshElevation": 37.44300054164475,
+      "sourceElevation": 37.443001,
+      "differenceMetres": -4.583552524195511e-7,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "section-36-3",
+      "location": [
+        2.1820515873890898,
+        41.38379287064432
+      ],
+      "meshElevation": 37.427999979226044,
+      "sourceElevation": 37.473,
+      "differenceMetres": -0.04500002077395493,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "section-36-6",
+      "location": [
+        2.1820829789603913,
+        41.383779774029165
+      ],
+      "meshElevation": 37.41300880713175,
+      "sourceElevation": 37.207001,
+      "differenceMetres": 0.20600780713175482,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "section-36-9",
+      "location": [
+        2.1821143705316923,
+        41.383766677414016
+      ],
+      "meshElevation": 31.826000213623033,
+      "sourceElevation": 31.941,
+      "differenceMetres": -0.11499978637696628,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "section-36-13",
+      "location": [
+        2.182156225960094,
+        41.38374921526048
+      ],
+      "meshElevation": 31.826000213623068,
+      "sourceElevation": 31.986,
+      "differenceMetres": -0.15999978637693246,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "section-36-17",
+      "location": [
+        2.182198081388496,
+        41.38373175310694
+      ],
+      "meshElevation": 20.271999359130852,
+      "sourceElevation": 21.378,
+      "differenceMetres": -1.1060006408691478,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "section-54--17",
+      "location": [
+        2.181947041557819,
+        41.38402149960725
+      ],
+      "meshElevation": 20.27199935913086,
+      "sourceElevation": 26.171,
+      "differenceMetres": -5.89900064086914,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "section-54--13",
+      "location": [
+        2.181988896986221,
+        41.38400403745372
+      ],
+      "meshElevation": 31.826000213623047,
+      "sourceElevation": 32.820999,
+      "differenceMetres": -0.9949987863769536,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "section-54--9",
+      "location": [
+        2.1820307524146223,
+        41.383986575300185
+      ],
+      "meshElevation": 31.826000213623047,
+      "sourceElevation": 31.743999,
+      "differenceMetres": 0.08200121362304813,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "section-54--6",
+      "location": [
+        2.182062143985924,
+        41.38397347868503
+      ],
+      "meshElevation": 35.790868201125775,
+      "sourceElevation": 35.980999,
+      "differenceMetres": -0.1901307988742218,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "section-54--3",
+      "location": [
+        2.182093535557225,
+        41.38396038206988
+      ],
+      "meshElevation": 36.345027795014,
+      "sourceElevation": 36.345001,
+      "differenceMetres": 0.000026795013994274086,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "section-54-0",
+      "location": [
+        2.1821249271285263,
+        41.383947285454724
+      ],
+      "meshElevation": 37.1349996095896,
+      "sourceElevation": 37.134998,
+      "differenceMetres": 0.0000016095895958301298,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "section-54-3",
+      "location": [
+        2.1821563186998274,
+        41.383934188839575
+      ],
+      "meshElevation": 36.38500371607367,
+      "sourceElevation": 36.384998,
+      "differenceMetres": 0.000005716073665951171,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "section-54-6",
+      "location": [
+        2.182187710271129,
+        41.383921092224426
+      ],
+      "meshElevation": 35.81751374945055,
+      "sourceElevation": 35.553001,
+      "differenceMetres": 0.2645127494505459,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "section-54-9",
+      "location": [
+        2.18221910184243,
+        41.38390799560927
+      ],
+      "meshElevation": 31.826000213623068,
+      "sourceElevation": 31.789,
+      "differenceMetres": 0.03700021362306671,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "section-54-13",
+      "location": [
+        2.182260957270832,
+        41.383890533455734
+      ],
+      "meshElevation": 31.826000213623047,
+      "sourceElevation": 32.737,
+      "differenceMetres": -0.910999786376955,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "frame-0-1",
+      "location": [
+        2.1818165516024655,
+        41.3835311818798
+      ],
+      "meshElevation": 34.62799835205079,
+      "sourceElevation": 37.638,
+      "differenceMetres": -3.0100016479492098,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "frame--6-14",
+      "location": [
+        2.18182940773984,
+        41.38365943825112
+      ],
+      "meshElevation": 35.92364290275234,
+      "sourceElevation": 37.592999,
+      "differenceMetres": -1.6693560972476575,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "frame-0-14",
+      "location": [
+        2.1818921908824427,
+        41.383633245020825
+      ],
+      "meshElevation": 37.44999616690019,
+      "sourceElevation": 38.280998,
+      "differenceMetres": -0.8310018330998048,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "frame-6-14",
+      "location": [
+        2.1819549740250452,
+        41.38360705179052
+      ],
+      "meshElevation": 35.88099314725027,
+      "sourceElevation": 35.671001,
+      "differenceMetres": 0.2099921472502757,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "frame--6-26",
+      "location": [
+        2.1818992286136654,
+        41.383753650381294
+      ],
+      "meshElevation": 35.875857558845254,
+      "sourceElevation": 37.544998,
+      "differenceMetres": -1.6691404411547452,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "frame-0-26",
+      "location": [
+        2.181962011756268,
+        41.38372745715099
+      ],
+      "meshElevation": 37.23300057715381,
+      "sourceElevation": 37.233002,
+      "differenceMetres": -0.0000014228461893139865,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "frame-6-26",
+      "location": [
+        2.1820247948988705,
+        41.38370126392069
+      ],
+      "meshElevation": 35.94299703618318,
+      "sourceElevation": 37.490002,
+      "differenceMetres": -1.5470049638168177,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "frame--6-40",
+      "location": [
+        2.1819806862997946,
+        41.383863564533165
+      ],
+      "meshElevation": 35.80219293530068,
+      "sourceElevation": 36.634998,
+      "differenceMetres": -0.8328050646993219,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "frame-0-40",
+      "location": [
+        2.182043469442397,
+        41.38383737130286
+      ],
+      "meshElevation": 37.18700084191828,
+      "sourceElevation": 37.187,
+      "differenceMetres": 8.41918279093079e-7,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "frame-6-40",
+      "location": [
+        2.1821062525849997,
+        41.383811178072555
+      ],
+      "meshElevation": 35.84552004788881,
+      "sourceElevation": 37.685001,
+      "differenceMetres": -1.8394809521111881,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "frame--6-61",
+      "location": [
+        2.182102872828988,
+        41.38402843576096
+      ],
+      "meshElevation": 37.412007609979,
+      "sourceElevation": 37.285999,
+      "differenceMetres": 0.12600860997900298,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "frame-0-61",
+      "location": [
+        2.1821656559715907,
+        41.38400224253066
+      ],
+      "meshElevation": 37.449993683074744,
+      "sourceElevation": 37.909,
+      "differenceMetres": -0.4590063169252545,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "frame-6-61",
+      "location": [
+        2.1822284391141933,
+        41.38397604930036
+      ],
+      "meshElevation": 37.347998730896585,
+      "sourceElevation": 37.094002,
+      "differenceMetres": 0.25399673089658137,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "frame--10-3",
+      "location": [
+        2.1817235498437655,
+        41.383590539285336
+      ],
+      "meshElevation": 31.826000213623047,
+      "sourceElevation": 34.297001,
+      "differenceMetres": -2.4710007863769547,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "frame-10-3",
+      "location": [
+        2.181932826985774,
+        41.38350322851766
+      ],
+      "meshElevation": 31.826000213623047,
+      "sourceElevation": 34.110001,
+      "differenceMetres": -2.28400078637695,
+      "source": "ICGC DSM1m2021–2023; local cell may include fittings or parapet"
+    },
+    {
+      "name": "frontal-cornice-interior",
+      "location": [
+        2.181811896877544,
+        41.38352490107113
+      ],
+      "sourceLocation": [
+        2.1818107331963135,
+        41.383523330868954
+      ],
+      "meshElevation": 34.62799835205078,
+      "sourceElevation": 34.628,
+      "differenceMetres": -0.0000016479492188636868,
+      "source": "ICGC DSM1m front cell; control moved0.2m inward to avoid a facade-edge ray"
+    }
+  ],
+  "expectedReplacements": {
+    "mode": "footprint",
+    "featureIds": [
+      "osm-way-51260215",
+      "osm-way-217516630"
+    ]
+  },
+  "sourceGuards": [
+    {
+      "name": "section-18--9",
+      "location": [
+        2.181821289793147,
+        41.38370393890967
+      ],
+      "cadElevation": 31.826,
+      "dsmElevation": 32.008999,
+      "toleranceMetres": 0.02,
+      "role": "measured-terrace-plane",
+      "meshElevation": 31.826000213623015,
+      "differenceMetres": 2.1362301438898612e-7,
+      "passed": true
+    },
+    {
+      "name": "section-18-9",
+      "location": [
+        2.1820096392209547,
+        41.383625359218755
+      ],
+      "cadElevation": 31.826,
+      "dsmElevation": 31.917999,
+      "toleranceMetres": 0.02,
+      "role": "measured-terrace-plane",
+      "meshElevation": 31.826000213623043,
+      "differenceMetres": 2.1362304281069555e-7,
+      "passed": true
+    },
+    {
+      "name": "section-36--9",
+      "location": [
+        2.1819260211038847,
+        41.38384525710492
+      ],
+      "cadElevation": 31.826,
+      "dsmElevation": 31.973,
+      "toleranceMetres": 0.02,
+      "role": "measured-terrace-plane",
+      "meshElevation": 31.82600021362305,
+      "differenceMetres": 2.136230499161229e-7,
+      "passed": true
+    },
+    {
+      "name": "section-36-9",
+      "location": [
+        2.1821143705316923,
+        41.383766677414016
+      ],
+      "cadElevation": 31.826,
+      "dsmElevation": 31.941,
+      "toleranceMetres": 0.02,
+      "role": "measured-terrace-plane",
+      "meshElevation": 31.826000213623058,
+      "differenceMetres": 2.1362305702155027e-7,
+      "passed": true
+    },
+    {
+      "name": "section-54--9",
+      "location": [
+        2.1820307524146223,
+        41.383986575300185
+      ],
+      "cadElevation": 31.826,
+      "dsmElevation": 31.743999,
+      "toleranceMetres": 0.02,
+      "role": "measured-terrace-plane",
+      "meshElevation": 31.82600021362305,
+      "differenceMetres": 2.136230499161229e-7,
+      "passed": true
+    },
+    {
+      "name": "section-54-9",
+      "location": [
+        2.18221910184243,
+        41.38390799560927
+      ],
+      "cadElevation": 31.826,
+      "dsmElevation": 31.789,
+      "toleranceMetres": 0.02,
+      "role": "measured-terrace-plane",
+      "meshElevation": 31.82600021362304,
+      "differenceMetres": 2.1362303925798187e-7,
+      "passed": true
+    },
+    {
+      "name": "frame--10-3",
+      "location": [
+        2.1817235498437655,
+        41.383590539285336
+      ],
+      "cadElevation": 31.826,
+      "dsmElevation": 34.297001,
+      "toleranceMetres": 0.02,
+      "role": "CAD-preservation-only",
+      "limitation": "DSM34.11–34.30m does not corroborate this front terrace cap. This is a regression check on retained CAD geometry, not a physical-height accuracy assertion.",
+      "meshElevation": 31.826000213623047,
+      "differenceMetres": 2.1362304636340923e-7,
+      "passed": true
+    },
+    {
+      "name": "frame-10-3",
+      "location": [
+        2.181932826985774,
+        41.38350322851766
+      ],
+      "cadElevation": 31.826,
+      "dsmElevation": 34.110001,
+      "toleranceMetres": 0.02,
+      "role": "CAD-preservation-only",
+      "limitation": "DSM34.11–34.30m does not corroborate this front terrace cap. This is a regression check on retained CAD geometry, not a physical-height accuracy assertion.",
+      "meshElevation": 31.826000213623047,
+      "differenceMetres": 2.1362304636340923e-7,
+      "passed": true
+    }
+  ]
+}

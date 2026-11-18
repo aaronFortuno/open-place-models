@@ -1,0 +1,40 @@
+[
+  {
+    "id": "icgc-1200303",
+    "modelTower": "west",
+    "cadLowerHandle": "17DDBC",
+    "cadUpperHandle": "17D6C9",
+    "sourceAreaSquareMetres": 8.063819291547475,
+    "coverageByConvexLowerTowerEnvelope": 1,
+    "sourceCentroidLocal": [
+      -29.560957034688986,
+      -23.692315671922437
+    ],
+    "towerCentreLocal": [
+      -29.57038285036227,
+      -23.697123739988434
+    ],
+    "centroidDistanceMetres": 0.010581281568601459,
+    "sourceHeight": 46.4000015,
+    "centroidMethod": "Area centroid of original RTT polygon in the model EN frame"
+  },
+  {
+    "id": "icgc-1518367",
+    "modelTower": "east",
+    "cadLowerHandle": "177D64",
+    "cadUpperHandle": "17DC7B",
+    "sourceAreaSquareMetres": 8.064554719057597,
+    "coverageByConvexLowerTowerEnvelope": 1,
+    "sourceCentroidLocal": [
+      -2.1291968193934356,
+      -38.703860502751226
+    ],
+    "towerCentreLocal": [
+      -2.605549673608325,
+      -38.6908635951808
+    ],
+    "centroidDistanceMetres": 0.4765301263562104,
+    "sourceHeight": 45.5800018,
+    "centroidMethod": "Area centroid of original RTT polygon in the model EN frame"
+  }
+]

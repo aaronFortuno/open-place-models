@@ -1,0 +1,485 @@
+{
+  "name": "parcial",
+  "width": 65,
+  "height": 80,
+  "scale": 1000,
+  "rotation": -19,
+  "center": [
+    41.38402,
+    2.1821
+  ],
+  "compareBaseline": true,
+  "expectedRemovedIds": [],
+  "id": "santa-maria-del-mar",
+  "consumerVersion": "0.24.14",
+  "rayMethod": "Direct triangle intersections on exported indexed mesh; no Manifold reconstruction for read-only controls",
+  "terrain": "ICGC MET5",
+  "buildingSource": "icgc",
+  "catalogue": [
+    {
+      "id": "santa-maria-del-mar",
+      "family": null,
+      "fragments": 1,
+      "roof": 40.95757293701172,
+      "roofShape": "catalogue",
+      "roofFallback": null,
+      "roofSource": null,
+      "roofMetadata": null,
+      "baseOffsetMM": 0,
+      "estimated": false,
+      "landmark": {
+        "name": "Basílica de Santa Maria del Mar",
+        "revision": "r1",
+        "license": "CC-BY-4.0",
+        "spatialDataLicense": "CC-BY-4.0; ODbL-1.0",
+        "attribution": "Open Place Models contributors · Ajuntament de Barcelona · ICGC · OpenStreetMap contributors",
+        "sources": [
+          "https://w20.bcn.cat/CartoBCN/getFile.ashx?prod=146.04.47",
+          "https://portaldades.ajuntament.barcelona.cat/mapes/146",
+          "https://geoserveis.icgc.cat/servei/catalunya/elevacions-territorial/wms",
+          "https://www.openstreetmap.org/way/51260215",
+          "https://www.openstreetmap.org/way/217516630",
+          "https://www.santamariadelmar.barcelona/es/el-edificio/",
+          "https://thisisbarcelona.com/es/arquitectura/patrimonio-religioso/basilica-de-santa-maria-del-mar",
+          "https://www.barcelonabusturistic.cat/es/basilica-de-santa-maria-del-mar",
+          "https://icgc-web-pro.s3.eu-central-1.amazonaws.com/produccio/s3fs-public/08_2003_irizarry_etal_curvas_71177.pdf",
+          "https://calaix.gencat.cat/bitstream/handle/10687/422909/qmem9536.pdf?isAllowed=y&sequence=2",
+          "https://urcotex.com/ca/projects/restauracio-de-labsis-i-les-cantories-de-lesglesia-de-santa-maria-del-mar-barcelona/",
+          "https://www.arquitecturacatalana.cat/es/obras/esglesia-de-santa-maria-del-mar-capella-del-santissim",
+          "https://www.quadrifoli.com/capella-del-santissim-de-la-catedral-santa-maria-del-mar-p-73-ca",
+          "https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=ortofoto_color_vigent&STYLES=&FORMAT=image%2Fjpeg&SRS=EPSG%3A25831&BBOX=431535.54240372585%2C4581617.097774944%2C431675.54240372585%2C4581757.097774944&WIDTH=1600&HEIGHT=1600",
+          "https://www.qestudi.com/es/node/119",
+          "https://www.barcelonabusturistic.cat/es/basilica-de-santa-maria-del-mar",
+          "https://patrimoni.gencat.cat/es/coleccion/santa-maria-del-mar"
+        ],
+        "anchorElevation": 2
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "santa-maria-del-mar",
+      "mesh": "models/santa-maria-del-mar/r1/print.glb",
+      "byteLength": 111868,
+      "sha256": "3d8b96164d0d9f4e9843d778f7c508609362e615f0e8ce9436ba5a6a83f5d9b8"
+    }
+  ],
+  "expectedIds": [
+    "santa-maria-del-mar"
+  ],
+  "buildingCount": 7,
+  "contacts": [
+    {
+      "name": "footing-11-40",
+      "sourceFoundationASL": 2,
+      "embeddedMM": 3.081816951166002
+    },
+    {
+      "name": "footing-0-62",
+      "sourceFoundationASL": 2,
+      "embeddedMM": 2.6985876261469848
+    },
+    {
+      "name": "footing--14-52",
+      "sourceFoundationASL": 2,
+      "embeddedMM": 2.8093676500488973
+    },
+    {
+      "name": "footing-0-82",
+      "sourceFoundationASL": 2,
+      "embeddedMM": 2.5257316773438667
+    }
+  ],
+  "openings": [],
+  "roofChecks": [
+    {
+      "name": "section-18--6",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": 0,
+      "terrainElevationASL": 4.817481831038947,
+      "surfaceElevationASL": 36.20900632618864
+    },
+    {
+      "name": "section-18--3",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": 0,
+      "terrainElevationASL": 4.814094238345234,
+      "surfaceElevationASL": 36.76502428133132
+    },
+    {
+      "name": "section-18-0",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": 7.105427357601002e-15,
+      "terrainElevationASL": 4.816616365350649,
+      "surfaceElevationASL": 37.320997605454224
+    },
+    {
+      "name": "section-18-3",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": 7.105427357601002e-15,
+      "terrainElevationASL": 4.843648186678624,
+      "surfaceElevationASL": 36.702019179171664
+    },
+    {
+      "name": "section-18-6",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": 1.4210854715202004e-14,
+      "terrainElevationASL": 4.906191461109656,
+      "surfaceElevationASL": 36.08301072076937
+    },
+    {
+      "name": "section-18-9",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": 2.1316282072803006e-14,
+      "terrainElevationASL": 4.984885677917585,
+      "surfaceElevationASL": 31.825999708184845
+    },
+    {
+      "name": "section-36--13",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": 1.4210854715202004e-14,
+      "terrainElevationASL": 4.657909875109157,
+      "surfaceElevationASL": 37.34899851800982
+    },
+    {
+      "name": "section-36--9",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": -7.105427357601002e-15,
+      "terrainElevationASL": 4.653004624842585,
+      "surfaceElevationASL": 31.82599970818484
+    },
+    {
+      "name": "section-36--6",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": 0,
+      "terrainElevationASL": 4.649099145766816,
+      "surfaceElevationASL": 37.400989733521335
+    },
+    {
+      "name": "section-36--3",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": -7.105427357601002e-15,
+      "terrainElevationASL": 4.6452900830468655,
+      "surfaceElevationASL": 37.42200036280924
+    },
+    {
+      "name": "section-36-0",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": 0,
+      "terrainElevationASL": 4.641331339245689,
+      "surfaceElevationASL": 37.442999542751316
+    },
+    {
+      "name": "section-36-3",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": 0,
+      "terrainElevationASL": 4.657106219760923,
+      "surfaceElevationASL": 37.42799923502727
+    },
+    {
+      "name": "section-36-6",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": -1.4210854715202004e-14,
+      "terrainElevationASL": 4.699227266166584,
+      "surfaceElevationASL": 37.41300709169502
+    },
+    {
+      "name": "section-36-9",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": 1.2079226507921703e-13,
+      "terrainElevationASL": 4.775662189947173,
+      "surfaceElevationASL": 31.825999708184867
+    },
+    {
+      "name": "section-36-13",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": -2.842170943040401e-14,
+      "terrainElevationASL": 4.88113013189855,
+      "surfaceElevationASL": 31.82599970818484
+    },
+    {
+      "name": "section-36-17",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": 0,
+      "terrainElevationASL": 4.986056253285684,
+      "surfaceElevationASL": 20.271998853670663
+    },
+    {
+      "name": "section-54--17",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": 3.552713678800501e-15,
+      "terrainElevationASL": 4.503316468605629,
+      "surfaceElevationASL": 20.271998853670656
+    },
+    {
+      "name": "section-54--13",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": 0,
+      "terrainElevationASL": 4.489599866933845,
+      "surfaceElevationASL": 31.825999708184852
+    },
+    {
+      "name": "section-54--9",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": 0,
+      "terrainElevationASL": 4.48462245478087,
+      "surfaceElevationASL": 31.825999708184845
+    },
+    {
+      "name": "section-54--6",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": 0,
+      "terrainElevationASL": 4.480704221609703,
+      "surfaceElevationASL": 35.790867374236235
+    },
+    {
+      "name": "section-54--3",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": 0,
+      "terrainElevationASL": 4.476992232380224,
+      "surfaceElevationASL": 36.34502649437593
+    },
+    {
+      "name": "section-54-0",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": 0,
+      "terrainElevationASL": 4.4731241789314184,
+      "surfaceElevationASL": 37.134999071355566
+    },
+    {
+      "name": "section-54-3",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": 7.105427357601002e-15,
+      "terrainElevationASL": 4.472410664637069,
+      "surfaceElevationASL": 36.3850045397381
+    },
+    {
+      "name": "section-54-6",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": 0,
+      "terrainElevationASL": 4.500903936924764,
+      "surfaceElevationASL": 35.81751431870958
+    },
+    {
+      "name": "section-54-9",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": -2.842170943040401e-14,
+      "terrainElevationASL": 4.565828645681014,
+      "surfaceElevationASL": 31.82599970818484
+    },
+    {
+      "name": "section-54-13",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": 0,
+      "terrainElevationASL": 4.671353775566503,
+      "surfaceElevationASL": 31.82599970818484
+    },
+    {
+      "name": "frame-0-14",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": -7.105427357601002e-15,
+      "terrainElevationASL": 4.850225759217064,
+      "surfaceElevationASL": 37.44999289460287
+    },
+    {
+      "name": "frame-6-14",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": -0.0000012656448262760023,
+      "terrainElevationASL": 4.95375992163699,
+      "surfaceElevationASL": 35.88099154399883
+    },
+    {
+      "name": "frame--6-26",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": 0,
+      "terrainElevationASL": 4.742683047692364,
+      "surfaceElevationASL": 35.87585547674363
+    },
+    {
+      "name": "frame-0-26",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": 0,
+      "terrainElevationASL": 4.735424019273712,
+      "surfaceElevationASL": 37.23299851428032
+    },
+    {
+      "name": "frame-6-26",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": 0,
+      "terrainElevationASL": 4.815624149635163,
+      "surfaceElevationASL": 35.942996882113775
+    },
+    {
+      "name": "frame--6-40",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": 7.105427357601002e-15,
+      "terrainElevationASL": 4.611700144427446,
+      "surfaceElevationASL": 35.80219198046831
+    },
+    {
+      "name": "frame-0-40",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": 7.105427357601002e-15,
+      "terrainElevationASL": 4.606390060505028,
+      "surfaceElevationASL": 37.18700053981224
+    },
+    {
+      "name": "frame-6-40",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": 0,
+      "terrainElevationASL": 4.654055889404265,
+      "surfaceElevationASL": 35.84551928825529
+    },
+    {
+      "name": "frame--6-61",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": 1.4210854715202004e-14,
+      "terrainElevationASL": 4.415472073930183,
+      "surfaceElevationASL": 37.412007480211514
+    },
+    {
+      "name": "frame-0-61",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": 7.105427357601002e-15,
+      "terrainElevationASL": 4.407983487985347,
+      "surfaceElevationASL": 37.44999262852505
+    },
+    {
+      "name": "frame-6-61",
+      "modelId": "santa-maria-del-mar",
+      "differenceMM": -1.4210854715202004e-14,
+      "terrainElevationASL": 4.431438859983355,
+      "surfaceElevationASL": 37.34799831141627
+    }
+  ],
+  "facadeChecks": [
+    {
+      "name": "side-upper--1-48.5",
+      "modelId": "santa-maria-del-mar",
+      "originalDistanceMM": 2.900014988118305,
+      "differenceMM": 0
+    },
+    {
+      "name": "side-lower--1-58.7",
+      "modelId": "santa-maria-del-mar",
+      "originalDistanceMM": 2.8999866837126316,
+      "differenceMM": 0
+    },
+    {
+      "name": "side-upper-1-48.5",
+      "modelId": "santa-maria-del-mar",
+      "originalDistanceMM": 2.900005072334188,
+      "differenceMM": 0
+    },
+    {
+      "name": "side-lower-1-58.7",
+      "modelId": "santa-maria-del-mar",
+      "originalDistanceMM": 2.899999760619552,
+      "differenceMM": 0
+    }
+  ],
+  "audits": [
+    {
+      "id": "terrain",
+      "closed": true,
+      "components": 6188,
+      "triangles": 50812,
+      "errors": []
+    },
+    {
+      "id": "built",
+      "closed": true,
+      "components": 1319,
+      "triangles": 14936,
+      "errors": []
+    }
+  ],
+  "warnings": [
+    "Els arbres són una representació procedimental dins de zones verdes, no posicions d’arbres mesurades.",
+    "Les tessel·les vectorials estan generalitzades. Aquesta prova no substitueix cartografia topogràfica de precisió.",
+    "Model singular del catàleg «Basílica de Santa Maria del Mar» (r1).",
+    "Altures de la font sobre el punt més alt de la petjada; coberta plana quan falten dades de forma.",
+    "Algunes petjades ICGC agrupen diverses cases sense divisions interiors. Pots comparar-les amb parts del Catastre.",
+    "Aigua: no hi ha geometria exportable d’aquesta capa a les dades carregades.",
+    "Vegetació: no hi ha geometria exportable d’aquesta capa a les dades carregades."
+  ],
+  "replacementCheck": {
+    "removed": [],
+    "preserved": [
+      "icgc-639006",
+      "icgc-639010",
+      "icgc-1200290",
+      "icgc-1518365",
+      "icgc-1518372",
+      "icgc-1518376"
+    ]
+  },
+  "retainedBuildingChecks": [
+    {
+      "name": "unmodelled-north-strip-1",
+      "location": [
+        2.182185934063665,
+        41.384281900700685
+      ],
+      "sources": [
+        {
+          "id": "icgc-1518365",
+          "height": 28.8899994
+        }
+      ],
+      "baselineTopASL": 33.96710863060848,
+      "integratedTopASL": 33.3357233715178,
+      "differenceMetres": -0.6313852590906777
+    },
+    {
+      "name": "unmodelled-north-strip-2",
+      "location": [
+        2.1822457976910963,
+        41.38426393447719
+      ],
+      "sources": [
+        {
+          "id": "icgc-1518365",
+          "height": 28.8899994
+        }
+      ],
+      "baselineTopASL": 33.96710863060848,
+      "integratedTopASL": 33.33572337151781,
+      "differenceMetres": -0.6313852590906706
+    },
+    {
+      "name": "unmodelled-north-strip-3",
+      "location": [
+        2.1823056613185274,
+        41.38424596825369
+      ],
+      "sources": [
+        {
+          "id": "icgc-1518365",
+          "height": 28.8899994
+        }
+      ],
+      "baselineTopASL": 33.96710863060849,
+      "integratedTopASL": 33.335723371517794,
+      "differenceMetres": -0.631385259090699
+    },
+    {
+      "name": "unmodelled-north-strip-4",
+      "location": [
+        2.1821320567989773,
+        41.38425944292131
+      ],
+      "sources": [
+        {
+          "id": "icgc-1518365",
+          "height": 28.8899994
+        }
+      ],
+      "baselineTopASL": 33.96710863060848,
+      "integratedTopASL": 33.3357233715178,
+      "differenceMetres": -0.6313852590906777
+    }
+  ],
+  "hiddenModePassed": true,
+  "heightLimitPassed": true
+}
