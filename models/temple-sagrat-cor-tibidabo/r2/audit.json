@@ -1,0 +1,159 @@
+{
+  "id": "temple-sagrat-cor-tibidabo",
+  "name": "Temple del Sagrat Cor del Tibidabo",
+  "errors": [],
+  "empty": false,
+  "finite": true,
+  "vertices": 5005,
+  "triangles": 10046,
+  "bbox": {
+    "min": [
+      -34.863094329833984,
+      0,
+      -34.10100173950195
+    ],
+    "max": [
+      36.853660583496094,
+      75.40499877929688,
+      34.03499984741211
+    ]
+  },
+  "dimensions": [
+    71.71675491333008,
+    75.40499877929688,
+    68.13600158691406
+  ],
+  "signedVolume": 72890.73782970433,
+  "orientation": "positiva",
+  "edges": {
+    "total": 15069,
+    "boundary": 0,
+    "nonManifold": 0,
+    "orientationConflicts": 0
+  },
+  "closed": true,
+  "components": 1,
+  "byteLength": 121128,
+  "sha256": "c9843438f353fb26f9efb05a818c36c8a65eb77c24f65158aa01d486beea751a",
+  "airControls": [
+    {
+      "name": "west-access-lower",
+      "location": [
+        2.1185836830609,
+        41.421953653323754
+      ],
+      "minElevation": 515,
+      "maxElevation": 518
+    },
+    {
+      "name": "west-access-upper",
+      "location": [
+        2.1186076426236284,
+        41.4219985688825
+      ],
+      "minElevation": 515,
+      "maxElevation": 518
+    },
+    {
+      "name": "crown-between-ribs",
+      "location": [
+        2.1189067578470553,
+        41.422125507068614
+      ],
+      "minElevation": 553,
+      "maxElevation": 564
+    }
+  ],
+  "stairControls": [
+    {
+      "name": "west-front",
+      "location": [
+        2.118708021630972,
+        41.42187031749012
+      ],
+      "expectedTopASL": [
+        513.2486667633057
+      ]
+    },
+    {
+      "name": "east-front",
+      "location": [
+        2.1191318051987555,
+        41.42199749454725
+      ],
+      "expectedTopASL": [
+        513.2486667633057
+      ]
+    }
+  ],
+  "facadeSections": [
+    {
+      "name": "main-portal",
+      "elevation": 520,
+      "frontB": 13.599231228333464,
+      "backB": 11.849330003200865,
+      "depthMetres": 1.7499012251325983
+    },
+    {
+      "name": "principal-window",
+      "elevation": 532,
+      "frontB": 13.549234276024626,
+      "backB": 12.04974958817882,
+      "depthMetres": 1.499484687845806
+    }
+  ],
+  "facadeControls": [
+    {
+      "name": "main-portal-recess",
+      "from": [
+        2.1189117793230143,
+        41.42198123147682,
+        520
+      ],
+      "to": [
+        2.118889814393883,
+        41.42202302091268,
+        520
+      ]
+    },
+    {
+      "name": "main-portal-jamb",
+      "from": [
+        2.118942430791613,
+        41.42199029027129,
+        520
+      ],
+      "to": [
+        2.1189204658624816,
+        41.42203207970715,
+        520
+      ]
+    },
+    {
+      "name": "principal-window-recess",
+      "from": [
+        2.1189117793230143,
+        41.42198123147682,
+        532
+      ],
+      "to": [
+        2.118889814393883,
+        41.42202302091268,
+        532
+      ]
+    },
+    {
+      "name": "principal-window-jamb",
+      "from": [
+        2.118945217288758,
+        41.42199111379806,
+        532
+      ],
+      "to": [
+        2.1189232523596266,
+        41.42203290323392,
+        532
+      ]
+    }
+  ]
+}

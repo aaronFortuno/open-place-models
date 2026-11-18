@@ -9671,14 +9671,14 @@
           "Temple Expiatori del Sagrat Cor",
           "Sacred Heart of Tibidabo"
         ],
-        "revision": "r1",
+        "revision": "r2",
         "geometryType": "building",
         "anchor": [2.1187514, 41.4220884],
         "anchorElevation": 500,
         "height": 75.405,
-        "mesh": "models/temple-sagrat-cor-tibidabo/r1/print.glb",
-        "thumbnail": "models/temple-sagrat-cor-tibidabo/r1/thumbnail.webp",
-        "byteLength": 28272,
+        "mesh": "models/temple-sagrat-cor-tibidabo/r2/print.glb",
+        "thumbnail": "models/temple-sagrat-cor-tibidabo/r2/thumbnail.webp",
+        "byteLength": 121128,
         "license": "CC-BY-4.0",
         "spatialDataLicense": "CC-BY-4.0; ODbL-1.0",
         "attribution": "Open Place Models contributors · Ajuntament de Barcelona · ICGC · OpenStreetMap contributors",
@@ -9689,7 +9689,10 @@
           "https://w20.bcn.cat/CartoBCN/getFile.ashx?prod=146.22.47",
           "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Geoinformacio-en-linia-Geoserveis/WMS-Elevacions/WMS-Elevacions-territorial",
           "https://geoserveis.icgc.cat/vector01/rest/services/topografia_territorial/MapServer/10",
-          "https://www.openstreetmap.org/way/486759610"
+          "https://www.openstreetmap.org/way/486759610",
+          "https://tibidabo.salesianos.edu/architecture/",
+          "https://tibidabo.salesianos.edu/wp-content/uploads/2017/11/El-Tibidabo.jpg",
+          "https://tibidabo.cat/sites/default/files/paragraphs/page/2024-02/temple-%284%29.jpg"
         ],
         "replacement": {
           "featureIds": [
@@ -9698,7 +9701,28 @@
             "icgc-1196284"
           ]
         },
-        "addedAt": "2026-11-18T08:36:14.979Z"
+        "addedAt": "2026-11-18T08:36:14.979Z",
+        "variants": [
+          {
+            "id": "schematic-r1",
+            "label": "Earlier simplified version · r1",
+            "revision": "r1",
+            "mesh": "models/temple-sagrat-cor-tibidabo/r1/print.glb",
+            "byteLength": 28272,
+            "license": "CC-BY-4.0",
+            "spatialDataLicense": "CC-BY-4.0; ODbL-1.0",
+            "attribution": "Open Place Models contributors · Ajuntament de Barcelona · ICGC · OpenStreetMap contributors",
+            "sources": [
+              "https://www.cataloniasacra.cat/temple-del-sagrat-cor-de-jesus-del-tibidabo/",
+              "https://tibidabo.cat/en/who-are-we/surroundings/temple-sacred-heart",
+              "https://portaldades.ajuntament.barcelona.cat/mapes/146",
+              "https://w20.bcn.cat/CartoBCN/getFile.ashx?prod=146.22.47",
+              "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Geoinformacio-en-linia-Geoserveis/WMS-Elevacions/WMS-Elevacions-territorial",
+              "https://geoserveis.icgc.cat/vector01/rest/services/topografia_territorial/MapServer/10",
+              "https://www.openstreetmap.org/way/486759610"
+            ]
+          }
+        ]
       }
     },
     {
@@ -10290,6 +10314,8 @@
     "models/temple-sagrat-cor-tibidabo/r1/print.glb": "2026-11-18T08:36:14.979Z",
     "models/temple-sagrat-cor-tibidabo/r1/thumbnail.webp": "2026-11-18T08:36:14.979Z",
     "models/la-pedrera-casa-mila/r1/print.glb": "2026-11-18T09:20:48.335Z",
-    "models/la-pedrera-casa-mila/r1/thumbnail.webp": "2026-11-18T09:20:48.335Z"
+    "models/la-pedrera-casa-mila/r1/thumbnail.webp": "2026-11-18T09:20:48.335Z",
+    "models/temple-sagrat-cor-tibidabo/r2/print.glb": "2026-11-18T13:30:18.990Z",
+    "models/temple-sagrat-cor-tibidabo/r2/thumbnail.webp": "2026-11-18T13:30:18.990Z"
   }
 }

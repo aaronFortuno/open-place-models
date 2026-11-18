@@ -41,8 +41,8 @@ def unit(vector):
     return vector / length
 
 
-def render(positions, triangles, camera, light=(-.42, .80, .45)):
-    width, height = 640, 400
+def render(positions, triangles, camera, light=(-.42, .80, .45), size=(320, 200)):
+    width, height = (dimension * 2 for dimension in size)
     direction = unit(np.asarray(camera))
     right = unit(np.cross([0, 1, 0], direction))
     up = np.cross(direction, right)
@@ -79,7 +79,7 @@ def render(positions, triangles, camera, light=(-.42, .80, .45)):
         region[visible] = z[visible]
         pixels[y0:y1, x0:x1][visible] = colour
 
-    return Image.fromarray(pixels).resize((320, 200), Image.Resampling.LANCZOS)
+    return Image.fromarray(pixels).resize(size, Image.Resampling.LANCZOS)
 
 
 if __name__ == "__main__":
@@ -87,5 +87,10 @@ if __name__ == "__main__":
     parser.add_argument("mesh", type=Path)
     parser.add_argument("--camera", type=float, nargs=3, default=(1, .62, 1.35), metavar=("EAST", "UP", "SOUTH"))
     parser.add_argument("--light", type=float, nargs=3, default=(-.42, .80, .45), metavar=("EAST", "UP", "SOUTH"))
+    parser.add_argument("--size", type=int, nargs=2, default=(320, 200), metavar=("WIDTH", "HEIGHT"))
+    parser.add_argument("--output", type=Path, help="Write a separate reference view instead of replacing the thumbnail")
     args = parser.parse_args()
-    render(*read_mesh(args.mesh), args.camera, args.light).save(args.mesh.with_name("thumbnail.webp"), quality=87)
+    if any(dimension <= 0 or dimension > 4096 for dimension in args.size):
+        parser.error("Image dimensions must be between 1 and 4096 pixels")
+    render(*read_mesh(args.mesh), args.camera, args.light, tuple(args.size)).save(
+        args.output or args.mesh.with_name("thumbnail.webp"), quality=87)
