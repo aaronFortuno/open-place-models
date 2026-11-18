@@ -1,6 +1,6 @@
 # Candidate queue
 
-The [next 80 places](MODELLING-QUEUE.md) are proposed in production order and await user validation. Keep this document as the detailed source record for researched and released candidates.
+The [next 80 places](MODELLING-QUEUE.md) were approved by the user on 18 November 2026 and are being modelled in production order. Keep this document as the detailed source record for researched and released candidates.
 
 Research snapshot · 7 November 2026
 

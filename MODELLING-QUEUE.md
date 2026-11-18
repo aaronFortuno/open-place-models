@@ -1,10 +1,17 @@
 # Propers 80 models
 
-Proposta del 17 de novembre de 2026 · **Pendent de validació de l’usuari.**
+Selecció del 17 de novembre de 2026 · **Validada per l’usuari el 18 de novembre de 2026.**
 
 Ordre proposat de producció: Catalunya, resta d’Espanya, resta d’Europa i resta del món. S’han exclòs les 45 entrades ja presents al catàleg. Cada fila és una unitat de treball; els conjunts indicats es tractaran com una entrada amb components quan calgui.
 
-Un cop validada la llista, es treballarà seqüencialment: documentar les fonts, crear una malla lleugera, comprovar-la localment a Relleu Obert i publicar cada model validat abans de passar al següent. Si una entrada queda bloquejada per manca de dades o una qüestió pendent, se’n registrarà el motiu i es continuarà amb la següent. Aquesta proposta fixa la selecció i l’ordre; la viabilitat de cada reconstrucció es comprovarà quan li toqui.
+Es treballa seqüencialment: documentar les fonts, crear una malla lleugera, comprovar-la localment a Relleu Obert i publicar cada model validat abans de passar al següent. Si una entrada queda bloquejada per manca de dades o una qüestió pendent, se’n registrarà el motiu i es continuarà amb la següent. Aquesta llista fixa la selecció i l’ordre; la viabilitat de cada reconstrucció es comprovarà quan li toqui.
+
+## Seguiment
+
+- **En curs:** 1. Palau Nacional — MNAC. Recerca de fonts i reconstrucció.
+- **Següent:** 2. Temple del Sagrat Cor del Tibidabo.
+- **Publicats d’aquesta tanda:** cap.
+- **En paral·lel:** localitzador orbital del catàleg al web.
 
 ## Catalunya · 1–30
 
