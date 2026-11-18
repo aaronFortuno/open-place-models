@@ -1,0 +1,58 @@
+{
+  "id": "palau-nacional-mnac",
+  "name": "Palau Nacional · MNAC",
+  "errors": [],
+  "empty": false,
+  "finite": true,
+  "vertices": 1462,
+  "triangles": 2948,
+  "bbox": {
+    "min": [
+      -87.08517456054688,
+      0,
+      -85.24885559082031
+    ],
+    "max": [
+      83.40928649902344,
+      77.552001953125,
+      87.4990005493164
+    ]
+  },
+  "dimensions": [
+    170.4944610595703,
+    77.552001953125,
+    172.74785614013672
+  ],
+  "signedVolume": 399359.4209467563,
+  "orientation": "positiva",
+  "edges": {
+    "total": 4422,
+    "boundary": 0,
+    "nonManifold": 0,
+    "orientationConflicts": 0
+  },
+  "closed": true,
+  "components": 1,
+  "byteLength": 36020,
+  "sha256": "bf83f08d09beca89f95a95abd499de343763d3e03b727ed872c1e467a7e89f87",
+  "gardenCourtRays": [
+    {
+      "name": "west-garden",
+      "location": [
+        2.1532947,
+        41.3685249
+      ],
+      "clearFromASL": 95,
+      "clearToASL": 150
+    },
+    {
+      "name": "east-garden",
+      "location": [
+        2.1536444,
+        41.3686524
+      ],
+      "clearFromASL": 95,
+      "clearToASL": 150
+    }
+  ]
+}

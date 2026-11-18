@@ -1,0 +1,131 @@
+{
+  "name": "complet",
+  "center": [
+    41.368389,
+    2.15348
+  ],
+  "width": 200,
+  "height": 180,
+  "scale": 1500,
+  "rotation": 10,
+  "export3mf": true,
+  "id": "palau-nacional-mnac",
+  "terrain": "ICGC MET5",
+  "buildingSource": "icgc",
+  "catalogue": {
+    "id": "palau-nacional-mnac",
+    "family": null,
+    "fragments": 1,
+    "roof": 74.44123840332031,
+    "roofShape": "catalogue",
+    "roofFallback": null,
+    "roofSource": null,
+    "roofMetadata": null,
+    "baseOffsetMM": 0,
+    "estimated": false,
+    "landmark": {
+      "name": "Palau Nacional · MNAC",
+      "revision": "r1",
+      "license": "CC-BY-4.0",
+      "spatialDataLicense": "CC-BY-4.0; ODbL-1.0",
+      "attribution": "Open Place Models contributors · Ajuntament de Barcelona · ICGC · OpenStreetMap contributors",
+      "sources": [
+        "https://www.museunacional.cat/ca/ledifici",
+        "https://portaldades.ajuntament.barcelona.cat/mapes/146",
+        "https://w20.bcn.cat/CartoBCN/getFile.ashx?prod=146.11.47",
+        "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Geoinformacio-en-linia-Geoserveis/WMS-Elevacions/WMS-Elevacions-territorial",
+        "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Dades-i-productes/Imatge/Ortofoto-Territorial",
+        "https://www.openstreetmap.org/relation/21195792"
+      ],
+      "anchorElevation": 72
+    }
+  },
+  "buildingCount": 11,
+  "contacts": [
+    {
+      "name": "front-ponent",
+      "sourceFoundationASL": 72,
+      "embeddedMM": 2.8475408710259345
+    },
+    {
+      "name": "front-llevant",
+      "sourceFoundationASL": 72,
+      "embeddedMM": 4.1933358249922925
+    },
+    {
+      "name": "darrere-ponent",
+      "sourceFoundationASL": 72,
+      "embeddedMM": 5.686272411818706
+    },
+    {
+      "name": "darrere-llevant",
+      "sourceFoundationASL": 72,
+      "embeddedMM": 6.394161668532185
+    }
+  ],
+  "openings": [
+    "pati-ponent",
+    "pati-llevant"
+  ],
+  "audits": [
+    {
+      "id": "terrain",
+      "closed": true,
+      "components": 9275,
+      "triangles": 76416,
+      "errors": []
+    },
+    {
+      "id": "water",
+      "closed": true,
+      "components": 306,
+      "triangles": 3332,
+      "errors": []
+    },
+    {
+      "id": "built",
+      "closed": true,
+      "components": 2750,
+      "triangles": 38956,
+      "errors": []
+    },
+    {
+      "id": "green",
+      "closed": true,
+      "components": 10574,
+      "triangles": 99116,
+      "errors": []
+    }
+  ],
+  "warnings": [
+    "Pont proc-bridge-0003 omès: revolt massa tancat per a un offset fiable.",
+    "4 ponts procedimentals amb cotes estimades a partir del relleu i la cartografia.",
+    "Els arbres són una representació procedimental dins de zones verdes, no posicions d’arbres mesurades.",
+    "Les tessel·les vectorials estan generalitzades. Aquesta prova no substitueix cartografia topogràfica de precisió.",
+    "Model singular del catàleg «Palau Nacional · MNAC» (r1).",
+    "Altures de la font sobre el punt més alt de la petjada; coberta plana quan falten dades de forma.",
+    "Algunes petjades ICGC agrupen diverses cases sense divisions interiors. Pots comparar-les amb parts del Catastre.",
+    "3 pilars simplificats i 3 enllaços suaus amb camins i vies. Distribució procedimental de suports, no posicions mesurades. S’eviten camins i edificis disponibles.",
+    "3 posicions de suport omeses per falta d’espai o obstacles. Revisa els trams lliures al laminador.",
+    "El límit de la maqueta talla 3 continuacions de pont abans que es puguin enllaçar suaument. Amplia o desplaça el retall per donar espai als enllaços.",
+    "2 extrems sense enllaç suau dins del retall."
+  ],
+  "replacementCheck": {
+    "removed": [
+      "icgc-1175890"
+    ],
+    "preserved": [
+      "95892610",
+      "12142940",
+      "15744270",
+      "1554220",
+      "icgc-614291",
+      "icgc-614309",
+      "icgc-858307",
+      "icgc-858320",
+      "icgc-858364"
+    ]
+  },
+  "hiddenModePassed": true,
+  "heightLimitPassed": true
+}

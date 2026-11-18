@@ -1,0 +1,114 @@
+{
+  "name": "girat",
+  "center": [
+    41.368389,
+    2.15348
+  ],
+  "width": 160,
+  "height": 130,
+  "scale": 3000,
+  "rotation": -14,
+  "id": "palau-nacional-mnac",
+  "terrain": "ICGC MET5",
+  "buildingSource": "icgc",
+  "catalogue": {
+    "id": "palau-nacional-mnac",
+    "family": null,
+    "fragments": 1,
+    "roof": 41.328575134277344,
+    "roofShape": "catalogue",
+    "roofFallback": null,
+    "roofSource": null,
+    "roofMetadata": null,
+    "baseOffsetMM": 0,
+    "estimated": false,
+    "landmark": {
+      "name": "Palau Nacional · MNAC",
+      "revision": "r1",
+      "license": "CC-BY-4.0",
+      "spatialDataLicense": "CC-BY-4.0; ODbL-1.0",
+      "attribution": "Open Place Models contributors · Ajuntament de Barcelona · ICGC · OpenStreetMap contributors",
+      "sources": [
+        "https://www.museunacional.cat/ca/ledifici",
+        "https://portaldades.ajuntament.barcelona.cat/mapes/146",
+        "https://w20.bcn.cat/CartoBCN/getFile.ashx?prod=146.11.47",
+        "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Geoinformacio-en-linia-Geoserveis/WMS-Elevacions/WMS-Elevacions-territorial",
+        "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Dades-i-productes/Imatge/Ortofoto-Territorial",
+        "https://www.openstreetmap.org/relation/21195792"
+      ],
+      "anchorElevation": 72
+    }
+  },
+  "buildingCount": 21,
+  "contacts": [
+    {
+      "name": "front-ponent",
+      "sourceFoundationASL": 72,
+      "embeddedMM": 1.5737642517171437
+    },
+    {
+      "name": "front-llevant",
+      "sourceFoundationASL": 72,
+      "embeddedMM": 2.2476991851315624
+    },
+    {
+      "name": "darrere-ponent",
+      "sourceFoundationASL": 72,
+      "embeddedMM": 2.9936277459850764
+    },
+    {
+      "name": "darrere-llevant",
+      "sourceFoundationASL": 72,
+      "embeddedMM": 3.3470726310633268
+    }
+  ],
+  "openings": [
+    "pati-ponent",
+    "pati-llevant"
+  ],
+  "audits": [
+    {
+      "id": "terrain",
+      "closed": true,
+      "components": 9915,
+      "triangles": 84144,
+      "errors": []
+    },
+    {
+      "id": "water",
+      "closed": true,
+      "components": 390,
+      "triangles": 4920,
+      "errors": []
+    },
+    {
+      "id": "built",
+      "closed": true,
+      "components": 4245,
+      "triangles": 65808,
+      "errors": []
+    },
+    {
+      "id": "green",
+      "closed": true,
+      "components": 12737,
+      "triangles": 131144,
+      "errors": []
+    }
+  ],
+  "warnings": [
+    "Pont proc-bridge-0003 omès: revolt massa tancat per a un offset fiable.",
+    "6 ponts procedimentals amb cotes estimades a partir del relleu i la cartografia.",
+    "Els arbres són una representació procedimental dins de zones verdes, no posicions d’arbres mesurades.",
+    "Les tessel·les vectorials estan generalitzades. Aquesta prova no substitueix cartografia topogràfica de precisió.",
+    "Model singular del catàleg «Palau Nacional · MNAC» (r1).",
+    "Altures de la font sobre el punt més alt de la petjada; coberta plana quan falten dades de forma.",
+    "Algunes petjades ICGC agrupen diverses cases sense divisions interiors. Pots comparar-les amb parts del Catastre.",
+    "2 pilars simplificats i 10 enllaços suaus amb camins i vies. Distribució procedimental de suports, no posicions mesurades. S’eviten camins i edificis disponibles.",
+    "El límit de la maqueta talla 1 continuacions de pont abans que es puguin enllaçar suaument. Amplia o desplaça el retall per donar espai als enllaços.",
+    "1 extrems sense enllaç suau dins del retall.",
+    "Alguns ponts contenen fragments separats. Revisa les unions i els extrems al laminador abans d’imprimir."
+  ],
+  "hiddenModePassed": true,
+  "heightLimitPassed": true
+}

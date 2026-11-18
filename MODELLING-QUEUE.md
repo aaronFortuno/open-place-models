@@ -8,10 +8,10 @@ Es treballa seqüencialment: documentar les fonts, crear una malla lleugera, com
 
 ## Seguiment
 
-- **En curs:** 1. Palau Nacional — MNAC. Recerca de fonts i reconstrucció.
-- **Següent:** 2. Temple del Sagrat Cor del Tibidabo.
-- **Publicats d’aquesta tanda:** cap.
-- **En paral·lel:** localitzador orbital del catàleg al web.
+- **En curs:** 2. Temple del Sagrat Cor del Tibidabo. Recerca de fonts.
+- **Següent:** 3. La Pedrera — Casa Milà.
+- **Publicats d’aquesta tanda:** 1. [Palau Nacional — MNAC · r1](models/palau-nacional-mnac/r1/README.md), 36,0 kB, validat localment a Relleu Obert en tres escales/retalls.
+- **Localitzador orbital:** incorporat al visor, amb filtres i agrupació de marcadors. Build i comprovacions de coordenades correctes; revisió visual interactiva pendent perquè el control del navegador no n’ha pogut identificar l’adreça amb seguretat.
 
 ## Catalunya · 1–30
 
