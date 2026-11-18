@@ -1,0 +1,1090 @@
+{
+  "name": "girat",
+  "width": 220,
+  "height": 200,
+  "scale": 4000,
+  "rotation": -23,
+  "center": [
+    41.3627,
+    2.16505
+  ],
+  "id": "castell-de-montjuic",
+  "consumerVersion": "0.24.15",
+  "validationStatus": "passed-with-known-terrain-limitation",
+  "rayMethod": "Direct triangle intersections on exported indexed mesh; no Manifold reconstruction for read-only controls",
+  "terrain": "ICGC MET5",
+  "buildingSource": "icgc",
+  "catalogue": [
+    {
+      "id": "castell-de-montjuic",
+      "family": null,
+      "fragments": 1,
+      "roof": 56.406253814697266,
+      "roofShape": "catalogue",
+      "roofFallback": null,
+      "roofSource": null,
+      "roofMetadata": null,
+      "baseOffsetMM": 0,
+      "estimated": false,
+      "landmark": {
+        "name": "Castell de Montjuïc",
+        "revision": "r1",
+        "license": "CC-BY-4.0",
+        "spatialDataLicense": "CC-BY-4.0; ODbL-1.0",
+        "attribution": "Open Place Models contributors; Ajuntament de Barcelona; ICGC; OpenStreetMap contributors; OpenMapTiles; OpenFreeMap",
+        "sources": [
+          "https://portaldades.ajuntament.barcelona.cat/mapes/146",
+          "https://ajuntament.barcelona.cat/castelldemontjuic/sites/default/files/fitxers/biblioteca/castell_de_montjuic_cat_v21.pdf",
+          "https://ajuntament.barcelona.cat/castelldemontjuic/sites/default/files/fitxers/biblioteca/cmj_guia_20oct14_cat.pdf",
+          "https://www.icgc.cat/ca/LICGC/Informacio-publica/Transparencia/Reutilitzacio-de-la-informacio",
+          "https://geoserveis.icgc.cat/vector01/rest/services/topografia_territorial/MapServer/10",
+          "https://geoserveis.icgc.cat/servei/catalunya/elevacions-territorial/wms",
+          "https://openfreemap.org/quick_start/",
+          "https://www.openstreetmap.org/copyright",
+          "https://tiles.openfreemap.org/planet"
+        ],
+        "anchorElevation": 165.42999979782104
+      }
+    }
+  ],
+  "wholeModelCoverage": [],
+  "cataloguePeers": [],
+  "assets": [
+    {
+      "id": "castell-de-montjuic",
+      "mesh": "models/castell-de-montjuic/r1/print.glb",
+      "byteLength": 93940,
+      "sha256": "6a2833f76bf89f728188b33c7e9278d5a877ab06ad418e31e756611a35977524"
+    }
+  ],
+  "expectedIds": [
+    "castell-de-montjuic"
+  ],
+  "buildingCount": 120,
+  "transportReplacements": [
+    {
+      "modelId": "castell-de-montjuic",
+      "featureId": "618920730",
+      "bbox": [
+        2.1668039261963434,
+        41.36368196921434,
+        2.1671083278829575,
+        41.36384277331382
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "cad-footing-17AEBF",
+      "sourceFoundationASL": 180,
+      "embeddedMM": 1.1477886728582405
+    },
+    {
+      "name": "cad-footing-176FFE",
+      "sourceFoundationASL": 173,
+      "embeddedMM": 1.4950497415513695
+    },
+    {
+      "name": "cad-footing-17A461",
+      "sourceFoundationASL": 170,
+      "embeddedMM": 2.386699312573384
+    },
+    {
+      "name": "watchtower-ground-footing",
+      "sourceFoundationASL": 182,
+      "embeddedMM": 0.5254415609726095
+    },
+    {
+      "name": "cad-footing-17F504",
+      "sourceFoundationASL": 184,
+      "embeddedMM": 0.26798248785327416
+    },
+    {
+      "name": "wall-foot-icgc-194824",
+      "sourceFoundationASL": 177.45933333333332,
+      "embeddedMM": 0.5550874108461841
+    },
+    {
+      "name": "wall-foot-icgc-194835",
+      "sourceFoundationASL": 176.32466999999997,
+      "embeddedMM": -0.026792651139629697
+    },
+    {
+      "name": "wall-foot-icgc-194836",
+      "sourceFoundationASL": 175.189,
+      "embeddedMM": 0.10385640957238707
+    },
+    {
+      "name": "wall-foot-icgc-194837",
+      "sourceFoundationASL": 174.60667,
+      "embeddedMM": 0.1728794487759444
+    },
+    {
+      "name": "wall-foot-icgc-194838",
+      "sourceFoundationASL": 170.49400999999997,
+      "embeddedMM": 1.1884296380760446
+    },
+    {
+      "name": "wall-foot-icgc-194839",
+      "sourceFoundationASL": 168.67199666666664,
+      "embeddedMM": 1.2635789614285784
+    },
+    {
+      "name": "wall-foot-icgc-194840",
+      "sourceFoundationASL": 168.32866666666666,
+      "embeddedMM": -0.021307718672730402
+    },
+    {
+      "name": "wall-foot-icgc-194841",
+      "sourceFoundationASL": 171.38133333333332,
+      "embeddedMM": 1.4431815913481785
+    },
+    {
+      "name": "wall-foot-icgc-194842",
+      "sourceFoundationASL": 179.13200999999998,
+      "embeddedMM": 0.14975905313580995
+    },
+    {
+      "name": "wall-foot-icgc-194843",
+      "sourceFoundationASL": 178.55201,
+      "embeddedMM": 0.3541179551087765
+    },
+    {
+      "name": "wall-foot-icgc-194844",
+      "sourceFoundationASL": 178.07199,
+      "embeddedMM": 0.5350929623440663
+    },
+    {
+      "name": "wall-foot-icgc-194845",
+      "sourceFoundationASL": 180.47399333333334,
+      "embeddedMM": 1.9700190177575223
+    },
+    {
+      "name": "wall-foot-icgc-194846",
+      "sourceFoundationASL": 178.24900333333332,
+      "embeddedMM": 1.637027442008275
+    },
+    {
+      "name": "wall-foot-icgc-194847",
+      "sourceFoundationASL": 181.20966666666666,
+      "embeddedMM": 0.7313689001816215
+    },
+    {
+      "name": "wall-foot-icgc-194849",
+      "sourceFoundationASL": 174.71099666666663,
+      "embeddedMM": 2.6477067128673184
+    },
+    {
+      "name": "wall-foot-icgc-194850",
+      "sourceFoundationASL": 178.91133666666664,
+      "embeddedMM": 0.4019514506202029
+    },
+    {
+      "name": "wall-foot-icgc-194851",
+      "sourceFoundationASL": 172.49400999999997,
+      "embeddedMM": 0.9183994619019558
+    },
+    {
+      "name": "wall-foot-icgc-194852",
+      "sourceFoundationASL": 181.25566999999998,
+      "embeddedMM": 0.7526582116611422
+    },
+    {
+      "name": "wall-foot-icgc-194855",
+      "sourceFoundationASL": 174.11166666666668,
+      "embeddedMM": 0.1706087271254404
+    },
+    {
+      "name": "wall-foot-icgc-194868",
+      "sourceFoundationASL": 168.07601,
+      "embeddedMM": 0.534077472337728
+    },
+    {
+      "name": "wall-foot-marine-1206",
+      "sourceFoundationASL": 171.76634333333334,
+      "embeddedMM": 0.7435737383767389
+    },
+    {
+      "name": "wall-foot-marine-1222",
+      "sourceFoundationASL": 166.94633666666667,
+      "embeddedMM": 1.1542009719499902
+    }
+  ],
+  "supportChecks": [
+    {
+      "id": "icgc-194800",
+      "carrier": "17888B",
+      "capASL": 186.72400000000198,
+      "connectionElevation": 186.12400000000198,
+      "overlapVolumeCubicMetres": 6.271878050910176,
+      "method": "Short rounded crown projection, with tapered underside and short inward connection to its verified adjacent masonry. General disposition checked against owner axonometry/current ortho; exact profile/depth approximated. No circular pillar to ground, no assumed identical conical roofs. Measured source cap retained.",
+      "location": [
+        2.1643735457778095,
+        41.36342508602709
+      ],
+      "carrierLocation": [
+        2.1643633898786434,
+        41.363432708450176
+      ],
+      "sourceCapLocation": [
+        2.1643789317566866,
+        41.36342508602709
+      ],
+      "sourceCapElevation": 186.72400000000198,
+      "component": 583,
+      "pathCrossings": 0,
+      "positiveOverlap": true,
+      "insideWindings": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "icgc-194859",
+      "carrier": "marine-1206",
+      "capASL": 184.46201,
+      "connectionElevation": 183.86201,
+      "overlapVolumeCubicMetres": 1.9485439429219358,
+      "method": "Short circular projection with tapered underside and short inward masonry connection. General corner-sentry/corbel disposition verified with owner axonometry; exact profile/depth approximated. No cylinder extended to moat. Existing checked horizontal cap retained; no invented identical conical roofs.",
+      "location": [
+        2.1675818928856323,
+        41.363183697058396
+      ],
+      "carrierLocation": [
+        2.167584702231456,
+        41.36317817895626
+      ],
+      "sourceCapLocation": [
+        2.1675868688812794,
+        41.36318524401801
+      ],
+      "sourceCapElevation": 184.46201,
+      "component": 1712,
+      "pathCrossings": 0,
+      "positiveOverlap": true,
+      "insideWindings": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "icgc-194860",
+      "carrier": "18100A",
+      "capASL": 184.408,
+      "connectionElevation": 183.808,
+      "overlapVolumeCubicMetres": 0.3849623825804938,
+      "method": "Short circular projection with tapered underside and short inward masonry connection. General corner-sentry/corbel disposition verified with owner axonometry; exact profile/depth approximated. No cylinder extended to moat. Existing checked horizontal cap retained; no invented identical conical roofs.",
+      "location": [
+        2.1667649031473877,
+        41.364071680348665
+      ],
+      "carrierLocation": [
+        2.1667495272584745,
+        41.364070168996435
+      ],
+      "sourceCapLocation": [
+        2.166770289126265,
+        41.364071680348665
+      ],
+      "sourceCapElevation": 184.408,
+      "component": 1712,
+      "pathCrossings": 0,
+      "positiveOverlap": true,
+      "insideWindings": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "icgc-194861",
+      "carrier": "176FFE",
+      "capASL": 184.377,
+      "connectionElevation": 183.77700000000002,
+      "overlapVolumeCubicMetres": 0.5449808574599455,
+      "method": "Short circular projection with tapered underside and short inward masonry connection. General corner-sentry/corbel disposition verified with owner axonometry; exact profile/depth approximated. No cylinder extended to moat. Existing checked horizontal cap retained; no invented identical conical roofs.",
+      "location": [
+        2.166617727713126,
+        41.364458730401665
+      ],
+      "carrierLocation": [
+        2.166602075080878,
+        41.3644555700447
+      ],
+      "sourceCapLocation": [
+        2.1666231136920033,
+        41.364458730401665
+      ],
+      "sourceCapElevation": 184.377,
+      "component": 1181,
+      "pathCrossings": 0,
+      "positiveOverlap": true,
+      "insideWindings": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "icgc-194863",
+      "carrier": "icgc-194836",
+      "capASL": 182.80901,
+      "connectionElevation": 182.20901,
+      "overlapVolumeCubicMetres": 0.36659639264285393,
+      "method": "Short rounded crown projection, with tapered underside and short inward connection to its verified adjacent masonry. General disposition checked against owner axonometry/current ortho; exact profile/depth approximated. No circular pillar to ground, no assumed identical conical roofs. Measured source cap retained.",
+      "location": [
+        2.163933968777183,
+        41.36365749234781
+      ],
+      "carrierLocation": [
+        2.1639155548402766,
+        41.36364966528826
+      ],
+      "sourceCapLocation": [
+        2.16393935475606,
+        41.36365749234781
+      ],
+      "sourceCapElevation": 182.80901,
+      "component": 35,
+      "pathCrossings": 0,
+      "positiveOverlap": true,
+      "insideWindings": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "icgc-194864",
+      "carrier": "icgc-194837",
+      "capASL": 179.782,
+      "connectionElevation": 179.18200000000002,
+      "overlapVolumeCubicMetres": 0.5373515555339592,
+      "method": "Short rounded crown projection, with tapered underside and short inward connection to its verified adjacent masonry. General disposition checked against owner axonometry/current ortho; exact profile/depth approximated. No circular pillar to ground, no assumed identical conical roofs. Measured source cap retained.",
+      "location": [
+        2.1626349837697405,
+        41.36365709963945
+      ],
+      "carrierLocation": [
+        2.1626456871804947,
+        41.363641179993884
+      ],
+      "sourceCapLocation": [
+        2.1626403697486176,
+        41.36365709963945
+      ],
+      "sourceCapElevation": 179.782,
+      "component": 348,
+      "pathCrossings": 0,
+      "positiveOverlap": true,
+      "insideWindings": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "icgc-194865",
+      "carrier": "icgc-194838",
+      "capASL": 179.689,
+      "connectionElevation": 179.089,
+      "overlapVolumeCubicMetres": 0.647376867310971,
+      "method": "Short rounded crown projection, with tapered underside and short inward connection to its verified adjacent masonry. General disposition checked against owner axonometry/current ortho; exact profile/depth approximated. No circular pillar to ground, no assumed identical conical roofs. Measured source cap retained.",
+      "location": [
+        2.162497742203006,
+        41.36095863594335
+      ],
+      "carrierLocation": [
+        2.1625000750269856,
+        41.36098082546601
+      ],
+      "sourceCapLocation": [
+        2.1625031281818825,
+        41.36095863594335
+      ],
+      "sourceCapElevation": 179.689,
+      "component": 183,
+      "pathCrossings": 0,
+      "positiveOverlap": true,
+      "insideWindings": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "icgc-194866",
+      "carrier": "icgc-194840",
+      "capASL": 178.685,
+      "connectionElevation": 178.085,
+      "overlapVolumeCubicMetres": 0.41271077548045104,
+      "method": "Short rounded crown projection, with tapered underside and short inward connection to its verified adjacent masonry. General disposition checked against owner axonometry/current ortho; exact profile/depth approximated. No circular pillar to ground, no assumed identical conical roofs. Measured source cap retained.",
+      "location": [
+        2.162167404666666,
+        41.36024233389272
+      ],
+      "carrierLocation": [
+        2.16217082799376,
+        41.36026014953055
+      ],
+      "sourceCapLocation": [
+        2.1621727906455432,
+        41.36024233389272
+      ],
+      "sourceCapElevation": 178.685,
+      "component": 928,
+      "pathCrossings": 0,
+      "positiveOverlap": true,
+      "insideWindings": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "icgc-194867",
+      "carrier": "marine-1206",
+      "capASL": 185.063,
+      "connectionElevation": 184.463,
+      "overlapVolumeCubicMetres": 1.87466680379654,
+      "method": "Short circular projection with tapered underside and short inward masonry connection. General corner-sentry/corbel disposition verified with owner axonometry; exact profile/depth approximated. No cylinder extended to moat. Existing checked horizontal cap retained; no invented identical conical roofs.",
+      "location": [
+        2.165293893344212,
+        41.36228852120987
+      ],
+      "carrierLocation": [
+        2.1652790094186334,
+        41.36228600774738
+      ],
+      "sourceCapLocation": [
+        2.165299279323089,
+        41.36228852120987
+      ],
+      "sourceCapElevation": 185.063,
+      "component": 1712,
+      "pathCrossings": 0,
+      "positiveOverlap": true,
+      "insideWindings": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "openings": [
+    "open-main-courtyard",
+    "open-lightwell",
+    "bridge-arch-0",
+    "bridge-arch-1",
+    "bridge-arch-2",
+    "gateway-opening"
+  ],
+  "airCheckDetails": [
+    {
+      "name": "open-main-courtyard",
+      "location": [
+        2.166163374775259,
+        41.36340023908706
+      ],
+      "materials": [
+        "terrain",
+        "built",
+        "green"
+      ],
+      "requestedElevation": [
+        184.7,
+        190.9
+      ],
+      "effectiveElevation": [
+        184.72777057434885,
+        190.9
+      ],
+      "clearHeightMM": 1.5430573564127599,
+      "midpointWinding": 0
+    },
+    {
+      "name": "open-lightwell",
+      "location": [
+        2.165862183617388,
+        41.36320559148648
+      ],
+      "materials": [
+        "terrain",
+        "built",
+        "green"
+      ],
+      "requestedElevation": [
+        184.7,
+        190.9
+      ],
+      "effectiveElevation": [
+        184.7,
+        190.9
+      ],
+      "clearHeightMM": 1.5499999999999758,
+      "midpointWinding": 0
+    },
+    {
+      "name": "bridge-arch-0",
+      "location": [
+        2.1668903151477683,
+        41.36373180511706
+      ],
+      "materials": [
+        "terrain",
+        "built",
+        "green"
+      ],
+      "requestedElevation": [
+        170.5,
+        174.92305063122097
+      ],
+      "effectiveElevation": [
+        173.59400956709737,
+        174.92305063122097
+      ],
+      "clearHeightMM": 0.3322602660309002,
+      "midpointWinding": 0
+    },
+    {
+      "name": "bridge-arch-1",
+      "location": [
+        2.166949132325845,
+        41.363757770618015
+      ],
+      "materials": [
+        "terrain",
+        "built",
+        "green"
+      ],
+      "requestedElevation": [
+        170.5,
+        174.74761212180445
+      ],
+      "effectiveElevation": [
+        173.4705409307678,
+        174.74761212180445
+      ],
+      "clearHeightMM": 0.31926779775916003,
+      "midpointWinding": 0
+    },
+    {
+      "name": "bridge-arch-2",
+      "location": [
+        2.167007949503922,
+        41.36378373611897
+      ],
+      "materials": [
+        "terrain",
+        "built",
+        "green"
+      ],
+      "requestedElevation": [
+        170.5,
+        174.57217361238793
+      ],
+      "effectiveElevation": [
+        174.1408348522733,
+        174.57217361238793
+      ],
+      "clearHeightMM": 0.10783469002866042,
+      "midpointWinding": 0
+    },
+    {
+      "name": "bridge-arch-3",
+      "status": "known-terrain-source-limitation",
+      "location": [
+        2.167066766681999,
+        41.36380970161992
+      ],
+      "evidence": {
+        "fineGroundASL": 170.138,
+        "modelCeilingASL": 174.59669083100866,
+        "source": "ICGC DTM0.5m2021-2023 at exact model air-control coordinates, EGM08D595; deck profile registered to RTT173781 and independent DSM1m. Record terrain occlusion only after confirming the masonry void and all actual material intervals.",
+        "modelSHA256": "6a2833f76bf89f728188b33c7e9278d5a877ab06ad418e31e756611a35977524"
+      },
+      "renderedGroundASL": 174.4990463439685,
+      "maximumModelVoidAboveTerrainMM": 0.024411121760038762,
+      "sourceMasonryVoidClear": true,
+      "groundCoverIntervals": [
+        {
+          "material": "terrain",
+          "fromMM": 47.78950574000403,
+          "toMM": 48.179772667402624
+        },
+        {
+          "material": "green",
+          "fromMM": 48.17977398204749,
+          "toMM": 48.829775408074525
+        }
+      ],
+      "maximumModelVoidAboveGroundCoverMM": 0.024403039681658356
+    },
+    {
+      "name": "drawbridge-under-deck",
+      "status": "known-terrain-source-limitation",
+      "location": [
+        2.16684130509989,
+        41.363710169083404
+      ],
+      "evidence": {
+        "fineGroundASL": 170.453,
+        "modelCeilingASL": 175.71923030006863,
+        "source": "ICGC DTM0.5m2021-2023 at exact model air-control coordinates, EGM08D595; deck profile registered to RTT173781 and independent DSM1m. Record terrain occlusion only after confirming the masonry void and all actual material intervals.",
+        "modelSHA256": "6a2833f76bf89f728188b33c7e9278d5a877ab06ad418e31e756611a35977524"
+      },
+      "renderedGroundASL": 175.57760862343605,
+      "maximumModelVoidAboveTerrainMM": 0.035405419158144914,
+      "sourceMasonryVoidClear": true,
+      "groundCoverIntervals": [
+        {
+          "material": "terrain",
+          "fromMM": 47.86825574000403,
+          "toMM": 48.449239734515025
+        },
+        {
+          "material": "green",
+          "fromMM": 48.449239734515025,
+          "toMM": 49.09923867662249
+        }
+      ],
+      "maximumModelVoidAboveGroundCoverMM": 0.035405419158145435
+    },
+    {
+      "name": "gateway-opening",
+      "location": [
+        2.166821703641051,
+        41.363701515800216
+      ],
+      "materials": [
+        "terrain",
+        "built",
+        "green"
+      ],
+      "requestedElevation": [
+        176.6,
+        183.2
+      ],
+      "effectiveElevation": [
+        177.99779169627058,
+        183.2
+      ],
+      "clearHeightMM": 1.3005520759323304,
+      "midpointWinding": 0
+    }
+  ],
+  "roofChecks": [
+    {
+      "name": "cantilever-cap-icgc-194800",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 180.89390063031905,
+      "surfaceElevationASL": 186.72399864642944
+    },
+    {
+      "name": "cantilever-cap-icgc-194859",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 169.4235774533945,
+      "surfaceElevationASL": 184.46200523822625
+    },
+    {
+      "name": "cantilever-cap-icgc-194860",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 174.01323468204393,
+      "surfaceElevationASL": 184.40800438373407
+    },
+    {
+      "name": "cantilever-cap-icgc-194861",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 176.69548907483306,
+      "surfaceElevationASL": 184.37699852435907
+    },
+    {
+      "name": "cantilever-cap-icgc-194863",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 175.01470772598728,
+      "surfaceElevationASL": 182.80900536029654
+    },
+    {
+      "name": "cantilever-cap-icgc-194864",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 174.50828171963084,
+      "surfaceElevationASL": 179.78199730365588
+    },
+    {
+      "name": "cantilever-cap-icgc-194865",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 170.7012145796678,
+      "surfaceElevationASL": 179.68899498431995
+    },
+    {
+      "name": "cantilever-cap-icgc-194866",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 167.18985803141985,
+      "surfaceElevationASL": 178.68499718158554
+    },
+    {
+      "name": "cantilever-cap-icgc-194867",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 175.15058218374713,
+      "surfaceElevationASL": 185.06300316303097
+    },
+    {
+      "name": "cad-roof-17AEBF",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 184.59115431442484,
+      "surfaceElevationASL": 191.27999840228887
+    },
+    {
+      "name": "cad-roof-176FFE",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 178.17288855186726,
+      "surfaceElevationASL": 185.50399742572628
+    },
+    {
+      "name": "cad-roof-17A461",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 179.54679687328544,
+      "surfaceElevationASL": 185.36199913471066
+    },
+    {
+      "name": "cad-roof-17F3C0",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 184.10176586688237,
+      "surfaceElevationASL": 204.80499229877344
+    },
+    {
+      "name": "cad-roof-17F504",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 185.071929574405,
+      "surfaceElevationASL": 194.6640010878358
+    },
+    {
+      "name": "wall-cap-icgc-194824",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 179.67967969572337,
+      "surfaceElevationASL": 182.6620021864684
+    },
+    {
+      "name": "wall-cap-icgc-194835",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 176.21749638579578,
+      "surfaceElevationASL": 183.57899437396844
+    },
+    {
+      "name": "wall-cap-icgc-194836",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 175.60442062260947,
+      "surfaceElevationASL": 182.84799156635123
+    },
+    {
+      "name": "wall-cap-icgc-194837",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 175.29818124414672,
+      "surfaceElevationASL": 181.1900020643981
+    },
+    {
+      "name": "wall-cap-icgc-194838",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 175.24772147119444,
+      "surfaceElevationASL": 180.69399986713256
+    },
+    {
+      "name": "wall-cap-icgc-194839",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 173.72631786417887,
+      "surfaceElevationASL": 178.23500023334336
+    },
+    {
+      "name": "wall-cap-icgc-194840",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 168.24344289973018,
+      "surfaceElevationASL": 178.31399498431992
+    },
+    {
+      "name": "wall-cap-icgc-194841",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 173.70859931654505,
+      "surfaceElevationASL": 178.37899742572617
+    },
+    {
+      "name": "wall-cap-icgc-194842",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 179.73103961971475,
+      "surfaceElevationASL": 183.0500026747497
+    },
+    {
+      "name": "wall-cap-icgc-194843",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 179.96847339655199,
+      "surfaceElevationASL": 183.15499840228875
+    },
+    {
+      "name": "wall-cap-icgc-194844",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 180.21237769795403,
+      "surfaceElevationASL": 184.75500450580438
+    },
+    {
+      "name": "wall-cap-icgc-194845",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 183.88007569402197,
+      "surfaceElevationASL": 186.7239986464294
+    },
+    {
+      "name": "wall-cap-icgc-194846",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 184.79711247246053,
+      "surfaceElevationASL": 186.5780025526794
+    },
+    {
+      "name": "wall-cap-icgc-194847",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 184.1351263585322,
+      "surfaceElevationASL": 186.45899925678097
+    },
+    {
+      "name": "wall-cap-icgc-194849",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 180.59082647446124,
+      "surfaceElevationASL": 185.36199913471066
+    },
+    {
+      "name": "wall-cap-icgc-194850",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 180.51913689313452,
+      "surfaceElevationASL": 185.24099693744503
+    },
+    {
+      "name": "wall-cap-icgc-194851",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 176.167600766498,
+      "surfaceElevationASL": 186.66200218646847
+    },
+    {
+      "name": "wall-cap-icgc-194852",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 184.2662610815113,
+      "surfaceElevationASL": 186.61099205463253
+    },
+    {
+      "name": "wall-cap-icgc-194855",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 174.79409744131385,
+      "surfaceElevationASL": 176.2879940077574
+    },
+    {
+      "name": "wall-cap-icgc-194868",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 170.21231354066288,
+      "surfaceElevationASL": 179.27400169818713
+    },
+    {
+      "name": "wall-cap-marine-1206",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 174.7406317606068,
+      "surfaceElevationASL": 184.2808632164692
+    },
+    {
+      "name": "wall-cap-marine-1222",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 171.56314107867294,
+      "surfaceElevationASL": 177.63129740075445
+    },
+    {
+      "name": "bridge-deck-centre",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 173.1823048029301,
+      "surfaceElevationASL": 176.06836363917853
+    },
+    {
+      "name": "drawbridge-deck",
+      "modelId": "castell-de-montjuic",
+      "differenceMM": 0,
+      "terrainElevationASL": 175.57760862343605,
+      "surfaceElevationASL": 176.41925562631104
+    }
+  ],
+  "facadeChecks": [
+    {
+      "name": "outer-arch-2-0",
+      "modelId": "castell-de-montjuic",
+      "originalDistanceMM": 0.6374923847304844,
+      "differenceMM": 0
+    },
+    {
+      "name": "outer-arch-2-1",
+      "modelId": "castell-de-montjuic",
+      "originalDistanceMM": 0.6374908026589613,
+      "differenceMM": 0
+    },
+    {
+      "name": "outer-arch-2-2",
+      "modelId": "castell-de-montjuic",
+      "originalDistanceMM": 0.6374927908472215,
+      "differenceMM": 0
+    },
+    {
+      "name": "outer-arch-4-0",
+      "modelId": "castell-de-montjuic",
+      "originalDistanceMM": 0.6375009045898116,
+      "differenceMM": 0
+    },
+    {
+      "name": "outer-arch-4-1",
+      "modelId": "castell-de-montjuic",
+      "originalDistanceMM": 0.6375143862368242,
+      "differenceMM": 0
+    },
+    {
+      "name": "outer-arch-4-2",
+      "modelId": "castell-de-montjuic",
+      "originalDistanceMM": 0.6374934304663252,
+      "differenceMM": 0
+    },
+    {
+      "name": "outer-arch-6-0",
+      "modelId": "castell-de-montjuic",
+      "originalDistanceMM": 0.6375042692838847,
+      "differenceMM": 0
+    },
+    {
+      "name": "outer-arch-6-1",
+      "modelId": "castell-de-montjuic",
+      "originalDistanceMM": 0.637505728271251,
+      "differenceMM": 0
+    },
+    {
+      "name": "outer-arch-6-2",
+      "modelId": "castell-de-montjuic",
+      "originalDistanceMM": 0.6374926259685976,
+      "differenceMM": 0
+    },
+    {
+      "name": "outer-arch-6-3",
+      "modelId": "castell-de-montjuic",
+      "originalDistanceMM": 0.6374964138868623,
+      "differenceMM": 0
+    },
+    {
+      "name": "outer-arch-6-4",
+      "modelId": "castell-de-montjuic",
+      "originalDistanceMM": 0.6374934614770716,
+      "differenceMM": 0
+    },
+    {
+      "name": "outer-arch-6-5",
+      "modelId": "castell-de-montjuic",
+      "originalDistanceMM": 0.6374949521871363,
+      "differenceMM": 0
+    },
+    {
+      "name": "watchtower-window-1",
+      "modelId": "castell-de-montjuic",
+      "originalDistanceMM": 0.6625000819357018,
+      "differenceMM": 0
+    },
+    {
+      "name": "watchtower-window-2",
+      "modelId": "castell-de-montjuic",
+      "originalDistanceMM": 0.6624998647842878,
+      "differenceMM": 0
+    },
+    {
+      "name": "watchtower-window-6",
+      "modelId": "castell-de-montjuic",
+      "originalDistanceMM": 0.6624984189417211,
+      "differenceMM": 0
+    },
+    {
+      "name": "watchtower-window-7",
+      "modelId": "castell-de-montjuic",
+      "originalDistanceMM": 0.662501281206064,
+      "differenceMM": 0
+    },
+    {
+      "name": "neoclassical-portal-pier",
+      "modelId": "castell-de-montjuic",
+      "originalDistanceMM": 0.41651237343511194,
+      "differenceMM": 0
+    }
+  ],
+  "audits": [
+    {
+      "id": "terrain",
+      "closed": true,
+      "components": 8729,
+      "triangles": 81352,
+      "errors": []
+    },
+    {
+      "id": "built",
+      "closed": true,
+      "components": 5428,
+      "triangles": 98012,
+      "errors": []
+    },
+    {
+      "id": "green",
+      "closed": true,
+      "components": 10433,
+      "triangles": 118392,
+      "errors": []
+    }
+  ],
+  "warnings": [
+    "3 ponts procedimentals amb cotes estimades a partir del relleu i la cartografia.",
+    "Ferrocarrils realçats 0 mm sobre el nivell dels camins; és una plataforma simplificada de la maqueta, no una cota real.",
+    "Els arbres són una representació procedimental dins de zones verdes, no posicions d’arbres mesurades.",
+    "Les tessel·les vectorials estan generalitzades. Aquesta prova no substitueix cartografia topogràfica de precisió.",
+    "Model singular del catàleg «Castell de Montjuïc» (r1).",
+    "Altures de la font sobre el punt més alt de la petjada; coberta plana quan falten dades de forma.",
+    "Algunes petjades ICGC agrupen diverses cases sense divisions interiors. Pots comparar-les amb parts del Catastre.",
+    "0 pilars simplificats i 2 enllaços suaus amb camins i vies. Distribució procedimental de suports, no posicions mesurades. S’eviten camins i edificis disponibles.",
+    "40 posicions de suport omeses per falta d’espai o obstacles. Revisa els trams lliures al laminador.",
+    "El límit de la maqueta talla 2 continuacions de pont abans que es puguin enllaçar suaument. Amplia o desplaça el retall per donar espai als enllaços.",
+    "2 extrems sense enllaç suau dins del retall.",
+    "Alguns ponts contenen fragments separats. Revisa les unions i els extrems al laminador abans d’imprimir.",
+    "Aigua: no hi ha geometria exportable d’aquesta capa a les dades carregades."
+  ],
+  "hiddenModePassed": true,
+  "heightLimitPassed": true
+}

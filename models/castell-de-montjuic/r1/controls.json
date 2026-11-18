@@ -1,0 +1,1380 @@
+{
+  "contacts": [
+    {
+      "name": "cad-footing-17AEBF",
+      "location": [
+        2.1655844670011297,
+        41.363509811830326
+      ],
+      "elevation": 180
+    },
+    {
+      "name": "cad-footing-176FFE",
+      "location": [
+        2.1658014604948628,
+        41.36409856453171
+      ],
+      "elevation": 173
+    },
+    {
+      "name": "cad-footing-17A461",
+      "location": [
+        2.166552730239845,
+        41.363924510171074
+      ],
+      "elevation": 170
+    },
+    {
+      "name": "watchtower-ground-footing",
+      "location": [
+        2.1665689047841763,
+        41.36354677770701
+      ],
+      "elevation": 182,
+      "sourceHandle": "17BA9B",
+      "rawMinimumElevation": 181.99999949264526
+    },
+    {
+      "name": "cad-footing-17F504",
+      "location": [
+        2.164717829646185,
+        41.36341138146584
+      ],
+      "elevation": 184
+    },
+    {
+      "name": "wall-foot-icgc-194824",
+      "location": [
+        2.1650286261316976,
+        41.36243699279796
+      ],
+      "elevation": 177.45933333333332
+    },
+    {
+      "name": "wall-foot-icgc-194835",
+      "location": [
+        2.163971391611709,
+        41.36353367204592
+      ],
+      "elevation": 176.32466999999997
+    },
+    {
+      "name": "wall-foot-icgc-194836",
+      "location": [
+        2.1630826695450143,
+        41.36362548295428
+      ],
+      "elevation": 175.189
+    },
+    {
+      "name": "wall-foot-icgc-194837",
+      "location": [
+        2.1627593047143967,
+        41.36338527284618
+      ],
+      "elevation": 174.60667
+    },
+    {
+      "name": "wall-foot-icgc-194838",
+      "location": [
+        2.1626331856478807,
+        41.361235845079506
+      ],
+      "elevation": 170.49400999999997
+    },
+    {
+      "name": "wall-foot-icgc-194839",
+      "location": [
+        2.1620819958454245,
+        41.36135619724761
+      ],
+      "elevation": 168.67199666666664
+    },
+    {
+      "name": "wall-foot-icgc-194840",
+      "location": [
+        2.1622563789164504,
+        41.360424915281826
+      ],
+      "elevation": 168.32866666666666
+    },
+    {
+      "name": "wall-foot-icgc-194841",
+      "location": [
+        2.1645836986617857,
+        41.36187349418432
+      ],
+      "elevation": 171.38133333333332
+    },
+    {
+      "name": "wall-foot-icgc-194842",
+      "location": [
+        2.1644350998469384,
+        41.36317475648277
+      ],
+      "elevation": 179.13200999999998
+    },
+    {
+      "name": "wall-foot-icgc-194843",
+      "location": [
+        2.1643789618550198,
+        41.36280281758817
+      ],
+      "elevation": 178.55201
+    },
+    {
+      "name": "wall-foot-icgc-194844",
+      "location": [
+        2.1645627000430347,
+        41.36257115643812
+      ],
+      "elevation": 178.07199
+    },
+    {
+      "name": "wall-foot-icgc-194845",
+      "location": [
+        2.1645512230846458,
+        41.36332509471177
+      ],
+      "elevation": 180.47399333333334
+    },
+    {
+      "name": "wall-foot-icgc-194846",
+      "location": [
+        2.164596569490647,
+        41.36283024917561
+      ],
+      "elevation": 178.24900333333332
+    },
+    {
+      "name": "wall-foot-icgc-194847",
+      "location": [
+        2.1652336329855055,
+        41.36252726449366
+      ],
+      "elevation": 181.20966666666666
+    },
+    {
+      "name": "wall-foot-icgc-194849",
+      "location": [
+        2.1667482428140827,
+        41.36368724401786
+      ],
+      "elevation": 174.71099666666663
+    },
+    {
+      "name": "wall-foot-icgc-194850",
+      "location": [
+        2.166656705688211,
+        41.364305189519094
+      ],
+      "elevation": 178.91133666666664
+    },
+    {
+      "name": "wall-foot-icgc-194851",
+      "location": [
+        2.1657015813042007,
+        41.364025580433804
+      ],
+      "elevation": 172.49400999999997
+    },
+    {
+      "name": "wall-foot-icgc-194852",
+      "location": [
+        2.164914912824757,
+        41.363550909620656
+      ],
+      "elevation": 181.25566999999998
+    },
+    {
+      "name": "wall-foot-icgc-194855",
+      "location": [
+        2.1636663248799586,
+        41.3620074085173
+      ],
+      "elevation": 174.11166666666668
+    },
+    {
+      "name": "wall-foot-icgc-194868",
+      "location": [
+        2.162817270574236,
+        41.361054991282764
+      ],
+      "elevation": 168.07601
+    },
+    {
+      "name": "wall-foot-marine-1206",
+      "location": [
+        2.16687748981564,
+        41.36301762475495
+      ],
+      "elevation": 171.76634333333334
+    },
+    {
+      "name": "wall-foot-marine-1222",
+      "location": [
+        2.164283105939747,
+        41.3617191394661
+      ],
+      "elevation": 166.94633666666667
+    }
+  ],
+  "surfaceControls": [
+    {
+      "name": "cantilever-cap-icgc-194800",
+      "location": [
+        2.1643789317566866,
+        41.36342508602709
+      ],
+      "expectedElevation": 186.72400000000198,
+      "toleranceMetres": 0.03
+    },
+    {
+      "name": "cantilever-cap-icgc-194859",
+      "location": [
+        2.1675868688812794,
+        41.36318524401801
+      ],
+      "expectedElevation": 184.46201,
+      "toleranceMetres": 0.03
+    },
+    {
+      "name": "cantilever-cap-icgc-194860",
+      "location": [
+        2.166770289126265,
+        41.364071680348665
+      ],
+      "expectedElevation": 184.408,
+      "toleranceMetres": 0.03
+    },
+    {
+      "name": "cantilever-cap-icgc-194861",
+      "location": [
+        2.1666231136920033,
+        41.364458730401665
+      ],
+      "expectedElevation": 184.377,
+      "toleranceMetres": 0.03
+    },
+    {
+      "name": "cantilever-cap-icgc-194863",
+      "location": [
+        2.16393935475606,
+        41.36365749234781
+      ],
+      "expectedElevation": 182.80901,
+      "toleranceMetres": 0.03
+    },
+    {
+      "name": "cantilever-cap-icgc-194864",
+      "location": [
+        2.1626403697486176,
+        41.36365709963945
+      ],
+      "expectedElevation": 179.782,
+      "toleranceMetres": 0.03
+    },
+    {
+      "name": "cantilever-cap-icgc-194865",
+      "location": [
+        2.1625031281818825,
+        41.36095863594335
+      ],
+      "expectedElevation": 179.689,
+      "toleranceMetres": 0.03
+    },
+    {
+      "name": "cantilever-cap-icgc-194866",
+      "location": [
+        2.1621727906455432,
+        41.36024233389272
+      ],
+      "expectedElevation": 178.685,
+      "toleranceMetres": 0.03
+    },
+    {
+      "name": "cantilever-cap-icgc-194867",
+      "location": [
+        2.165299279323089,
+        41.36228852120987
+      ],
+      "expectedElevation": 185.063,
+      "toleranceMetres": 0.03
+    },
+    {
+      "name": "cad-roof-17AEBF",
+      "location": [
+        2.1655844670011297,
+        41.363509811830326
+      ],
+      "expectedElevation": 191.27999999999884,
+      "toleranceMetres": 0.025
+    },
+    {
+      "name": "cad-roof-176FFE",
+      "location": [
+        2.1658014604948628,
+        41.36409856453171
+      ],
+      "expectedElevation": 185.50400000000081,
+      "toleranceMetres": 0.025
+    },
+    {
+      "name": "cad-roof-17A461",
+      "location": [
+        2.166552730239845,
+        41.363924510171074
+      ],
+      "expectedElevation": 185.3619999999937,
+      "toleranceMetres": 0.025
+    },
+    {
+      "name": "cad-roof-17F3C0",
+      "location": [
+        2.1665689047841763,
+        41.36354677770701
+      ],
+      "expectedElevation": 204.80499999999302,
+      "toleranceMetres": 0.025
+    },
+    {
+      "name": "cad-roof-17F504",
+      "location": [
+        2.164717829646185,
+        41.36341138146584
+      ],
+      "expectedElevation": 194.6640000000043,
+      "toleranceMetres": 0.025
+    },
+    {
+      "name": "wall-cap-icgc-194824",
+      "location": [
+        2.1650286261316976,
+        41.36243699279796
+      ],
+      "expectedElevation": 182.6620001487732,
+      "toleranceMetres": 0.03
+    },
+    {
+      "name": "wall-cap-icgc-194835",
+      "location": [
+        2.163971391611709,
+        41.36353367204592
+      ],
+      "expectedElevation": 183.57899996566772,
+      "toleranceMetres": 0.03
+    },
+    {
+      "name": "wall-cap-icgc-194836",
+      "location": [
+        2.1630826695450143,
+        41.36362548295428
+      ],
+      "expectedElevation": 182.84799906539916,
+      "toleranceMetres": 0.03
+    },
+    {
+      "name": "wall-cap-icgc-194837",
+      "location": [
+        2.1627593047143967,
+        41.36338527284618
+      ],
+      "expectedElevation": 181.19000002670288,
+      "toleranceMetres": 0.03
+    },
+    {
+      "name": "wall-cap-icgc-194838",
+      "location": [
+        2.1626331856478807,
+        41.361235845079506
+      ],
+      "expectedElevation": 180.69399973678588,
+      "toleranceMetres": 0.03
+    },
+    {
+      "name": "wall-cap-icgc-194839",
+      "location": [
+        2.1620819958454245,
+        41.36135619724761
+      ],
+      "expectedElevation": 178.23500010299682,
+      "toleranceMetres": 0.03
+    },
+    {
+      "name": "wall-cap-icgc-194840",
+      "location": [
+        2.1622563789164504,
+        41.360424915281826
+      ],
+      "expectedElevation": 178.31399866867065,
+      "toleranceMetres": 0.03
+    },
+    {
+      "name": "wall-cap-icgc-194841",
+      "location": [
+        2.1645836986617857,
+        41.36187349418432
+      ],
+      "expectedElevation": 178.37899920272827,
+      "toleranceMetres": 0.03
+    },
+    {
+      "name": "wall-cap-icgc-194842",
+      "location": [
+        2.1644350998469384,
+        41.36317475648277
+      ],
+      "expectedElevation": 183.0499987297058,
+      "toleranceMetres": 0.03
+    },
+    {
+      "name": "wall-cap-icgc-194843",
+      "location": [
+        2.1643789618550198,
+        41.36280281758817
+      ],
+      "expectedElevation": 183.15500017929077,
+      "toleranceMetres": 0.03
+    },
+    {
+      "name": "wall-cap-icgc-194844",
+      "location": [
+        2.1645627000430347,
+        41.36257115643812
+      ],
+      "expectedElevation": 184.75499865341186,
+      "toleranceMetres": 0.03
+    },
+    {
+      "name": "wall-cap-icgc-194845",
+      "location": [
+        2.1645512230846458,
+        41.36332509471177
+      ],
+      "expectedElevation": 186.7240004234314,
+      "toleranceMetres": 0.03
+    },
+    {
+      "name": "wall-cap-icgc-194846",
+      "location": [
+        2.164596569490647,
+        41.36283024917561
+      ],
+      "expectedElevation": 186.5779986076355,
+      "toleranceMetres": 0.03
+    },
+    {
+      "name": "wall-cap-icgc-194847",
+      "location": [
+        2.1652336329855055,
+        41.36252726449366
+      ],
+      "expectedElevation": 186.45899912643432,
+      "toleranceMetres": 0.03
+    },
+    {
+      "name": "wall-cap-icgc-194849",
+      "location": [
+        2.1667482428140827,
+        41.36368724401786
+      ],
+      "expectedElevation": 185.361999004364,
+      "toleranceMetres": 0.03
+    },
+    {
+      "name": "wall-cap-icgc-194850",
+      "location": [
+        2.166656705688211,
+        41.364305189519094
+      ],
+      "expectedElevation": 185.24099871444702,
+      "toleranceMetres": 0.03
+    },
+    {
+      "name": "wall-cap-icgc-194851",
+      "location": [
+        2.1657015813042007,
+        41.364025580433804
+      ],
+      "expectedElevation": 186.6620001487732,
+      "toleranceMetres": 0.03
+    },
+    {
+      "name": "wall-cap-icgc-194852",
+      "location": [
+        2.164914912824757,
+        41.363550909620656
+      ],
+      "expectedElevation": 186.61099955368041,
+      "toleranceMetres": 0.03
+    },
+    {
+      "name": "wall-cap-icgc-194855",
+      "location": [
+        2.1636663248799586,
+        41.3620074085173
+      ],
+      "expectedElevation": 176.28799959945678,
+      "toleranceMetres": 0.03
+    },
+    {
+      "name": "wall-cap-icgc-194868",
+      "location": [
+        2.162817270574236,
+        41.361054991282764
+      ],
+      "expectedElevation": 179.27399966049194,
+      "toleranceMetres": 0.03
+    },
+    {
+      "name": "wall-cap-marine-1206",
+      "location": [
+        2.16687748981564,
+        41.36301762475495
+      ],
+      "expectedElevation": 184.28086603556793,
+      "toleranceMetres": 0.03
+    },
+    {
+      "name": "wall-cap-marine-1222",
+      "location": [
+        2.164283105939747,
+        41.3617191394661
+      ],
+      "expectedElevation": 177.6312993567151,
+      "toleranceMetres": 0.03
+    },
+    {
+      "name": "bridge-deck-centre",
+      "location": [
+        2.1669589394560442,
+        41.3637621000853
+      ],
+      "expectedElevation": 176.0683596421718,
+      "toleranceMetres": 0.025
+    },
+    {
+      "name": "drawbridge-deck",
+      "location": [
+        2.16684130509989,
+        41.363710169083404
+      ],
+      "expectedElevation": 176.41923666100485,
+      "toleranceMetres": 0.025
+    }
+  ],
+  "facadeControls": [
+    {
+      "name": "outer-arch-2-0",
+      "from": [
+        2.165624861423289,
+        41.36324664159037
+      ],
+      "to": [
+        2.1656765290711877,
+        41.36326930475526
+      ],
+      "elevation": 187.05,
+      "expectedLocation": [
+        2.1656512117549114,
+        41.363258199730424
+      ],
+      "depthMetres": 0.5499836642507336
+    },
+    {
+      "name": "outer-arch-2-1",
+      "from": [
+        2.1656895014544335,
+        41.36316362796832
+      ],
+      "to": [
+        2.1657411691023323,
+        41.36318629113321
+      ],
+      "elevation": 187.05,
+      "expectedLocation": [
+        2.1657158517361936,
+        41.3631751860865
+      ],
+      "depthMetres": 0.5499788389792439
+    },
+    {
+      "name": "outer-arch-2-2",
+      "from": [
+        2.165754141485578,
+        41.363080614346266
+      ],
+      "to": [
+        2.165805809133477,
+        41.36310327751116
+      ],
+      "elevation": 187.05,
+      "expectedLocation": [
+        2.1657804917171584,
+        41.363092172442435
+      ],
+      "depthMetres": 0.5499739829285638
+    },
+    {
+      "name": "outer-arch-4-0",
+      "from": [
+        2.1658631476999823,
+        41.36294062368531
+      ],
+      "to": [
+        2.165914815461975,
+        41.36296328670368
+      ],
+      "elevation": 187.05,
+      "expectedLocation": [
+        2.1658894980984713,
+        41.362952181754444
+      ],
+      "depthMetres": 0.5499845041283932
+    },
+    {
+      "name": "outer-arch-4-1",
+      "from": [
+        2.1659184181379714,
+        41.36286964291428
+      ],
+      "to": [
+        2.1659700858999646,
+        41.362892305932654
+      ],
+      "elevation": 187.05,
+      "expectedLocation": [
+        2.165944769001699,
+        41.362881201187484
+      ],
+      "depthMetres": 0.550029526223768
+    },
+    {
+      "name": "outer-arch-4-2",
+      "from": [
+        2.165973688575961,
+        41.362798662143256
+      ],
+      "to": [
+        2.166025356337954,
+        41.362821325161626
+      ],
+      "elevation": 187.05,
+      "expectedLocation": [
+        2.166000038987759,
+        41.36281022021823
+      ],
+      "depthMetres": 0.5499857920675386
+    },
+    {
+      "name": "outer-arch-6-0",
+      "from": [
+        2.1662383745133598,
+        41.36287151532183
+      ],
+      "to": [
+        2.166202481730079,
+        41.36290745550229
+      ],
+      "elevation": 187.05,
+      "expectedLocation": [
+        2.1662200691731712,
+        41.362889844834605
+      ],
+      "depthMetres": 0.5500028857363655
+    },
+    {
+      "name": "outer-arch-6-1",
+      "from": [
+        2.1663212333961743,
+        41.362918129399645
+      ],
+      "to": [
+        2.1662853406128937,
+        41.36295406958011
+      ],
+      "elevation": 187.05,
+      "expectedLocation": [
+        2.1663029279082995,
+        41.36293645906031
+      ],
+      "depthMetres": 0.5500234590144473
+    },
+    {
+      "name": "outer-arch-6-2",
+      "from": [
+        2.166404092278989,
+        41.36296474347747
+      ],
+      "to": [
+        2.1663681994957082,
+        41.36300068365793
+      ],
+      "elevation": 187.05,
+      "expectedLocation": [
+        2.1663857871269268,
+        41.362983072801875
+      ],
+      "depthMetres": 0.5499766790280618
+    },
+    {
+      "name": "outer-arch-6-3",
+      "from": [
+        2.1664869511618035,
+        41.363011357555294
+      ],
+      "to": [
+        2.166451058378523,
+        41.363047297735754
+      ],
+      "elevation": 187.05,
+      "expectedLocation": [
+        2.1664686459822113,
+        41.36302968690726
+      ],
+      "depthMetres": 0.5499805140388876
+    },
+    {
+      "name": "outer-arch-6-4",
+      "from": [
+        2.166569810044618,
+        41.36305797163311
+      ],
+      "to": [
+        2.1665339172613374,
+        41.36309391181357
+      ],
+      "elevation": 187.05,
+      "expectedLocation": [
+        2.166551504813168,
+        41.36307630103701
+      ],
+      "depthMetres": 0.549987738120205
+    },
+    {
+      "name": "outer-arch-6-5",
+      "from": [
+        2.1666526689274326,
+        41.363104585710936
+      ],
+      "to": [
+        2.1666167761441524,
+        41.363140525891396
+      ],
+      "elevation": 187.05,
+      "expectedLocation": [
+        2.1666343635244165,
+        41.363122915286624
+      ],
+      "depthMetres": 0.5500116378556419
+    },
+    {
+      "name": "watchtower-window-1",
+      "from": [
+        2.166508571442099,
+        41.36348479792245
+      ],
+      "to": [
+        2.1665603006395227,
+        41.36350738185717
+      ],
+      "elevation": 197.3,
+      "expectedLocation": [
+        2.1665359879531865,
+        41.36349676742377
+      ],
+      "depthMetres": 0.6500035234331349
+    },
+    {
+      "name": "watchtower-window-2",
+      "from": [
+        2.1666051371219273,
+        41.363470866697114
+      ],
+      "to": [
+        2.16657487672945,
+        41.363509617014394
+      ],
+      "elevation": 197.3,
+      "expectedLocation": [
+        2.166589099129324,
+        41.36349140434554
+      ],
+      "depthMetres": 0.6499974538214848
+    },
+    {
+      "name": "watchtower-window-6",
+      "from": [
+        2.1666197906625246,
+        41.363562388791685
+      ],
+      "to": [
+        2.166568063143656,
+        41.363539802691285
+      ],
+      "elevation": 197.3,
+      "expectedLocation": [
+        2.1665923749674914,
+        41.36355041811043
+      ],
+      "depthMetres": 0.6500106358005087
+    },
+    {
+      "name": "watchtower-window-7",
+      "from": [
+        2.16652984803348,
+        41.3635677745231
+      ],
+      "to": [
+        2.166560108434105,
+        41.3635290242094
+      ],
+      "elevation": 197.3,
+      "expectedLocation": [
+        2.1665458859380395,
+        41.36354723699485
+      ],
+      "depthMetres": 0.6499821926259123
+    },
+    {
+      "name": "neoclassical-portal-pier",
+      "from": [
+        2.1668314149669987,
+        41.36374227939172
+      ],
+      "to": [
+        2.1667591990660107,
+        41.363710398874716
+      ],
+      "elevation": 184.5,
+      "expectedLocation": [
+        2.166814226918599,
+        41.36373469153556
+      ]
+    }
+  ],
+  "airControls": [
+    {
+      "name": "open-main-courtyard",
+      "location": [
+        2.166163374775259,
+        41.36340023908706
+      ],
+      "minElevation": 184.7,
+      "maxElevation": 190.9
+    },
+    {
+      "name": "open-lightwell",
+      "location": [
+        2.165862183617388,
+        41.36320559148648
+      ],
+      "minElevation": 184.7,
+      "maxElevation": 190.9
+    },
+    {
+      "name": "bridge-arch-0",
+      "location": [
+        2.1668903151477683,
+        41.36373180511706
+      ],
+      "minElevation": 170.5,
+      "maxElevation": 174.92305063122097
+    },
+    {
+      "name": "bridge-arch-1",
+      "location": [
+        2.166949132325845,
+        41.363757770618015
+      ],
+      "minElevation": 170.5,
+      "maxElevation": 174.74761212180445
+    },
+    {
+      "name": "bridge-arch-2",
+      "location": [
+        2.167007949503922,
+        41.36378373611897
+      ],
+      "minElevation": 170.5,
+      "maxElevation": 174.57217361238793
+    },
+    {
+      "name": "bridge-arch-3",
+      "location": [
+        2.167066766681999,
+        41.36380970161992
+      ],
+      "minElevation": 170.5,
+      "maxElevation": 174.3967351029714
+    },
+    {
+      "name": "drawbridge-under-deck",
+      "location": [
+        2.16684130509989,
+        41.363710169083404
+      ],
+      "minElevation": 170.5,
+      "maxElevation": 175.51923666100484
+    },
+    {
+      "name": "gateway-opening",
+      "location": [
+        2.166821703641051,
+        41.363701515800216
+      ],
+      "minElevation": 176.6,
+      "maxElevation": 183.2
+    }
+  ],
+  "sourceGuards": [
+    {
+      "name": "main-roof",
+      "handle": "17AEBF",
+      "elevation": 191.28,
+      "toleranceMetres": 0.02,
+      "location": [
+        2.1655844670011297,
+        41.363509811830326
+      ],
+      "meshElevation": 191.28000017929077,
+      "differenceMetres": 1.7929076534528576e-7,
+      "passed": true
+    },
+    {
+      "name": "northern-guard-range",
+      "handle": "176FFE",
+      "elevation": 185.504,
+      "dsmElevation": 186.498,
+      "toleranceMetres": 0.02,
+      "dsmSourceLocation": [
+        2.166141923774118,
+        41.364246965472304
+      ],
+      "dsmSourceName": "cad-176FFE",
+      "dsmUse": "Nearby source-cell corroboration of the cap; source location is distinct from the later exported-mesh control location.",
+      "location": [
+        2.1658014604948628,
+        41.36409856453171
+      ],
+      "meshElevation": 185.50399920272824,
+      "differenceMetres": -7.972717526172346e-7,
+      "passed": true
+    },
+    {
+      "name": "eastern-guard-range",
+      "handle": "17A461",
+      "elevation": 185.362,
+      "dsmElevation": 186.71899,
+      "toleranceMetres": 0.02,
+      "dsmSourceLocation": [
+        2.1667941028131357,
+        41.36369288033315
+      ],
+      "dsmSourceName": "cad-17A461",
+      "dsmUse": "Nearby source-cell corroboration of the cap; source location is distinct from the later exported-mesh control location.",
+      "location": [
+        2.166552730239845,
+        41.363924510171074
+      ],
+      "meshElevation": 185.361999004364,
+      "differenceMetres": -9.956359861007513e-7,
+      "passed": true
+    },
+    {
+      "name": "tower-cap",
+      "handle": "17F3C0",
+      "elevation": 204.805,
+      "dsmElevation": 204.862,
+      "toleranceMetres": 0.02,
+      "dsmSourceLocation": [
+        2.1665795119926647,
+        41.36354646811706
+      ],
+      "dsmSourceName": "cad-17F3C0",
+      "dsmUse": "Nearby source-cell corroboration of the cap; source location is distinct from the later exported-mesh control location.",
+      "location": [
+        2.1665689047841763,
+        41.36354677770701
+      ],
+      "meshElevation": 204.80499979782104,
+      "differenceMetres": -2.0217896690155612e-7,
+      "passed": true
+    },
+    {
+      "name": "western-pavilion",
+      "handle": "17F504",
+      "elevation": 194.664,
+      "dsmElevation": 194.681,
+      "toleranceMetres": 0.02,
+      "dsmSourceLocation": [
+        2.1648556110986514,
+        41.363410411180595
+      ],
+      "dsmSourceName": "cad-17F504",
+      "dsmUse": "Nearby source-cell corroboration of the cap; source location is distinct from the later exported-mesh control location.",
+      "location": [
+        2.164717829646185,
+        41.36341138146584
+      ],
+      "meshElevation": 194.664000957489,
+      "differenceMetres": 9.5748902140258e-7,
+      "passed": true
+    },
+    {
+      "name": "bridge-deck-centre-DSM-plane",
+      "location": [
+        2.1669589394560442,
+        41.3637621000853
+      ],
+      "elevation": 176.0683596421718,
+      "meshElevation": 176.06836520293496,
+      "toleranceMetres": 0.025,
+      "differenceMetres": 0.000005560763156609028,
+      "source": "Exposed DSM cells on verified RTT173781 axis, least-squares deck plane; not derived from the GLB",
+      "fit": {
+        "method": "Least-squares plane along the verified RTT bridge axis. Excludes near-facade DSM186.713roofcell. No use of MET5 or requested clearance to choose deck height.",
+        "samples": [
+          {
+            "distanceFromInner": 3.707210038778127,
+            "elevationASL": 176.382,
+            "residualMetres": 0.018374782601284778
+          },
+          {
+            "distanceFromInner": 10.443248602964866,
+            "elevationASL": 176.14799,
+            "residualMetres": -0.00835392706559901
+          },
+          {
+            "distanceFromInner": 17.17928716715161,
+            "elevationASL": 175.935,
+            "residualMetres": -0.014062636732489864
+          },
+          {
+            "distanceFromInner": 23.91532573133835,
+            "elevationASL": 175.75301,
+            "residualMetres": 0.011228653600625194
+          },
+          {
+            "distanceFromInner": 1.0891907566847565,
+            "elevationASL": 176.437,
+            "residualMetres": -0.00718687240384952
+          }
+        ],
+        "maximumAbsoluteResidualMetres": 0.018374782601284778
+      },
+      "passed": true
+    },
+    {
+      "name": "drawbridge-deck-DSM-plane",
+      "location": [
+        2.16684130509989,
+        41.363710169083404
+      ],
+      "elevation": 176.41923666100485,
+      "meshElevation": 176.41925746919765,
+      "toleranceMetres": 0.025,
+      "differenceMetres": 0.00002080819280081414,
+      "source": "Exposed DSM cells on verified RTT173781 axis, least-squares deck plane; not derived from the GLB",
+      "fit": {
+        "method": "Least-squares plane along the verified RTT bridge axis. Excludes near-facade DSM186.713roofcell. No use of MET5 or requested clearance to choose deck height.",
+        "samples": [
+          {
+            "distanceFromInner": 3.707210038778127,
+            "elevationASL": 176.382,
+            "residualMetres": 0.018374782601284778
+          },
+          {
+            "distanceFromInner": 10.443248602964866,
+            "elevationASL": 176.14799,
+            "residualMetres": -0.00835392706559901
+          },
+          {
+            "distanceFromInner": 17.17928716715161,
+            "elevationASL": 175.935,
+            "residualMetres": -0.014062636732489864
+          },
+          {
+            "distanceFromInner": 23.91532573133835,
+            "elevationASL": 175.75301,
+            "residualMetres": 0.011228653600625194
+          },
+          {
+            "distanceFromInner": 1.0891907566847565,
+            "elevationASL": 176.437,
+            "residualMetres": -0.00718687240384952
+          }
+        ],
+        "maximumAbsoluteResidualMetres": 0.018374782601284778
+      },
+      "passed": true
+    }
+  ],
+  "sourceComparisons": [],
+  "expectedReplacements": {
+    "mode": "footprint",
+    "featureIds": [
+      "icgc-1493516",
+      "icgc-1493506",
+      "icgc-194800",
+      "icgc-194824",
+      "icgc-194835",
+      "icgc-194836",
+      "icgc-194837",
+      "icgc-194838",
+      "icgc-194839",
+      "icgc-194840",
+      "icgc-194841",
+      "icgc-194842",
+      "icgc-194843",
+      "icgc-194844",
+      "icgc-194845",
+      "icgc-194846",
+      "icgc-194847",
+      "icgc-194849",
+      "icgc-194850",
+      "icgc-194851",
+      "icgc-194852",
+      "icgc-194855",
+      "icgc-194859",
+      "icgc-194860",
+      "icgc-194861",
+      "icgc-194863",
+      "icgc-194864",
+      "icgc-194865",
+      "icgc-194866",
+      "icgc-194867",
+      "icgc-194868",
+      "icgc-173781"
+    ],
+    "transport": [
+      {
+        "featureId": "618920730",
+        "bbox": [
+          2.1668039261963434,
+          41.36368196921434,
+          2.1671083278829575,
+          41.36384277331382
+        ]
+      }
+    ]
+  },
+  "supportControls": [
+    {
+      "id": "icgc-194800",
+      "carrier": "17888B",
+      "capASL": 186.72400000000198,
+      "connectionElevation": 186.12400000000198,
+      "overlapVolumeCubicMetres": 6.271878050910176,
+      "method": "Short rounded crown projection, with tapered underside and short inward connection to its verified adjacent masonry. General disposition checked against owner axonometry/current ortho; exact profile/depth approximated. No circular pillar to ground, no assumed identical conical roofs. Measured source cap retained.",
+      "location": [
+        2.1643735457778095,
+        41.36342508602709
+      ],
+      "carrierLocation": [
+        2.1643633898786434,
+        41.363432708450176
+      ],
+      "sourceCapLocation": [
+        2.1643789317566866,
+        41.36342508602709
+      ],
+      "sourceCapElevation": 186.72400000000198,
+      "component": 583,
+      "pathCrossings": 0,
+      "positiveOverlap": true
+    },
+    {
+      "id": "icgc-194859",
+      "carrier": "marine-1206",
+      "capASL": 184.46201,
+      "connectionElevation": 183.86201,
+      "overlapVolumeCubicMetres": 1.9485439429219358,
+      "method": "Short circular projection with tapered underside and short inward masonry connection. General corner-sentry/corbel disposition verified with owner axonometry; exact profile/depth approximated. No cylinder extended to moat. Existing checked horizontal cap retained; no invented identical conical roofs.",
+      "location": [
+        2.1675818928856323,
+        41.363183697058396
+      ],
+      "carrierLocation": [
+        2.167584702231456,
+        41.36317817895626
+      ],
+      "sourceCapLocation": [
+        2.1675868688812794,
+        41.36318524401801
+      ],
+      "sourceCapElevation": 184.46201,
+      "component": 1712,
+      "pathCrossings": 0,
+      "positiveOverlap": true
+    },
+    {
+      "id": "icgc-194860",
+      "carrier": "18100A",
+      "capASL": 184.408,
+      "connectionElevation": 183.808,
+      "overlapVolumeCubicMetres": 0.3849623825804938,
+      "method": "Short circular projection with tapered underside and short inward masonry connection. General corner-sentry/corbel disposition verified with owner axonometry; exact profile/depth approximated. No cylinder extended to moat. Existing checked horizontal cap retained; no invented identical conical roofs.",
+      "location": [
+        2.1667649031473877,
+        41.364071680348665
+      ],
+      "carrierLocation": [
+        2.1667495272584745,
+        41.364070168996435
+      ],
+      "sourceCapLocation": [
+        2.166770289126265,
+        41.364071680348665
+      ],
+      "sourceCapElevation": 184.408,
+      "component": 1712,
+      "pathCrossings": 0,
+      "positiveOverlap": true
+    },
+    {
+      "id": "icgc-194861",
+      "carrier": "176FFE",
+      "capASL": 184.377,
+      "connectionElevation": 183.77700000000002,
+      "overlapVolumeCubicMetres": 0.5449808574599455,
+      "method": "Short circular projection with tapered underside and short inward masonry connection. General corner-sentry/corbel disposition verified with owner axonometry; exact profile/depth approximated. No cylinder extended to moat. Existing checked horizontal cap retained; no invented identical conical roofs.",
+      "location": [
+        2.166617727713126,
+        41.364458730401665
+      ],
+      "carrierLocation": [
+        2.166602075080878,
+        41.3644555700447
+      ],
+      "sourceCapLocation": [
+        2.1666231136920033,
+        41.364458730401665
+      ],
+      "sourceCapElevation": 184.377,
+      "component": 1181,
+      "pathCrossings": 0,
+      "positiveOverlap": true
+    },
+    {
+      "id": "icgc-194863",
+      "carrier": "icgc-194836",
+      "capASL": 182.80901,
+      "connectionElevation": 182.20901,
+      "overlapVolumeCubicMetres": 0.36659639264285393,
+      "method": "Short rounded crown projection, with tapered underside and short inward connection to its verified adjacent masonry. General disposition checked against owner axonometry/current ortho; exact profile/depth approximated. No circular pillar to ground, no assumed identical conical roofs. Measured source cap retained.",
+      "location": [
+        2.163933968777183,
+        41.36365749234781
+      ],
+      "carrierLocation": [
+        2.1639155548402766,
+        41.36364966528826
+      ],
+      "sourceCapLocation": [
+        2.16393935475606,
+        41.36365749234781
+      ],
+      "sourceCapElevation": 182.80901,
+      "component": 35,
+      "pathCrossings": 0,
+      "positiveOverlap": true
+    },
+    {
+      "id": "icgc-194864",
+      "carrier": "icgc-194837",
+      "capASL": 179.782,
+      "connectionElevation": 179.18200000000002,
+      "overlapVolumeCubicMetres": 0.5373515555339592,
+      "method": "Short rounded crown projection, with tapered underside and short inward connection to its verified adjacent masonry. General disposition checked against owner axonometry/current ortho; exact profile/depth approximated. No circular pillar to ground, no assumed identical conical roofs. Measured source cap retained.",
+      "location": [
+        2.1626349837697405,
+        41.36365709963945
+      ],
+      "carrierLocation": [
+        2.1626456871804947,
+        41.363641179993884
+      ],
+      "sourceCapLocation": [
+        2.1626403697486176,
+        41.36365709963945
+      ],
+      "sourceCapElevation": 179.782,
+      "component": 348,
+      "pathCrossings": 0,
+      "positiveOverlap": true
+    },
+    {
+      "id": "icgc-194865",
+      "carrier": "icgc-194838",
+      "capASL": 179.689,
+      "connectionElevation": 179.089,
+      "overlapVolumeCubicMetres": 0.647376867310971,
+      "method": "Short rounded crown projection, with tapered underside and short inward connection to its verified adjacent masonry. General disposition checked against owner axonometry/current ortho; exact profile/depth approximated. No circular pillar to ground, no assumed identical conical roofs. Measured source cap retained.",
+      "location": [
+        2.162497742203006,
+        41.36095863594335
+      ],
+      "carrierLocation": [
+        2.1625000750269856,
+        41.36098082546601
+      ],
+      "sourceCapLocation": [
+        2.1625031281818825,
+        41.36095863594335
+      ],
+      "sourceCapElevation": 179.689,
+      "component": 183,
+      "pathCrossings": 0,
+      "positiveOverlap": true
+    },
+    {
+      "id": "icgc-194866",
+      "carrier": "icgc-194840",
+      "capASL": 178.685,
+      "connectionElevation": 178.085,
+      "overlapVolumeCubicMetres": 0.41271077548045104,
+      "method": "Short rounded crown projection, with tapered underside and short inward connection to its verified adjacent masonry. General disposition checked against owner axonometry/current ortho; exact profile/depth approximated. No circular pillar to ground, no assumed identical conical roofs. Measured source cap retained.",
+      "location": [
+        2.162167404666666,
+        41.36024233389272
+      ],
+      "carrierLocation": [
+        2.16217082799376,
+        41.36026014953055
+      ],
+      "sourceCapLocation": [
+        2.1621727906455432,
+        41.36024233389272
+      ],
+      "sourceCapElevation": 178.685,
+      "component": 928,
+      "pathCrossings": 0,
+      "positiveOverlap": true
+    },
+    {
+      "id": "icgc-194867",
+      "carrier": "marine-1206",
+      "capASL": 185.063,
+      "connectionElevation": 184.463,
+      "overlapVolumeCubicMetres": 1.87466680379654,
+      "method": "Short circular projection with tapered underside and short inward masonry connection. General corner-sentry/corbel disposition verified with owner axonometry; exact profile/depth approximated. No cylinder extended to moat. Existing checked horizontal cap retained; no invented identical conical roofs.",
+      "location": [
+        2.165293893344212,
+        41.36228852120987
+      ],
+      "carrierLocation": [
+        2.1652790094186334,
+        41.36228600774738
+      ],
+      "sourceCapLocation": [
+        2.165299279323089,
+        41.36228852120987
+      ],
+      "sourceCapElevation": 185.063,
+      "component": 1712,
+      "pathCrossings": 0,
+      "positiveOverlap": true
+    }
+  ]
+}

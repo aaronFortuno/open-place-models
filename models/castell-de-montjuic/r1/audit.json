@@ -1,0 +1,2269 @@
+{
+  "id": "castell-de-montjuic",
+  "vertices": 3898,
+  "triangles": 7728,
+  "components": 23,
+  "nonManifoldVertices": 0,
+  "finite": true,
+  "zeroAreaTriangles": 0,
+  "minimumAreaSquareMetres": 0.0000024103670713950493,
+  "minimumEdgeMetres": 0.000091552734375,
+  "signedVolume": 140051.89601771603,
+  "bbox": {
+    "min": [
+      -256.6346130371094,
+      0,
+      -196.6060028076172
+    ],
+    "max": [
+      213.9824981689453,
+      39.375,
+      274.5841064453125
+    ]
+  },
+  "edges": {
+    "total": 11592,
+    "boundary": 0,
+    "nonManifold": 0,
+    "orientationConflicts": 0
+  },
+  "passed": true,
+  "closed": true,
+  "byteLength": 93940,
+  "sha256": "6a2833f76bf89f728188b33c7e9278d5a877ab06ad418e31e756611a35977524",
+  "anchor": [
+    2.16505,
+    41.3627
+  ],
+  "anchorElevation": 165.42999979782104,
+  "datumNormalization": {
+    "originalDatum": 159.868,
+    "minimumLocalYBeforeRebasing": 5.561999797821045,
+    "absoluteHeightsPreserved": true
+  },
+  "maximumProjectionOutsideFootprintMetres": 0.0000649212735074559,
+  "dimensions": [
+    470.6171112060547,
+    39.375,
+    471.1901092529297
+  ],
+  "closedComponents": 23,
+  "sourceGuards": [
+    {
+      "name": "main-roof",
+      "handle": "17AEBF",
+      "elevation": 191.28,
+      "toleranceMetres": 0.02,
+      "location": [
+        2.1655844670011297,
+        41.363509811830326
+      ],
+      "meshElevation": 191.28000017929077,
+      "differenceMetres": 1.7929076534528576e-7,
+      "passed": true
+    },
+    {
+      "name": "northern-guard-range",
+      "handle": "176FFE",
+      "elevation": 185.504,
+      "dsmElevation": 186.498,
+      "toleranceMetres": 0.02,
+      "dsmSourceLocation": [
+        2.166141923774118,
+        41.364246965472304
+      ],
+      "dsmSourceName": "cad-176FFE",
+      "dsmUse": "Nearby source-cell corroboration of the cap; source location is distinct from the later exported-mesh control location.",
+      "location": [
+        2.1658014604948628,
+        41.36409856453171
+      ],
+      "meshElevation": 185.50399920272824,
+      "differenceMetres": -7.972717526172346e-7,
+      "passed": true
+    },
+    {
+      "name": "eastern-guard-range",
+      "handle": "17A461",
+      "elevation": 185.362,
+      "dsmElevation": 186.71899,
+      "toleranceMetres": 0.02,
+      "dsmSourceLocation": [
+        2.1667941028131357,
+        41.36369288033315
+      ],
+      "dsmSourceName": "cad-17A461",
+      "dsmUse": "Nearby source-cell corroboration of the cap; source location is distinct from the later exported-mesh control location.",
+      "location": [
+        2.166552730239845,
+        41.363924510171074
+      ],
+      "meshElevation": 185.361999004364,
+      "differenceMetres": -9.956359861007513e-7,
+      "passed": true
+    },
+    {
+      "name": "tower-cap",
+      "handle": "17F3C0",
+      "elevation": 204.805,
+      "dsmElevation": 204.862,
+      "toleranceMetres": 0.02,
+      "dsmSourceLocation": [
+        2.1665795119926647,
+        41.36354646811706
+      ],
+      "dsmSourceName": "cad-17F3C0",
+      "dsmUse": "Nearby source-cell corroboration of the cap; source location is distinct from the later exported-mesh control location.",
+      "location": [
+        2.1665689047841763,
+        41.36354677770701
+      ],
+      "meshElevation": 204.80499979782104,
+      "differenceMetres": -2.0217896690155612e-7,
+      "passed": true
+    },
+    {
+      "name": "western-pavilion",
+      "handle": "17F504",
+      "elevation": 194.664,
+      "dsmElevation": 194.681,
+      "toleranceMetres": 0.02,
+      "dsmSourceLocation": [
+        2.1648556110986514,
+        41.363410411180595
+      ],
+      "dsmSourceName": "cad-17F504",
+      "dsmUse": "Nearby source-cell corroboration of the cap; source location is distinct from the later exported-mesh control location.",
+      "location": [
+        2.164717829646185,
+        41.36341138146584
+      ],
+      "meshElevation": 194.664000957489,
+      "differenceMetres": 9.5748902140258e-7,
+      "passed": true
+    },
+    {
+      "name": "bridge-deck-centre-DSM-plane",
+      "location": [
+        2.1669589394560442,
+        41.3637621000853
+      ],
+      "elevation": 176.0683596421718,
+      "meshElevation": 176.06836520293496,
+      "toleranceMetres": 0.025,
+      "differenceMetres": 0.000005560763156609028,
+      "source": "Exposed DSM cells on verified RTT173781 axis, least-squares deck plane; not derived from the GLB",
+      "fit": {
+        "method": "Least-squares plane along the verified RTT bridge axis. Excludes near-facade DSM186.713roofcell. No use of MET5 or requested clearance to choose deck height.",
+        "samples": [
+          {
+            "distanceFromInner": 3.707210038778127,
+            "elevationASL": 176.382,
+            "residualMetres": 0.018374782601284778
+          },
+          {
+            "distanceFromInner": 10.443248602964866,
+            "elevationASL": 176.14799,
+            "residualMetres": -0.00835392706559901
+          },
+          {
+            "distanceFromInner": 17.17928716715161,
+            "elevationASL": 175.935,
+            "residualMetres": -0.014062636732489864
+          },
+          {
+            "distanceFromInner": 23.91532573133835,
+            "elevationASL": 175.75301,
+            "residualMetres": 0.011228653600625194
+          },
+          {
+            "distanceFromInner": 1.0891907566847565,
+            "elevationASL": 176.437,
+            "residualMetres": -0.00718687240384952
+          }
+        ],
+        "maximumAbsoluteResidualMetres": 0.018374782601284778
+      },
+      "passed": true
+    },
+    {
+      "name": "drawbridge-deck-DSM-plane",
+      "location": [
+        2.16684130509989,
+        41.363710169083404
+      ],
+      "elevation": 176.41923666100485,
+      "meshElevation": 176.41925746919765,
+      "toleranceMetres": 0.025,
+      "differenceMetres": 0.00002080819280081414,
+      "source": "Exposed DSM cells on verified RTT173781 axis, least-squares deck plane; not derived from the GLB",
+      "fit": {
+        "method": "Least-squares plane along the verified RTT bridge axis. Excludes near-facade DSM186.713roofcell. No use of MET5 or requested clearance to choose deck height.",
+        "samples": [
+          {
+            "distanceFromInner": 3.707210038778127,
+            "elevationASL": 176.382,
+            "residualMetres": 0.018374782601284778
+          },
+          {
+            "distanceFromInner": 10.443248602964866,
+            "elevationASL": 176.14799,
+            "residualMetres": -0.00835392706559901
+          },
+          {
+            "distanceFromInner": 17.17928716715161,
+            "elevationASL": 175.935,
+            "residualMetres": -0.014062636732489864
+          },
+          {
+            "distanceFromInner": 23.91532573133835,
+            "elevationASL": 175.75301,
+            "residualMetres": 0.011228653600625194
+          },
+          {
+            "distanceFromInner": 1.0891907566847565,
+            "elevationASL": 176.437,
+            "residualMetres": -0.00718687240384952
+          }
+        ],
+        "maximumAbsoluteResidualMetres": 0.018374782601284778
+      },
+      "passed": true
+    }
+  ],
+  "cleanup": [
+    {
+      "quantizationMetres": 0.0001,
+      "maximumVertexMoveMetres": 0.00006543623656619432,
+      "weldedEdgeCount": 0,
+      "repeatedIDFacesRemoved": 0,
+      "localCollinearRepairs": 0,
+      "cancelledCoincidentOppositeFacePairs": 0,
+      "retainedCoincidentNonAdjacentVertexGroups": [
+        [
+          39,
+          40
+        ],
+        [
+          64,
+          65
+        ]
+      ],
+      "sourceAudit": {
+        "vertices": 77,
+        "triangles": 150,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 0.00450150528922677,
+        "minimumEdgeMetres": 0.015046434948627422,
+        "signedVolume": 3745.4998551013823,
+        "bbox": {
+          "min": [
+            -200.77398681640625,
+            15.321000099182129,
+            -107.70415496826172
+          ],
+          "max": [
+            -92.2200698852539,
+            22.980009078979492,
+            -101.12583923339844
+          ]
+        },
+        "edges": {
+          "total": 225,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "cleanedAudit": {
+        "vertices": 77,
+        "triangles": 150,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 0.004504307347815484,
+        "minimumEdgeMetres": 0.015045562568684652,
+        "signedVolume": 3745.516614160936,
+        "bbox": {
+          "min": [
+            -200.7740020751953,
+            15.321000099182129,
+            -107.7042007446289
+          ],
+          "max": [
+            -92.22010040283203,
+            22.979999542236328,
+            -101.12580108642578
+          ]
+        },
+        "edges": {
+          "total": 225,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "relativeVolumeChange": 0.000004474452063048398,
+      "volumeChangeCubicMetres": 0.016759059553805855,
+      "repairLog": [],
+      "safeEdgeWeldLog": []
+    },
+    {
+      "quantizationMetres": 0.0001,
+      "maximumVertexMoveMetres": 0.00006815936426241165,
+      "weldedEdgeCount": 0,
+      "repeatedIDFacesRemoved": 0,
+      "localCollinearRepairs": 0,
+      "cancelledCoincidentOppositeFacePairs": 0,
+      "retainedCoincidentNonAdjacentVertexGroups": [],
+      "sourceAudit": {
+        "vertices": 215,
+        "triangles": 426,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 0.0001040829811245203,
+        "minimumEdgeMetres": 0.007347134662389668,
+        "signedVolume": 13327.829649123252,
+        "bbox": {
+          "min": [
+            -214.559326171875,
+            10.248000144958496,
+            -41.34090805053711
+          ],
+          "max": [
+            -133.6636962890625,
+            20.826000213623047,
+            194.9969940185547
+          ]
+        },
+        "edges": {
+          "total": 639,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "cleanedAudit": {
+        "vertices": 215,
+        "triangles": 426,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 0.00010388263035565615,
+        "minimumEdgeMetres": 0.007317937700855909,
+        "signedVolume": 13327.8301536443,
+        "bbox": {
+          "min": [
+            -214.55929565429688,
+            10.248000144958496,
+            -41.34090042114258
+          ],
+          "max": [
+            -133.6636962890625,
+            20.826000213623047,
+            194.9969940185547
+          ]
+        },
+        "edges": {
+          "total": 639,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "relativeVolumeChange": 3.7854704075232714e-8,
+      "volumeChangeCubicMetres": 0.0005045210473326733,
+      "repairLog": [],
+      "safeEdgeWeldLog": []
+    },
+    {
+      "quantizationMetres": 0.0001,
+      "maximumVertexMoveMetres": 0.00006473755931273324,
+      "weldedEdgeCount": 0,
+      "repeatedIDFacesRemoved": 0,
+      "localCollinearRepairs": 0,
+      "cancelledCoincidentOppositeFacePairs": 0,
+      "retainedCoincidentNonAdjacentVertexGroups": [
+        [
+          29,
+          30
+        ],
+        [
+          50,
+          51
+        ]
+      ],
+      "sourceAudit": {
+        "vertices": 72,
+        "triangles": 140,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 0.0015773563063703477,
+        "minimumEdgeMetres": 0.012741273890082705,
+        "signedVolume": 2419.287352872695,
+        "bbox": {
+          "min": [
+            -202.7169647216797,
+            13.10000991821289,
+            -107.53840637207031
+          ],
+          "max": [
+            -174.0146942138672,
+            21.32200050354004,
+            -22.863821029663086
+          ]
+        },
+        "edges": {
+          "total": 210,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "cleanedAudit": {
+        "vertices": 72,
+        "triangles": 140,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 0.0015723110409453511,
+        "minimumEdgeMetres": 0.012694370253148471,
+        "signedVolume": 2419.329057261178,
+        "bbox": {
+          "min": [
+            -202.7169952392578,
+            13.100000381469727,
+            -107.53839874267578
+          ],
+          "max": [
+            -174.0146942138672,
+            21.32200050354004,
+            -22.863800048828125
+          ]
+        },
+        "edges": {
+          "total": 210,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "relativeVolumeChange": 0.0000172382947538744,
+      "volumeChangeCubicMetres": 0.041704388483140065,
+      "repairLog": [],
+      "safeEdgeWeldLog": []
+    },
+    {
+      "quantizationMetres": 0.0001,
+      "maximumVertexMoveMetres": 0.00006224505947906769,
+      "weldedEdgeCount": 0,
+      "repeatedIDFacesRemoved": 0,
+      "localCollinearRepairs": 0,
+      "cancelledCoincidentOppositeFacePairs": 0,
+      "retainedCoincidentNonAdjacentVertexGroups": [],
+      "sourceAudit": {
+        "vertices": 8,
+        "triangles": 12,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 10.637323993138478,
+        "minimumEdgeMetres": 4.332981109619141,
+        "signedVolume": 1073.2744419771782,
+        "bbox": {
+          "min": [
+            -96.0985107421875,
+            14.996000289916992,
+            -105.47071838378906
+          ],
+          "max": [
+            -76.97344970703125,
+            23.71099090576172,
+            -72.49502563476562
+          ]
+        },
+        "edges": {
+          "total": 18,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "cleanedAudit": {
+        "vertices": 8,
+        "triangles": 12,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 10.637571743113773,
+        "minimumEdgeMetres": 4.333000183105469,
+        "signedVolume": 1073.281212333222,
+        "bbox": {
+          "min": [
+            -96.09850311279297,
+            14.996000289916992,
+            -105.470703125
+          ],
+          "max": [
+            -76.97339630126953,
+            23.711000442504883,
+            -72.49500274658203
+          ]
+        },
+        "edges": {
+          "total": 18,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "relativeVolumeChange": 0.000006308131246696208,
+      "volumeChangeCubicMetres": 0.006770356043716674,
+      "repairLog": [],
+      "safeEdgeWeldLog": []
+    },
+    {
+      "quantizationMetres": 0.0001,
+      "maximumVertexMoveMetres": 0.00007111111405299092,
+      "weldedEdgeCount": 0,
+      "repeatedIDFacesRemoved": 0,
+      "localCollinearRepairs": 0,
+      "cancelledCoincidentOppositeFacePairs": 0,
+      "retainedCoincidentNonAdjacentVertexGroups": [],
+      "sourceAudit": {
+        "vertices": 324,
+        "triangles": 648,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 0.000002815395611277571,
+        "minimumEdgeMetres": 0.0005351770113742961,
+        "signedVolume": 8376.728530782008,
+        "bbox": {
+          "min": [
+            -57.81986999511719,
+            16.131999969482422,
+            -141.1994171142578
+          ],
+          "max": [
+            78.01451873779297,
+            26.909000396728516,
+            -37.70057678222656
+          ]
+        },
+        "edges": {
+          "total": 972,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "cleanedAudit": {
+        "vertices": 324,
+        "triangles": 648,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 0.0000024103670713950493,
+        "minimumEdgeMetres": 0.00045619138271089845,
+        "signedVolume": 8376.716128994198,
+        "bbox": {
+          "min": [
+            -57.81990051269531,
+            16.131999969482422,
+            -141.19940185546875
+          ],
+          "max": [
+            78.0145034790039,
+            26.909000396728516,
+            -37.700599670410156
+          ]
+        },
+        "edges": {
+          "total": 972,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "relativeVolumeChange": -0.0000014805049207634097,
+      "volumeChangeCubicMetres": -0.012401787809722009,
+      "repairLog": [],
+      "safeEdgeWeldLog": []
+    },
+    {
+      "quantizationMetres": 0.0001,
+      "maximumVertexMoveMetres": 0.00006610001926865943,
+      "weldedEdgeCount": 0,
+      "repeatedIDFacesRemoved": 0,
+      "localCollinearRepairs": 0,
+      "cancelledCoincidentOppositeFacePairs": 0,
+      "retainedCoincidentNonAdjacentVertexGroups": [],
+      "sourceAudit": {
+        "vertices": 28,
+        "triangles": 52,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 2.20838426778937,
+        "minimumEdgeMetres": 0.45103520736654223,
+        "signedVolume": 4099.125276201566,
+        "bbox": {
+          "min": [
+            -30.822704315185547,
+            24.131999969482422,
+            -90.0812759399414
+          ],
+          "max": [
+            4.842708587646484,
+            34.79600143432617,
+            -68.52410888671875
+          ]
+        },
+        "edges": {
+          "total": 78,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "cleanedAudit": {
+        "vertices": 28,
+        "triangles": 52,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 2.2085208374264766,
+        "minimumEdgeMetres": 0.4510632830653117,
+        "signedVolume": 4099.123376514349,
+        "bbox": {
+          "min": [
+            -30.82270050048828,
+            24.131999969482422,
+            -90.081298828125
+          ],
+          "max": [
+            4.842700004577637,
+            34.79600143432617,
+            -68.52410125732422
+          ]
+        },
+        "edges": {
+          "total": 78,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "relativeVolumeChange": -4.6343721862341465e-7,
+      "volumeChangeCubicMetres": -0.00189968721679179,
+      "repairLog": [],
+      "safeEdgeWeldLog": []
+    },
+    {
+      "quantizationMetres": 0.0001,
+      "maximumVertexMoveMetres": 0.00005750584957764181,
+      "weldedEdgeCount": 0,
+      "repeatedIDFacesRemoved": 0,
+      "localCollinearRepairs": 0,
+      "cancelledCoincidentOppositeFacePairs": 0,
+      "retainedCoincidentNonAdjacentVertexGroups": [],
+      "sourceAudit": {
+        "vertices": 8,
+        "triangles": 12,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 7.306137458884572,
+        "minimumEdgeMetres": 3.7295337460354006,
+        "signedVolume": 91.34455228144225,
+        "bbox": {
+          "min": [
+            -53.72019577026367,
+            19.264009475708008,
+            -56.68013381958008
+          ],
+          "max": [
+            -46.674842834472656,
+            23.18199920654297,
+            -49.613887786865234
+          ]
+        },
+        "edges": {
+          "total": 18,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "cleanedAudit": {
+        "vertices": 8,
+        "triangles": 12,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 7.306223983255908,
+        "minimumEdgeMetres": 3.7295688356635055,
+        "signedVolume": 91.34478962632181,
+        "bbox": {
+          "min": [
+            -53.72019958496094,
+            19.263999938964844,
+            -56.68009948730469
+          ],
+          "max": [
+            -46.674800872802734,
+            23.18199920654297,
+            -49.61389923095703
+          ]
+        },
+        "edges": {
+          "total": 18,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "relativeVolumeChange": 0.0000025983473960645885,
+      "volumeChangeCubicMetres": 0.00023734487956517114,
+      "repairLog": [],
+      "safeEdgeWeldLog": []
+    },
+    {
+      "quantizationMetres": 0.0001,
+      "maximumVertexMoveMetres": 0.00007044452048632696,
+      "weldedEdgeCount": 0,
+      "repeatedIDFacesRemoved": 0,
+      "localCollinearRepairs": 0,
+      "cancelledCoincidentOppositeFacePairs": 0,
+      "retainedCoincidentNonAdjacentVertexGroups": [],
+      "sourceAudit": {
+        "vertices": 12,
+        "triangles": 20,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 22.587632235619797,
+        "minimumEdgeMetres": 5.269475616332845,
+        "signedVolume": 2902.708737795232,
+        "bbox": {
+          "min": [
+            -44.224430084228516,
+            16.954999923706055,
+            -38.16246795654297
+          ],
+          "max": [
+            -5.756878852844238,
+            26.709999084472656,
+            5.468324661254883
+          ]
+        },
+        "edges": {
+          "total": 30,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "cleanedAudit": {
+        "vertices": 12,
+        "triangles": 20,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 22.587358226539493,
+        "minimumEdgeMetres": 5.269417554449292,
+        "signedVolume": 2902.683251264489,
+        "bbox": {
+          "min": [
+            -44.22439956665039,
+            16.954999923706055,
+            -38.162498474121094
+          ],
+          "max": [
+            -5.756899833679199,
+            26.709999084472656,
+            5.468299865722656
+          ]
+        },
+        "edges": {
+          "total": 30,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "relativeVolumeChange": -0.000008780257698975473,
+      "volumeChangeCubicMetres": -0.025486530742909963,
+      "repairLog": [],
+      "safeEdgeWeldLog": []
+    },
+    {
+      "quantizationMetres": 0.0001,
+      "maximumVertexMoveMetres": 0.00005039155888985789,
+      "weldedEdgeCount": 0,
+      "repeatedIDFacesRemoved": 0,
+      "localCollinearRepairs": 0,
+      "cancelledCoincidentOppositeFacePairs": 0,
+      "retainedCoincidentNonAdjacentVertexGroups": [],
+      "sourceAudit": {
+        "vertices": 8,
+        "triangles": 12,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 7.587692720969435,
+        "minimumEdgeMetres": 3.296853089360988,
+        "signedVolume": 92.0677613609634,
+        "bbox": {
+          "min": [
+            -58.329376220703125,
+            18.684009552001953,
+            -14.18822956085205
+          ],
+          "max": [
+            -51.52751541137695,
+            23.28700065612793,
+            -9.079276084899902
+          ]
+        },
+        "edges": {
+          "total": 18,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "cleanedAudit": {
+        "vertices": 8,
+        "triangles": 12,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 7.587565643764519,
+        "minimumEdgeMetres": 3.2967910438230272,
+        "signedVolume": 92.06655483383975,
+        "bbox": {
+          "min": [
+            -58.32939910888672,
+            18.68400001525879,
+            -14.188199996948242
+          ],
+          "max": [
+            -51.52750015258789,
+            23.28700065612793,
+            -9.079299926757812
+          ]
+        },
+        "edges": {
+          "total": 18,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "relativeVolumeChange": -0.000013104773112992276,
+      "volumeChangeCubicMetres": -0.0012065271236565422,
+      "repairLog": [],
+      "safeEdgeWeldLog": []
+    },
+    {
+      "quantizationMetres": 0.0001,
+      "maximumVertexMoveMetres": 0.000052486755011814176,
+      "weldedEdgeCount": 0,
+      "repeatedIDFacesRemoved": 0,
+      "localCollinearRepairs": 0,
+      "cancelledCoincidentOppositeFacePairs": 0,
+      "retainedCoincidentNonAdjacentVertexGroups": [],
+      "sourceAudit": {
+        "vertices": 8,
+        "triangles": 12,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 9.259927770401191,
+        "minimumEdgeMetres": 2.9137737042043104,
+        "signedVolume": 123.76842673215276,
+        "bbox": {
+          "min": [
+            -42.024139404296875,
+            18.203990936279297,
+            10.000176429748535
+          ],
+          "max": [
+            -38.093849182128906,
+            24.886999130249023,
+            16.761028289794922
+          ]
+        },
+        "edges": {
+          "total": 18,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "cleanedAudit": {
+        "vertices": 8,
+        "triangles": 12,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 9.259712154896988,
+        "minimumEdgeMetres": 2.9137146079027816,
+        "signedVolume": 123.7675226614455,
+        "bbox": {
+          "min": [
+            -42.02410125732422,
+            18.20400047302246,
+            10.000200271606445
+          ],
+          "max": [
+            -38.09379959106445,
+            24.886999130249023,
+            16.76099967956543
+          ]
+        },
+        "edges": {
+          "total": 18,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "relativeVolumeChange": -0.0000073045342106576265,
+      "volumeChangeCubicMetres": -0.0009040707072642817,
+      "repairLog": [],
+      "safeEdgeWeldLog": []
+    },
+    {
+      "quantizationMetres": 0.0001,
+      "maximumVertexMoveMetres": 0.00005501634636633285,
+      "weldedEdgeCount": 0,
+      "repeatedIDFacesRemoved": 0,
+      "localCollinearRepairs": 0,
+      "cancelledCoincidentOppositeFacePairs": 0,
+      "retainedCoincidentNonAdjacentVertexGroups": [],
+      "sourceAudit": {
+        "vertices": 20,
+        "triangles": 36,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 12.924050354478378,
+        "minimumEdgeMetres": 2.6866333988209212,
+        "signedVolume": 2779.1111203566084,
+        "bbox": {
+          "min": [
+            -256.6346130371094,
+            8.746000289916992,
+            126.68802642822266
+          ],
+          "max": [
+            -209.6750946044922,
+            18.367000579833984,
+            170.3385772705078
+          ]
+        },
+        "edges": {
+          "total": 54,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "cleanedAudit": {
+        "vertices": 20,
+        "triangles": 36,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 12.924284776739121,
+        "minimumEdgeMetres": 2.6866821301905666,
+        "signedVolume": 2779.1078123651996,
+        "bbox": {
+          "min": [
+            -256.6346130371094,
+            8.746000289916992,
+            126.68800354003906
+          ],
+          "max": [
+            -209.6750946044922,
+            18.367000579833984,
+            170.33859252929688
+          ]
+        },
+        "edges": {
+          "total": 54,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "relativeVolumeChange": -0.0000011903055565198592,
+      "volumeChangeCubicMetres": -0.0033079914087466022,
+      "repairLog": [],
+      "safeEdgeWeldLog": []
+    },
+    {
+      "quantizationMetres": 0.0001,
+      "maximumVertexMoveMetres": 0.00007752380917702322,
+      "weldedEdgeCount": 0,
+      "repeatedIDFacesRemoved": 0,
+      "localCollinearRepairs": 0,
+      "cancelledCoincidentOppositeFacePairs": 0,
+      "retainedCoincidentNonAdjacentVertexGroups": [],
+      "sourceAudit": {
+        "vertices": 111,
+        "triangles": 218,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 0.000004363534103432973,
+        "minimumEdgeMetres": 0.000736236572265625,
+        "signedVolume": 10461.44973601158,
+        "bbox": {
+          "min": [
+            -212.47235107421875,
+            5.561999797821045,
+            47.70941925048828
+          ],
+          "max": [
+            19.01606559753418,
+            20.447288513183594,
+            231.92259216308594
+          ]
+        },
+        "edges": {
+          "total": 327,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "cleanedAudit": {
+        "vertices": 111,
+        "triangles": 218,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 0.000004248702771155277,
+        "minimumEdgeMetres": 0.0006999969482421875,
+        "signedVolume": 10461.415429421957,
+        "bbox": {
+          "min": [
+            -212.47239685058594,
+            5.561999797821045,
+            47.70940017700195
+          ],
+          "max": [
+            19.01609992980957,
+            20.44729995727539,
+            231.922607421875
+          ]
+        },
+        "edges": {
+          "total": 327,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "relativeVolumeChange": -0.0000032793341734523146,
+      "volumeChangeCubicMetres": -0.03430658962315647,
+      "repairLog": [],
+      "safeEdgeWeldLog": []
+    },
+    {
+      "quantizationMetres": 0.0001,
+      "maximumVertexMoveMetres": 0.00006823937919616058,
+      "weldedEdgeCount": 0,
+      "repeatedIDFacesRemoved": 0,
+      "localCollinearRepairs": 0,
+      "cancelledCoincidentOppositeFacePairs": 0,
+      "retainedCoincidentNonAdjacentVertexGroups": [],
+      "sourceAudit": {
+        "vertices": 80,
+        "triangles": 156,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 0.0020423615351319313,
+        "minimumEdgeMetres": 0.03403903084859193,
+        "signedVolume": 2314.315407306001,
+        "bbox": {
+          "min": [
+            -241.86195373535156,
+            8.395999908447266,
+            210.8969268798828
+          ],
+          "max": [
+            -204.7903289794922,
+            18.816999435424805,
+            274.5841064453125
+          ]
+        },
+        "edges": {
+          "total": 234,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "cleanedAudit": {
+        "vertices": 80,
+        "triangles": 156,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 0.0020453280303627253,
+        "minimumEdgeMetres": 0.034045586460733454,
+        "signedVolume": 2314.316118975658,
+        "bbox": {
+          "min": [
+            -241.86199951171875,
+            8.395999908447266,
+            210.8968963623047
+          ],
+          "max": [
+            -204.79029846191406,
+            18.816999435424805,
+            274.5841064453125
+          ]
+        },
+        "edges": {
+          "total": 234,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "relativeVolumeChange": 3.075076347619309e-7,
+      "volumeChangeCubicMetres": 0.0007116696569937631,
+      "repairLog": [],
+      "safeEdgeWeldLog": []
+    },
+    {
+      "quantizationMetres": 0.0001,
+      "maximumVertexMoveMetres": 0.00005206048608381721,
+      "weldedEdgeCount": 0,
+      "repeatedIDFacesRemoved": 0,
+      "localCollinearRepairs": 0,
+      "cancelledCoincidentOppositeFacePairs": 0,
+      "retainedCoincidentNonAdjacentVertexGroups": [],
+      "sourceAudit": {
+        "vertices": 8,
+        "triangles": 12,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 1.2951862869816864,
+        "minimumEdgeMetres": 1.0249900817871094,
+        "signedVolume": 136.15617414217655,
+        "bbox": {
+          "min": [
+            -116.59776306152344,
+            13.668000221252441,
+            68.83527374267578
+          ],
+          "max": [
+            -113.6337661743164,
+            16.41999053955078,
+            93.58268737792969
+          ]
+        },
+        "edges": {
+          "total": 18,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "cleanedAudit": {
+        "vertices": 8,
+        "triangles": 12,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 1.2951864027091882,
+        "minimumEdgeMetres": 1.0249996185302734,
+        "signedVolume": 136.15845435844193,
+        "bbox": {
+          "min": [
+            -116.5978012084961,
+            13.668000221252441,
+            68.83529663085938
+          ],
+          "max": [
+            -113.63379669189453,
+            16.420000076293945,
+            93.58270263671875
+          ]
+        },
+        "edges": {
+          "total": 18,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "relativeVolumeChange": 0.00001674706475664535,
+      "volumeChangeCubicMetres": 0.0022802162653761116,
+      "repairLog": [],
+      "safeEdgeWeldLog": []
+    },
+    {
+      "quantizationMetres": 0.0001,
+      "maximumVertexMoveMetres": 0.0000657413022598804,
+      "weldedEdgeCount": 0,
+      "repeatedIDFacesRemoved": 0,
+      "localCollinearRepairs": 0,
+      "cancelledCoincidentOppositeFacePairs": 0,
+      "retainedCoincidentNonAdjacentVertexGroups": [],
+      "sourceAudit": {
+        "vertices": 287,
+        "triangles": 570,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 0.0014741860795766115,
+        "minimumEdgeMetres": 0.023071178052524142,
+        "signedVolume": 7869.057755324933,
+        "bbox": {
+          "min": [
+            53.30931854248047,
+            9.60200023651123,
+            -196.60604858398438
+          ],
+          "max": [
+            143.169189453125,
+            26.79400062561035,
+            -146.5185546875
+          ]
+        },
+        "edges": {
+          "total": 855,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "cleanedAudit": {
+        "vertices": 287,
+        "triangles": 570,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 0.0014910572208464146,
+        "minimumEdgeMetres": 0.02307308533149767,
+        "signedVolume": 7869.032777617788,
+        "bbox": {
+          "min": [
+            53.30929946899414,
+            9.60200023651123,
+            -196.6060028076172
+          ],
+          "max": [
+            143.16920471191406,
+            26.79400062561035,
+            -146.5186004638672
+          ]
+        },
+        "edges": {
+          "total": 855,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "relativeVolumeChange": -0.00000317416746979607,
+      "volumeChangeCubicMetres": -0.024977707144898886,
+      "repairLog": [],
+      "safeEdgeWeldLog": []
+    },
+    {
+      "quantizationMetres": 0.0001,
+      "maximumVertexMoveMetres": 0.00007872435627908414,
+      "weldedEdgeCount": 0,
+      "repeatedIDFacesRemoved": 0,
+      "localCollinearRepairs": 0,
+      "cancelledCoincidentOppositeFacePairs": 0,
+      "retainedCoincidentNonAdjacentVertexGroups": [
+        [
+          403,
+          404
+        ]
+      ],
+      "sourceAudit": {
+        "vertices": 1027,
+        "triangles": 2062,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 0.000007917987560098253,
+        "minimumEdgeMetres": 0.0001270357193401086,
+        "signedVolume": 17031.222630310258,
+        "bbox": {
+          "min": [
+            9.933915138244629,
+            8.522000312805176,
+            -154.62086486816406
+          ],
+          "max": [
+            213.98245239257812,
+            29.131999969482422,
+            49.502227783203125
+          ]
+        },
+        "edges": {
+          "total": 3093,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "cleanedAudit": {
+        "vertices": 1027,
+        "triangles": 2062,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 0.000005708250682801008,
+        "minimumEdgeMetres": 0.000091552734375,
+        "signedVolume": 17031.24665817097,
+        "bbox": {
+          "min": [
+            9.933899879455566,
+            8.522000312805176,
+            -154.6208953857422
+          ],
+          "max": [
+            213.9824981689453,
+            29.131999969482422,
+            49.502201080322266
+          ]
+        },
+        "edges": {
+          "total": 3093,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "relativeVolumeChange": 0.00000141081243749112,
+      "volumeChangeCubicMetres": 0.024027860712521942,
+      "repairLog": [],
+      "safeEdgeWeldLog": []
+    },
+    {
+      "quantizationMetres": 0.0001,
+      "maximumVertexMoveMetres": 0.00007947031652831901,
+      "weldedEdgeCount": 32,
+      "repeatedIDFacesRemoved": 64,
+      "localCollinearRepairs": 0,
+      "cancelledCoincidentOppositeFacePairs": 0,
+      "retainedCoincidentNonAdjacentVertexGroups": [
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          311,
+          312
+        ],
+        [
+          313,
+          314
+        ],
+        [
+          315,
+          316
+        ],
+        [
+          318,
+          319
+        ],
+        [
+          944,
+          945
+        ],
+        [
+          946,
+          947
+        ],
+        [
+          948,
+          949
+        ],
+        [
+          950,
+          951
+        ]
+      ],
+      "sourceAudit": {
+        "vertices": 1491,
+        "triangles": 2986,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 29,
+        "minimumAreaSquareMetres": 0,
+        "minimumEdgeMetres": 0,
+        "signedVolume": 62522.23582402757,
+        "bbox": {
+          "min": [
+            32.503238677978516,
+            20.131999969482422,
+            -127.04895782470703
+          ],
+          "max": [
+            150.01109313964844,
+            44.9370002746582,
+            -8.04141902923584
+          ]
+        },
+        "edges": {
+          "total": 4479,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": false
+      },
+      "cleanedAudit": {
+        "vertices": 1459,
+        "triangles": 2922,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 0.000024854373938902927,
+        "minimumEdgeMetres": 0.005506694871381312,
+        "signedVolume": 62522.264198284225,
+        "bbox": {
+          "min": [
+            32.50320053100586,
+            20.131999969482422,
+            -127.04900360107422
+          ],
+          "max": [
+            150.01109313964844,
+            44.9370002746582,
+            -8.041399955749512
+          ]
+        },
+        "edges": {
+          "total": 4383,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "relativeVolumeChange": 4.538266471042294e-7,
+      "volumeChangeCubicMetres": 0.02837425665347837,
+      "repairLog": [],
+      "safeEdgeWeldLog": [
+        {
+          "retained": 1105,
+          "removed": 1106,
+          "link": [
+            1101,
+            1100
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 1103,
+          "removed": 1104,
+          "link": [
+            1101,
+            1107
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 1109,
+          "removed": 1110,
+          "link": [
+            1122,
+            1108
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 1112,
+          "removed": 1113,
+          "link": [
+            1114,
+            1111
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 1116,
+          "removed": 1117,
+          "link": [
+            1114,
+            1118
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 1120,
+          "removed": 1121,
+          "link": [
+            1132,
+            1119
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 1124,
+          "removed": 1125,
+          "link": [
+            1122,
+            1131
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 1128,
+          "removed": 1129,
+          "link": [
+            1132,
+            1130
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 1446,
+          "removed": 1447,
+          "link": [
+            1442,
+            1445
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 1451,
+          "removed": 1452,
+          "link": [
+            1450,
+            1448
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 1454,
+          "removed": 1455,
+          "link": [
+            1450,
+            1456
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 1458,
+          "removed": 1459,
+          "link": [
+            1442,
+            1460
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 1463,
+          "removed": 1464,
+          "link": [
+            1466,
+            1462
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 1467,
+          "removed": 1468,
+          "link": [
+            1466,
+            1469
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 1471,
+          "removed": 1472,
+          "link": [
+            1476,
+            1477
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 1473,
+          "removed": 1474,
+          "link": [
+            1476,
+            1457
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 482,
+          "removed": 484,
+          "link": [
+            479,
+            485
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 480,
+          "removed": 481,
+          "link": [
+            479,
+            477
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 491,
+          "removed": 492,
+          "link": [
+            490,
+            489
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 495,
+          "removed": 496,
+          "link": [
+            490,
+            497
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 500,
+          "removed": 501,
+          "link": [
+            503,
+            498
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 504,
+          "removed": 505,
+          "link": [
+            503,
+            499
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 487,
+          "removed": 488,
+          "link": [
+            519,
+            486
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 521,
+          "removed": 522,
+          "link": [
+            519,
+            523
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 547,
+          "removed": 548,
+          "link": [
+            542,
+            541
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 544,
+          "removed": 545,
+          "link": [
+            542,
+            546
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 550,
+          "removed": 551,
+          "link": [
+            552,
+            549
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 555,
+          "removed": 556,
+          "link": [
+            560,
+            553
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 558,
+          "removed": 559,
+          "link": [
+            560,
+            572
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 563,
+          "removed": 564,
+          "link": [
+            552,
+            565
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 567,
+          "removed": 568,
+          "link": [
+            570,
+            566
+          ],
+          "geometryMoved": false
+        },
+        {
+          "retained": 573,
+          "removed": 574,
+          "link": [
+            570,
+            575
+          ],
+          "geometryMoved": false
+        }
+      ]
+    },
+    {
+      "quantizationMetres": 0.0001,
+      "maximumVertexMoveMetres": 0.000054028511813292375,
+      "weldedEdgeCount": 0,
+      "repeatedIDFacesRemoved": 0,
+      "localCollinearRepairs": 0,
+      "cancelledCoincidentOppositeFacePairs": 0,
+      "retainedCoincidentNonAdjacentVertexGroups": [],
+      "sourceAudit": {
+        "vertices": 8,
+        "triangles": 12,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 9.386426469975667,
+        "minimumEdgeMetres": 3.6551498441942534,
+        "signedVolume": 124.20441815188512,
+        "bbox": {
+          "min": [
+            -4.224549770355225,
+            17.558000564575195,
+            26.78165054321289
+          ],
+          "max": [
+            3.091719150543213,
+            22.79400062561035,
+            32.26542663574219
+          ]
+        },
+        "edges": {
+          "total": 18,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "cleanedAudit": {
+        "vertices": 8,
+        "triangles": 12,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 9.386377787151432,
+        "minimumEdgeMetres": 3.655131728496385,
+        "signedVolume": 124.20222945870889,
+        "bbox": {
+          "min": [
+            -4.2245001792907715,
+            17.558000564575195,
+            26.781700134277344
+          ],
+          "max": [
+            3.0917000770568848,
+            22.79400062561035,
+            32.26539993286133
+          ]
+        },
+        "edges": {
+          "total": 18,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "relativeVolumeChange": -0.000017621701456386496,
+      "volumeChangeCubicMetres": -0.0021886931762367112,
+      "repairLog": [],
+      "safeEdgeWeldLog": []
+    },
+    {
+      "quantizationMetres": 0.0001,
+      "maximumVertexMoveMetres": 0.00006473755931273324,
+      "weldedEdgeCount": 0,
+      "repeatedIDFacesRemoved": 0,
+      "localCollinearRepairs": 0,
+      "cancelledCoincidentOppositeFacePairs": 0,
+      "retainedCoincidentNonAdjacentVertexGroups": [],
+      "sourceAudit": {
+        "vertices": 28,
+        "triangles": 52,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 0.2056982189824339,
+        "minimumEdgeMetres": 0.5377433124894537,
+        "signedVolume": 100.59248213352305,
+        "bbox": {
+          "min": [
+            114.12596893310547,
+            20.131999969482422,
+            -128.90184020996094
+          ],
+          "max": [
+            127.09288787841797,
+            24.43600082397461,
+            -104.7872085571289
+          ]
+        },
+        "edges": {
+          "total": 78,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "cleanedAudit": {
+        "vertices": 28,
+        "triangles": 52,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 0.20570094225695357,
+        "minimumEdgeMetres": 0.5377610869418871,
+        "signedVolume": 100.58830630222724,
+        "bbox": {
+          "min": [
+            114.1259994506836,
+            20.131999969482422,
+            -128.90179443359375
+          ],
+          "max": [
+            127.09290313720703,
+            24.43600082397461,
+            -104.78720092773438
+          ]
+        },
+        "edges": {
+          "total": 78,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "relativeVolumeChange": -0.00004151235964401433,
+      "volumeChangeCubicMetres": -0.0041758312958108945,
+      "repairLog": [],
+      "safeEdgeWeldLog": []
+    },
+    {
+      "quantizationMetres": 0.0001,
+      "maximumVertexMoveMetres": 0.000059587476165059324,
+      "weldedEdgeCount": 0,
+      "repeatedIDFacesRemoved": 0,
+      "localCollinearRepairs": 0,
+      "cancelledCoincidentOppositeFacePairs": 0,
+      "retainedCoincidentNonAdjacentVertexGroups": [],
+      "sourceAudit": {
+        "vertices": 8,
+        "triangles": 12,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 9.597303384094408,
+        "minimumEdgeMetres": 3.785999298095703,
+        "signedVolume": 195.84522342913044,
+        "bbox": {
+          "min": [
+            113.881103515625,
+            23.131999969482422,
+            -170.4991455078125
+          ],
+          "max": [
+            123.58657836914062,
+            26.917999267578125,
+            -159.24256896972656
+          ]
+        },
+        "edges": {
+          "total": 18,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "cleanedAudit": {
+        "vertices": 8,
+        "triangles": 12,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 9.597268392702297,
+        "minimumEdgeMetres": 3.785999298095703,
+        "signedVolume": 195.84365383950015,
+        "bbox": {
+          "min": [
+            113.881103515625,
+            23.131999969482422,
+            -170.4990997314453
+          ],
+          "max": [
+            123.58660125732422,
+            26.917999267578125,
+            -159.2425994873047
+          ]
+        },
+        "edges": {
+          "total": 18,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "relativeVolumeChange": -0.000008014439171966564,
+      "volumeChangeCubicMetres": -0.0015695896302929668,
+      "repairLog": [],
+      "safeEdgeWeldLog": []
+    },
+    {
+      "quantizationMetres": 0.0001,
+      "maximumVertexMoveMetres": 0.00006473755931273324,
+      "weldedEdgeCount": 0,
+      "repeatedIDFacesRemoved": 0,
+      "localCollinearRepairs": 0,
+      "cancelledCoincidentOppositeFacePairs": 0,
+      "retainedCoincidentNonAdjacentVertexGroups": [],
+      "sourceAudit": {
+        "vertices": 30,
+        "triangles": 56,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 0.5147844285238534,
+        "minimumEdgeMetres": 0.6354594400280583,
+        "signedVolume": 63.22286739881876,
+        "bbox": {
+          "min": [
+            130.58970642089844,
+            22.131999969482422,
+            -93.21064758300781
+          ],
+          "max": [
+            152.77960205078125,
+            24.45199966430664,
+            -63.25075912475586
+          ]
+        },
+        "edges": {
+          "total": 84,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "cleanedAudit": {
+        "vertices": 30,
+        "triangles": 56,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 0.5148282930604182,
+        "minimumEdgeMetres": 0.6354707240955141,
+        "signedVolume": 63.222208027200224,
+        "bbox": {
+          "min": [
+            130.58970642089844,
+            22.131999969482422,
+            -93.21060180664062
+          ],
+          "max": [
+            152.77960205078125,
+            24.45199966430664,
+            -63.25080108642578
+          ]
+        },
+        "edges": {
+          "total": 84,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "relativeVolumeChange": -0.000010429321630933393,
+      "volumeChangeCubicMetres": -0.0006593716185321341,
+      "repairLog": [],
+      "safeEdgeWeldLog": []
+    },
+    {
+      "quantizationMetres": 0.0001,
+      "maximumVertexMoveMetres": 0.00006748888402158406,
+      "weldedEdgeCount": 0,
+      "repeatedIDFacesRemoved": 0,
+      "localCollinearRepairs": 0,
+      "cancelledCoincidentOppositeFacePairs": 0,
+      "retainedCoincidentNonAdjacentVertexGroups": [],
+      "sourceAudit": {
+        "vertices": 64,
+        "triangles": 124,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 0.022120288806036115,
+        "minimumEdgeMetres": 0.4961552047422692,
+        "signedVolume": 177.31088163087963,
+        "bbox": {
+          "min": [
+            155.47166442871094,
+            20.131999969482422,
+            -41.86855697631836
+          ],
+          "max": [
+            161.0442352294922,
+            27.374000549316406,
+            -36.25883483886719
+          ]
+        },
+        "edges": {
+          "total": 186,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "cleanedAudit": {
+        "vertices": 64,
+        "triangles": 124,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 0.02209386497270316,
+        "minimumEdgeMetres": 0.49612393484499245,
+        "signedVolume": 177.3101215933618,
+        "bbox": {
+          "min": [
+            155.47169494628906,
+            20.131999969482422,
+            -41.86859893798828
+          ],
+          "max": [
+            161.04420471191406,
+            27.374000549316406,
+            -36.2588005065918
+          ]
+        },
+        "edges": {
+          "total": 186,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "relativeVolumeChange": -0.000004286468550857594,
+      "volumeChangeCubicMetres": -0.0007600375178355989,
+      "repairLog": [],
+      "safeEdgeWeldLog": []
+    },
+    {
+      "quantizationMetres": 0.0001,
+      "maximumVertexMoveMetres": 0.000059587476165059324,
+      "weldedEdgeCount": 0,
+      "repeatedIDFacesRemoved": 0,
+      "localCollinearRepairs": 0,
+      "cancelledCoincidentOppositeFacePairs": 0,
+      "retainedCoincidentNonAdjacentVertexGroups": [],
+      "sourceAudit": {
+        "vertices": 8,
+        "triangles": 12,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 3.730807056581104,
+        "minimumEdgeMetres": 2.3136785211050834,
+        "signedVolume": 25.532264088064323,
+        "bbox": {
+          "min": [
+            188.92176818847656,
+            24.131999969482422,
+            -68.60343170166016
+          ],
+          "max": [
+            192.81776428222656,
+            27.35700035095215,
+            -65.37493896484375
+          ]
+        },
+        "edges": {
+          "total": 18,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "cleanedAudit": {
+        "vertices": 8,
+        "triangles": 12,
+        "components": 1,
+        "nonManifoldVertices": 0,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "minimumAreaSquareMetres": 3.730774390025852,
+        "minimumEdgeMetres": 2.3136582627786417,
+        "signedVolume": 25.53218639274428,
+        "bbox": {
+          "min": [
+            188.9217987060547,
+            24.131999969482422,
+            -68.60340118408203
+          ],
+          "max": [
+            192.8177947998047,
+            27.35700035095215,
+            -65.3749008178711
+          ]
+        },
+        "edges": {
+          "total": 18,
+          "boundary": 0,
+          "nonManifold": 0,
+          "orientationConflicts": 0
+        },
+        "passed": true
+      },
+      "relativeVolumeChange": -0.000003043025082943337,
+      "volumeChangeCubicMetres": -0.00007769532004431312,
+      "repairLog": [],
+      "safeEdgeWeldLog": []
+    }
+  ],
+  "discardedInternalCavitiesCubicMetres": 0
+}

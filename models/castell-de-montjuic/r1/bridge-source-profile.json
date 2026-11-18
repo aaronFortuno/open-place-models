@@ -1,0 +1,221 @@
+{
+  "modelSHA256": "6a2833f76bf89f728188b33c7e9278d5a877ab06ad418e31e756611a35977524",
+  "sourceFeature": {
+    "id": "icgc-173781",
+    "type": "tpn",
+    "primaryLabel": "tauler de pont",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            2.1668039261963434,
+            41.36371797279275
+          ],
+          [
+            2.166832482524015,
+            41.36368196921434
+          ],
+          [
+            2.1671083278829575,
+            41.36380259542697
+          ],
+          [
+            2.1670840226591173,
+            41.36384277331382
+          ],
+          [
+            2.1668039261963434,
+            41.36371797279275
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "OBJECTID": 173781,
+      "tipus": "tpn",
+      "estat": "gen",
+      "altura": 4.38000011,
+      "nom": null,
+      "SHAPE_Length": 63.4546485228748,
+      "SHAPE_Area": 128.44299999933506
+    }
+  },
+  "primaryLayerMetadata": "https://geoserveis.icgc.cat/vector01/rest/services/topografia_territorial/MapServer/10?f=pjson",
+  "verticalDatum": "EGM08D595 orthometric metres ASL",
+  "deckFit": {
+    "method": "Least-squares plane along the verified RTT bridge axis. Excludes near-facade DSM186.713roofcell. No use of MET5 or requested clearance to choose deck height.",
+    "samples": [
+      {
+        "distanceFromInner": 3.707210038778127,
+        "elevationASL": 176.382,
+        "residualMetres": 0.018374782601284778
+      },
+      {
+        "distanceFromInner": 10.443248602964866,
+        "elevationASL": 176.14799,
+        "residualMetres": -0.00835392706559901
+      },
+      {
+        "distanceFromInner": 17.17928716715161,
+        "elevationASL": 175.935,
+        "residualMetres": -0.014062636732489864
+      },
+      {
+        "distanceFromInner": 23.91532573133835,
+        "elevationASL": 175.75301,
+        "residualMetres": 0.011228653600625194
+      },
+      {
+        "distanceFromInner": 1.0891907566847565,
+        "elevationASL": 176.437,
+        "residualMetres": -0.00718687240384952
+      }
+    ],
+    "maximumAbsoluteResidualMetres": 0.018374782601284778
+  },
+  "bridgeGeometry": {
+    "inner": [
+      148.02632105909504,
+      111.48873888020466
+    ],
+    "outer": [
+      170.95850039238843,
+      124.97722411262842
+    ],
+    "along": [
+      0.8619511668655275,
+      0.506991307557788
+    ],
+    "across": [
+      -0.506991307557788,
+      0.8619511668655275
+    ],
+    "length": 26.604963500062205,
+    "widths": [
+      4.664319407783582,
+      4.912020678243923
+    ],
+    "drawbridgeLength": 3.8,
+    "deckElevation": 176.47770343608045,
+    "deckSlope": -0.03077198688189913
+  },
+  "rows": [
+    {
+      "name": "bridge-arch-0",
+      "location": [
+        2.1668903151477683,
+        41.36373180511706
+      ],
+      "sourceControlCoordinateDifferenceDegrees": 0,
+      "fineDTM50cmASL": 170.284,
+      "sourceDSM1mASL": 176.263,
+      "analyticDeckASL": 176.27305063122097,
+      "rawGLBUndersideASL": 175.1230991195658,
+      "rawGLBDeckASL": 176.27306530804196,
+      "clearanceAboveFineDTMMetres": 4.839099119565816,
+      "rawAirControl": {
+        "name": "bridge-arch-0",
+        "location": [
+          2.1668903151477683,
+          41.36373180511706
+        ],
+        "minElevation": 170.5,
+        "maxElevation": 174.92305063122097
+      }
+    },
+    {
+      "name": "bridge-arch-1",
+      "location": [
+        2.166949132325845,
+        41.363757770618015
+      ],
+      "sourceControlCoordinateDifferenceDegrees": 0,
+      "fineDTM50cmASL": 170.22501,
+      "sourceDSM1mASL": 176.09,
+      "analyticDeckASL": 176.09761212180445,
+      "rawGLBUndersideASL": 174.9475910722675,
+      "rawGLBDeckASL": 176.09761944033392,
+      "clearanceAboveFineDTMMetres": 4.722581072267502,
+      "rawAirControl": {
+        "name": "bridge-arch-1",
+        "location": [
+          2.166949132325845,
+          41.363757770618015
+        ],
+        "minElevation": 170.5,
+        "maxElevation": 174.74761212180445
+      }
+    },
+    {
+      "name": "bridge-arch-2",
+      "location": [
+        2.167007949503922,
+        41.36378373611897
+      ],
+      "sourceControlCoordinateDifferenceDegrees": 0,
+      "fineDTM50cmASL": 170.209,
+      "sourceDSM1mASL": 175.923,
+      "analyticDeckASL": 175.92217361238792,
+      "rawGLBUndersideASL": 174.7721987872988,
+      "rawGLBDeckASL": 175.92216682993512,
+      "clearanceAboveFineDTMMetres": 4.563198787298802,
+      "rawAirControl": {
+        "name": "bridge-arch-2",
+        "location": [
+          2.167007949503922,
+          41.36378373611897
+        ],
+        "minElevation": 170.5,
+        "maxElevation": 174.57217361238793
+      }
+    },
+    {
+      "name": "bridge-arch-3",
+      "location": [
+        2.167066766681999,
+        41.36380970161992
+      ],
+      "sourceControlCoordinateDifferenceDegrees": 0,
+      "fineDTM50cmASL": 170.138,
+      "sourceDSM1mASL": 175.75301,
+      "analyticDeckASL": 175.7467351029714,
+      "rawGLBUndersideASL": 174.59669083100866,
+      "rawGLBDeckASL": 175.74671350737069,
+      "clearanceAboveFineDTMMetres": 4.458690831008653,
+      "rawAirControl": {
+        "name": "bridge-arch-3",
+        "location": [
+          2.167066766681999,
+          41.36380970161992
+        ],
+        "minElevation": 170.5,
+        "maxElevation": 174.3967351029714
+      }
+    },
+    {
+      "name": "drawbridge-under-deck",
+      "location": [
+        2.16684130509989,
+        41.363710169083404
+      ],
+      "sourceControlCoordinateDifferenceDegrees": 0,
+      "fineDTM50cmASL": 170.453,
+      "sourceDSM1mASL": 176.427,
+      "analyticDeckASL": 176.41923666100485,
+      "rawGLBUndersideASL": 175.71923030006863,
+      "rawGLBDeckASL": 176.41925746919222,
+      "clearanceAboveFineDTMMetres": 5.266230300068628,
+      "rawAirControl": {
+        "name": "drawbridge-under-deck",
+        "location": [
+          2.16684130509989,
+          41.363710169083404
+        ],
+        "minElevation": 170.5,
+        "maxElevation": 175.51923666100484
+      }
+    }
+  ],
+  "regionalTerrain": "MET5 values and integration outcomes are maintained separately by the regional validation. No old-axis terrain exception applies to this geometry."
+}

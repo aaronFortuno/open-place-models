@@ -1,0 +1,38 @@
+[
+  {
+    "id": "castell-de-montjuic",
+    "name": "Castell de Montjuïc",
+    "errors": [],
+    "empty": false,
+    "finite": true,
+    "vertices": 3898,
+    "triangles": 7728,
+    "bbox": {
+      "min": [
+        -256.6346130371094,
+        0,
+        -196.6060028076172
+      ],
+      "max": [
+        213.9824981689453,
+        39.375,
+        274.5841064453125
+      ]
+    },
+    "dimensions": [
+      470.6171112060547,
+      39.375,
+      471.1901092529297
+    ],
+    "signedVolume": 140051.89601771566,
+    "orientation": "positiva",
+    "edges": {
+      "total": 11592,
+      "boundary": 0,
+      "nonManifold": 0,
+      "orientationConflicts": 0
+    },
+    "closed": true,
+    "components": 23
+  }
+]
