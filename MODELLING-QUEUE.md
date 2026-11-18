@@ -9,9 +9,9 @@ Es treballa seqüencialment: documentar les fonts, crear una malla lleugera, com
 ## Seguiment
 
 - **Revisions publicades:** La Pedrera r2 i el Temple del Sagrat Cor del Tibidabo r2, arran de la revisió de l'usuari del 18 de novembre. Façana ondulada per plantes, cornises i obertures de Casa Milà; corona, absis, frontons, marcs i escales del temple. S'admet més pes quan aporti fidelitat. Totes dues passen tres casos locals de Relleu Obert; l'aprovació de semblança de l'usuari continua pendent i les r1 queden seleccionables per comparar.
-- **En curs:** 4. Casa Batlló. Fonts municipals, ortofoto i mesures LiDAR conservades; façana i coberta en preparació amb referències actuals del gestor.
-- **Següent de la cua:** 5. Palau de la Música Catalana.
-- **Publicats d’aquesta tanda:** 1. [Palau Nacional — MNAC · r1](models/palau-nacional-mnac/r1/README.md), 36,0 kB; 2. [Temple del Sagrat Cor del Tibidabo · r2](models/temple-sagrat-cor-tibidabo/r2/README.md), 121,1 kB; 3. [La Pedrera — Casa Milà · r2](models/la-pedrera-casa-mila/r2/README.md), 395,1 kB. Tots tres validats localment a Relleu Obert en tres retalls i dues escales. Les r1 revisades es conserven. La Pedrera requereix Relleu Obert 0.24.12 per conservar els veïns d'una petjada RTT agregada sense tapar els quatre buits interiors.
+- **En curs:** 5. Palau de la Música Catalana. Cartografia del barri convertida, petjades georeferenciades i mesures en preparació; alçats tècnics conservats com a referència.
+- **Següent de la cua:** 6. Recinte Modernista de Sant Pau.
+- **Publicats d’aquesta tanda:** 1. [Palau Nacional — MNAC · r1](models/palau-nacional-mnac/r1/README.md), 36,0 kB; 2. [Temple del Sagrat Cor del Tibidabo · r2](models/temple-sagrat-cor-tibidabo/r2/README.md), 121,1 kB; 3. [La Pedrera — Casa Milà · r2](models/la-pedrera-casa-mila/r2/README.md), 395,1 kB; 4. [Casa Batlló · r1](models/casa-batllo/r1/README.md), 170,9 kB. Tots quatre validats localment a Relleu Obert en tres retalls amb diferents escales i girs. Les r1 revisades es conserven. La Pedrera requereix Relleu Obert 0.24.12 per conservar els veïns d'una petjada RTT agregada sense tapar els quatre buits interiors.
 - **Localitzador orbital:** incorporat al visor, amb filtres i agrupació de marcadors. Build i comprovacions de coordenades correctes; revisió visual interactiva pendent perquè el control del navegador no n’ha pogut identificar l’adreça amb seguretat.
 
 ## Catalunya · 1–30

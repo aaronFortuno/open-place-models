@@ -1,0 +1,172 @@
+{
+  "name": "complet",
+  "width": 140,
+  "height": 140,
+  "scale": 1000,
+  "rotation": 10,
+  "center": [
+    41.39154105,
+    2.16476135
+  ],
+  "export3mf": true,
+  "id": "casa-batllo",
+  "consumerVersion": "0.24.12",
+  "terrain": "ICGC MET5",
+  "buildingSource": "icgc",
+  "catalogue": {
+    "id": "casa-batllo",
+    "family": null,
+    "fragments": 1,
+    "roof": 39.9030876159668,
+    "roofShape": "catalogue",
+    "roofFallback": null,
+    "roofSource": null,
+    "roofMetadata": null,
+    "baseOffsetMM": 0,
+    "estimated": false,
+    "landmark": {
+      "name": "Casa Batlló",
+      "revision": "r1",
+      "license": "CC-BY-4.0",
+      "spatialDataLicense": "CC-BY-4.0; ODbL-1.0",
+      "attribution": "Open Place Models contributors · Ajuntament de Barcelona · ICGC · OpenStreetMap contributors",
+      "sources": [
+        "https://www.casabatllo.es/antoni-gaudi/casa-batllo/fachada/",
+        "https://www.casabatllo.es/antoni-gaudi/casa-batllo/interior/",
+        "https://www.casabatllo.es/novedades/restauracion-fachada-casa-batllo/",
+        "https://www.arquitecturacatalana.cat/es/obras/casa-batllo",
+        "https://portaldades.ajuntament.barcelona.cat/mapes/146",
+        "https://w20.bcn.cat/CartoBCN/getFile.ashx?prod=146.07.47",
+        "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Geoinformacio-en-linia-Geoserveis/WMS-Elevacions/WMS-Elevacions-territorial",
+        "https://www.openstreetmap.org/relation/9427554"
+      ],
+      "anchorElevation": 26
+    }
+  },
+  "buildingCount": 6,
+  "contacts": [
+    {
+      "name": "front-west",
+      "sourceFoundationASL": 26,
+      "embeddedMM": 3.1338298221495533
+    },
+    {
+      "name": "front-east",
+      "sourceFoundationASL": 26,
+      "embeddedMM": 2.9194006350740267
+    },
+    {
+      "name": "rear-body",
+      "sourceFoundationASL": 26,
+      "embeddedMM": 2.9233692510941705
+    },
+    {
+      "name": "rear-patio",
+      "sourceFoundationASL": 26,
+      "embeddedMM": 3.0051636263972368
+    }
+  ],
+  "openings": [],
+  "roofChecks": [
+    {
+      "name": "dragon-crest",
+      "differenceMM": 0,
+      "terrainElevationASL": 28.726571018624288,
+      "surfaceElevationASL": 60.980476845558485
+    },
+    {
+      "name": "curved-front-roof",
+      "differenceMM": 0,
+      "terrainElevationASL": 28.72759628150241,
+      "surfaceElevationASL": 57.720249555501084
+    },
+    {
+      "name": "smaller-roof",
+      "differenceMM": 0,
+      "terrainElevationASL": 28.819719392821252,
+      "surfaceElevationASL": 57.83008371187418
+    },
+    {
+      "name": "roofed-well-1",
+      "differenceMM": 0,
+      "terrainElevationASL": 28.715730221882914,
+      "surfaceElevationASL": 54.242001617808484
+    },
+    {
+      "name": "roofed-well-2",
+      "differenceMM": 0,
+      "terrainElevationASL": 28.7266656066202,
+      "surfaceElevationASL": 55.400002563855615
+    },
+    {
+      "name": "rear-patio",
+      "differenceMM": 0,
+      "terrainElevationASL": 28.706134575681975,
+      "surfaceElevationASL": 33.36199959597918
+    }
+  ],
+  "facadeChecks": [
+    {
+      "name": "principal-bay-window",
+      "originalDistanceMM": 4.299996680854444,
+      "differenceMM": 0
+    },
+    {
+      "name": "principal-bay-column",
+      "originalDistanceMM": 1.4015432806121473,
+      "differenceMM": 0
+    },
+    {
+      "name": "regular-window",
+      "originalDistanceMM": 4.450001617097069,
+      "differenceMM": 0
+    },
+    {
+      "name": "regular-window-jamb",
+      "originalDistanceMM": 3.387525186552577,
+      "differenceMM": 0
+    }
+  ],
+  "audits": [
+    {
+      "id": "terrain",
+      "closed": true,
+      "components": 6787,
+      "triangles": 57736,
+      "errors": []
+    },
+    {
+      "id": "built",
+      "closed": true,
+      "components": 3002,
+      "triangles": 42926,
+      "errors": []
+    },
+    {
+      "id": "green",
+      "closed": true,
+      "components": 9,
+      "triangles": 100,
+      "errors": []
+    }
+  ],
+  "warnings": [
+    "Els arbres són una representació procedimental dins de zones verdes, no posicions d’arbres mesurades.",
+    "Les tessel·les vectorials estan generalitzades. Aquesta prova no substitueix cartografia topogràfica de precisió.",
+    "Model singular del catàleg «Casa Batlló» (r1).",
+    "Altures de la font sobre el punt més alt de la petjada; coberta plana quan falten dades de forma.",
+    "Algunes petjades ICGC agrupen diverses cases sense divisions interiors. Pots comparar-les amb parts del Catastre.",
+    "Aigua: no hi ha geometria exportable d’aquesta capa a les dades carregades."
+  ],
+  "replacementCheck": {
+    "removed": [],
+    "preserved": [
+      "92857560",
+      "icgc-638890",
+      "icgc-1200160",
+      "icgc-1200192"
+    ]
+  },
+  "hiddenModePassed": true,
+  "heightLimitPassed": true
+}

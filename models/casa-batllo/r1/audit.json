@@ -1,0 +1,232 @@
+{
+  "id": "casa-batllo",
+  "name": "Casa Batlló",
+  "errors": [],
+  "empty": false,
+  "finite": true,
+  "vertices": 7055,
+  "triangles": 14242,
+  "bbox": {
+    "min": [
+      -22.51934242248535,
+      0,
+      -22.63692283630371
+    ],
+    "max": [
+      22.51934242248535,
+      35.858001708984375,
+      22.63692283630371
+    ]
+  },
+  "dimensions": [
+    45.0386848449707,
+    35.858001708984375,
+    45.27384567260742
+  ],
+  "signedVolume": 16680.468713752536,
+  "orientation": "positiva",
+  "edges": {
+    "total": 21363,
+    "boundary": 0,
+    "nonManifold": 0,
+    "orientationConflicts": 0
+  },
+  "closed": true,
+  "components": 1,
+  "byteLength": 170904,
+  "sha256": "f0a63dab723c69866e3b14afb1487c8c7a64aa134aa3886bf59dc076e628fdcc",
+  "contacts": [
+    {
+      "name": "front-west",
+      "location": [
+        2.164896822047174,
+        41.391718906538564
+      ],
+      "elevation": 26
+    },
+    {
+      "name": "front-east",
+      "location": [
+        2.1649984260825543,
+        41.391642682307754
+      ],
+      "elevation": 26
+    },
+    {
+      "name": "rear-body",
+      "location": [
+        2.164735948991155,
+        41.39145847374995
+      ],
+      "elevation": 26
+    },
+    {
+      "name": "rear-patio",
+      "location": [
+        2.164558141929239,
+        41.391388601538374
+      ],
+      "elevation": 26
+    }
+  ],
+  "roofControls": [
+    {
+      "name": "dragon-crest",
+      "location": [
+        2.164947624064864,
+        41.39168079442316
+      ],
+      "minElevation": 30,
+      "maxElevation": 64,
+      "expectedASL": 61.028,
+      "actualASL": 60.980474934005265
+    },
+    {
+      "name": "curved-front-roof",
+      "location": [
+        2.16496963827253,
+        41.39169730967317
+      ],
+      "minElevation": 30,
+      "maxElevation": 64,
+      "expectedASL": 57.721001,
+      "actualASL": 57.7202508022845
+    },
+    {
+      "name": "smaller-roof",
+      "location": [
+        2.164907829151007,
+        41.3917170009328
+      ],
+      "minElevation": 30,
+      "maxElevation": 64,
+      "expectedASL": 57.856998,
+      "actualASL": 57.83008656585409
+    },
+    {
+      "name": "roofed-well-1",
+      "location": [
+        2.164770171431692,
+        41.39154702857132
+      ],
+      "minElevation": 30,
+      "maxElevation": 64,
+      "expectedASL": 54.242001,
+      "actualASL": 54.242000579833984
+    },
+    {
+      "name": "roofed-well-2",
+      "location": [
+        2.1648683498870196,
+        41.391624233249004
+      ],
+      "minElevation": 30,
+      "maxElevation": 64,
+      "expectedASL": 55.400002,
+      "actualASL": 55.400001525878906
+    },
+    {
+      "name": "rear-patio",
+      "location": [
+        2.164575075935136,
+        41.39140130557684
+      ],
+      "minElevation": 30,
+      "maxElevation": 64,
+      "expectedASL": 33.362,
+      "actualASL": 33.36199998855591
+    }
+  ],
+  "facadeControls": [
+    {
+      "name": "principal-bay-window",
+      "from": [
+        2.1650077397857976,
+        41.39171191931741,
+        36.35
+      ],
+      "to": [
+        2.164965404771056,
+        41.39168015922124,
+        36.35
+      ],
+      "hitPositions": [
+        [
+          17.536248178680804,
+          10.350000000000001,
+          -15.980613260070399
+        ]
+      ]
+    },
+    {
+      "name": "principal-bay-column",
+      "from": [
+        2.1649984260825543,
+        41.391718906538564,
+        36.35
+      ],
+      "to": [
+        2.1649560910678125,
+        41.39168714644239,
+        36.35
+      ],
+      "hitPositions": [
+        [
+          18.80795229103032,
+          10.350000000000001,
+          -18.80795229103032
+        ],
+        [
+          17.408968925476074,
+          10.350000000000001,
+          -17.408968925476074
+        ],
+        [
+          17.403650132613826,
+          10.350000000000001,
+          -17.403650132613826
+        ]
+      ]
+    },
+    {
+      "name": "regular-window",
+      "from": [
+        2.165014090038009,
+        41.39170715530298,
+        44
+      ],
+      "to": [
+        2.164971755023267,
+        41.39167539520681,
+        44
+      ],
+      "hitPositions": [
+        [
+          17.960512276017486,
+          18,
+          -15.344217185627254
+        ]
+      ]
+    },
+    {
+      "name": "regular-window-jamb",
+      "from": [
+        2.1649984260825543,
+        41.391718906538564,
+        44
+      ],
+      "to": [
+        2.1649560910678125,
+        41.39168714644239,
+        44
+      ],
+      "hitPositions": [
+        [
+          17.403649908558574,
+          18,
+          -17.403649908558574
+        ]
+      ]
+    }
+  ]
+}

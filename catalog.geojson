@@ -10566,6 +10566,89 @@
           }
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "id": "casa-batllo",
+      "bbox": [2.164491700000004, 41.39133769999999, 2.165030999999996, 41.391744400000015],
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [2.16457950000002, 41.391350299999964],
+            [2.164587200000008, 41.39135319999999],
+            [2.164595599999963, 41.39135319999999],
+            [2.1646196999999945, 41.39133950000002],
+            [2.164805900000002, 41.39147840000001],
+            [2.164790000000037, 41.39149239999996],
+            [2.1648043000000023, 41.391503199999974],
+            [2.1648217999999675, 41.39149030000001],
+            [2.165030999999996, 41.39164819999999],
+            [2.1649765487385815, 41.39169192463557],
+            [2.164976800637682, 41.39169219048524],
+            [2.16500621572528, 41.39167012303081],
+            [2.1650091146407786, 41.39167645608308],
+            [2.165007712283802, 41.391682534324694],
+            [2.1649974297529027, 41.39169725409571],
+            [2.1649797458917504, 41.391712022799005],
+            [2.1649593990767664, 41.391722883172484],
+            [2.1649418412205668, 41.39172692518789],
+            [2.1649351185681347, 41.39172519326984],
+            [2.164911199999983, 41.391744400000015],
+            [2.1646983999999994, 41.391584000000016],
+            [2.1647107000000094, 41.39157619999997],
+            [2.1646956000000444, 41.39156500000002],
+            [2.164684199999978, 41.391573499999986],
+            [2.164500600000037, 41.391439],
+            [2.164510100000003, 41.39142979999998],
+            [2.1645136000000136, 41.39141650000002],
+            [2.1645115999999693, 41.39140919999999],
+            [2.1645062000000364, 41.391402200000016],
+            [2.164491700000004, 41.39139000000004],
+            [2.1645603999999654, 41.39133769999999],
+            [2.16457950000002, 41.391350299999964]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Casa Batlló",
+        "place": "Barcelona, Spain",
+        "city": "Barcelona",
+        "country": "Spain",
+        "aliases": [
+          "Casa Batllo",
+          "House of the Dragon",
+          "Casa dels Ossos"
+        ],
+        "revision": "r1",
+        "geometryType": "building",
+        "anchor": [2.16476135, 41.39154105],
+        "anchorElevation": 26,
+        "height": 35.858,
+        "mesh": "models/casa-batllo/r1/print.glb",
+        "thumbnail": "models/casa-batllo/r1/thumbnail.webp",
+        "byteLength": 170904,
+        "license": "CC-BY-4.0",
+        "spatialDataLicense": "CC-BY-4.0; ODbL-1.0",
+        "attribution": "Open Place Models contributors · Ajuntament de Barcelona · ICGC · OpenStreetMap contributors",
+        "sources": [
+          "https://www.casabatllo.es/antoni-gaudi/casa-batllo/fachada/",
+          "https://www.casabatllo.es/antoni-gaudi/casa-batllo/interior/",
+          "https://www.casabatllo.es/novedades/restauracion-fachada-casa-batllo/",
+          "https://www.arquitecturacatalana.cat/es/obras/casa-batllo",
+          "https://portaldades.ajuntament.barcelona.cat/mapes/146",
+          "https://w20.bcn.cat/CartoBCN/getFile.ashx?prod=146.07.47",
+          "https://www.icgc.cat/ca/Geoinformacio-i-mapes/Geoinformacio-en-linia-Geoserveis/WMS-Elevacions/WMS-Elevacions-territorial",
+          "https://www.openstreetmap.org/relation/9427554"
+        ],
+        "replacement": {
+          "featureIds": [
+            "osm-relation-9427554",
+            "osm-way-679019065"
+          ]
+        },
+        "addedAt": "2026-11-18T14:08:37.863Z"
+      }
     }
   ],
   "assetAddedAt": {
@@ -10692,6 +10775,8 @@
     "models/temple-sagrat-cor-tibidabo/r2/print.glb": "2026-11-18T13:30:18.990Z",
     "models/temple-sagrat-cor-tibidabo/r2/thumbnail.webp": "2026-11-18T13:30:18.990Z",
     "models/la-pedrera-casa-mila/r2/print.glb": "2026-11-18T13:45:32.348Z",
-    "models/la-pedrera-casa-mila/r2/thumbnail.webp": "2026-11-18T13:45:32.348Z"
+    "models/la-pedrera-casa-mila/r2/thumbnail.webp": "2026-11-18T13:45:32.348Z",
+    "models/casa-batllo/r1/print.glb": "2026-11-18T14:08:37.863Z",
+    "models/casa-batllo/r1/thumbnail.webp": "2026-11-18T14:08:37.863Z"
   }
 }
